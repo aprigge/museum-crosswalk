@@ -1,0 +1,530 @@
+{
+  "source": "aic",
+  "id": "agents-Vincent van Gogh",
+  "url": "https://api.artic.edu/api/v1/agents/search?q=Vincent%20van%20Gogh&fields=id,title&limit=100",
+  "fetchedAt": "2026-11-19T20:17:29.522Z",
+  "body": {
+    "preference": null,
+    "pagination": {
+      "total": 299,
+      "limit": 100,
+      "offset": 0,
+      "total_pages": 3,
+      "current_page": 1
+    },
+    "data": [
+      {
+        "_score": 697.72394,
+        "id": 40610,
+        "title": "Vincent van Gogh"
+      },
+      {
+        "_score": 575.8238,
+        "id": 47301,
+        "title": "Imitator of Vincent van Gogh"
+      },
+      {
+        "_score": 320.01205,
+        "id": 34811,
+        "title": "Frans Hals"
+      },
+      {
+        "_score": 263.46548,
+        "id": 35670,
+        "title": "Henri Matisse"
+      },
+      {
+        "_score": 40.45303,
+        "id": 93381,
+        "title": "Van Gogh Museum"
+      },
+      {
+        "_score": 22.158367,
+        "id": 15553,
+        "title": "Vincent Longo"
+      },
+      {
+        "_score": 22.158367,
+        "id": 997,
+        "title": "Vincent Arcilesi"
+      },
+      {
+        "_score": 22.158367,
+        "id": 27500,
+        "title": "William Vincent"
+      },
+      {
+        "_score": 22.158367,
+        "id": 44829,
+        "title": "Vincent Smith"
+      },
+      {
+        "_score": 22.158367,
+        "id": 57877,
+        "title": "Vincent Shine"
+      },
+      {
+        "_score": 22.158367,
+        "id": 108427,
+        "title": "Vincent Fecteau"
+      },
+      {
+        "_score": 22.158367,
+        "id": 111030,
+        "title": "Vincent Geyskens"
+      },
+      {
+        "_score": 19.66924,
+        "id": 27495,
+        "title": "François-Andre Vincent"
+      },
+      {
+        "_score": 19.66924,
+        "id": 40429,
+        "title": "Aubrey Vincent Beardsley"
+      },
+      {
+        "_score": 19.66924,
+        "id": 40781,
+        "title": "Florence Vincent Robinson"
+      },
+      {
+        "_score": 19.66924,
+        "id": 65321,
+        "title": "David Vincent Hayes"
+      },
+      {
+        "_score": 19.66924,
+        "id": 113514,
+        "title": "Vincent-Marie Langlois"
+      },
+      {
+        "_score": 17.682863,
+        "id": 47096,
+        "title": "Imitator of Aubrey Vincent Beardsley"
+      },
+      {
+        "_score": 15.690867,
+        "id": 118373,
+        "title": "Vans"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 30922,
+        "title": "Theo van Doesburg"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 31525,
+        "title": "Theodoor van Hoytema"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 32999,
+        "title": "Willard Van Dyke"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 23241,
+        "title": "Gabriel van Schnell"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 24477,
+        "title": "Jan van Somer"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 25081,
+        "title": "Jurian van Streek"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 19723,
+        "title": "Bernard van Orley"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 22591,
+        "title": "Salomon van Ruysdael"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 17300,
+        "title": "Willem van Mieris"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 10644,
+        "title": "Nicolas van Haften"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 11240,
+        "title": "Jacoba van Heemskerk"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 26935,
+        "title": "Gerrit van Honthorst"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 27009,
+        "title": "Salomon van Abbe"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 27174,
+        "title": "J. van Ness"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 27211,
+        "title": "David Van Riper"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 27229,
+        "title": "Carl Van Vechten"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 27231,
+        "title": "Daniel Van Voorhis"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 27558,
+        "title": "Robert van Voerst"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 27596,
+        "title": "Samuel van Eenhoorn"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 11758,
+        "title": "Beth Van Hoesen"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 12019,
+        "title": "Dana Van Horn"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 14602,
+        "title": "Pieter van Laer"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 37092,
+        "title": "Richard Van Buren"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 37172,
+        "title": "Jan van Vliet"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 40556,
+        "title": "Kees van Dongen"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 40563,
+        "title": "Anthony van Dyck"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 40616,
+        "title": "Jan van Goyen"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 40627,
+        "title": "Maerten van Heemskerck"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 40636,
+        "title": "Jan van Huysum"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 40769,
+        "title": "Rembrandt van Rijn"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 40876,
+        "title": "Carle van Loo"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 41137,
+        "title": "Adriaen van Ostade"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 41145,
+        "title": "Egbert van Drielst"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 41172,
+        "title": "Justus van Egmont"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 41189,
+        "title": "Theodoor van Thulden"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 41224,
+        "title": "Samuel van Hoogstraten"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 41228,
+        "title": "Cornelis van Poelenburgh"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 41237,
+        "title": "Pieter van Bloemen"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 41298,
+        "title": "Carel van Falens"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 41308,
+        "title": "Lambert van Noort"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 41346,
+        "title": "Allaert van Everdingen"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 41352,
+        "title": "Isaac van Ostade"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 41354,
+        "title": "Jacob van Ruisdael"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 41371,
+        "title": "Jan van Scorel"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 41377,
+        "title": "Herman van Swanevelt"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 41389,
+        "title": "Jan van Everdingen"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 41426,
+        "title": "Rombout van Troyen"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 41446,
+        "title": "Peter van Lint"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 41447,
+        "title": "Ignatius van Logteren"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 41458,
+        "title": "Bruno van Straaten"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 41459,
+        "title": "Otto van Veen"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 41464,
+        "title": "Gaspar van Wittel"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 36125,
+        "title": "Laura van Pappelendam"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 33252,
+        "title": "Ger van Elk"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 33986,
+        "title": "Joos van Cleve"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 41746,
+        "title": "Moses van Uyttenbroeck"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 41904,
+        "title": "Jan van Os"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 41911,
+        "title": "Lucas van Leyden"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 41923,
+        "title": "Denijs van Alsloot"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 41925,
+        "title": "Jacob van Strij"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 42133,
+        "title": "Gerard van Nijmegen"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 42192,
+        "title": "Isaac van Ketweg"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 44098,
+        "title": "Artus Van Briggle"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 44450,
+        "title": "Cleo van Buskirk"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 42670,
+        "title": "Gerard van Soest"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 43577,
+        "title": "Pim Van Os"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 53930,
+        "title": "Hendrik Van Keppel"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 54714,
+        "title": "Johannes van Doetecum"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 54715,
+        "title": "Lucas van Doetecum"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 57151,
+        "title": "Théo van Rysselberghe"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 47415,
+        "title": "Jan van Leefdael"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 63672,
+        "title": "Maria van Oosterwijck"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 70341,
+        "title": "Gerard van Obstal"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 57422,
+        "title": "Petrus van Schendel"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 59646,
+        "title": "Bram van Velde"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 74701,
+        "title": "Cornelis van Noorde"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 103164,
+        "title": "Gerrit van Battem"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 104920,
+        "title": "Bernard van Marm"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 108777,
+        "title": "Lodewijk van Schoor"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 109191,
+        "title": "Nicolaas van Orley"
+      },
+      {
+        "_score": 12.1656475,
+        "id": 110563,
+        "title": "François van Bleyswick"
+      }
+    ],
+    "info": {
+      "license_text": "The data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu.",
+      "license_links": [
+        "https://creativecommons.org/publicdomain/zero/1.0/",
+        "https://www.artic.edu/terms"
+      ],
+      "version": "1.16"
+    },
+    "config": {
+      "iiif_url": "https://www.artic.edu/iiif/2",
+      "website_url": "https://www.artic.edu"
+    }
+  }
+}

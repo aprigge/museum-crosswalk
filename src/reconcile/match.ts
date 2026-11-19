@@ -2,9 +2,9 @@ import type { ArtistMatch, ArtistQuery, SourceArtistRef } from '../core/types.js
 
 /** Wikidata external-ID properties that belong to a source, found by property label. */
 const SOURCE_PROPERTY_LABELS: Record<string, RegExp> = {
-  rijksmuseum: /rijksmuseum/i,
-  met: /metropolitan museum/i,
-  aic: /art institute of chicago/i,
+  rijksmuseum: /rijksmuseum/i, // only the Research Library authority ID exists, not the museum's agent ID
+  met: /\bmet constituent|metropolitan museum/i, // P10882 "Met Constituent ID"
+  aic: /\bartic\b|art institute of chicago/i, // P6295 "ARTIC artist ID"
 };
 
 /** Roles that mean "not simply by the artist". Matched on the source's own wording. */
@@ -24,7 +24,8 @@ export function isQualifiedRole(role?: string): boolean {
   return !!role && QUALIFIED_ROLE.test(role);
 }
 
-function crosswalk(ref: SourceArtistRef, artist: ArtistQuery): { pid: string; label: string; value: string } | null {
+/** Every Wikidata external ID of the artist that agrees with an ID the source gives. */
+function crosswalk(ref: SourceArtistRef, artist: ArtistQuery): { pid: string; label: string; value: string }[] {
   const candidates: [string, string | undefined][] = [
     ['P245', ref.ulan],
     ['P650', ref.otherIds?.rkd],
@@ -34,11 +35,12 @@ function crosswalk(ref: SourceArtistRef, artist: ArtistQuery): { pid: string; la
   for (const [pid, prop] of Object.entries(artist.externalIds)) {
     if (sourceLabel?.test(prop.label)) candidates.push([pid, localId]);
   }
+  const hits: { pid: string; label: string; value: string }[] = [];
   for (const [pid, value] of candidates) {
     const prop = artist.externalIds[pid];
-    if (value && prop?.values.includes(value)) return { pid, label: prop.label, value };
+    if (value && prop?.values.includes(value)) hits.push({ pid, label: prop.label, value });
   }
-  return null;
+  return hits;
 }
 
 /** Match one source artist reference to the authority. Never merges silently: every result says how. */
@@ -56,13 +58,15 @@ export function matchRef(ref: SourceArtistRef, artist: ArtistQuery): ArtistMatch
     };
   }
   const xw = crosswalk(ref, artist);
-  if (xw) {
+  if (xw.length) {
+    // One agreeing ID can be a Wikidata data error (it lists AIC's "Imitator of" agent
+    // under P6295 for Van Gogh); two independent ones are much stronger.
     return {
       ref,
       qid: artist.qid,
       method: 'wikidata-crosswalk',
-      confidence: 0.9,
-      evidence: `${artist.qid} lists ${xw.pid} (${xw.label}) = ${xw.value}`,
+      confidence: xw.length > 1 ? 0.9 : 0.7,
+      evidence: `${artist.qid} lists ${xw.map((x) => `${x.pid} (${x.label}) = ${x.value}`).join('; ')}`,
     };
   }
   if (ref.name && normaliseName(ref.name) === normaliseName(artist.name)) {
@@ -114,7 +118,10 @@ export function reconcileRecord(
   if (!refs.length) reasons.push('Record names no artist');
   else if (!toArtist.length) reasons.push(`No artist on the record matches ${artist.qid}`);
   else if (!exact.length) reasons.push(`Artist matched by ${toArtist.map((m) => m.method).join(', ')}, not an exact ID`);
-  const qualified = toArtist.filter((m) => m.ref.plainCreator === false || isQualifiedRole(m.ref.role));
+  // Some sources (AIC) put the qualifier in the agent's name, e.g. "Imitator of Vincent van Gogh".
+  const qualified = toArtist.filter(
+    (m) => m.ref.plainCreator === false || isQualifiedRole(m.ref.role) || isQualifiedRole(m.ref.name),
+  );
   if (qualified.length) reasons.push(`Qualified role: ${qualified.map((m) => m.ref.role).join('; ')}`);
 
   const confirmed = exact.length > 0 && !qualified.length;

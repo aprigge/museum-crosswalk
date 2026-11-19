@@ -1,0 +1,102 @@
+{
+  "source": "aic",
+  "id": "artworks-agent-40610-p1",
+  "url": "https://api.artic.edu/api/v1/artworks/search?query[term][artist_ids]=40610&fields=id&limit=100&page=1",
+  "fetchedAt": "2026-11-19T20:17:30.340Z",
+  "body": {
+    "preference": null,
+    "pagination": {
+      "total": 18,
+      "limit": 100,
+      "offset": 0,
+      "total_pages": 1,
+      "current_page": 1
+    },
+    "data": [
+      {
+        "_score": 3524353,
+        "id": 28560
+      },
+      {
+        "_score": 18009.555,
+        "id": 80607
+      },
+      {
+        "_score": 13.676857,
+        "id": 14586
+      },
+      {
+        "_score": 13.4455385,
+        "id": 28862
+      },
+      {
+        "_score": 13.380154,
+        "id": 79349
+      },
+      {
+        "_score": 13.362581,
+        "id": 109314
+      },
+      {
+        "_score": 13.07547,
+        "id": 27949
+      },
+      {
+        "_score": 12.951852,
+        "id": 27954
+      },
+      {
+        "_score": 12.890962,
+        "id": 64957
+      },
+      {
+        "_score": 11.806097,
+        "id": 52733
+      },
+      {
+        "_score": 11.766305,
+        "id": 59774
+      },
+      {
+        "_score": 11.290447,
+        "id": 31640
+      },
+      {
+        "_score": 11.198607,
+        "id": 65479
+      },
+      {
+        "_score": 10.923319,
+        "id": 87327
+      },
+      {
+        "_score": 10.861497,
+        "id": 150802
+      },
+      {
+        "_score": 10.291702,
+        "id": 133605
+      },
+      {
+        "_score": 9.932614,
+        "id": 88393
+      },
+      {
+        "_score": 7.0795255,
+        "id": 202382
+      }
+    ],
+    "info": {
+      "license_text": "The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By) and the Terms and Conditions of artic.edu. All other data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu.",
+      "license_links": [
+        "https://creativecommons.org/publicdomain/zero/1.0/",
+        "https://www.artic.edu/terms"
+      ],
+      "version": "1.16"
+    },
+    "config": {
+      "iiif_url": "https://www.artic.edu/iiif/2",
+      "website_url": "https://www.artic.edu"
+    }
+  }
+}
