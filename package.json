@@ -5,7 +5,7 @@
   "type": "module",
   "description": "Harvester prototype: how well open museum data lines up, one artist at a time.",
   "engines": {
-    "node": ">=20"
+    "node": ">=22.12"
   },
   "scripts": {
     "harvest": "tsx src/cli/harvest.ts",
@@ -24,7 +24,7 @@
     "@types/jsonld": "^1.5.15",
     "@types/node": "^26.6.6",
     "tsx": "^4.23.15",
-    "typescript": "^5.9.3",
-    "vitest": "^3.2.7"
+    "typescript": "^7.0.2",
+    "vitest": "^5.1.1"
   }
 }
