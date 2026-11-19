@@ -1,0 +1,22 @@
+[
+  { "id": "q01", "query": "Impressionist landscapes", "tags": ["headline", "combined"], "relevant": "an outdoor landscape painted by an Impressionist (by Wikidata movement or museum style)" },
+  { "id": "q02", "query": "landscape", "tags": ["genre"], "relevant": "the main subject is land, countryside or nature seen as a view" },
+  { "id": "q03", "query": "seascape", "tags": ["genre"], "relevant": "the sea or coast is the main subject" },
+  { "id": "q04", "query": "portrait", "tags": ["genre"], "relevant": "a painting of a specific person (or people) as its main subject" },
+  { "id": "q05", "query": "self-portrait", "tags": ["genre"], "relevant": "the artist painting themself" },
+  { "id": "q06", "query": "still life", "tags": ["genre"], "relevant": "arranged objects, flowers or food as the subject" },
+  { "id": "q07", "query": "interior", "tags": ["genre"], "relevant": "the scene is inside a room or building" },
+  { "id": "q08", "query": "flowers", "tags": ["subject"], "relevant": "flowers are clearly depicted (main or prominent)" },
+  { "id": "q09", "query": "snow", "tags": ["subject"], "relevant": "snow is visible in the scene" },
+  { "id": "q10", "query": "boats", "tags": ["subject"], "relevant": "one or more boats or ships are visible" },
+  { "id": "q11", "query": "cows", "tags": ["subject"], "relevant": "cattle are visible" },
+  { "id": "q12", "query": "children", "tags": ["subject"], "relevant": "one or more children are depicted" },
+  { "id": "q13", "query": "night", "tags": ["subject"], "relevant": "a night scene (dark sky, moonlight, artificial light outdoors)" },
+  { "id": "q14", "query": "sunset", "tags": ["subject"], "relevant": "sunset or sunrise light in the sky" },
+  { "id": "q15", "query": "church", "tags": ["subject"], "relevant": "a church or chapel is visible, inside or out" },
+  { "id": "q16", "query": "Paris", "tags": ["place"], "relevant": "the scene is in Paris (by title, subject or recognisable view)" },
+  { "id": "q17", "query": "Barbizon", "tags": ["movement"], "relevant": "by a Barbizon School painter, or a Barbizon/Fontainebleau scene" },
+  { "id": "q18", "query": "Claude Monet", "tags": ["artist"], "relevant": "painted by Claude Monet" },
+  { "id": "q19", "query": "portrait of a woman", "tags": ["combined"], "relevant": "a portrait whose main sitter is a woman" },
+  { "id": "q20", "query": "winter landscape", "tags": ["combined"], "relevant": "a landscape in winter (snow, bare trees, ice)" }
+]

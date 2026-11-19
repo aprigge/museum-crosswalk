@@ -1,0 +1,4063 @@
+{
+  "q01": {
+    "query": "Impressionist landscapes",
+    "relevant": "an outdoor landscape painted by an Impressionist (by Wikidata movement or museum style)",
+    "items": [
+      {
+        "id": "aic-44017",
+        "title": "Landscape at Chailly",
+        "artists": [
+          "Frédéric Bazille"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1865,
+        "thumb": "https://www.artic.edu/iiif/2/c4648834-49dd-3589-6ac3-66d41fd574ef/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/44017",
+        "seenIn": {
+          "baseline": "impression: styles, inferredStyles; landscape: title, subjects"
+        }
+      },
+      {
+        "id": "aic-58984",
+        "title": "Landscape along the Seine with the Institut de France and the Pont des Arts",
+        "artists": [
+          "Alfred Sisley"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1870,
+        "thumb": "https://www.artic.edu/iiif/2/2bcffdac-951e-569f-8f05-f4c8e4228302/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/58984",
+        "seenIn": {
+          "baseline": "impression: styles, inferredStyles; landscape: title, subjects"
+        }
+      },
+      {
+        "id": "aic-100026",
+        "title": "Studies of Pierre Renoir; His Mother, Aline Charigot; Nudes; and Landscape",
+        "artists": [
+          "Pierre-Auguste Renoir"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1885,
+        "thumb": "https://www.artic.edu/iiif/2/bda9058b-5be6-37d0-e5a6-926584540757/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/100026",
+        "seenIn": {
+          "baseline": "impression: styles, inferredStyles; landscape: title, subjects"
+        }
+      },
+      {
+        "id": "aic-16464",
+        "title": "Place des Batignolles, Paris",
+        "artists": [
+          "Albert André"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1893,
+        "url": "https://www.artic.edu/artworks/16464",
+        "seenIn": {
+          "baseline": "impression: styles, subjects; landscape: subjects"
+        }
+      },
+      {
+        "id": "aic-120296",
+        "title": "Wind-Swept Sands",
+        "artists": [
+          "William Merritt Chase"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1894,
+        "thumb": "https://www.artic.edu/iiif/2/ff5e49d3-448f-2aba-4461-6e36c1dc7dfa/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/120296",
+        "seenIn": {
+          "baseline": "impression: styles, inferredStyles; landscape: subjects"
+        }
+      },
+      {
+        "id": "aic-105462",
+        "title": "The Little Pond, Appledore",
+        "artists": [
+          "Childe Hassam"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1890,
+        "thumb": "https://www.artic.edu/iiif/2/b4ee4891-5d7b-11ad-93df-2b64e34de991/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/105462",
+        "seenIn": {
+          "baseline": "impression: styles, inferredStyles; landscape: subjects"
+        }
+      },
+      {
+        "id": "aic-25872",
+        "title": "The White Bridge",
+        "artists": [
+          "John Henry Twachtman"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1895,
+        "thumb": "https://www.artic.edu/iiif/2/b2b488b9-99f2-d091-ead4-538f20a94592/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/25872",
+        "seenIn": {
+          "baseline": "impression: styles, inferredStyles; landscape: subjects"
+        }
+      },
+      {
+        "id": "aic-40549",
+        "title": "The Valley of Arconville",
+        "artists": [
+          "Theodore Robinson"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1887,
+        "thumb": "https://www.artic.edu/iiif/2/a9771181-0ff7-d85a-9ec5-d43f97426531/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/40549",
+        "seenIn": {
+          "baseline": "impression: styles, inferredStyles; landscape: subjects"
+        }
+      },
+      {
+        "id": "aic-28849",
+        "title": "A City Park",
+        "artists": [
+          "William Merritt Chase"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1887,
+        "thumb": "https://www.artic.edu/iiif/2/72a76270-d6f4-e744-d47b-307873a8e8ff/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/28849",
+        "seenIn": {
+          "baseline": "impression: styles, inferredStyles; landscape: subjects"
+        }
+      },
+      {
+        "id": "aic-5349",
+        "title": "New England Headlands",
+        "artists": [
+          "Childe Hassam"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1899,
+        "thumb": "https://www.artic.edu/iiif/2/f72dbf42-8655-8788-d899-9e87a0466d28/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/5349",
+        "seenIn": {
+          "baseline": "impression: styles, inferredStyles; landscape: subjects"
+        }
+      },
+      {
+        "id": "met-435750",
+        "title": "Beaulieu: The Bay of Fourmis",
+        "artists": [
+          "Eugène Louis Boudin"
+        ],
+        "museum": "met",
+        "museumName": "The Met",
+        "begin": 1892,
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-17451-001.jpg",
+        "url": "https://www.metmuseum.org/art/collection/search/435750",
+        "seenIn": {
+          "baseline": "impression: inferredStyles; landscape: subjects"
+        }
+      },
+      {
+        "id": "met-435751",
+        "title": "Village by a River",
+        "artists": [
+          "Eugène Louis Boudin"
+        ],
+        "museum": "met",
+        "museumName": "The Met",
+        "begin": 1867,
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-23422-001.jpg",
+        "url": "https://www.metmuseum.org/art/collection/search/435751",
+        "seenIn": {
+          "baseline": "impression: inferredStyles; landscape: subjects"
+        }
+      }
+    ]
+  },
+  "q02": {
+    "query": "landscape",
+    "relevant": "the main subject is land, countryside or nature seen as a view",
+    "items": [
+      {
+        "id": "aic-94239",
+        "title": "Landscape",
+        "artists": [
+          "Théodore Rousseau"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1855,
+        "thumb": "https://www.artic.edu/iiif/2/43228273-29dd-c5d7-b75c-536109504fc0/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/94239",
+        "seenIn": {
+          "baseline": "landscape: title, subjects"
+        }
+      },
+      {
+        "id": "aic-269229",
+        "title": "Landscape",
+        "artists": [
+          "William Keith"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1868,
+        "thumb": "https://www.artic.edu/iiif/2/d906f17c-de41-07b3-c1d6-f26139f711a0/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/269229",
+        "seenIn": {
+          "baseline": "landscape: title, subjects"
+        }
+      },
+      {
+        "id": "aic-269230",
+        "title": "Landscape",
+        "artists": [
+          "William Keith"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1868,
+        "thumb": "https://www.artic.edu/iiif/2/c6cea784-0e0d-e690-f2dd-c25b5d061bef/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/269230",
+        "seenIn": {
+          "baseline": "landscape: title, subjects"
+        }
+      },
+      {
+        "id": "aic-74884",
+        "title": "Landscape",
+        "artists": [
+          "William Keith"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1868,
+        "thumb": "https://www.artic.edu/iiif/2/4493119c-7fca-5647-60e3-e96b0e242edc/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/74884",
+        "seenIn": {
+          "baseline": "landscape: title, subjects"
+        }
+      },
+      {
+        "id": "met-435684",
+        "title": "Roman Landscape",
+        "artists": [],
+        "museum": "met",
+        "museumName": "The Met",
+        "begin": 1850,
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-23285-001.jpg",
+        "url": "https://www.metmuseum.org/art/collection/search/435684",
+        "seenIn": {
+          "baseline": "landscape: title, subjects"
+        }
+      },
+      {
+        "id": "aic-269223",
+        "title": "Landscape Painting",
+        "artists": [
+          "William Keith"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1868,
+        "thumb": "https://www.artic.edu/iiif/2/2a1e5636-e9c6-6b72-70ab-437f767f73db/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/269223",
+        "seenIn": {
+          "baseline": "landscape: title, subjects"
+        }
+      },
+      {
+        "id": "aic-874",
+        "title": "Landscape",
+        "artists": [
+          "Jean-Charles Cazin"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1890,
+        "thumb": "https://www.artic.edu/iiif/2/3a34f988-f779-2e96-1786-8945b6b9c87d/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/874",
+        "seenIn": {
+          "baseline": "landscape: title, subjects"
+        }
+      },
+      {
+        "id": "aic-877",
+        "title": "Landscape",
+        "artists": [
+          "Jean-Baptiste Camille Corot"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1865,
+        "thumb": "https://www.artic.edu/iiif/2/1501b057-0441-f1fa-e949-298b06ec6270/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/877",
+        "seenIn": {
+          "baseline": "landscape: title, subjects"
+        }
+      },
+      {
+        "id": "aic-20543",
+        "title": "Landscape",
+        "artists": [
+          "Gustave Loiseau"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1895,
+        "url": "https://www.artic.edu/artworks/20543",
+        "seenIn": {
+          "baseline": "landscape: title, subjects"
+        }
+      },
+      {
+        "id": "aic-80567",
+        "title": "Landscape",
+        "artists": [
+          "Marcel Ordinaire"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1867,
+        "thumb": "https://www.artic.edu/iiif/2/59bd7c26-0294-662e-626c-fc1afb01f1c0/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/80567",
+        "seenIn": {
+          "baseline": "landscape: title, subjects"
+        }
+      },
+      {
+        "id": "rijksmuseum-20027518",
+        "title": "Landscape near Kortenhoef",
+        "artists": [
+          "Paul Joseph Constantin Gabriël"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1877,
+        "thumb": "https://iiif.micr.io/Imiuq/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-2265--801d8b6ecf16f9b3328ab60aaf030f01",
+        "seenIn": {
+          "baseline": "landscape: title, subjects"
+        }
+      },
+      {
+        "id": "rijksmuseum-20027902",
+        "title": "Landscape with Windmills",
+        "artists": [
+          "Paul Joseph Constantin Gabriël"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1880,
+        "thumb": "https://iiif.micr.io/rWxEH/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-3590--6e289b3835e78bf73a6dc8d3c689d3c2",
+        "seenIn": {
+          "baseline": "landscape: title, subjects"
+        }
+      },
+      {
+        "id": "rijksmuseum-20027440",
+        "title": "Landscape",
+        "artists": [
+          "Léon-Victor Dupré"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1869,
+        "thumb": "https://iiif.micr.io/xgeNA/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-1876--223fb86fa716a006907809b788c29495",
+        "seenIn": {
+          "baseline": "landscape: title"
+        }
+      },
+      {
+        "id": "rijksmuseum-20026630",
+        "title": "Swiss Landscape",
+        "artists": [
+          "Gerard Bilders"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1860,
+        "thumb": "https://iiif.micr.io/mtrZE/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-2297--1c0acd3cab8d5a8e6b7044f3a9ca499f",
+        "seenIn": {
+          "baseline": "landscape: title"
+        }
+      },
+      {
+        "id": "rijksmuseum-200108651",
+        "title": "Landscape in Kennemerland",
+        "artists": [
+          "Louwrens Hanedoes",
+          "Solomon Leonard Verveer"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1869,
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-1040--44765a01fad144863b8ac4fceb9de123",
+        "seenIn": {
+          "baseline": "landscape: title"
+        }
+      },
+      {
+        "id": "met-435965",
+        "title": "Bacchante in a Landscape",
+        "artists": [
+          "Jean-Baptiste Camille Corot"
+        ],
+        "museum": "met",
+        "museumName": "The Met",
+        "begin": 1865,
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/ep29.100.598.R.jpg",
+        "url": "https://www.metmuseum.org/art/collection/search/435965",
+        "seenIn": {
+          "baseline": "landscape: title, subjects"
+        }
+      },
+      {
+        "id": "met-435964",
+        "title": "Landscape with Figures (Les Bohémiens)",
+        "artists": [
+          "Jean-Baptiste Camille Corot"
+        ],
+        "museum": "met",
+        "museumName": "The Met",
+        "begin": 1872,
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-16064-001.jpg",
+        "url": "https://www.metmuseum.org/art/collection/search/435964",
+        "seenIn": {
+          "baseline": "landscape: title, subjects"
+        }
+      },
+      {
+        "id": "met-435879",
+        "title": "The Pool at Jas de Bouffan",
+        "artists": [
+          "Paul Cézanne"
+        ],
+        "museum": "met",
+        "museumName": "The Met",
+        "begin": 1885,
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1492.jpg",
+        "url": "https://www.metmuseum.org/art/collection/search/435879",
+        "seenIn": {
+          "baseline": "landscape: subjects"
+        }
+      },
+      {
+        "id": "met-435750",
+        "title": "Beaulieu: The Bay of Fourmis",
+        "artists": [
+          "Eugène Louis Boudin"
+        ],
+        "museum": "met",
+        "museumName": "The Met",
+        "begin": 1892,
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-17451-001.jpg",
+        "url": "https://www.metmuseum.org/art/collection/search/435750",
+        "seenIn": {
+          "baseline": "landscape: subjects"
+        }
+      }
+    ]
+  },
+  "q03": {
+    "query": "seascape",
+    "relevant": "the sea or coast is the main subject",
+    "items": [
+      {
+        "id": "aic-81557",
+        "title": "Seascape",
+        "artists": [
+          "Pierre-Auguste Renoir"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1879,
+        "thumb": "https://www.artic.edu/iiif/2/caf4fa39-e2e8-344a-542c-2d9a03ec9d4b/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/81557",
+        "seenIn": {
+          "baseline": "seascape: title"
+        }
+      },
+      {
+        "id": "rijksmuseum-20028453",
+        "title": "Seascape",
+        "artists": [
+          "Charles-François Daubigny"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1876,
+        "thumb": "https://iiif.micr.io/MFZUL/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-2884--5d271f8dbad243060138d186153ae175",
+        "seenIn": {
+          "baseline": "seascape: title"
+        }
+      },
+      {
+        "id": "aic-25801",
+        "title": "By the Sea, Dieppe",
+        "artists": [
+          "Albert André"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1896,
+        "url": "https://www.artic.edu/artworks/25801",
+        "seenIn": {
+          "baseline": "seascape: subjects"
+        }
+      },
+      {
+        "id": "aic-250455",
+        "title": "Venice Seen from the Public Garden",
+        "artists": [
+          "Jean-Jules-Antoine Lecomte du Nouÿ"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1873,
+        "thumb": "https://www.artic.edu/iiif/2/dc92647e-40e2-8a20-45d1-7ccf569e39da/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/250455",
+        "seenIn": {
+          "baseline": "seascape: subjects"
+        }
+      },
+      {
+        "id": "aic-111632",
+        "title": "Douarnenez in Sunshine",
+        "artists": [
+          "Maxime Maufra"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1897,
+        "thumb": "https://www.artic.edu/iiif/2/5d1261c0-11bd-eb2c-91c5-653aa98c2b5a/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/111632",
+        "seenIn": {
+          "baseline": "seascape: subjects"
+        }
+      },
+      {
+        "id": "aic-81540",
+        "title": "The Departure of the Boats, Étretat",
+        "artists": [
+          "Claude Monet"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1885,
+        "thumb": "https://www.artic.edu/iiif/2/6ca224d1-c3dc-a223-a127-0492301a2ebb/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/81540",
+        "seenIn": {
+          "baseline": "seascape: subjects"
+        }
+      }
+    ]
+  },
+  "q04": {
+    "query": "portrait",
+    "relevant": "a painting of a specific person (or people) as its main subject",
+    "items": [
+      {
+        "id": "aic-7489",
+        "title": "Portrait of Monsieur Rouland",
+        "artists": [
+          "Adolphe Joseph Thomas Monticelli"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1870,
+        "thumb": "https://www.artic.edu/iiif/2/971bc877-e947-4331-5189-c5106c18dcc1/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/7489",
+        "seenIn": {
+          "baseline": "portrait: title, subjects; portraiture: subjects"
+        }
+      },
+      {
+        "id": "aic-31285",
+        "title": "Portrait of Mary Adeline Williams",
+        "artists": [
+          "Thomas Eakins"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1899,
+        "thumb": "https://www.artic.edu/iiif/2/8cb9f5ea-c955-96fd-c2d6-c720b0dbf7d4/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/31285",
+        "seenIn": {
+          "baseline": "portrait: title, subjects; portraiture: subjects"
+        }
+      },
+      {
+        "id": "aic-20686",
+        "title": "Portrait of a Woman",
+        "artists": [
+          "Jean-Léon Gérôme"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1851,
+        "thumb": "https://www.artic.edu/iiif/2/99c39143-a45c-5fa1-ddd3-0dae633fbb87/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/20686",
+        "seenIn": {
+          "baseline": "portrait: title, subjects; portraiture: subjects"
+        }
+      },
+      {
+        "id": "aic-59779",
+        "title": "Portrait of a Lady",
+        "artists": [],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1870,
+        "thumb": "https://www.artic.edu/iiif/2/e1e8e197-93e7-bd6a-5870-36200c27445e/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/59779",
+        "seenIn": {
+          "baseline": "portrait: title, subjects; portraiture: subjects"
+        }
+      },
+      {
+        "id": "aic-80450",
+        "title": "Portrait of a Woman",
+        "artists": [
+          "Charles Cottet"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1895,
+        "thumb": "https://www.artic.edu/iiif/2/e30b27db-b263-abb6-0005-ff238f8fd530/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/80450",
+        "seenIn": {
+          "baseline": "portrait: title, subjects; portraiture: subjects"
+        }
+      },
+      {
+        "id": "aic-111478",
+        "title": "Portrait of Dr. William McNeill Whistler",
+        "artists": [
+          "James McNeill Whistler"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1871,
+        "thumb": "https://www.artic.edu/iiif/2/f9aacbc6-191c-3725-85bf-198612a51d25/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/111478",
+        "seenIn": {
+          "baseline": "portrait: title, subjects; portraiture: subjects"
+        }
+      },
+      {
+        "id": "aic-42949",
+        "title": "Portrait of Jeanne Wenz",
+        "artists": [
+          "Henri de Toulouse-Lautrec"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1886,
+        "thumb": "https://www.artic.edu/iiif/2/c2a4b60c-bf43-6a37-e001-a91cba741168/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/42949",
+        "seenIn": {
+          "baseline": "portrait: title, subjects; portraiture: subjects"
+        }
+      },
+      {
+        "id": "aic-80604",
+        "title": "Portrait after a Costume Ball (Portrait of Madame Dietz-Monnin)",
+        "artists": [
+          "Edgar Degas"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1879,
+        "thumb": "https://www.artic.edu/iiif/2/a56877d3-f08c-e469-2b4c-81823ea30e40/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/80604",
+        "seenIn": {
+          "baseline": "portrait: title, subjects; portraiture: subjects"
+        }
+      },
+      {
+        "id": "aic-79586",
+        "title": "Portrait of Mme Lisle and Mme Loubens",
+        "artists": [
+          "Edgar Degas"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1862,
+        "thumb": "https://www.artic.edu/iiif/2/8bcc9188-1d3d-14be-6ae7-ed211e089c0f/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/79586",
+        "seenIn": {
+          "baseline": "portrait: title, subjects; portraiture: subjects"
+        }
+      },
+      {
+        "id": "aic-93342",
+        "title": "Rêverie (Portrait of Gabrielle Borreau)",
+        "artists": [
+          "Gustave Courbet"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1862,
+        "thumb": "https://www.artic.edu/iiif/2/40d69445-feb4-d6d5-bcad-bb142856f0a6/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/93342",
+        "seenIn": {
+          "baseline": "portrait: title, subjects; portraiture: subjects"
+        }
+      },
+      {
+        "id": "rijksmuseum-200109378",
+        "title": "Self Portrait",
+        "artists": [
+          "Hendrik Hollander"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1876,
+        "thumb": "https://iiif.micr.io/wuKAf/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-1489--33a61b0d1f8312b6f300867c21aef25c",
+        "seenIn": {
+          "baseline": "portrait: title"
+        }
+      },
+      {
+        "id": "rijksmuseum-20028484",
+        "title": "Portrait Study",
+        "artists": [
+          "Matthijs Maris"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1856,
+        "thumb": "https://iiif.micr.io/aTgoq/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-3019--6226b57e09ab0385038224f6ba647092",
+        "seenIn": {
+          "baseline": "portrait: title"
+        }
+      },
+      {
+        "id": "rijksmuseum-20023001",
+        "title": "Portrait of Jacob Maris",
+        "artists": [
+          "Matthijs Maris"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1857,
+        "thumb": "https://iiif.micr.io/UTDQc/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-4877--5044f8ca95f88f939604f87fd1a8d105",
+        "seenIn": {
+          "baseline": "portrait: title"
+        }
+      },
+      {
+        "id": "rijksmuseum-20026479",
+        "title": "Portrait of a Boy",
+        "artists": [
+          "August Allebé"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1856,
+        "thumb": "https://iiif.micr.io/HaRYs/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-3266--c99511c7fd4f8eab313f3f8c3ba0f6ff",
+        "seenIn": {
+          "baseline": "portrait: title"
+        }
+      },
+      {
+        "id": "rijksmuseum-20026926",
+        "title": "Portrait of a Woman",
+        "artists": [
+          "Marie Wandscheer"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1886,
+        "thumb": "https://iiif.micr.io/RwJsC/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-3044--ec325af5aedf85de19046ecd79203123",
+        "seenIn": {
+          "baseline": "portrait: title"
+        }
+      },
+      {
+        "id": "met-435709",
+        "title": "John Taylor Johnston (1820–1893)",
+        "artists": [
+          "Léon Bonnat"
+        ],
+        "museum": "met",
+        "museumName": "The Met",
+        "begin": 1880,
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-17011-001.jpg",
+        "url": "https://www.metmuseum.org/art/collection/search/435709",
+        "seenIn": {
+          "baseline": "portrait: subjects; portraiture: subjects"
+        }
+      },
+      {
+        "id": "met-435754",
+        "title": "Breton Brother and Sister",
+        "artists": [
+          "William-Adolphe Bouguereau"
+        ],
+        "museum": "met",
+        "museumName": "The Met",
+        "begin": 1871,
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DT2566.jpg",
+        "url": "https://www.metmuseum.org/art/collection/search/435754",
+        "seenIn": {
+          "baseline": "portrait: subjects; portraiture: subjects"
+        }
+      },
+      {
+        "id": "met-435870",
+        "title": "Antoine Dominique Sauveur Aubert (born 1817), the Artist's Uncle",
+        "artists": [
+          "Paul Cézanne"
+        ],
+        "museum": "met",
+        "museumName": "The Met",
+        "begin": 1866,
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1408.jpg",
+        "url": "https://www.metmuseum.org/art/collection/search/435870",
+        "seenIn": {
+          "baseline": "portrait: subjects; portraiture: subjects"
+        }
+      },
+      {
+        "id": "met-435873",
+        "title": "Gustave Boyer (born 1840) in a Straw Hat",
+        "artists": [
+          "Paul Cézanne"
+        ],
+        "museum": "met",
+        "museumName": "The Met",
+        "begin": 1870,
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1938.jpg",
+        "url": "https://www.metmuseum.org/art/collection/search/435873",
+        "seenIn": {
+          "baseline": "portrait: subjects; portraiture: subjects"
+        }
+      },
+      {
+        "id": "met-435692",
+        "title": "Mrs. Charles Warren-Cram (Ella Brooks Carter, 1846–1896)",
+        "artists": [
+          "Giovanni Boldini"
+        ],
+        "museum": "met",
+        "museumName": "The Met",
+        "begin": 1885,
+        "url": "https://www.metmuseum.org/art/collection/search/435692",
+        "seenIn": {
+          "baseline": "portrait: subjects; portraiture: subjects"
+        }
+      }
+    ]
+  },
+  "q05": {
+    "query": "self-portrait",
+    "relevant": "the artist painting themself",
+    "items": [
+      {
+        "id": "met-435856",
+        "title": "Self-Portrait",
+        "artists": [
+          "Eugène Carrière"
+        ],
+        "museum": "met",
+        "museumName": "The Met",
+        "begin": 1888,
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14201-015.jpg",
+        "url": "https://www.metmuseum.org/art/collection/search/435856",
+        "seenIn": {
+          "baseline": "self-portrait: title, subjects; selfportrait: subjects"
+        }
+      },
+      {
+        "id": "aic-11",
+        "title": "Self-Portrait",
+        "artists": [
+          "Walter Shirlaw"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1878,
+        "thumb": "https://www.artic.edu/iiif/2/7b7a6f39-1cd8-ea2f-9811-18b0e23edac0/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/11",
+        "seenIn": {
+          "baseline": "self-portrait: title, subjects"
+        }
+      },
+      {
+        "id": "met-436532",
+        "title": "Self-Portrait with a Straw Hat (obverse: The Potato Peeler)",
+        "artists": [
+          "Vincent van Gogh"
+        ],
+        "museum": "met",
+        "museumName": "The Met",
+        "begin": 1887,
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1502_cropped2.jpg",
+        "url": "https://www.metmuseum.org/art/collection/search/436532",
+        "seenIn": {
+          "baseline": "self-portrait: title, subjects; selfportrait: subjects"
+        }
+      },
+      {
+        "id": "aic-110661",
+        "title": "Self-Portrait",
+        "artists": [
+          "Frédéric Bazille"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1865,
+        "thumb": "https://www.artic.edu/iiif/2/eb2cd58f-db63-0236-cebd-7ca8e63eda54/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/110661",
+        "seenIn": {
+          "baseline": "self-portrait: title, subjects"
+        }
+      },
+      {
+        "id": "aic-80607",
+        "title": "Self-Portrait",
+        "artists": [
+          "Vincent van Gogh"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1887,
+        "thumb": "https://www.artic.edu/iiif/2/47c5bcb8-62ef-e5d7-55e7-f5121f409a30/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/80607",
+        "seenIn": {
+          "baseline": "self-portrait: title, subjects"
+        }
+      },
+      {
+        "id": "aic-282730",
+        "title": "Self-Portrait of the Artist at Her Easel",
+        "artists": [
+          "Ella Ferris Pell"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1894,
+        "url": "https://www.artic.edu/artworks/282730",
+        "seenIn": {
+          "baseline": "self-portrait: title, subjects"
+        }
+      },
+      {
+        "id": "aic-120170",
+        "title": "Self-Portrait",
+        "artists": [
+          "Eastman Johnson"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1863,
+        "thumb": "https://www.artic.edu/iiif/2/c8eacf36-436a-f4df-819e-d8fefbfac1d2/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/120170",
+        "seenIn": {
+          "baseline": "self-portrait: title"
+        }
+      },
+      {
+        "id": "aic-136190",
+        "title": "Self-Portrait",
+        "artists": [
+          "George Peter Alexander Healy"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1873,
+        "thumb": "https://www.artic.edu/iiif/2/89fda02c-4a5d-1c23-b358-827cc99cea4e/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/136190",
+        "seenIn": {
+          "baseline": "self-portrait: title"
+        }
+      },
+      {
+        "id": "aic-40647",
+        "title": "Self-Portrait",
+        "artists": [
+          "Eastman Johnson"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1889,
+        "thumb": "https://www.artic.edu/iiif/2/5cde06a4-c11d-ab9a-8016-a1644a967a89/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/40647",
+        "seenIn": {
+          "baseline": "self-portrait: title"
+        }
+      },
+      {
+        "id": "aic-60053",
+        "title": "Self-Portrait",
+        "artists": [
+          "Frederick William MacMonnies"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1898,
+        "url": "https://www.artic.edu/artworks/60053",
+        "seenIn": {
+          "baseline": "self-portrait: title"
+        }
+      },
+      {
+        "id": "rijksmuseum-200109794",
+        "title": "Self-portrait",
+        "artists": [
+          "Vincent van Gogh"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1887,
+        "thumb": "https://iiif.micr.io/bTpft/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-3262--72f97ac66c33f86b161cd51d62f7d365",
+        "seenIn": {
+          "baseline": "self-portrait: title"
+        }
+      },
+      {
+        "id": "rijksmuseum-20015884",
+        "title": "Self-portrait",
+        "artists": [
+          "Émile Bernard"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1897,
+        "thumb": "https://iiif.micr.io/lXjDS/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-3263--6dae0bef16327eae1044e1adf0b3d7e9",
+        "seenIn": {
+          "baseline": "self-portrait: title"
+        }
+      },
+      {
+        "id": "rijksmuseum-20026309",
+        "title": "Self-Portrait",
+        "artists": [
+          "Johan Georg Schwartze"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1869,
+        "thumb": "https://iiif.micr.io/iQyYD/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-2818--d1a8f3aa2c03e106f71894b2393c314a",
+        "seenIn": {
+          "baseline": "self-portrait: title"
+        }
+      },
+      {
+        "id": "rijksmuseum-200770092",
+        "title": "Self-portrait in his Studio",
+        "artists": [
+          "Anton Molkenboer"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1896,
+        "thumb": "https://iiif.micr.io/pTBOr/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-5072--0a46f5d367fce80202611f805c8a638a",
+        "seenIn": {
+          "baseline": "self-portrait: title"
+        }
+      },
+      {
+        "id": "met-438722",
+        "title": "The Potato Peeler (reverse: Self-Portrait with a Straw Hat)",
+        "artists": [
+          "Vincent van Gogh"
+        ],
+        "museum": "met",
+        "museumName": "The Met",
+        "begin": 1885,
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1503.jpg",
+        "url": "https://www.metmuseum.org/art/collection/search/438722",
+        "seenIn": {
+          "baseline": "self-portrait: title"
+        }
+      }
+    ]
+  },
+  "q06": {
+    "query": "still life",
+    "relevant": "arranged objects, flowers or food as the subject",
+    "items": [
+      {
+        "id": "aic-27170",
+        "title": "Still Life",
+        "artists": [
+          "Eugène Carrière"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1870,
+        "thumb": "https://www.artic.edu/iiif/2/19967481-f358-3d6d-781e-9aa9187d6007/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/27170",
+        "seenIn": {
+          "baseline": "still: title, subjects; still-life: subjects; life: title, subjects"
+        }
+      },
+      {
+        "id": "aic-39492",
+        "title": "Still Life",
+        "artists": [
+          "Hugo Charlemont"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1883,
+        "thumb": "https://www.artic.edu/iiif/2/862608e5-8953-b1a3-53fd-ec009662516f/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/39492",
+        "seenIn": {
+          "baseline": "still: title, subjects; still-life: subjects; life: title, subjects"
+        }
+      },
+      {
+        "id": "aic-66149",
+        "title": "Still Life (Flowers)",
+        "artists": [
+          "Louis Valtat"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1869,
+        "url": "https://www.artic.edu/artworks/66149",
+        "seenIn": {
+          "baseline": "still: title, subjects; still-life: subjects; life: title, subjects"
+        }
+      },
+      {
+        "id": "aic-157924",
+        "title": "Still Life with Currency",
+        "artists": [
+          "Charles Alfred Meurer"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1895,
+        "url": "https://www.artic.edu/artworks/157924",
+        "seenIn": {
+          "baseline": "still: title, subjects; still-life: subjects; life: title, subjects"
+        }
+      },
+      {
+        "id": "aic-44892",
+        "title": "Fish (Still Life)",
+        "artists": [
+          "Édouard Manet"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1864,
+        "thumb": "https://www.artic.edu/iiif/2/0cbe27e8-2fec-3445-bc48-ce40a8f2dc25/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/44892",
+        "seenIn": {
+          "baseline": "still: title, subjects; still-life: subjects; life: title, subjects"
+        }
+      },
+      {
+        "id": "aic-72180",
+        "title": "Still Life with Flowers",
+        "artists": [
+          "Henri Fantin-Latour"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1881,
+        "thumb": "https://www.artic.edu/iiif/2/94245750-c169-eb03-673e-cd03f718f885/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/72180",
+        "seenIn": {
+          "baseline": "still: title, subjects; still-life: subjects; life: title, subjects"
+        }
+      },
+      {
+        "id": "aic-58999",
+        "title": "Still Life with Fruit",
+        "artists": [
+          "Émile Bernard"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1890,
+        "url": "https://www.artic.edu/artworks/58999",
+        "seenIn": {
+          "baseline": "still: title, subjects; still-life: subjects; life: title, subjects"
+        }
+      },
+      {
+        "id": "met-435883",
+        "title": "Still Life with Apples and Pears",
+        "artists": [
+          "Paul Cézanne"
+        ],
+        "museum": "met",
+        "museumName": "The Met",
+        "begin": 1891,
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14936-049.jpg",
+        "url": "https://www.metmuseum.org/art/collection/search/435883",
+        "seenIn": {
+          "baseline": "still: title, subjects; still-life: subjects; life: title, subjects"
+        }
+      },
+      {
+        "id": "aic-27952",
+        "title": "Still Life: Melon, Fish Jar",
+        "artists": [],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1883,
+        "thumb": "https://www.artic.edu/iiif/2/2cd8ec20-4fc8-5084-dc2c-a1c06a9cc699/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/27952",
+        "seenIn": {
+          "baseline": "still: title, subjects; still-life: subjects; life: title, subjects"
+        }
+      },
+      {
+        "id": "aic-75507",
+        "title": "Still Life: Corner of a Table",
+        "artists": [
+          "Henri Fantin-Latour"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1873,
+        "thumb": "https://www.artic.edu/iiif/2/85d05bad-1205-6de5-e75c-ec9113a626ab/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/75507",
+        "seenIn": {
+          "baseline": "still: title, subjects; still-life: subjects; life: title, subjects"
+        }
+      },
+      {
+        "id": "rijksmuseum-20026676",
+        "title": "Still life",
+        "artists": [
+          "François Bonvin"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1871,
+        "thumb": "https://iiif.micr.io/PgZFa/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-1859--416cf89726a4d7eb1dbb231e080ac600",
+        "seenIn": {
+          "baseline": "still: title; life: title"
+        }
+      },
+      {
+        "id": "rijksmuseum-20029259",
+        "title": "Still Life",
+        "artists": [
+          "J. de Clercq"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1860,
+        "thumb": "https://iiif.micr.io/xqwrl/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-C-1561--6fda0e012a1a6434aacdbf01cb4245f2",
+        "seenIn": {
+          "baseline": "still: title; life: title"
+        }
+      },
+      {
+        "id": "rijksmuseum-200108804",
+        "title": "Still Life with Flowers",
+        "artists": [
+          "Adriana Johanna Haanen"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1865,
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-1471--28695e17b8142fb4c26b9401faab858a",
+        "seenIn": {
+          "baseline": "still: title; life: title"
+        }
+      },
+      {
+        "id": "rijksmuseum-20028489",
+        "title": "Still Life with Flowers",
+        "artists": [
+          "Kees van Dongen"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1900,
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-3039--c13c2bf32d12dabc0ab6a4140aaccf88",
+        "seenIn": {
+          "baseline": "still: title; life: title"
+        }
+      },
+      {
+        "id": "rijksmuseum-20026481",
+        "title": "Still Life with Oriental Slippers",
+        "artists": [
+          "August Allebé"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1873,
+        "thumb": "https://iiif.micr.io/MKeSy/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-1729--5e8f091c6b2934e41f2cce584bec3d8e",
+        "seenIn": {
+          "baseline": "still: title; life: title"
+        }
+      },
+      {
+        "id": "met-435884",
+        "title": "Still Life with Jar, Cup, and Apples",
+        "artists": [
+          "Paul Cézanne"
+        ],
+        "museum": "met",
+        "museumName": "The Met",
+        "begin": 1872,
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP130322.jpg",
+        "url": "https://www.metmuseum.org/art/collection/search/435884",
+        "seenIn": {
+          "baseline": "still: title, subjects; still-life: subjects; life: title, subjects"
+        }
+      },
+      {
+        "id": "met-435882",
+        "title": "Still Life with Apples and a Pot of Primroses",
+        "artists": [
+          "Paul Cézanne"
+        ],
+        "museum": "met",
+        "museumName": "The Met",
+        "begin": 1885,
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DT47.jpg",
+        "url": "https://www.metmuseum.org/art/collection/search/435882",
+        "seenIn": {
+          "baseline": "still: title, subjects; still-life: subjects; life: title, subjects"
+        }
+      },
+      {
+        "id": "met-435881",
+        "title": "Still Life with a Ginger Jar and Eggplants",
+        "artists": [
+          "Paul Cézanne"
+        ],
+        "museum": "met",
+        "museumName": "The Met",
+        "begin": 1893,
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-20100-001.jpg",
+        "url": "https://www.metmuseum.org/art/collection/search/435881",
+        "seenIn": {
+          "baseline": "still: title, subjects; still-life: subjects; life: title, subjects"
+        }
+      },
+      {
+        "id": "met-436534",
+        "title": "Roses",
+        "artists": [
+          "Vincent van Gogh"
+        ],
+        "museum": "met",
+        "museumName": "The Met",
+        "begin": 1890,
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP346475.jpg",
+        "url": "https://www.metmuseum.org/art/collection/search/436534",
+        "seenIn": {
+          "baseline": "still: subjects; still-life: subjects; life: subjects"
+        }
+      }
+    ]
+  },
+  "q07": {
+    "query": "interior",
+    "relevant": "the scene is inside a room or building",
+    "items": [
+      {
+        "id": "aic-9",
+        "title": "Interior of St. Mark's, Venice",
+        "artists": [
+          "David Dalhoff Neal"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1869,
+        "thumb": "https://www.artic.edu/iiif/2/b55d836c-ee20-59f8-1f0c-a95e09905361/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/9",
+        "seenIn": {
+          "baseline": "interior: title, subjects"
+        }
+      },
+      {
+        "id": "aic-39954",
+        "title": "Seventeenth-Century Interior",
+        "artists": [
+          "Charles Gifford Dyer"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1877,
+        "thumb": "https://www.artic.edu/iiif/2/be4d3662-4e77-6e13-9ff9-bcdebff0f56d/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/39954",
+        "seenIn": {
+          "baseline": "interior: title"
+        }
+      },
+      {
+        "id": "rijksmuseum-20026934",
+        "title": "Interior of a Stable",
+        "artists": [
+          "Johan Hendrik Weissenbruch"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1895,
+        "thumb": "https://iiif.micr.io/nhcvh/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-3617--8e8a6792e80a6d429ede95bfdcfa0eaa",
+        "seenIn": {
+          "baseline": "interior: title"
+        }
+      },
+      {
+        "id": "rijksmuseum-20027384",
+        "title": "Interior of a Cottage in Scheveningen",
+        "artists": [
+          "Willem Adriaan Alexander Liernur"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1887,
+        "thumb": "https://iiif.micr.io/UtGVZ/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-1563--78647acc89a1eaf38e909f7b53e7f411",
+        "seenIn": {
+          "baseline": "interior: title"
+        }
+      },
+      {
+        "id": "rijksmuseum-20028203",
+        "title": "Two Men in a Seventeenth-century Interior, Called 'A Conference'",
+        "artists": [
+          "Lambertus Lingeman"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1870,
+        "thumb": "https://iiif.micr.io/YrPvL/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-1076--5636460cdb1904c21b92e103e59ea25b",
+        "seenIn": {
+          "baseline": "interior: title"
+        }
+      },
+      {
+        "id": "rijksmuseum-200110498",
+        "title": "Portrait of Johan Rudolf Thorbecke, Minister of State and Minister of the Interior",
+        "artists": [
+          "Johan Heinrich Neuman"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1852,
+        "thumb": "https://iiif.micr.io/hcYMA/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-4120--7469daa6ff1a3bd03af511c021536fb1",
+        "seenIn": {
+          "baseline": "interior: title"
+        }
+      },
+      {
+        "id": "met-435691",
+        "title": "Gossip",
+        "artists": [
+          "Giovanni Boldini"
+        ],
+        "museum": "met",
+        "museumName": "The Met",
+        "begin": 1873,
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DT219388.jpg",
+        "url": "https://www.metmuseum.org/art/collection/search/435691",
+        "seenIn": {
+          "baseline": "interior: subjects"
+        }
+      },
+      {
+        "id": "rijksmuseum-20065874",
+        "title": "A Service in the Geertekerk, Utrecht",
+        "artists": [
+          "Johannes Bosboom"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1852,
+        "thumb": "https://iiif.micr.io/DtBmd/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-C-1659--56f79fee928d0c6cf2c210fbc9c3e455",
+        "seenIn": {
+          "baseline": "interior: subjects"
+        }
+      },
+      {
+        "id": "aic-59779",
+        "title": "Portrait of a Lady",
+        "artists": [],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1870,
+        "thumb": "https://www.artic.edu/iiif/2/e1e8e197-93e7-bd6a-5870-36200c27445e/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/59779",
+        "seenIn": {
+          "baseline": "interior: subjects"
+        }
+      },
+      {
+        "id": "aic-210893",
+        "title": "Slender Woman with Vase",
+        "artists": [
+          "Jozseph Rippl-Rónaï"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1894,
+        "thumb": "https://www.artic.edu/iiif/2/2479fd9c-a90e-2f5a-b418-6ed505ab2bb9/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/210893",
+        "seenIn": {
+          "baseline": "interior: subjects"
+        }
+      },
+      {
+        "id": "aic-2823",
+        "title": "Portrait of a Boy",
+        "artists": [
+          "Eugène Carrière"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1886,
+        "thumb": "https://www.artic.edu/iiif/2/8f385b97-9e44-4b7b-a7ce-acd9bee0a732/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/2823",
+        "seenIn": {
+          "baseline": "interior: subjects"
+        }
+      }
+    ]
+  },
+  "q08": {
+    "query": "flowers",
+    "relevant": "flowers are clearly depicted (main or prominent)",
+    "items": [
+      {
+        "id": "aic-66149",
+        "title": "Still Life (Flowers)",
+        "artists": [
+          "Louis Valtat"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1869,
+        "url": "https://www.artic.edu/artworks/66149",
+        "seenIn": {
+          "baseline": "flower: title, subjects"
+        }
+      },
+      {
+        "id": "aic-138",
+        "title": "Flower Girl in Holland",
+        "artists": [
+          "George Hitchcock"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1887,
+        "thumb": "https://www.artic.edu/iiif/2/e72305c9-1a1c-8a36-7450-582619366338/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/138",
+        "seenIn": {
+          "baseline": "flower: title, subjects"
+        }
+      },
+      {
+        "id": "aic-94240",
+        "title": "Flowers: Poppies and Daisies",
+        "artists": [
+          "Odilon Redon"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1862,
+        "thumb": "https://www.artic.edu/iiif/2/d424c734-f5c1-5f89-3bb8-d83e4e0287e3/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/94240",
+        "seenIn": {
+          "baseline": "flower: title, subjects"
+        }
+      },
+      {
+        "id": "met-436525",
+        "title": "Bouquet of Flowers in a Vase",
+        "artists": [
+          "Vincent van Gogh"
+        ],
+        "museum": "met",
+        "museumName": "The Met",
+        "begin": 1890,
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DT7098.jpg",
+        "url": "https://www.metmuseum.org/art/collection/search/436525",
+        "seenIn": {
+          "baseline": "flower: title, subjects"
+        }
+      },
+      {
+        "id": "aic-72180",
+        "title": "Still Life with Flowers",
+        "artists": [
+          "Henri Fantin-Latour"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1881,
+        "thumb": "https://www.artic.edu/iiif/2/94245750-c169-eb03-673e-cd03f718f885/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/72180",
+        "seenIn": {
+          "baseline": "flower: title, subjects"
+        }
+      },
+      {
+        "id": "rijksmuseum-200109683",
+        "title": "Flowers from Normandy",
+        "artists": [
+          "Henri Fantin-Latour"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1887,
+        "thumb": "https://iiif.micr.io/LQqcH/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-2895--aebbf52fd69b7cccd4d3ac5f4276ae55",
+        "seenIn": {
+          "baseline": "flower: title"
+        }
+      },
+      {
+        "id": "rijksmuseum-200108804",
+        "title": "Still Life with Flowers",
+        "artists": [
+          "Adriana Johanna Haanen"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1865,
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-1471--28695e17b8142fb4c26b9401faab858a",
+        "seenIn": {
+          "baseline": "flower: title"
+        }
+      },
+      {
+        "id": "rijksmuseum-20028489",
+        "title": "Still Life with Flowers",
+        "artists": [
+          "Kees van Dongen"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1900,
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-3039--c13c2bf32d12dabc0ab6a4140aaccf88",
+        "seenIn": {
+          "baseline": "flower: title"
+        }
+      },
+      {
+        "id": "rijksmuseum-20027235",
+        "title": "Still Life with Flowers and Fruit",
+        "artists": [
+          "Gerardina Jacoba van de Sande Bakhuyzen"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1869,
+        "thumb": "https://iiif.micr.io/FNXKd/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-1002--aa3e1c823ea28204fb7ea0bbb5746919",
+        "seenIn": {
+          "baseline": "flower: title"
+        }
+      },
+      {
+        "id": "met-436527",
+        "title": "The Flowering Orchard",
+        "artists": [
+          "Vincent van Gogh"
+        ],
+        "museum": "met",
+        "museumName": "The Met",
+        "begin": 1888,
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14936-045.jpg",
+        "url": "https://www.metmuseum.org/art/collection/search/436527",
+        "seenIn": {
+          "baseline": "flowering: title"
+        }
+      },
+      {
+        "id": "rijksmuseum-20026174",
+        "title": "Een ruiker rozen",
+        "artists": [
+          "Coba Ritsema"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1900,
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-3045--0a2e26b0a0f833237d0a3aa65e2a1444",
+        "seenIn": {
+          "baseline": "flower: subjects"
+        }
+      },
+      {
+        "id": "met-436528",
+        "title": "Irises",
+        "artists": [
+          "Vincent van Gogh"
+        ],
+        "museum": "met",
+        "museumName": "The Met",
+        "begin": 1890,
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP346474.jpg",
+        "url": "https://www.metmuseum.org/art/collection/search/436528",
+        "seenIn": {
+          "baseline": "flower: subjects"
+        }
+      },
+      {
+        "id": "met-437984",
+        "title": "La Berceuse (Woman Rocking a Cradle; Augustine-Alix Pellicot Roulin, 1851–1930)",
+        "artists": [
+          "Vincent van Gogh"
+        ],
+        "museum": "met",
+        "museumName": "The Met",
+        "begin": 1889,
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-19279-001.jpg",
+        "url": "https://www.metmuseum.org/art/collection/search/437984",
+        "seenIn": {
+          "baseline": "flower: subjects"
+        }
+      },
+      {
+        "id": "met-436530",
+        "title": "Oleanders",
+        "artists": [
+          "Vincent van Gogh"
+        ],
+        "museum": "met",
+        "museumName": "The Met",
+        "begin": 1888,
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1494.jpg",
+        "url": "https://www.metmuseum.org/art/collection/search/436530",
+        "seenIn": {
+          "baseline": "flower: subjects"
+        }
+      },
+      {
+        "id": "aic-145675",
+        "title": "Birds and Flowering Plum Tree",
+        "artists": [],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1875,
+        "url": "https://www.artic.edu/artworks/145675",
+        "seenIn": {
+          "baseline": "flowering: title"
+        }
+      }
+    ]
+  },
+  "q09": {
+    "query": "snow",
+    "relevant": "snow is visible in the scene",
+    "items": [
+      {
+        "id": "aic-45838",
+        "title": "Snow at Louveciennes",
+        "artists": [
+          "Camille Pissarro"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1864,
+        "thumb": "https://www.artic.edu/iiif/2/d4e43d76-594b-ce65-c1a3-45c865624f70/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/45838",
+        "seenIn": {
+          "baseline": "snow: title, subjects"
+        }
+      },
+      {
+        "id": "aic-20530",
+        "title": "Rabbit Warren at Pontoise, Snow",
+        "artists": [
+          "Camille Pissarro"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1879,
+        "thumb": "https://www.artic.edu/iiif/2/053f9be8-3617-c4ef-36cd-1deb5e13b288/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/20530",
+        "seenIn": {
+          "baseline": "snow: title, subjects"
+        }
+      },
+      {
+        "id": "aic-895",
+        "title": "Man with Lance Riding through the Snow",
+        "artists": [
+          "Adolf Schreyer"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1875,
+        "thumb": "https://www.artic.edu/iiif/2/fa96ef54-c3b1-8f4d-390a-219f7bc64c4a/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/895",
+        "seenIn": {
+          "baseline": "snow: title, subjects"
+        }
+      },
+      {
+        "id": "aic-16560",
+        "title": "Stack of Wheat (Snow Effect, Overcast Day)",
+        "artists": [
+          "Claude Monet"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1890,
+        "thumb": "https://www.artic.edu/iiif/2/db36f74f-47d9-ad08-cdf9-b4b436e6d18c/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/16560",
+        "seenIn": {
+          "baseline": "snow: title, subjects"
+        }
+      },
+      {
+        "id": "aic-5825",
+        "title": "Riverbank in Snow",
+        "artists": [],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1900,
+        "url": "https://www.artic.edu/artworks/5825",
+        "seenIn": {
+          "baseline": "snow: title"
+        }
+      },
+      {
+        "id": "aic-62393",
+        "title": "Snow Field, Morning, Roxbury",
+        "artists": [
+          "John La Farge"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1864,
+        "thumb": "https://www.artic.edu/iiif/2/8e5f3773-9396-0fde-8547-490cca07b68b/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/62393",
+        "seenIn": {
+          "baseline": "snow: title"
+        }
+      },
+      {
+        "id": "aic-81545",
+        "title": "Stacks of Wheat (Sunset, Snow Effect)",
+        "artists": [
+          "Claude Monet"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1890,
+        "thumb": "https://www.artic.edu/iiif/2/be0d3e50-a600-6f33-ea8f-16a34d892442/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/81545",
+        "seenIn": {
+          "baseline": "snow: title"
+        }
+      },
+      {
+        "id": "rijksmuseum-20020092",
+        "title": "View of the Oosterpark, Amsterdam, in the Snow",
+        "artists": [
+          "George Hendrik Breitner"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1892,
+        "thumb": "https://iiif.micr.io/GYopX/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-4925--f57431d295d58e974263d60e7df70048",
+        "seenIn": {
+          "baseline": "snow: title"
+        }
+      },
+      {
+        "id": "aic-111318",
+        "title": "Stack of Wheat",
+        "artists": [
+          "Claude Monet"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1890,
+        "thumb": "https://www.artic.edu/iiif/2/27c1d720-8ca5-79a4-5e51-530bf75c1591/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/111318",
+        "seenIn": {
+          "baseline": "snow: subjects"
+        }
+      },
+      {
+        "id": "aic-86998",
+        "title": "Sandvika, Norway",
+        "artists": [
+          "Claude Monet"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1895,
+        "thumb": "https://www.artic.edu/iiif/2/07d8dd31-d44b-85aa-ab09-ca51ee86f631/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/86998",
+        "seenIn": {
+          "baseline": "snow: subjects"
+        }
+      }
+    ]
+  },
+  "q10": {
+    "query": "boats",
+    "relevant": "one or more boats or ships are visible",
+    "items": [
+      {
+        "id": "aic-28853",
+        "title": "River Boat",
+        "artists": [
+          "Charles-François Daubigny"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1855,
+        "thumb": "https://www.artic.edu/iiif/2/24f5a9ff-fe25-e1be-65f5-d65f2d509ad4/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/28853",
+        "seenIn": {
+          "baseline": "boat: title, subjects"
+        }
+      },
+      {
+        "id": "aic-209910",
+        "title": "Beached Fishing Boats",
+        "artists": [],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1855,
+        "thumb": "https://www.artic.edu/iiif/2/fe455a66-c3c0-7cd0-32e2-b8fd146bb110/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/209910",
+        "seenIn": {
+          "baseline": "boat: title, subjects"
+        }
+      },
+      {
+        "id": "aic-86297",
+        "title": "Two Boats in a Storm",
+        "artists": [
+          "Jules Dupré"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1870,
+        "thumb": "https://www.artic.edu/iiif/2/6e7e8593-f529-4b73-9f96-75ff24623fe9/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/86297",
+        "seenIn": {
+          "baseline": "boat: title, subjects"
+        }
+      },
+      {
+        "id": "aic-59927",
+        "title": "Boats on the Beach at Étretat",
+        "artists": [
+          "Claude Monet"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1885,
+        "thumb": "https://www.artic.edu/iiif/2/eaf98472-70cc-0005-c2c9-6109f549f24a/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/59927",
+        "seenIn": {
+          "baseline": "boat: title, subjects"
+        }
+      },
+      {
+        "id": "aic-81540",
+        "title": "The Departure of the Boats, Étretat",
+        "artists": [
+          "Claude Monet"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1885,
+        "thumb": "https://www.artic.edu/iiif/2/6ca224d1-c3dc-a223-a127-0492301a2ebb/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/81540",
+        "seenIn": {
+          "baseline": "boat: title, subjects"
+        }
+      },
+      {
+        "id": "aic-121377",
+        "title": "Boats at Rest",
+        "artists": [
+          "Arthur Wesley Dow"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1895,
+        "thumb": "https://www.artic.edu/iiif/2/56a4af78-1d23-3e2a-6119-8aa47e0cf285/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/121377",
+        "seenIn": {
+          "baseline": "boat: title"
+        }
+      },
+      {
+        "id": "rijksmuseum-200109444",
+        "title": "Arrival of the Boats",
+        "artists": [
+          "Jacob Maris"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1884,
+        "thumb": "https://iiif.micr.io/VVFrn/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-2456--990b47153748fe97f50eef1857692644",
+        "seenIn": {
+          "baseline": "boat: title"
+        }
+      },
+      {
+        "id": "rijksmuseum-200109446",
+        "title": "Boat with a Pollard Willow",
+        "artists": [
+          "Matthijs Maris"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1863,
+        "thumb": "https://iiif.micr.io/yYtAQ/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-2993--760f2d7afe3b9acd95c8f9ea4ed05ba6",
+        "seenIn": {
+          "baseline": "boat: title"
+        }
+      },
+      {
+        "id": "met-435966",
+        "title": "Boatman among the Reeds",
+        "artists": [
+          "Jean-Baptiste Camille Corot"
+        ],
+        "museum": "met",
+        "museumName": "The Met",
+        "begin": 1860,
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP332566.jpg",
+        "url": "https://www.metmuseum.org/art/collection/search/435966",
+        "seenIn": {
+          "baseline": "boat: subjects; boatman: title"
+        }
+      },
+      {
+        "id": "met-435599",
+        "title": "Boatmen of Barcelona",
+        "artists": [
+          "Dionisio Baixeras Verdaguer"
+        ],
+        "museum": "met",
+        "museumName": "The Met",
+        "begin": 1886,
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/EP603.jpg",
+        "url": "https://www.metmuseum.org/art/collection/search/435599",
+        "seenIn": {
+          "baseline": "boat: subjects; boatmen: title"
+        }
+      },
+      {
+        "id": "rijksmuseum-20028268",
+        "title": "Jaagpad",
+        "artists": [
+          "Jacob Maris"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1894,
+        "thumb": "https://iiif.micr.io/CeXfO/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-2459--abf40c0783a4c6210390d92e79a3d79e",
+        "seenIn": {
+          "baseline": "boat: subjects"
+        }
+      },
+      {
+        "id": "met-435969",
+        "title": "The Ferryman",
+        "artists": [
+          "Jean-Baptiste Camille Corot"
+        ],
+        "museum": "met",
+        "museumName": "The Met",
+        "begin": 1860,
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-24153-001.jpg",
+        "url": "https://www.metmuseum.org/art/collection/search/435969",
+        "seenIn": {
+          "baseline": "boat: subjects"
+        }
+      },
+      {
+        "id": "met-435983",
+        "title": "River with a Distant Tower",
+        "artists": [
+          "Jean-Baptiste Camille Corot"
+        ],
+        "museum": "met",
+        "museumName": "The Met",
+        "begin": 1865,
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14936-055.jpg",
+        "url": "https://www.metmuseum.org/art/collection/search/435983",
+        "seenIn": {
+          "baseline": "boat: subjects"
+        }
+      },
+      {
+        "id": "met-435683",
+        "title": "Island of the Dead",
+        "artists": [
+          "Arnold Böcklin"
+        ],
+        "museum": "met",
+        "museumName": "The Met",
+        "begin": 1880,
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-47457-001.jpg",
+        "url": "https://www.metmuseum.org/art/collection/search/435683",
+        "seenIn": {
+          "baseline": "boat: subjects"
+        }
+      }
+    ]
+  },
+  "q11": {
+    "query": "cows",
+    "relevant": "cattle are visible",
+    "items": [
+      {
+        "id": "aic-64412",
+        "title": "Study of a Cow",
+        "artists": [
+          "Emile van Marcke"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1870,
+        "thumb": "https://www.artic.edu/iiif/2/c66cff23-22a1-e440-b390-ef4e68facd6a/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/64412",
+        "seenIn": {
+          "baseline": "cow: title, subjects"
+        }
+      },
+      {
+        "id": "aic-86298",
+        "title": "Study of a Cow",
+        "artists": [
+          "Emile van Marcke"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1870,
+        "thumb": "https://www.artic.edu/iiif/2/c2bf35ea-3878-ffd1-18c3-311f13db873a/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/86298",
+        "seenIn": {
+          "baseline": "cow: title, subjects"
+        }
+      },
+      {
+        "id": "rijksmuseum-20026203",
+        "title": "Resting Cow with a Mill",
+        "artists": [
+          "Richard Roland Holst"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1888,
+        "thumb": "https://iiif.micr.io/LfHWQ/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-4731--fdbb130a854e594c24920b53c9e1b62d",
+        "seenIn": {
+          "baseline": "cow: title, subjects"
+        }
+      },
+      {
+        "id": "rijksmuseum-20028277",
+        "title": "Cows in a Soggy Meadow",
+        "artists": [
+          "Willem Maris"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1860,
+        "thumb": "https://iiif.micr.io/xbUdT/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-1887--b693718d9f104f5114c9393333b4030b",
+        "seenIn": {
+          "baseline": "cow: title, subjects"
+        }
+      },
+      {
+        "id": "rijksmuseum-20026918",
+        "title": "A Cow with her Calf in a Meadow",
+        "artists": [
+          "Jan Vrolijk"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1879,
+        "thumb": "https://iiif.micr.io/EFHQK/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-4682--4c715ad2cdf2176ebb4066849ed809b7",
+        "seenIn": {
+          "baseline": "cow: title, subjects"
+        }
+      },
+      {
+        "id": "rijksmuseum-20026259",
+        "title": "The Artist Painting a Cow in a Meadow",
+        "artists": [
+          "Hendrik van de Sande Bakhuyzen"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1850,
+        "thumb": "https://iiif.micr.io/kQOSv/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-4163--3da9be3392a6145767f3555f3fa7c591",
+        "seenIn": {
+          "baseline": "cow: title, subjects"
+        }
+      },
+      {
+        "id": "aic-72398",
+        "title": "Cows in a Pond at Sunset",
+        "artists": [
+          "Sanford Robinson Gifford"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1860,
+        "thumb": "https://www.artic.edu/iiif/2/ea5875fc-48ab-037d-3eec-86ccf6e9be60/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/72398",
+        "seenIn": {
+          "baseline": "cow: title"
+        }
+      },
+      {
+        "id": "met-435703",
+        "title": "Weaning the Calves",
+        "artists": [
+          "Rosa Bonheur"
+        ],
+        "museum": "met",
+        "museumName": "The Met",
+        "begin": 1879,
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DT2579.jpg",
+        "url": "https://www.metmuseum.org/art/collection/search/435703",
+        "seenIn": {
+          "baseline": "cow: subjects"
+        }
+      },
+      {
+        "id": "aic-899",
+        "title": "The Tête-à-tête",
+        "artists": [
+          "Emile van Marcke"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1870,
+        "thumb": "https://www.artic.edu/iiif/2/a8258ace-3df9-7232-73c0-157a0f916e1f/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/899",
+        "seenIn": {
+          "baseline": "cow: subjects"
+        }
+      },
+      {
+        "id": "rijksmuseum-20027280",
+        "title": "Landscape in Drenthe",
+        "artists": [
+          "Julius van de Sande Bakhuyzen"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1882,
+        "thumb": "https://iiif.micr.io/ghNzO/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-1185--8ae6d830b1e4031b073d7d1d1f00da5f",
+        "seenIn": {
+          "baseline": "cow: subjects"
+        }
+      },
+      {
+        "id": "aic-39542",
+        "title": "Cattle at Rest on a Hillside in the Alps",
+        "artists": [
+          "Rosa Bonheur"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1885,
+        "thumb": "https://www.artic.edu/iiif/2/efdd5540-5579-8761-fd1d-af318f65a0a6/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/39542",
+        "seenIn": {
+          "baseline": "cow: subjects"
+        }
+      }
+    ]
+  },
+  "q12": {
+    "query": "children",
+    "relevant": "one or more children are depicted",
+    "items": [
+      {
+        "id": "aic-263513",
+        "title": "Mother and Children",
+        "artists": [
+          "Pál Szinyei Merse"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1869,
+        "thumb": "https://www.artic.edu/iiif/2/5f575140-664b-74a0-ebdb-69823dfd7bab/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/263513",
+        "seenIn": {
+          "baseline": "children: title, subjects"
+        }
+      },
+      {
+        "id": "aic-102975",
+        "title": "Young Children Sleeping",
+        "artists": [
+          "Hermann Kaulbach"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1885,
+        "url": "https://www.artic.edu/artworks/102975",
+        "seenIn": {
+          "baseline": "children: title, subjects"
+        }
+      },
+      {
+        "id": "aic-192607",
+        "title": "Mrs. Sturgis and Children",
+        "artists": [
+          "Emily Mary Osborn"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1855,
+        "url": "https://www.artic.edu/artworks/192607",
+        "seenIn": {
+          "baseline": "children: title, subjects"
+        }
+      },
+      {
+        "id": "rijksmuseum-20026659",
+        "title": "The Fisherman's Children",
+        "artists": [
+          "Bernard Blommers"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1868,
+        "thumb": "https://iiif.micr.io/xJhjc/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-2296--607c01645849115b4b0ee7665526a1d7",
+        "seenIn": {
+          "baseline": "children: title"
+        }
+      },
+      {
+        "id": "rijksmuseum-200109406",
+        "title": "Children of the Sea",
+        "artists": [
+          "Jozef Israëls"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1872,
+        "thumb": "https://iiif.micr.io/nnjuR/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-2382--98cc90bcb55dfc39dda04341bc8414c1",
+        "seenIn": {
+          "baseline": "children: title"
+        }
+      },
+      {
+        "id": "aic-111057",
+        "title": "The Fairies",
+        "artists": [
+          "Adolphe Joseph Thomas Monticelli"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1870,
+        "thumb": "https://www.artic.edu/iiif/2/4d682c85-3e87-2998-5e66-6628d4ddf9f1/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/111057",
+        "seenIn": {
+          "baseline": "children: subjects"
+        }
+      },
+      {
+        "id": "aic-28868",
+        "title": "Woman and Child (Silence)",
+        "artists": [],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1855,
+        "thumb": "https://www.artic.edu/iiif/2/c5fad810-883a-7322-edef-c096899023cb/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/28868",
+        "seenIn": {
+          "baseline": "children: subjects"
+        }
+      },
+      {
+        "id": "aic-35155",
+        "title": "Education of Cupid",
+        "artists": [
+          "Narcisse Virgilio Díaz"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1854,
+        "thumb": "https://www.artic.edu/iiif/2/3dae143d-6840-2e6e-dff5-cd2eea745da2/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/35155",
+        "seenIn": {
+          "baseline": "children: subjects"
+        }
+      },
+      {
+        "id": "aic-25810",
+        "title": "The Courtyard",
+        "artists": [
+          "Stanislas Lépine"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1875,
+        "thumb": "https://www.artic.edu/iiif/2/fabda58b-7ed5-1af7-92c9-6bf823b71cf5/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/25810",
+        "seenIn": {
+          "baseline": "children: subjects"
+        }
+      },
+      {
+        "id": "aic-39493",
+        "title": "The Wrestler's Challenge",
+        "artists": [
+          "Mihály Munkácsy"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1875,
+        "thumb": "https://www.artic.edu/iiif/2/efe1099f-d131-b964-b1f4-7eec47b9af0f/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/39493",
+        "seenIn": {
+          "baseline": "children: subjects"
+        }
+      },
+      {
+        "id": "rijksmuseum-20026484",
+        "title": "The Butterflies",
+        "artists": [
+          "August Allebé"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1871,
+        "thumb": "https://iiif.micr.io/StEbd/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-3095--011a7bfeeb53aa53dfb28e04901da445",
+        "seenIn": {
+          "baseline": "children: subjects"
+        }
+      },
+      {
+        "id": "rijksmuseum-20028495",
+        "title": "The Evening Prayer",
+        "artists": [
+          "Pierre Édouard Frère"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1857,
+        "thumb": "https://iiif.micr.io/sApKr/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-3081--68d24ba0a94b4e49741235f4ac35eb8b",
+        "seenIn": {
+          "baseline": "children: subjects"
+        }
+      },
+      {
+        "id": "met-435711",
+        "title": "An Egyptian Peasant Woman and Her Child",
+        "artists": [
+          "Léon Bonnat"
+        ],
+        "museum": "met",
+        "museumName": "The Met",
+        "begin": 1869,
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DT234058.jpg",
+        "url": "https://www.metmuseum.org/art/collection/search/435711",
+        "seenIn": {
+          "baseline": "children: subjects"
+        }
+      },
+      {
+        "id": "met-436526",
+        "title": "First Steps, after Millet",
+        "artists": [
+          "Vincent van Gogh"
+        ],
+        "museum": "met",
+        "museumName": "The Met",
+        "begin": 1890,
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP124808.jpg",
+        "url": "https://www.metmuseum.org/art/collection/search/436526",
+        "seenIn": {
+          "baseline": "children: subjects"
+        }
+      },
+      {
+        "id": "met-435752",
+        "title": "Young Mother Gazing at Her Child",
+        "artists": [
+          "William-Adolphe Bouguereau"
+        ],
+        "museum": "met",
+        "museumName": "The Met",
+        "begin": 1871,
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-16481-001.jpg",
+        "url": "https://www.metmuseum.org/art/collection/search/435752",
+        "seenIn": {
+          "baseline": "children: subjects"
+        }
+      },
+      {
+        "id": "met-435653",
+        "title": "Sunday at the Church of Saint-Philippe-du-Roule, Paris",
+        "artists": [
+          "Jean Béraud"
+        ],
+        "museum": "met",
+        "museumName": "The Met",
+        "begin": 1877,
+        "url": "https://www.metmuseum.org/art/collection/search/435653",
+        "seenIn": {
+          "baseline": "children: subjects"
+        }
+      }
+    ]
+  },
+  "q13": {
+    "query": "night",
+    "relevant": "a night scene (dark sky, moonlight, artificial light outdoors)",
+    "items": [
+      {
+        "id": "aic-64745",
+        "title": "The Moon at Night",
+        "artists": [
+          "George Inness"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1890,
+        "thumb": "https://www.artic.edu/iiif/2/ee3eaad2-d2f4-5f04-9fb0-db581bc1d06d/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/64745",
+        "seenIn": {
+          "baseline": "night: title"
+        }
+      },
+      {
+        "id": "aic-20624",
+        "title": "Night Procession of Goblins (Hyakki yagyo no zu)",
+        "artists": [
+          "Kawanabe Kyōsai"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1865,
+        "thumb": "https://www.artic.edu/iiif/2/5bae42a0-6a4d-40a3-d8ef-065b055c675a/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/20624",
+        "seenIn": {
+          "baseline": "night: title"
+        }
+      },
+      {
+        "id": "aic-154235",
+        "title": "The Girl by the Window",
+        "artists": [
+          "Edvard Munch"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1893,
+        "thumb": "https://www.artic.edu/iiif/2/d7df2633-3b40-f570-c906-211503a37cde/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/154235",
+        "seenIn": {
+          "baseline": "night: subjects"
+        }
+      },
+      {
+        "id": "aic-14664",
+        "title": "Moulin de la Galette",
+        "artists": [
+          "Henri de Toulouse-Lautrec"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1889,
+        "thumb": "https://www.artic.edu/iiif/2/156aaed6-fe3c-a13c-f39e-55f381205929/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/14664",
+        "seenIn": {
+          "baseline": "night: subjects; nightlife: subjects"
+        }
+      },
+      {
+        "id": "aic-64754",
+        "title": "Moonrise",
+        "artists": [
+          "George Inness"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1891,
+        "thumb": "https://www.artic.edu/iiif/2/4425984b-e241-6413-1404-cdac0fb06518/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/64754",
+        "seenIn": {
+          "baseline": "night: subjects"
+        }
+      },
+      {
+        "id": "aic-887",
+        "title": "Landscape with Figures",
+        "artists": [
+          "Narcisse Virgilio Díaz"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1865,
+        "thumb": "https://www.artic.edu/iiif/2/ad3280c6-611a-c136-29b8-8f303a02f416/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/887",
+        "seenIn": {
+          "baseline": "night: subjects"
+        }
+      },
+      {
+        "id": "aic-28868",
+        "title": "Woman and Child (Silence)",
+        "artists": [],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1855,
+        "thumb": "https://www.artic.edu/iiif/2/c5fad810-883a-7322-edef-c096899023cb/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/28868",
+        "seenIn": {
+          "baseline": "night: subjects"
+        }
+      },
+      {
+        "id": "aic-61128",
+        "title": "At the Moulin Rouge",
+        "artists": [
+          "Henri de Toulouse-Lautrec"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1892,
+        "thumb": "https://www.artic.edu/iiif/2/defb4004-b500-218d-3d9b-9a02423f097d/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/61128",
+        "seenIn": {
+          "baseline": "night: subjects; nightlife: subjects"
+        }
+      },
+      {
+        "id": "aic-110867",
+        "title": "Tight-Rope Walker",
+        "artists": [
+          "Jean-Louis Forain"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1880,
+        "thumb": "https://www.artic.edu/iiif/2/f67d49b0-90a6-7aa3-29ab-77e5d1e9fd9c/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/110867",
+        "seenIn": {
+          "baseline": "night: subjects"
+        }
+      },
+      {
+        "id": "aic-234877",
+        "title": "Ad Astra",
+        "artists": [
+          "Akseli Gallen-Kallela"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1894,
+        "thumb": "https://www.artic.edu/iiif/2/585675bb-6b89-3c49-eb28-4bc4b2bbe500/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/234877",
+        "seenIn": {
+          "baseline": "night: subjects"
+        }
+      }
+    ]
+  },
+  "q14": {
+    "query": "sunset",
+    "relevant": "sunset or sunrise light in the sky",
+    "items": [
+      {
+        "id": "aic-64740",
+        "title": "Landscape, Sunset",
+        "artists": [
+          "George Inness"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1887,
+        "thumb": "https://www.artic.edu/iiif/2/0b66bb30-3170-f7d1-543a-93e02ffe194f/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/64740",
+        "seenIn": {
+          "baseline": "sunset: title"
+        }
+      },
+      {
+        "id": "aic-64751",
+        "title": "Sunset in the Valley",
+        "artists": [
+          "George Inness"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1890,
+        "url": "https://www.artic.edu/artworks/64751",
+        "seenIn": {
+          "baseline": "sunset: title"
+        }
+      },
+      {
+        "id": "rijksmuseum-200108861",
+        "title": "Heath Landscape at Sunset",
+        "artists": [
+          "Louwrens Hanedoes"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1851,
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-1812--fb86d5bbc58f236497c74df61bd28ffb",
+        "seenIn": {
+          "baseline": "sunset: title"
+        }
+      },
+      {
+        "id": "aic-100191",
+        "title": "Stack of Wheat (Thaw, Sunset)",
+        "artists": [
+          "Claude Monet"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1890,
+        "thumb": "https://www.artic.edu/iiif/2/8bd40b36-43ea-8b02-d76a-b325962b86db/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/100191",
+        "seenIn": {
+          "baseline": "sunset: title"
+        }
+      },
+      {
+        "id": "aic-72398",
+        "title": "Cows in a Pond at Sunset",
+        "artists": [
+          "Sanford Robinson Gifford"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1860,
+        "thumb": "https://www.artic.edu/iiif/2/ea5875fc-48ab-037d-3eec-86ccf6e9be60/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/72398",
+        "seenIn": {
+          "baseline": "sunset: title"
+        }
+      },
+      {
+        "id": "aic-81545",
+        "title": "Stacks of Wheat (Sunset, Snow Effect)",
+        "artists": [
+          "Claude Monet"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1890,
+        "thumb": "https://www.artic.edu/iiif/2/be0d3e50-a600-6f33-ea8f-16a34d892442/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/81545",
+        "seenIn": {
+          "baseline": "sunset: title"
+        }
+      },
+      {
+        "id": "aic-71971",
+        "title": "Mist Rising at Sunset in the Catskills",
+        "artists": [
+          "Sanford Robinson Gifford"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1861,
+        "thumb": "https://www.artic.edu/iiif/2/30491751-fb43-fc27-51fe-d068be7b6568/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/71971",
+        "seenIn": {
+          "baseline": "sunset: title"
+        }
+      },
+      {
+        "id": "rijksmuseum-20028459",
+        "title": "Young Woman under a Tree at Sunset, called 'Autumn'",
+        "artists": [
+          "Henri Fantin-Latour"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1855,
+        "thumb": "https://iiif.micr.io/KZNBm/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-2893--51229d971e2fd4288a2b629048f6e2bc",
+        "seenIn": {
+          "baseline": "sunset: title"
+        }
+      },
+      {
+        "id": "rijksmuseum-20028773",
+        "title": "'At sundown'",
+        "artists": [
+          "Arthur Hawksley"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1889,
+        "thumb": "https://iiif.micr.io/VWisn/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-4182--42df09ed3a00efadde93d9521adc05cb",
+        "seenIn": {
+          "baseline": "sunset: subjects"
+        }
+      },
+      {
+        "id": "rijksmuseum-20027559",
+        "title": "Strand bij avond",
+        "artists": [
+          "Jacob Maris"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1890,
+        "thumb": "https://iiif.micr.io/gqHna/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-2460--f906be55ab5922ceeb22ae9c46498629",
+        "seenIn": {
+          "baseline": "sunset: subjects"
+        }
+      }
+    ]
+  },
+  "q15": {
+    "query": "church",
+    "relevant": "a church or chapel is visible, inside or out",
+    "items": [
+      {
+        "id": "rijksmuseum-200109690",
+        "title": "Procession in the Old Catholic Church in The Hague",
+        "artists": [
+          "Isaac Israëls"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1881,
+        "thumb": "https://iiif.micr.io/OwJUv/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-2914--9a174f490f55f689fd0de73d40e3b2d7",
+        "seenIn": {
+          "baseline": "church: title, subjects"
+        }
+      },
+      {
+        "id": "met-435653",
+        "title": "Sunday at the Church of Saint-Philippe-du-Roule, Paris",
+        "artists": [
+          "Jean Béraud"
+        ],
+        "museum": "met",
+        "museumName": "The Met",
+        "begin": 1877,
+        "url": "https://www.metmuseum.org/art/collection/search/435653",
+        "seenIn": {
+          "baseline": "church: title, subjects"
+        }
+      },
+      {
+        "id": "aic-111630",
+        "title": "The Church of Overschie",
+        "artists": [
+          "Johan Jongkind"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1866,
+        "thumb": "https://www.artic.edu/iiif/2/a05ed5e5-eb97-451a-9bc0-50108ab9dbe3/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/111630",
+        "seenIn": {
+          "baseline": "church: title, subjects"
+        }
+      },
+      {
+        "id": "aic-76571",
+        "title": "View of Cotopaxi",
+        "artists": [
+          "Frederic Edwin Church"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1857,
+        "thumb": "https://www.artic.edu/iiif/2/33fc29fc-097b-576b-c9e6-c3352d9d3f15/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/76571",
+        "seenIn": {
+          "baseline": "church: artists"
+        }
+      },
+      {
+        "id": "rijksmuseum-20026478",
+        "title": "Early to Church",
+        "artists": [
+          "August Allebé"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1861,
+        "thumb": "https://iiif.micr.io/bNQpe/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-1799--b05d30127c61c5065ab34ed3c7689017",
+        "seenIn": {
+          "baseline": "church: title"
+        }
+      },
+      {
+        "id": "rijksmuseum-200672685",
+        "title": "The Singel near the Lutheran Church in Amsterdam",
+        "artists": [
+          "Vincent van Gogh"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1885,
+        "thumb": "https://iiif.micr.io/PMnLE/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-C-1843--36b6b173d8e26073592095ed2f15108f",
+        "seenIn": {
+          "baseline": "church: title"
+        }
+      },
+      {
+        "id": "rijksmuseum-20028552",
+        "title": "Een monnik met een glas in de hand in een kelder",
+        "artists": [
+          "F. Taupel"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1800,
+        "thumb": "https://iiif.micr.io/tnEsJ/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-3499--6bac8d3366c8c88257dd124a9efa102b",
+        "seenIn": {
+          "baseline": "church: subjects"
+        }
+      },
+      {
+        "id": "rijksmuseum-20028246",
+        "title": "Praying Monk (Monk at his Devotions)",
+        "artists": [
+          "Jacob Maris"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1864,
+        "thumb": "https://iiif.micr.io/bKqvP/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-2473--cf112d6cc3e53dcac931b5efd2ca583b",
+        "seenIn": {
+          "baseline": "church: subjects"
+        }
+      },
+      {
+        "id": "rijksmuseum-200609468",
+        "title": "Monk Meditating near a Ruin by Moonlight",
+        "artists": [
+          "Fredrik Marinus Kruseman"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1862,
+        "thumb": "https://iiif.micr.io/AVPLN/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-5032--6b4fbbb112a149475cd03d4098745798",
+        "seenIn": {
+          "baseline": "church: subjects"
+        }
+      },
+      {
+        "id": "rijksmuseum-20065874",
+        "title": "A Service in the Geertekerk, Utrecht",
+        "artists": [
+          "Johannes Bosboom"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1852,
+        "thumb": "https://iiif.micr.io/DtBmd/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-C-1659--56f79fee928d0c6cf2c210fbc9c3e455",
+        "seenIn": {
+          "baseline": "church: subjects"
+        }
+      },
+      {
+        "id": "aic-9",
+        "title": "Interior of St. Mark's, Venice",
+        "artists": [
+          "David Dalhoff Neal"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1869,
+        "thumb": "https://www.artic.edu/iiif/2/b55d836c-ee20-59f8-1f0c-a95e09905361/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/9",
+        "seenIn": {
+          "baseline": "church: subjects"
+        }
+      },
+      {
+        "id": "aic-270236",
+        "title": "River Scene",
+        "artists": [
+          "Robert S. Duncanson"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1867,
+        "url": "https://www.artic.edu/artworks/270236",
+        "seenIn": {
+          "baseline": "church: subjects"
+        }
+      },
+      {
+        "id": "aic-81568",
+        "title": "Notre Dame de Paris",
+        "artists": [
+          "Jean-François Raffaëlli"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1885,
+        "thumb": "https://www.artic.edu/iiif/2/e5a07fc5-650c-065a-a3e5-8e9ef516137a/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/81568",
+        "seenIn": {
+          "baseline": "church: subjects"
+        }
+      }
+    ]
+  },
+  "q16": {
+    "query": "Paris",
+    "relevant": "the scene is in Paris (by title, subject or recognisable view)",
+    "items": [
+      {
+        "id": "rijksmuseum-2004267",
+        "title": "Rue Notre-Dame, Paris",
+        "artists": [
+          "Johan Jongkind"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1866,
+        "thumb": "https://iiif.micr.io/JBFfm/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-4996--fea975e0088cfad530dbe4ce721db6e9",
+        "seenIn": {
+          "baseline": "paris: title, subjects"
+        }
+      },
+      {
+        "id": "aic-81568",
+        "title": "Notre Dame de Paris",
+        "artists": [
+          "Jean-François Raffaëlli"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1885,
+        "thumb": "https://www.artic.edu/iiif/2/e5a07fc5-650c-065a-a3e5-8e9ef516137a/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/81568",
+        "seenIn": {
+          "baseline": "paris: title, subjects"
+        }
+      },
+      {
+        "id": "met-435968",
+        "title": "The Environs of Paris",
+        "artists": [
+          "Jean-Baptiste Camille Corot"
+        ],
+        "museum": "met",
+        "museumName": "The Met",
+        "begin": 1860,
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DT225534.jpg",
+        "url": "https://www.metmuseum.org/art/collection/search/435968",
+        "seenIn": {
+          "baseline": "paris: title, subjects"
+        }
+      },
+      {
+        "id": "aic-133864",
+        "title": "The Defense of Paris",
+        "artists": [
+          "Jean-Louis-Ernest Meissonier"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1870,
+        "thumb": "https://www.artic.edu/iiif/2/f66e2513-20d7-f876-c880-858d585e57fb/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/133864",
+        "seenIn": {
+          "baseline": "paris: title, subjects"
+        }
+      },
+      {
+        "id": "aic-16464",
+        "title": "Place des Batignolles, Paris",
+        "artists": [
+          "Albert André"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1893,
+        "url": "https://www.artic.edu/artworks/16464",
+        "seenIn": {
+          "baseline": "paris: title, subjects"
+        }
+      },
+      {
+        "id": "aic-20684",
+        "title": "Paris Street; Rainy Day",
+        "artists": [
+          "Gustave Caillebotte"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1877,
+        "thumb": "https://www.artic.edu/iiif/2/f8fd76e9-c396-5678-36ed-6a348c904d27/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/20684",
+        "seenIn": {
+          "baseline": "paris: title, subjects"
+        }
+      },
+      {
+        "id": "aic-20542",
+        "title": "View on the Seine, Paris",
+        "artists": [
+          "Stanislas Lépine"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1867,
+        "thumb": "https://www.artic.edu/iiif/2/3b901b0a-b8a8-7299-1851-c25116dfa116/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/20542",
+        "seenIn": {
+          "baseline": "paris: title, subjects"
+        }
+      },
+      {
+        "id": "aic-81551",
+        "title": "The Place du Havre, Paris",
+        "artists": [
+          "Camille Pissarro"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1893,
+        "thumb": "https://www.artic.edu/iiif/2/0ff20364-c795-c2ca-c1e8-e5a848f09554/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/81551",
+        "seenIn": {
+          "baseline": "paris: title, subjects"
+        }
+      },
+      {
+        "id": "rijksmuseum-20015957",
+        "title": "View of Notre Dame de Lorette and Rue Fléchier in Paris",
+        "artists": [
+          "Antoine Vollon"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1860,
+        "thumb": "https://iiif.micr.io/SfGFn/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-3092--87e98bf1287055f88688a01f240f827d",
+        "seenIn": {
+          "baseline": "paris: title, subjects"
+        }
+      },
+      {
+        "id": "met-435653",
+        "title": "Sunday at the Church of Saint-Philippe-du-Roule, Paris",
+        "artists": [
+          "Jean Béraud"
+        ],
+        "museum": "met",
+        "museumName": "The Met",
+        "begin": 1877,
+        "url": "https://www.metmuseum.org/art/collection/search/435653",
+        "seenIn": {
+          "baseline": "paris: title, subjects"
+        }
+      },
+      {
+        "id": "met-435702",
+        "title": "The Horse Fair",
+        "artists": [
+          "Rosa Bonheur"
+        ],
+        "museum": "met",
+        "museumName": "The Met",
+        "begin": 1852,
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-23550-001.jpg",
+        "url": "https://www.metmuseum.org/art/collection/search/435702",
+        "seenIn": {
+          "baseline": "paris: subjects"
+        }
+      },
+      {
+        "id": "met-435654",
+        "title": "A Windy Day on the Pont des Arts",
+        "artists": [
+          "Jean Béraud"
+        ],
+        "museum": "met",
+        "museumName": "The Met",
+        "begin": 1880,
+        "url": "https://www.metmuseum.org/art/collection/search/435654",
+        "seenIn": {
+          "baseline": "paris: subjects"
+        }
+      }
+    ]
+  },
+  "q17": {
+    "query": "Barbizon",
+    "relevant": "by a Barbizon School painter, or a Barbizon/Fontainebleau scene",
+    "items": [
+      {
+        "id": "rijksmuseum-200108394",
+        "title": "Wooded View near Barbizon",
+        "artists": [
+          "Johan Hendrik Weissenbruch"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1900,
+        "thumb": "https://iiif.micr.io/oZLfA/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-1923--fd2b0d9df7abb994e3dba47b5c5eef79",
+        "seenIn": {
+          "baseline": "barbizon: title, subjects"
+        }
+      },
+      {
+        "id": "aic-81507",
+        "title": "House of Mère Bazot",
+        "artists": [
+          "Charles-François Daubigny"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1874,
+        "thumb": "https://www.artic.edu/iiif/2/68e24e96-1f25-75cd-bb2c-232713f131a9/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/81507",
+        "seenIn": {
+          "baseline": "barbizon: styles, inferredStyles"
+        }
+      },
+      {
+        "id": "aic-880",
+        "title": "The Marsh",
+        "artists": [
+          "Charles-François Daubigny"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1871,
+        "thumb": "https://www.artic.edu/iiif/2/0faa1fea-aaaa-83bf-8324-8b7f90266dd2/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/880",
+        "seenIn": {
+          "baseline": "barbizon: styles, inferredStyles"
+        }
+      },
+      {
+        "id": "aic-94842",
+        "title": "Houses in Optevoz, France",
+        "artists": [
+          "Charles-François Daubigny"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1852,
+        "thumb": "https://www.artic.edu/iiif/2/314637b6-22f5-5c2d-5b33-cd6ef4218748/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/94842",
+        "seenIn": {
+          "baseline": "barbizon: styles, inferredStyles"
+        }
+      },
+      {
+        "id": "aic-28853",
+        "title": "River Boat",
+        "artists": [
+          "Charles-François Daubigny"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1855,
+        "thumb": "https://www.artic.edu/iiif/2/24f5a9ff-fe25-e1be-65f5-d65f2d509ad4/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/28853",
+        "seenIn": {
+          "baseline": "barbizon: styles, inferredStyles"
+        }
+      },
+      {
+        "id": "aic-35155",
+        "title": "Education of Cupid",
+        "artists": [
+          "Narcisse Virgilio Díaz"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1854,
+        "thumb": "https://www.artic.edu/iiif/2/3dae143d-6840-2e6e-dff5-cd2eea745da2/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/35155",
+        "seenIn": {
+          "baseline": "barbizon: styles, inferredStyles"
+        }
+      },
+      {
+        "id": "aic-59004",
+        "title": "On the Bank of the Seine at Portejoie",
+        "artists": [
+          "Charles-François Daubigny"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1860,
+        "thumb": "https://www.artic.edu/iiif/2/70d375a0-25bd-7fe1-c586-0e8919aaf395/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/59004",
+        "seenIn": {
+          "baseline": "barbizon: styles, inferredStyles"
+        }
+      },
+      {
+        "id": "aic-886",
+        "title": "Three Little Girls",
+        "artists": [
+          "Narcisse Virgilio Díaz"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1865,
+        "thumb": "https://www.artic.edu/iiif/2/8b526140-7667-b1df-97bb-2d0f6e1be095/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/886",
+        "seenIn": {
+          "baseline": "barbizon: styles, inferredStyles"
+        }
+      },
+      {
+        "id": "aic-887",
+        "title": "Landscape with Figures",
+        "artists": [
+          "Narcisse Virgilio Díaz"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1865,
+        "thumb": "https://www.artic.edu/iiif/2/ad3280c6-611a-c136-29b8-8f303a02f416/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/887",
+        "seenIn": {
+          "baseline": "barbizon: styles, inferredStyles"
+        }
+      },
+      {
+        "id": "aic-95993",
+        "title": "Pond in the Woods",
+        "artists": [
+          "Narcisse Virgilio Díaz"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1862,
+        "thumb": "https://www.artic.edu/iiif/2/44c6f2f1-90fc-f386-734b-fbb9427b6ff3/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/95993",
+        "seenIn": {
+          "baseline": "barbizon: styles, inferredStyles"
+        }
+      },
+      {
+        "id": "rijksmuseum-200108879",
+        "title": "Landscape with Watermill",
+        "artists": [
+          "Louis Aimé Japy"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1874,
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-1879--33022e210966bc29507dabeaa419ddbe",
+        "seenIn": {
+          "baseline": "barbizon: inferredStyles"
+        }
+      },
+      {
+        "id": "rijksmuseum-20027437",
+        "title": "Idyll",
+        "artists": [
+          "Narcisse Virgilio Díaz"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1853,
+        "thumb": "https://iiif.micr.io/KDMnv/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-1872--978218888c229b3bd9e9d72f79c942ad",
+        "seenIn": {
+          "baseline": "barbizon: inferredStyles"
+        }
+      },
+      {
+        "id": "rijksmuseum-20027440",
+        "title": "Landscape",
+        "artists": [
+          "Léon-Victor Dupré"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1869,
+        "thumb": "https://iiif.micr.io/xgeNA/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-1876--223fb86fa716a006907809b788c29495",
+        "seenIn": {
+          "baseline": "barbizon: inferredStyles"
+        }
+      },
+      {
+        "id": "rijksmuseum-20027456",
+        "title": "Moorse roeiers bij Constantinopel",
+        "artists": [
+          "Félix Ziem"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1840,
+        "thumb": "https://iiif.micr.io/MuHpg/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-1903--4341b97e0302cb619b6b18a2636b1951",
+        "seenIn": {
+          "baseline": "barbizon: inferredStyles"
+        }
+      },
+      {
+        "id": "met-435963",
+        "title": "Bacchante by the Sea",
+        "artists": [
+          "Jean-Baptiste Camille Corot"
+        ],
+        "museum": "met",
+        "museumName": "The Met",
+        "begin": 1865,
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-16590-001.jpg",
+        "url": "https://www.metmuseum.org/art/collection/search/435963",
+        "seenIn": {
+          "baseline": "barbizon: inferredStyles"
+        }
+      },
+      {
+        "id": "met-435964",
+        "title": "Landscape with Figures (Les Bohémiens)",
+        "artists": [
+          "Jean-Baptiste Camille Corot"
+        ],
+        "museum": "met",
+        "museumName": "The Met",
+        "begin": 1872,
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-16064-001.jpg",
+        "url": "https://www.metmuseum.org/art/collection/search/435964",
+        "seenIn": {
+          "baseline": "barbizon: inferredStyles"
+        }
+      },
+      {
+        "id": "met-435965",
+        "title": "Bacchante in a Landscape",
+        "artists": [
+          "Jean-Baptiste Camille Corot"
+        ],
+        "museum": "met",
+        "museumName": "The Met",
+        "begin": 1865,
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/ep29.100.598.R.jpg",
+        "url": "https://www.metmuseum.org/art/collection/search/435965",
+        "seenIn": {
+          "baseline": "barbizon: inferredStyles"
+        }
+      },
+      {
+        "id": "met-435966",
+        "title": "Boatman among the Reeds",
+        "artists": [
+          "Jean-Baptiste Camille Corot"
+        ],
+        "museum": "met",
+        "museumName": "The Met",
+        "begin": 1860,
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP332566.jpg",
+        "url": "https://www.metmuseum.org/art/collection/search/435966",
+        "seenIn": {
+          "baseline": "barbizon: inferredStyles"
+        }
+      },
+      {
+        "id": "met-435968",
+        "title": "The Environs of Paris",
+        "artists": [
+          "Jean-Baptiste Camille Corot"
+        ],
+        "museum": "met",
+        "museumName": "The Met",
+        "begin": 1860,
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DT225534.jpg",
+        "url": "https://www.metmuseum.org/art/collection/search/435968",
+        "seenIn": {
+          "baseline": "barbizon: inferredStyles"
+        }
+      }
+    ]
+  },
+  "q18": {
+    "query": "Claude Monet",
+    "relevant": "painted by Claude Monet",
+    "items": [
+      {
+        "id": "aic-100191",
+        "title": "Stack of Wheat (Thaw, Sunset)",
+        "artists": [
+          "Claude Monet"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1890,
+        "thumb": "https://www.artic.edu/iiif/2/8bd40b36-43ea-8b02-d76a-b325962b86db/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/100191",
+        "seenIn": {
+          "baseline": "claude: artists; monet: artists"
+        }
+      },
+      {
+        "id": "aic-103139",
+        "title": "Waterloo Bridge, Gray Weather",
+        "artists": [
+          "Claude Monet"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1900,
+        "thumb": "https://www.artic.edu/iiif/2/6f61a6fc-dcd8-e801-0ad8-5f7e561d91b6/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/103139",
+        "seenIn": {
+          "baseline": "claude: artists; monet: artists"
+        }
+      },
+      {
+        "id": "aic-111318",
+        "title": "Stack of Wheat",
+        "artists": [
+          "Claude Monet"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1890,
+        "thumb": "https://www.artic.edu/iiif/2/27c1d720-8ca5-79a4-5e51-530bf75c1591/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/111318",
+        "seenIn": {
+          "baseline": "claude: artists; monet: artists"
+        }
+      },
+      {
+        "id": "aic-14598",
+        "title": "The Beach at Sainte-Adresse",
+        "artists": [
+          "Claude Monet"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1867,
+        "thumb": "https://www.artic.edu/iiif/2/95be2572-b53d-8e7b-abc9-10eb48d4fa5d/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/14598",
+        "seenIn": {
+          "baseline": "claude: artists; monet: artists"
+        }
+      },
+      {
+        "id": "aic-14620",
+        "title": "Cliff Walk at Pourville",
+        "artists": [
+          "Claude Monet"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1882,
+        "thumb": "https://www.artic.edu/iiif/2/b0effb1c-ff23-bbaa-f809-9fd94e31c1a0/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/14620",
+        "seenIn": {
+          "baseline": "claude: artists; monet: artists"
+        }
+      },
+      {
+        "id": "aic-14624",
+        "title": "Stacks of Wheat (End of Day, Autumn)",
+        "artists": [
+          "Claude Monet"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1890,
+        "thumb": "https://www.artic.edu/iiif/2/4c364c64-2108-4e19-5fc5-1ab26ba924a7/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/14624",
+        "seenIn": {
+          "baseline": "claude: artists; monet: artists"
+        }
+      },
+      {
+        "id": "aic-16542",
+        "title": "The Customs House at Varengeville",
+        "artists": [
+          "Claude Monet"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1897,
+        "thumb": "https://www.artic.edu/iiif/2/2b30e687-4526-f487-cedc-448b3188fd19/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/16542",
+        "seenIn": {
+          "baseline": "claude: artists; monet: artists"
+        }
+      },
+      {
+        "id": "aic-16549",
+        "title": "Apples and Grapes",
+        "artists": [
+          "Claude Monet"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1880,
+        "thumb": "https://www.artic.edu/iiif/2/c12058f4-188f-c6ed-f0fe-52b32acfb296/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/16549",
+        "seenIn": {
+          "baseline": "claude: artists; monet: artists"
+        }
+      },
+      {
+        "id": "aic-16554",
+        "title": "The Artist's House at Argenteuil",
+        "artists": [
+          "Claude Monet"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1873,
+        "thumb": "https://www.artic.edu/iiif/2/7d533ed4-ff54-fa2c-64f4-2b16bfbb5880/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/16554",
+        "seenIn": {
+          "baseline": "claude: artists; monet: artists"
+        }
+      },
+      {
+        "id": "aic-16560",
+        "title": "Stack of Wheat (Snow Effect, Overcast Day)",
+        "artists": [
+          "Claude Monet"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1890,
+        "thumb": "https://www.artic.edu/iiif/2/db36f74f-47d9-ad08-cdf9-b4b436e6d18c/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/16560",
+        "seenIn": {
+          "baseline": "claude: artists; monet: artists"
+        }
+      },
+      {
+        "id": "rijksmuseum-200108883",
+        "title": "La Corniche near Monaco",
+        "artists": [
+          "Claude Monet"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1884,
+        "thumb": "https://iiif.micr.io/VPrnZ/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-1892--f66e7df764f1dd1ad1bae6533dc9faa8",
+        "seenIn": {
+          "baseline": "claude: artists; monet: artists"
+        }
+      }
+    ]
+  },
+  "q19": {
+    "query": "portrait of a woman",
+    "relevant": "a portrait whose main sitter is a woman",
+    "items": [
+      {
+        "id": "aic-80450",
+        "title": "Portrait of a Woman",
+        "artists": [
+          "Charles Cottet"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1895,
+        "thumb": "https://www.artic.edu/iiif/2/e30b27db-b263-abb6-0005-ff238f8fd530/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/80450",
+        "seenIn": {
+          "baseline": "portrait: title, subjects; portraiture: subjects; woman: title, subjects"
+        }
+      },
+      {
+        "id": "aic-20686",
+        "title": "Portrait of a Woman",
+        "artists": [
+          "Jean-Léon Gérôme"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1851,
+        "thumb": "https://www.artic.edu/iiif/2/99c39143-a45c-5fa1-ddd3-0dae633fbb87/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/20686",
+        "seenIn": {
+          "baseline": "portrait: title, subjects; portraiture: subjects; woman: title, subjects"
+        }
+      },
+      {
+        "id": "aic-80463",
+        "title": "Portrait of a Young Woman",
+        "artists": [
+          "Henri Regnault"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1863,
+        "thumb": "https://www.artic.edu/iiif/2/cba37025-23eb-b55d-4e53-57a0a694eb37/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/80463",
+        "seenIn": {
+          "baseline": "portrait: title, subjects; portraiture: subjects; woman: title, subjects"
+        }
+      },
+      {
+        "id": "aic-14594",
+        "title": "Portrait of a Woman with a Black Fichu",
+        "artists": [
+          "Édouard Manet"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1873,
+        "thumb": "https://www.artic.edu/iiif/2/23c6c5c9-b8bf-8664-f547-4ddc932733f8/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/14594",
+        "seenIn": {
+          "baseline": "portrait: title, subjects; portraiture: subjects; woman: title, subjects"
+        }
+      },
+      {
+        "id": "rijksmuseum-20026926",
+        "title": "Portrait of a Woman",
+        "artists": [
+          "Marie Wandscheer"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1886,
+        "thumb": "https://iiif.micr.io/RwJsC/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-3044--ec325af5aedf85de19046ecd79203123",
+        "seenIn": {
+          "baseline": "portrait: title; woman: title"
+        }
+      },
+      {
+        "id": "rijksmuseum-20028127",
+        "title": "Portrait of a Woman",
+        "artists": [
+          "Isaac Israëls"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1900,
+        "thumb": "https://iiif.micr.io/htSbb/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-2918--0735bc9198c59abd6a22afa254ccc2cb",
+        "seenIn": {
+          "baseline": "portrait: title; woman: title"
+        }
+      },
+      {
+        "id": "aic-11312",
+        "title": "Woman Mending",
+        "artists": [
+          "Camille Pissarro"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1895,
+        "thumb": "https://www.artic.edu/iiif/2/132b782d-54e6-70e1-18f9-211468c09099/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/11312",
+        "seenIn": {
+          "baseline": "portrait: subjects; portraiture: subjects; woman: title, subjects"
+        }
+      },
+      {
+        "id": "aic-81562",
+        "title": "Woman from Brittany",
+        "artists": [
+          "Pascal Dagnan-Bouveret"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1886,
+        "thumb": "https://www.artic.edu/iiif/2/4872e681-f833-1533-0bc2-dbc8241cfdb8/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/81562",
+        "seenIn": {
+          "baseline": "portrait: subjects; portraiture: subjects; woman: title, subjects"
+        }
+      },
+      {
+        "id": "aic-81525",
+        "title": "Woman's Head",
+        "artists": [
+          "Paul-Albert Besnard"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1885,
+        "thumb": "https://www.artic.edu/iiif/2/bba8ef2a-2af7-e111-1269-382f38d32fdd/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/81525",
+        "seenIn": {
+          "baseline": "portrait: subjects; woman: title, subjects"
+        }
+      },
+      {
+        "id": "aic-59779",
+        "title": "Portrait of a Lady",
+        "artists": [],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1870,
+        "thumb": "https://www.artic.edu/iiif/2/e1e8e197-93e7-bd6a-5870-36200c27445e/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/59779",
+        "seenIn": {
+          "baseline": "portrait: title, subjects; portraiture: subjects; woman: subjects"
+        }
+      },
+      {
+        "id": "met-437984",
+        "title": "La Berceuse (Woman Rocking a Cradle; Augustine-Alix Pellicot Roulin, 1851–1930)",
+        "artists": [
+          "Vincent van Gogh"
+        ],
+        "museum": "met",
+        "museumName": "The Met",
+        "begin": 1889,
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-19279-001.jpg",
+        "url": "https://www.metmuseum.org/art/collection/search/437984",
+        "seenIn": {
+          "baseline": "portrait: subjects; portraiture: subjects; woman: title, subjects"
+        }
+      },
+      {
+        "id": "met-435692",
+        "title": "Mrs. Charles Warren-Cram (Ella Brooks Carter, 1846–1896)",
+        "artists": [
+          "Giovanni Boldini"
+        ],
+        "museum": "met",
+        "museumName": "The Met",
+        "begin": 1885,
+        "url": "https://www.metmuseum.org/art/collection/search/435692",
+        "seenIn": {
+          "baseline": "portrait: subjects; portraiture: subjects; woman: subjects"
+        }
+      },
+      {
+        "id": "met-435830",
+        "title": "Catharine Lorillard Wolfe (1828–1887)",
+        "artists": [
+          "Alexandre Cabanel"
+        ],
+        "museum": "met",
+        "museumName": "The Met",
+        "begin": 1876,
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DT11971.jpg",
+        "url": "https://www.metmuseum.org/art/collection/search/435830",
+        "seenIn": {
+          "baseline": "portrait: subjects; portraiture: subjects; woman: subjects"
+        }
+      },
+      {
+        "id": "met-435849",
+        "title": "Mrs. William Astor (Caroline Webster Schermerhorn, 1831–1908)",
+        "artists": [
+          "Carolus-Duran"
+        ],
+        "museum": "met",
+        "museumName": "The Met",
+        "begin": 1890,
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DT204990.jpg",
+        "url": "https://www.metmuseum.org/art/collection/search/435849",
+        "seenIn": {
+          "baseline": "portrait: subjects; portraiture: subjects; woman: subjects"
+        }
+      },
+      {
+        "id": "met-435875",
+        "title": "Madame Cézanne (Hortense Fiquet, 1850–1922) in the Conservatory",
+        "artists": [
+          "Paul Cézanne"
+        ],
+        "museum": "met",
+        "museumName": "The Met",
+        "begin": 1891,
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP317780.jpg",
+        "url": "https://www.metmuseum.org/art/collection/search/435875",
+        "seenIn": {
+          "baseline": "portrait: subjects; portraiture: subjects; woman: subjects"
+        }
+      }
+    ]
+  },
+  "q20": {
+    "query": "winter landscape",
+    "relevant": "a landscape in winter (snow, bare trees, ice)",
+    "items": [
+      {
+        "id": "aic-27163",
+        "title": "Niagara Falls in Winter",
+        "artists": [
+          "Jasper Francis Cropsey"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1868,
+        "thumb": "https://www.artic.edu/iiif/2/42924282-d483-cd95-e676-52aee4bc4164/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/27163",
+        "seenIn": {
+          "baseline": "winter: title; landscape: subjects"
+        }
+      },
+      {
+        "id": "aic-6005",
+        "title": "The Banks of the Marne in Winter",
+        "artists": [
+          "Camille Pissarro"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1866,
+        "thumb": "https://www.artic.edu/iiif/2/3d950ecc-73f4-c28a-f216-0940b23fa5e8/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/6005",
+        "seenIn": {
+          "baseline": "winter: title; landscape: subjects"
+        }
+      },
+      {
+        "id": "aic-62393",
+        "title": "Snow Field, Morning, Roxbury",
+        "artists": [
+          "John La Farge"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1864,
+        "thumb": "https://www.artic.edu/iiif/2/8e5f3773-9396-0fde-8547-490cca07b68b/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/62393",
+        "seenIn": {
+          "baseline": "winter: subjects; landscape: subjects"
+        }
+      },
+      {
+        "id": "aic-81545",
+        "title": "Stacks of Wheat (Sunset, Snow Effect)",
+        "artists": [
+          "Claude Monet"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1890,
+        "thumb": "https://www.artic.edu/iiif/2/be0d3e50-a600-6f33-ea8f-16a34d892442/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/81545",
+        "seenIn": {
+          "baseline": "winter: subjects; landscape: subjects"
+        }
+      },
+      {
+        "id": "aic-895",
+        "title": "Man with Lance Riding through the Snow",
+        "artists": [
+          "Adolf Schreyer"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1875,
+        "thumb": "https://www.artic.edu/iiif/2/fa96ef54-c3b1-8f4d-390a-219f7bc64c4a/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/895",
+        "seenIn": {
+          "baseline": "winter: subjects; landscape: subjects"
+        }
+      },
+      {
+        "id": "aic-86998",
+        "title": "Sandvika, Norway",
+        "artists": [
+          "Claude Monet"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1895,
+        "thumb": "https://www.artic.edu/iiif/2/07d8dd31-d44b-85aa-ab09-ca51ee86f631/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/86998",
+        "seenIn": {
+          "baseline": "winter: subjects; landscape: subjects"
+        }
+      },
+      {
+        "id": "aic-45838",
+        "title": "Snow at Louveciennes",
+        "artists": [
+          "Camille Pissarro"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1864,
+        "thumb": "https://www.artic.edu/iiif/2/d4e43d76-594b-ce65-c1a3-45c865624f70/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/45838",
+        "seenIn": {
+          "baseline": "winter: subjects; landscape: subjects"
+        }
+      },
+      {
+        "id": "aic-72801",
+        "title": "Icebound",
+        "artists": [
+          "John Henry Twachtman"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1889,
+        "thumb": "https://www.artic.edu/iiif/2/3ae75415-0551-ae17-c478-3b8687a6f246/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/72801",
+        "seenIn": {
+          "baseline": "winter: subjects; landscape: subjects"
+        }
+      }
+    ]
+  }
+}

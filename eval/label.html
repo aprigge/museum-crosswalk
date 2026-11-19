@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Label search results · museum-crosswalk eval</title>
+  <link rel="stylesheet" href="../site/css/site.css">
+  <style>
+    .q { border-top: 1px solid var(--line); padding: 16px 0; }
+    .q h2 { margin: 0 0 4px; }
+    .rule { margin: 0 0 12px; }
+    .items { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px; }
+    .item { background: var(--surface); border: 2px solid var(--line); border-radius: var(--radius); overflow: hidden; }
+    .item[data-label="true"] { border-color: #2e7d32; }
+    .item[data-label="false"] { border-color: #b3261e; opacity: 0.75; }
+    .item img { width: 100%; aspect-ratio: 4 / 3; object-fit: contain; background: var(--chip); display: block; }
+    .item .body { padding: 8px 10px; font-size: 0.85rem; }
+    .item fieldset { border: 0; margin: 6px 0 0; padding: 0; display: flex; gap: 12px; }
+    .bar { position: sticky; top: 0; background: var(--bg); padding: 8px 0; z-index: 2; display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; border-bottom: 1px solid var(--line); }
+  </style>
+</head>
+<body>
+  <main id="main">
+    <h1>Label search results</h1>
+    <p class="lede">For each query, mark every painting as relevant or not, using the rule under the query. Your labels are kept in this
+      browser as you go. When you're done, download <code>labels.json</code>.</p>
+    <div class="bar">
+      <span id="progress" role="status" aria-live="polite">Loading…</span>
+      <button type="button" id="download">Download labels.json</button>
+      <label><input type="checkbox" id="only-open"> Show only unlabelled</label>
+    </div>
+    <div id="queries"></div>
+  </main>
+  <script type="module" src="label.js"></script>
+</body>
+</html>

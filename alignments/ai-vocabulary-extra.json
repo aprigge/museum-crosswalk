@@ -1,0 +1,113 @@
+{
+  "_comment": "Concepts added to the AI enrichment vocabulary beyond those already in the graph. Each label is resolved on Wikidata by `npm run vocabulary`, keeping the first search hit whose English description contains `mustDescribe`. Resolved IDs go to ai-vocabulary.resolved.json for review.",
+  "concepts": [
+    {
+      "label": "snow",
+      "mustDescribe": "precipitation"
+    },
+    {
+      "label": "winter",
+      "mustDescribe": "season"
+    },
+    {
+      "label": "night",
+      "mustDescribe": "sunset to sunrise"
+    },
+    {
+      "label": "moon",
+      "mustDescribe": "satellite"
+    },
+    {
+      "label": "moonlight",
+      "mustDescribe": "reaches Earth from the Moon"
+    },
+    {
+      "label": "seascape",
+      "mustDescribe": "sea"
+    },
+    {
+      "label": "genre art",
+      "mustDescribe": "everyday"
+    },
+    {
+      "label": "history painting",
+      "mustDescribe": "painting"
+    },
+    {
+      "label": "religious art",
+      "mustDescribe": "religio"
+    },
+    {
+      "label": "harbor",
+      "mustDescribe": "water"
+    },
+    {
+      "label": "beach",
+      "mustDescribe": "sand or small stones"
+    },
+    {
+      "label": "street",
+      "mustDescribe": "public thoroughfare"
+    },
+    {
+      "label": "mountain",
+      "mustDescribe": "natural elevation"
+    },
+    {
+      "label": "forest",
+      "mustDescribe": "tree"
+    },
+    {
+      "label": "field",
+      "mustDescribe": "land"
+    },
+    {
+      "label": "cattle",
+      "mustDescribe": "domesticated"
+    },
+    {
+      "label": "sheep",
+      "mustDescribe": "ruminant"
+    },
+    {
+      "label": "dog",
+      "mustDescribe": "domestic"
+    },
+    {
+      "label": "man",
+      "mustDescribe": "male adult human"
+    },
+    {
+      "label": "girl",
+      "mustDescribe": "young female human"
+    },
+    {
+      "label": "boy",
+      "mustDescribe": "young male human"
+    },
+    {
+      "label": "fruit",
+      "mustDescribe": "plant"
+    },
+    {
+      "label": "fog",
+      "mustDescribe": "atmospheric phenomenon"
+    },
+    {
+      "label": "bridge",
+      "mustDescribe": "structure"
+    },
+    {
+      "label": "windmill",
+      "mustDescribe": "wind"
+    },
+    {
+      "label": "garden",
+      "mustDescribe": "planned space"
+    },
+    {
+      "label": "nude",
+      "mustDescribe": "art"
+    }
+  ]
+}

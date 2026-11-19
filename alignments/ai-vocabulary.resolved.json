@@ -1,0 +1,191 @@
+[
+  {
+    "label": "snow",
+    "mustDescribe": "precipitation",
+    "qid": "Q7561",
+    "wikidataLabel": "snow",
+    "description": "precipitation in the form of ice crystal flakes"
+  },
+  {
+    "label": "winter",
+    "mustDescribe": "season",
+    "qid": "Q1311",
+    "wikidataLabel": "winter",
+    "description": "one of the Earth's four temperate seasons, occurring between autumn and spring; one of the 8 Sámi seasons"
+  },
+  {
+    "label": "night",
+    "mustDescribe": "sunset to sunrise",
+    "qid": "Q575",
+    "wikidataLabel": "night",
+    "description": "period from sunset to sunrise in each twenty-four hours"
+  },
+  {
+    "label": "moon",
+    "mustDescribe": "satellite",
+    "qid": "Q405",
+    "wikidataLabel": "Moon",
+    "description": "Earth's only natural satellite"
+  },
+  {
+    "label": "moonlight",
+    "mustDescribe": "reaches Earth from the Moon",
+    "qid": "Q1058800",
+    "wikidataLabel": "moonlight",
+    "description": "light that reaches Earth from the Moon"
+  },
+  {
+    "label": "seascape",
+    "mustDescribe": "sea",
+    "qid": "Q158607",
+    "wikidataLabel": "marine art",
+    "description": "form of figurative art that portrays or draws its main inspiration from the sea"
+  },
+  {
+    "label": "genre art",
+    "mustDescribe": "everyday",
+    "qid": "Q1047337",
+    "wikidataLabel": "genre art",
+    "description": "art genre that depicts scenes from everyday life"
+  },
+  {
+    "label": "history painting",
+    "mustDescribe": "painting",
+    "qid": "Q742333",
+    "wikidataLabel": "history painting",
+    "description": "genre in painting defined by historical matter (see also religious painting and mythological painting)"
+  },
+  {
+    "label": "religious art",
+    "mustDescribe": "religio",
+    "qid": "Q2864737",
+    "wikidataLabel": "religious art",
+    "description": "genre of art that is religious in theme"
+  },
+  {
+    "label": "harbor",
+    "mustDescribe": "water",
+    "qid": "Q283202",
+    "wikidataLabel": "harbor",
+    "description": "sheltered body of water where ships, boats, and barges can be docked"
+  },
+  {
+    "label": "beach",
+    "mustDescribe": "sand or small stones",
+    "qid": "Q40080",
+    "wikidataLabel": "beach",
+    "description": "area of sand or small stones near the sea or another area of water such as a lake"
+  },
+  {
+    "label": "street",
+    "mustDescribe": "public thoroughfare",
+    "qid": "Q79007",
+    "wikidataLabel": "street",
+    "description": "public thoroughfare in a built environment like a village or city"
+  },
+  {
+    "label": "mountain",
+    "mustDescribe": "natural elevation",
+    "qid": "Q8502",
+    "wikidataLabel": "mountain",
+    "description": "large natural elevation of the Earth's surface"
+  },
+  {
+    "label": "forest",
+    "mustDescribe": "tree",
+    "qid": "Q4421",
+    "wikidataLabel": "forest",
+    "description": "subjective characterization of an area with trees"
+  },
+  {
+    "label": "field",
+    "mustDescribe": "land",
+    "qid": "Q188869",
+    "wikidataLabel": "field",
+    "description": "area of land used for agricultural purposes"
+  },
+  {
+    "label": "cattle",
+    "mustDescribe": "domesticated",
+    "qid": "Q830",
+    "wikidataLabel": "cattle",
+    "description": "large, domesticated, cloven-hooved herbivores"
+  },
+  {
+    "label": "sheep",
+    "mustDescribe": "ruminant",
+    "qid": "Q7368",
+    "wikidataLabel": "sheep",
+    "description": "domesticated ruminant bred for meat, wool, and milk"
+  },
+  {
+    "label": "dog",
+    "mustDescribe": "domestic",
+    "qid": "Q144",
+    "wikidataLabel": "dog",
+    "description": "domesticated mammal of the family Canidae"
+  },
+  {
+    "label": "man",
+    "mustDescribe": "male adult human",
+    "qid": "Q8441",
+    "wikidataLabel": "man",
+    "description": "male adult human"
+  },
+  {
+    "label": "girl",
+    "mustDescribe": "young female human",
+    "qid": "Q3031",
+    "wikidataLabel": "girl",
+    "description": "young female human"
+  },
+  {
+    "label": "boy",
+    "mustDescribe": "young male human",
+    "qid": "Q3010",
+    "wikidataLabel": "boy",
+    "description": "young male human"
+  },
+  {
+    "label": "fruit",
+    "mustDescribe": "plant",
+    "qid": "Q3314483",
+    "wikidataLabel": "fruit",
+    "description": "typically sweet and/or sour, edible part/s of a plant that resembles seed-bearing fruit"
+  },
+  {
+    "label": "fog",
+    "mustDescribe": "atmospheric phenomenon",
+    "qid": "Q37477",
+    "wikidataLabel": "fog",
+    "description": "atmospheric phenomenon"
+  },
+  {
+    "label": "bridge",
+    "mustDescribe": "structure",
+    "qid": "Q12280",
+    "wikidataLabel": "bridge",
+    "description": "structure that spans and provides a passage over a road, railway, river, or some other obstacle"
+  },
+  {
+    "label": "windmill",
+    "mustDescribe": "wind",
+    "qid": "Q38720",
+    "wikidataLabel": "windmill",
+    "description": "machine that converts the energy of wind into rotational energy by means of adjustable sails"
+  },
+  {
+    "label": "garden",
+    "mustDescribe": "planned space",
+    "qid": "Q1107656",
+    "wikidataLabel": "garden",
+    "description": "planned space set aside for the display, cultivation and enjoyment of plants"
+  },
+  {
+    "label": "nude",
+    "mustDescribe": "art",
+    "qid": "Q40446",
+    "wikidataLabel": "nude",
+    "description": "art genre for works that have as their primary subject the unclothed human body"
+  }
+]

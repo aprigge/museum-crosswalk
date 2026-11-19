@@ -1,0 +1,1638 @@
+{
+  "q01": {
+    "aic-44017": {
+      "relevant": true,
+      "confidence": 0.9,
+      "reason": "Outdoor landscape of trees, rocks and sky by Frédéric Bazille; catalogue lists Impressionism among its styles/movements.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-58984": {
+      "relevant": true,
+      "confidence": 0.93,
+      "reason": "Outdoor Seine landscape with the Institut de France, boats and sky by Alfred Sisley; catalogue lists Impressionism as the style.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-100026": {
+      "relevant": false,
+      "confidence": 0.7,
+      "reason": "Renoir is an Impressionist, but this is a sheet of figure studies (nudes, children, portraits) with only a small landscape sketch at top right, so it is not an outdoor landscape painting.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-16464": {
+      "relevant": false,
+      "confidence": 0.55,
+      "reason": "Catalogue lists Impressionism as a style, but the title 'Place des Batignolles, Paris' suggests an urban square scene rather than a clear outdoor landscape, and no image is available to confirm.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-120296": {
+      "relevant": true,
+      "confidence": 0.93,
+      "reason": "Outdoor dune landscape under a cloudy sky by William Merritt Chase, with the catalogue listing Impressionism as the style.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-105462": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "Outdoor coastal landscape with pond, rocks and flowering shrubs by Childe Hassam, catalogued as Impressionism by the Art Institute of Chicago.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-25872": {
+      "relevant": true,
+      "confidence": 0.95,
+      "reason": "Outdoor landscape of a white bridge over a stream with foliage, by John Henry Twachtman, catalogued under Impressionism by the Art Institute of Chicago.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-40549": {
+      "relevant": true,
+      "confidence": 0.93,
+      "reason": "Outdoor hillside landscape with village and valley, by Theodore Robinson, catalogued under Impressionism at the Art Institute of Chicago.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-28849": {
+      "relevant": true,
+      "confidence": 0.85,
+      "reason": "Outdoor park scene with path, trees and lawn by William Merritt Chase, catalogued as Impressionism; it works as a landscape or park view even though a figure sits on a bench.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-5349": {
+      "relevant": true,
+      "confidence": 0.95,
+      "reason": "Outdoor coastal landscape with houses, sea and sailboats by Childe Hassam, catalogued as Impressionism.",
+      "model": "claude-sonnet-5-5"
+    },
+    "met-435750": {
+      "relevant": true,
+      "confidence": 0.95,
+      "reason": "Outdoor coastal landscape of a bay with hills and villas by Eugène Boudin, catalogued under Impressionism at The Met.",
+      "model": "claude-sonnet-5-5"
+    },
+    "met-435751": {
+      "relevant": true,
+      "confidence": 0.9,
+      "reason": "Outdoor riverside village scene with boats and cloudy sky by Eugène Boudin, catalogued under Impressionism, so it meets the landscape and movement conditions.",
+      "model": "claude-sonnet-5-5"
+    }
+  },
+  "q02": {
+    "aic-94239": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "The image shows a large oak tree with a path and undergrowth in open countryside, a Barbizon landscape titled 'Landscape' by Théodore Rousseau; nature is clearly the main subject.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-269229": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "The painting shows a countryside view with a dirt path, large trees, and a small figure under a cloudy sky; the landscape is the main subject, and the title is 'Landscape'.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-269230": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "The painting shows a rural landscape with a tree, open dark fields and a cloudy sky, and is titled 'Landscape'; the main subject is countryside seen as a view.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-74884": {
+      "relevant": true,
+      "confidence": 0.95,
+      "reason": "Dark painting of a path, trees and a glowing sky; titled 'Landscape' by William Keith, the main subject is clearly countryside seen as a view.",
+      "model": "claude-sonnet-5-5"
+    },
+    "met-435684": {
+      "relevant": true,
+      "confidence": 0.95,
+      "reason": "The painting is a countryside view with trees, a hillside, a hilltop castle and small figures; titled 'Roman Landscape', so the landscape is clearly the main subject.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-269223": {
+      "relevant": true,
+      "confidence": 0.95,
+      "reason": "The painting shows an open countryside view with hills, trees, a path with a small figure and a puddle; the landscape is clearly the main subject, and the title is 'Landscape Painting'.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-874": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "The painting shows rolling hills, grass and a stormy sky with a small hut and clothesline; the countryside view is clearly the main subject, and the title is 'Landscape'.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-877": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "Corot's painting shows a pond with trees, sky and distant countryside, with small figures; the main subject is a nature view, matching the landscape rule.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-20543": {
+      "relevant": true,
+      "confidence": 0.8,
+      "reason": "Titled 'Landscape' by Gustave Loiseau, a landscape painter, 1895; the title strongly suggests a countryside view as main subject, though no image was available to confirm.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-80567": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "The painting shows a river valley with cliffs, trees and a small cottage; the main subject is a natural countryside view, and the title is 'Landscape'.",
+      "model": "claude-sonnet-5-5"
+    },
+    "rijksmuseum-20027518": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "The painting shows a countryside view with a dirt road, canal, small bridge, trees and a distant church spire; the landscape is clearly the main subject, and the title is 'Landscape near Kortenhoef'.",
+      "model": "claude-sonnet-5-5"
+    },
+    "rijksmuseum-20027902": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "The image shows a Dutch countryside view with windmills, a canal and open sky; the title is 'Landscape with Windmills', so the landscape is the main subject.",
+      "model": "claude-sonnet-5-5"
+    },
+    "rijksmuseum-20027440": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "The painting shows a countryside view with large trees, a pond and a distant field under a cloudy sky; nature is clearly the main subject, and the title is 'Landscape'.",
+      "model": "claude-sonnet-5-5"
+    },
+    "rijksmuseum-20026630": {
+      "relevant": true,
+      "confidence": 0.85,
+      "reason": "Titled 'Swiss Landscape'; image shows a forest clearing with trees, rocks, goats and a resting figure, so nature as a scene is the main subject.",
+      "model": "claude-sonnet-5-5"
+    },
+    "rijksmuseum-200108651": {
+      "relevant": true,
+      "confidence": 0.85,
+      "reason": "Title 'Landscape in Kennemerland' (Rijksmuseum, 1869) indicates a view of the Dutch countryside; no image available, so judged from the catalogue title alone.",
+      "model": "claude-sonnet-5-5"
+    },
+    "met-435965": {
+      "relevant": false,
+      "confidence": 0.8,
+      "reason": "The main subject is a reclining nude bacchante in the foreground; the landscape is only a setting, so the painting is not mainly a view of land or nature.",
+      "model": "claude-sonnet-5-5"
+    },
+    "met-435964": {
+      "relevant": true,
+      "confidence": 0.95,
+      "reason": "The painting is a countryside view dominated by large trees, a distant horizon and sky, with small figures; the landscape is clearly the main subject, matching the title.",
+      "model": "claude-sonnet-5-5"
+    },
+    "met-435879": {
+      "relevant": true,
+      "confidence": 0.85,
+      "reason": "The painting shows trees, a garden pool, fence and hills in an outdoor view; the main subject is nature and countryside seen as a landscape.",
+      "model": "claude-sonnet-5-5"
+    },
+    "met-435750": {
+      "relevant": true,
+      "confidence": 0.9,
+      "reason": "A coastal view of Beaulieu with rocky hills, trees, village and bay under a wide sky; the main subject is a natural landscape view.",
+      "model": "claude-sonnet-5-5"
+    }
+  },
+  "q03": {
+    "aic-81557": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "The image shows crashing waves under a stormy sky with no other subject, and the catalogue title is 'Seascape' by Renoir, so the sea is clearly the main subject.",
+      "model": "claude-sonnet-5-5"
+    },
+    "rijksmuseum-20028453": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "The painting shows open sea with breaking waves under a cloudy sky and a distant horizon; the sea is clearly the main subject, and the title is 'Seascape'.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-25801": {
+      "relevant": true,
+      "confidence": 0.6,
+      "reason": "Title \"By the Sea, Dieppe\" suggests a coastal scene as the subject, but without an image I can't confirm that the sea or coast is the main subject rather than figures.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-250455": {
+      "relevant": true,
+      "confidence": 0.8,
+      "reason": "The image is dominated by a broad expanse of green-blue water and sky, with Venice only a distant low skyline on the horizon, so the sea is the main subject.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-111632": {
+      "relevant": true,
+      "confidence": 0.9,
+      "reason": "The painting shows a bay at Douarnenez with sailboats on water and a rocky coastline in the foreground, so the sea and coast are the main subject.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-81540": {
+      "relevant": true,
+      "confidence": 0.8,
+      "reason": "Monet's Étretat beach scene shows sailboats on a wide turquoise sea, with fishing huts and a crowd on the shore; the coast and sea are the main subject.",
+      "model": "claude-sonnet-5-5"
+    }
+  },
+  "q04": {
+    "aic-7489": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "The painting is a half-length portrait of a bearded seated man, titled 'Portrait of Monsieur Rouland', so a specific person is clearly the main subject.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-31285": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "Bust-length painting of a named sitter, Mary Adeline Williams, as the sole main subject; the title and image confirm it is a portrait of a specific person.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-20686": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "The painting is a seated half-length portrait of a woman in a fur-trimmed shawl, titled 'Portrait of a Woman'; a specific individual is the main subject.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-59779": {
+      "relevant": true,
+      "confidence": 0.95,
+      "reason": "Titled 'Portrait of a Lady'; the image shows a seated older woman in black as the clear main subject, a portrait of a specific sitter.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-80450": {
+      "relevant": true,
+      "confidence": 0.93,
+      "reason": "A half-length painting of a woman in a hat and dark scarf is the sole main subject, titled 'Portrait of a Woman', so it depicts a specific person.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-111478": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "The painting is a bust-length portrait of a specific, named man (Dr. William McNeill Whistler) as its main subject, wearing a hat and a black bow tie.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-42949": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "Titled 'Portrait of Jeanne Wenz' by Toulouse-Lautrec; the image shows a single seated figure in profile as the main subject, a named individual.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-80604": {
+      "relevant": true,
+      "confidence": 0.96,
+      "reason": "Titled a portrait of Madame Dietz-Monnin; the image shows a single costumed woman in a pink hat and feather boa as the main subject.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-79586": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "Titled as a portrait of two named women (Mme Lisle and Mme Loubens), who are shown seated as the main subject of the painting.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-93342": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "The painting shows a young woman, identified in the title as Gabrielle Borreau, as the main subject, so it is a portrait of a specific person.",
+      "model": "claude-sonnet-5-5"
+    },
+    "rijksmuseum-200109378": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "A bust-length self-portrait of a bearded man with glasses, black hat and lace collar; a specific person is clearly the main subject.",
+      "model": "claude-sonnet-5-5"
+    },
+    "rijksmuseum-20028484": {
+      "relevant": true,
+      "confidence": 0.8,
+      "reason": "The image is a head-and-shoulders study of a single young man with tousled red hair as the main subject, titled 'Portrait Study', so it reads as a portrait of a specific person.",
+      "model": "claude-sonnet-5-5"
+    },
+    "rijksmuseum-20023001": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "The painting is a head-and-shoulders portrait of a named individual, Jacob Maris, by Matthijs Maris, with the man as the sole subject.",
+      "model": "claude-sonnet-5-5"
+    },
+    "rijksmuseum-20026479": {
+      "relevant": true,
+      "confidence": 0.95,
+      "reason": "The painting shows a seated boy with a red bow as its sole main subject, and the title 'Portrait of a Boy' confirms it is a portrait of a specific individual.",
+      "model": "claude-sonnet-5-5"
+    },
+    "rijksmuseum-20026926": {
+      "relevant": true,
+      "confidence": 0.93,
+      "reason": "The painting is a half-length portrait of a young woman in a yellow-green dress, titled 'Portrait of a Woman', with the sitter as the main subject.",
+      "model": "claude-sonnet-5-5"
+    },
+    "met-435709": {
+      "relevant": true,
+      "confidence": 0.98,
+      "reason": "A seated, three-quarter-length portrait of a named individual, John Taylor Johnston, by Léon Bonnat; he is clearly the sole main subject.",
+      "model": "claude-sonnet-5-5"
+    },
+    "met-435754": {
+      "relevant": false,
+      "confidence": 0.7,
+      "reason": "Genre scene of anonymous Breton peasant children posed as types, not a portrait of specific identified individuals, though the two figures are the main subject.",
+      "model": "claude-sonnet-5-5"
+    },
+    "met-435870": {
+      "relevant": true,
+      "confidence": 0.98,
+      "reason": "The painting shows a named individual, the artist's uncle Antoine Dominique Sauveur Aubert, as its sole main subject in a half-length portrait.",
+      "model": "claude-sonnet-5-5"
+    },
+    "met-435873": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "Painting is a bust-length portrait of a named individual, Gustave Boyer, in a straw hat, with the sitter as the clear main subject.",
+      "model": "claude-sonnet-5-5"
+    },
+    "met-435692": {
+      "relevant": true,
+      "confidence": 0.93,
+      "reason": "Title names a specific sitter (Mrs. Charles Warren-Cram, Ella Brooks Carter) painted by Boldini, a portraitist, so it is almost certainly a portrait; no image was available to confirm.",
+      "model": "claude-sonnet-5-5"
+    }
+  },
+  "q05": {
+    "met-435856": {
+      "relevant": true,
+      "confidence": 0.93,
+      "reason": "Catalogue title is 'Self-Portrait' by Eugène Carrière, and the image shows a mustached man's head in a signed monochrome portrait, consistent with the artist painting himself.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-11": {
+      "relevant": true,
+      "confidence": 0.95,
+      "reason": "Titled 'Self-Portrait' by Walter Shirlaw (1878); the image shows a painter holding a brush and palette, consistent with the artist depicting himself.",
+      "model": "claude-sonnet-5-5"
+    },
+    "met-436532": {
+      "relevant": true,
+      "confidence": 0.98,
+      "reason": "Titled 'Self-Portrait with a Straw Hat' by Vincent van Gogh (1887); the image shows the artist's own bearded face in a straw hat, meeting the self-portrait rule.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-110661": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "Titled 'Self-Portrait' by Frédéric Bazille (1865); the image shows a bearded painter holding a palette and brushes, consistent with the artist depicting himself.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-80607": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "Titled 'Self-Portrait' by Vincent van Gogh (1887); the image shows a red-bearded man in a dotted-brushwork style, consistent with the artist painting himself.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-282730": {
+      "relevant": true,
+      "confidence": 0.9,
+      "reason": "The title, 'Self-Portrait of the Artist at Her Easel', by Ella Ferris Pell (1894), states that the artist depicts herself; no image was available, so this rests on catalogue data alone.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-120170": {
+      "relevant": true,
+      "confidence": 0.9,
+      "reason": "Catalogue title is \"Self-Portrait\" by Eastman Johnson (1863), and the image shows a bearded seated man holding a bottle, consistent with the artist depicting himself.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-136190": {
+      "relevant": true,
+      "confidence": 0.93,
+      "reason": "Catalogue title is 'Self-Portrait' by G.P.A. Healy (1873), and the image shows a bust-length portrait of a mustached man in dark coat, consistent with the artist depicting himself.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-40647": {
+      "relevant": true,
+      "confidence": 0.85,
+      "reason": "Catalogue title is 'Self-Portrait' by Eastman Johnson (1889), and the image shows a bust-length portrait of an older bearded man, consistent with the artist depicting himself.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-60053": {
+      "relevant": true,
+      "confidence": 0.93,
+      "reason": "The catalogue title is \"Self-Portrait\" by Frederick William MacMonnies (1898), so the work is the artist depicting himself; no image was available to confirm.",
+      "model": "claude-sonnet-5-5"
+    },
+    "rijksmuseum-200109794": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "Catalogue title is 'Self-portrait' by Vincent van Gogh (1887), and the image shows a bearded man in a felt hat, consistent with the artist painting himself.",
+      "model": "claude-sonnet-5-5"
+    },
+    "rijksmuseum-20015884": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "Catalogue title is 'Self-portrait' by Émile Bernard (1897), and the image shows a bearded man with a signature inscription, consistent with the artist painting himself.",
+      "model": "claude-sonnet-5-5"
+    },
+    "rijksmuseum-20026309": {
+      "relevant": true,
+      "confidence": 0.93,
+      "reason": "Catalogue title is 'Self-Portrait' by Johan Georg Schwartze (1869), and the image shows a single bust-length portrait of a man, consistent with the artist depicting himself.",
+      "model": "claude-sonnet-5-5"
+    },
+    "rijksmuseum-200770092": {
+      "relevant": true,
+      "confidence": 0.95,
+      "reason": "Title is 'Self-portrait in his Studio' by Anton Molkenboer; the image shows a man with a pince-nez and a palette on the wall behind him, consistent with an artist painting himself.",
+      "model": "claude-sonnet-5-5"
+    },
+    "met-438722": {
+      "relevant": false,
+      "confidence": 0.8,
+      "reason": "The image shows a woman peeling a potato, not a self-portrait. The catalogue notes a Self-Portrait on the reverse, but this painted side is not one.",
+      "model": "claude-sonnet-5-5"
+    }
+  },
+  "q06": {
+    "aic-27170": {
+      "relevant": true,
+      "confidence": 0.95,
+      "reason": "The painting shows a arranged jug, cup with saucer and another object on a table, titled 'Still Life'; arranged objects are the subject.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-39492": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "The painting shows arranged objects (open books, papers, inkwell with quill, a globe, a map, a violin) on a draped table, and the title is 'Still Life'.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-66149": {
+      "relevant": true,
+      "confidence": 0.9,
+      "reason": "Catalogue title \"Still Life (Flowers)\" by Louis Valtat indicates flowers as the subject, which meets the rule; no image was available, so judged from title only.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-157924": {
+      "relevant": true,
+      "confidence": 0.8,
+      "reason": "Title 'Still Life with Currency' by Charles Alfred Meurer (1895) indicates an arranged-object still life; no image was available, so judged from catalogue data only.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-44892": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "The painting shows arranged food on a table (fish, oysters, a lemon, a knife and a copper pot), and the title is 'Fish (Still Life)', so it is a still life.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-72180": {
+      "relevant": true,
+      "confidence": 0.98,
+      "reason": "The painting shows an arranged bouquet of phlox, asters, peonies and roses on a table, and its title is 'Still Life with Flowers', so flowers are the subject.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-58999": {
+      "relevant": true,
+      "confidence": 0.9,
+      "reason": "The title 'Still Life with Fruit' indicates arranged fruit as the subject, matching the rule; no image was available, so this rests on catalogue data alone.",
+      "model": "claude-sonnet-5-5"
+    },
+    "met-435883": {
+      "relevant": true,
+      "confidence": 0.98,
+      "reason": "The painting shows apples and pears arranged on a table with plates as its main subject, and the title confirms it is a still life.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-27952": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "The painting shows arranged objects as its subject: a pumpkin or melon slice, a green glazed jar and fish on a yellow cloth, and the title says 'Still Life'.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-75507": {
+      "relevant": true,
+      "confidence": 0.98,
+      "reason": "Painting shows a table corner with arranged carafe, wine glass, teacup, teapot, fruit bowl and flowering rhododendron; the arranged objects, flowers and food are the subject, and the title confirms it.",
+      "model": "claude-sonnet-5-5"
+    },
+    "rijksmuseum-20026676": {
+      "relevant": true,
+      "confidence": 0.98,
+      "reason": "The painting shows a basket of strawberries, a silver cup and a bottle arranged on a table, titled 'Still life'; arranged objects and food are the subject.",
+      "model": "claude-sonnet-5-5"
+    },
+    "rijksmuseum-20029259": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "The painting shows arranged objects (open book, glasses, porcelain vase, plate with a pear and knife) on a red cloth, and it is titled Still Life.",
+      "model": "claude-sonnet-5-5"
+    },
+    "rijksmuseum-200108804": {
+      "relevant": true,
+      "confidence": 0.9,
+      "reason": "Title \"Still Life with Flowers\" (Haanen, 1865) indicates flowers as the subject; no image was available, so this rests on catalogue data alone.",
+      "model": "claude-sonnet-5-5"
+    },
+    "rijksmuseum-20028489": {
+      "relevant": true,
+      "confidence": 0.85,
+      "reason": "Catalogue title 'Still Life with Flowers' indicates flowers arranged as the subject; image unavailable, so judged from title alone, and 1900 date is within range.",
+      "model": "claude-sonnet-5-5"
+    },
+    "rijksmuseum-20026481": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "Painting shows arranged objects (slippers, pipe, bottle with bead necklace, coins) on a draped table; title says Still Life, so objects are the subject.",
+      "model": "claude-sonnet-5-5"
+    },
+    "met-435884": {
+      "relevant": true,
+      "confidence": 0.98,
+      "reason": "The painting shows a jar, a cup and apples arranged on a white cloth as its subject, and the title says it is a still life.",
+      "model": "claude-sonnet-5-5"
+    },
+    "met-435882": {
+      "relevant": true,
+      "confidence": 0.98,
+      "reason": "The painting shows apples and a pot of primroses arranged on a draped white cloth, which is a classic still life, and the title confirms it.",
+      "model": "claude-sonnet-5-5"
+    },
+    "met-435881": {
+      "relevant": true,
+      "confidence": 0.98,
+      "reason": "Cézanne's painting shows arranged objects (ginger jar, green vase, fruit on a plate, eggplants, draped cloths) as its subject, matching the still life rule.",
+      "model": "claude-sonnet-5-5"
+    },
+    "met-436534": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "The painting shows a vase of white roses on a table against a green background, so flowers arranged in a vase are the main subject, which fits a still life.",
+      "model": "claude-sonnet-5-5"
+    }
+  },
+  "q07": {
+    "aic-9": {
+      "relevant": true,
+      "confidence": 0.98,
+      "reason": "The painting shows the inside of St. Mark's Basilica in Venice, with a rood screen, statues, vaulted ceiling and figures, so the scene is clearly inside a building.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-39954": {
+      "relevant": true,
+      "confidence": 0.95,
+      "reason": "The still life is set indoors: a chair, a lute, a draped table with a carpet and a brass plate against a wall, and a floor, all inside a room.",
+      "model": "claude-sonnet-5-5"
+    },
+    "rijksmuseum-20026934": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "The painting shows the inside of a stable, with beams, walls, a doorway, hanging harness and chickens on the floor, so the scene is clearly inside a building.",
+      "model": "claude-sonnet-5-5"
+    },
+    "rijksmuseum-20027384": {
+      "relevant": true,
+      "confidence": 0.98,
+      "reason": "The painting shows a cottage interior with a woman seated by a fireplace, a table, a cabinet and a cat, so the scene is clearly inside a room.",
+      "model": "claude-sonnet-5-5"
+    },
+    "rijksmuseum-20028203": {
+      "relevant": true,
+      "confidence": 0.98,
+      "reason": "The image shows two men seated at a table in a wood-paneled room with a window, armor, and carpet; the scene is clearly indoors.",
+      "model": "claude-sonnet-5-5"
+    },
+    "rijksmuseum-200110498": {
+      "relevant": true,
+      "confidence": 0.6,
+      "reason": "The sitter is seated in an upholstered carved armchair beside a green curtain and a table with books and papers, so the scene reads as indoors, though the setting is only loosely defined.",
+      "model": "claude-sonnet-5-5"
+    },
+    "met-435691": {
+      "relevant": true,
+      "confidence": 0.98,
+      "reason": "The painting shows three women seated in an elegantly furnished room with a round table, chairs, a folding screen, decorated walls and a doorway, so the scene is clearly indoors.",
+      "model": "claude-sonnet-5-5"
+    },
+    "rijksmuseum-20065874": {
+      "relevant": true,
+      "confidence": 0.98,
+      "reason": "The painting shows the inside of a church, the Geertekerk in Utrecht, with arches, a chandelier and a congregation seated beneath the vaulted ceiling.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-59779": {
+      "relevant": true,
+      "confidence": 0.8,
+      "reason": "An elderly woman in black sits in an upholstered armchair with a patterned rug beneath, so the scene is indoors, though the room is only loosely defined.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-210893": {
+      "relevant": true,
+      "confidence": 0.9,
+      "reason": "A woman in a black dress stands in a room against a wall with a framed picture hanging and a baseboard visible, so the scene is indoors.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-2823": {
+      "relevant": true,
+      "confidence": 0.7,
+      "reason": "The boy stands in a dim room with a chair and drapery behind him and a small dog beside him, so the scene appears to be indoors, though the setting is vague.",
+      "model": "claude-sonnet-5-5"
+    }
+  },
+  "q08": {
+    "aic-66149": {
+      "relevant": true,
+      "confidence": 0.8,
+      "reason": "No image available; the title 'Still Life (Flowers)' indicates flowers are the main subject, though the date 1869 is odd for Valtat and cannot be checked visually.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-138": {
+      "relevant": true,
+      "confidence": 0.9,
+      "reason": "A girl walks down a path carrying large bunches of yellow and colorful flowers, and the title is 'Flower Girl'; the flowers are clearly depicted and prominent.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-94240": {
+      "relevant": true,
+      "confidence": 0.98,
+      "reason": "The image shows red poppies and white daisies in a brown pitcher as the main subject, and the title confirms it: 'Flowers: Poppies and Daisies'.",
+      "model": "claude-sonnet-5-5"
+    },
+    "met-436525": {
+      "relevant": true,
+      "confidence": 0.99,
+      "reason": "The painting is a large bouquet of white, yellow, pink and red flowers in a vase against a dark blue background, so flowers are the main subject.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-72180": {
+      "relevant": true,
+      "confidence": 0.99,
+      "reason": "The painting is a still life filled with bouquets of white phlox, asters, roses and peonies, so flowers are the main subject.",
+      "model": "claude-sonnet-5-5"
+    },
+    "rijksmuseum-200109683": {
+      "relevant": true,
+      "confidence": 0.99,
+      "reason": "The painting is a still life of a large bouquet of mixed flowers in a glass vase, with a loose rose on the table; flowers are the main subject.",
+      "model": "claude-sonnet-5-5"
+    },
+    "rijksmuseum-200108804": {
+      "relevant": true,
+      "confidence": 0.85,
+      "reason": "No image available; the title 'Still Life with Flowers' by Adriana Johanna Haanen, a known flower painter, indicates flowers are the main subject of the painting.",
+      "model": "claude-sonnet-5-5"
+    },
+    "rijksmuseum-20028489": {
+      "relevant": true,
+      "confidence": 0.8,
+      "reason": "No image available; the title 'Still Life with Flowers' indicates flowers are the main subject, though the 1900 date sits at the edge of the range and the visuals are unverified.",
+      "model": "claude-sonnet-5-5"
+    },
+    "rijksmuseum-20027235": {
+      "relevant": true,
+      "confidence": 0.9,
+      "reason": "Still life shows prominent flowers (red and pink blooms, a garland along the front ledge) along with grapes, pumpkins and peaches; the title also names flowers.",
+      "model": "claude-sonnet-5-5"
+    },
+    "met-436527": {
+      "relevant": true,
+      "confidence": 0.6,
+      "reason": "Titled 'The Flowering Orchard'; blossoming trees and small white and yellow flowers in the grass are visible, though the blossoms are subtle rather than a dominant feature.",
+      "model": "claude-sonnet-5-5"
+    },
+    "rijksmuseum-20026174": {
+      "relevant": true,
+      "confidence": 0.85,
+      "reason": "Title 'Een ruiker rozen' (A bouquet of roses) indicates a flower still life with roses as the main subject; no image was available to confirm.",
+      "model": "claude-sonnet-5-5"
+    },
+    "met-436528": {
+      "relevant": true,
+      "confidence": 0.99,
+      "reason": "The painting shows a large bouquet of blue irises in a white pitcher as its main subject, so flowers are clearly and prominently depicted.",
+      "model": "claude-sonnet-5-5"
+    },
+    "met-437984": {
+      "relevant": true,
+      "confidence": 0.8,
+      "reason": "The wallpaper behind the seated woman is covered with large, clearly painted pink and white flowers on stems, making them a prominent element even though the portrait is the main subject.",
+      "model": "claude-sonnet-5-5"
+    },
+    "met-436530": {
+      "relevant": true,
+      "confidence": 0.98,
+      "reason": "The painting shows a large bouquet of pink and white oleander flowers in a vase as the dominant subject, so flowers are clearly and prominently depicted.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-145675": {
+      "relevant": true,
+      "confidence": 0.7,
+      "reason": "No image available; the title 'Birds and Flowering Plum Tree' indicates blossoms are a prominent subject, though this is judged from the title alone.",
+      "model": "claude-sonnet-5-5"
+    }
+  },
+  "q09": {
+    "aic-45838": {
+      "relevant": true,
+      "confidence": 0.98,
+      "reason": "The image shows a winter landscape with snow covering the ground and clinging to bare tree branches, matching the title 'Snow at Louveciennes'.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-20530": {
+      "relevant": true,
+      "confidence": 0.98,
+      "reason": "The painting clearly shows snow-covered ground, rooftops and bare trees in a winter landscape, and the title confirms it: 'Rabbit Warren at Pontoise, Snow'.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-895": {
+      "relevant": true,
+      "confidence": 0.93,
+      "reason": "A rider on horseback crosses a wintry, snow-covered landscape with swirling snow; the title also says 'Riding through the Snow'.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-16560": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "The image shows a haystack standing in a field covered with white snow, with snowy ground and a snow-dusted rooftop in the background; the title also says 'Snow Effect'.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-5825": {
+      "relevant": true,
+      "confidence": 0.8,
+      "reason": "No image available; the title 'Riverbank in Snow' strongly indicates snow is depicted in the scene, though this cannot be visually confirmed.}",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-62393": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "The image shows a wide snow-covered field with small evergreen trees under a wintry dawn sky, and the title is 'Snow Field, Morning, Roxbury'.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-81545": {
+      "relevant": true,
+      "confidence": 0.95,
+      "reason": "The painting shows haystacks on a ground covered with snow, rendered in pink and blue tones under a sunset sky, and the title also says 'Snow Effect'.",
+      "model": "claude-sonnet-5-5"
+    },
+    "rijksmuseum-20020092": {
+      "relevant": true,
+      "confidence": 0.98,
+      "reason": "The image shows snow covering the ground and walls in a winter park scene with bare trees, and the title confirms it is in the snow.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-111318": {
+      "relevant": true,
+      "confidence": 0.93,
+      "reason": "The field around the haystack is covered in white and bluish snow patches, with snow also dusting the stack itself, so snow is clearly visible in the scene.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-86998": {
+      "relevant": true,
+      "confidence": 0.98,
+      "reason": "The image shows a winter landscape with snow-covered rooftops, trees, hillside and ground around a bridge in Sandvika, so snow is clearly visible.",
+      "model": "claude-sonnet-5-5"
+    }
+  },
+  "q10": {
+    "aic-28853": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "The painting shows a steam-powered river boat with a smokestack and black smoke on choppy water, plus another smoking vessel behind it, so boats are clearly visible.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-209910": {
+      "relevant": true,
+      "confidence": 0.98,
+      "reason": "The painting clearly shows beached fishing boats with tall masts in the foreground and another boat with a red flag on the right, under a stormy sunset sky.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-86297": {
+      "relevant": true,
+      "confidence": 0.98,
+      "reason": "The image shows a dark-sailed boat in the foreground and a second sailing vessel in the distance on a stormy sea, matching the title 'Two Boats in a Storm'.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-59927": {
+      "relevant": true,
+      "confidence": 0.98,
+      "reason": "Several fishing boats with masts are clearly visible on the beach at Étretat, matching the title and image.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-81540": {
+      "relevant": true,
+      "confidence": 0.98,
+      "reason": "The image shows several sailing boats with red sails on the sea, plus small boats on the beach, so boats are clearly visible.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-121377": {
+      "relevant": true,
+      "confidence": 0.98,
+      "reason": "The image clearly shows a dark blue rowboat and a green rowboat pulled up on the shore beside a tidal inlet, and the title is 'Boats at Rest'.",
+      "model": "claude-sonnet-5-5"
+    },
+    "rijksmuseum-200109444": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "The image shows sailing boats on the choppy sea, including a large sailboat with brown sails and a second sail in the distance, with a crowd waiting on the beach.",
+      "model": "claude-sonnet-5-5"
+    },
+    "rijksmuseum-200109446": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "A rowing boat is clearly visible moored in the water beneath a pollard willow in the foreground; the title also names the boat.",
+      "model": "claude-sonnet-5-5"
+    },
+    "met-435966": {
+      "relevant": true,
+      "confidence": 0.85,
+      "reason": "A small boat with a seated figure is visible at lower right among the reeds on the lake, matching the title 'Boatman among the Reeds'.",
+      "model": "claude-sonnet-5-5"
+    },
+    "met-435599": {
+      "relevant": true,
+      "confidence": 0.98,
+      "reason": "Three men sit in a rowboat in the foreground, and sailing ships and smaller boats are visible in the harbor behind them.",
+      "model": "claude-sonnet-5-5"
+    },
+    "rijksmuseum-20028268": {
+      "relevant": false,
+      "confidence": 0.9,
+      "reason": "The image shows a rider on a white horse on a towpath beside a flooded waterway under a cloudy sky; no boats or ships are visible.",
+      "model": "claude-sonnet-5-5"
+    },
+    "met-435969": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "A flat-bottomed ferry boat with a standing ferryman poling and two passengers is clearly visible at the lower left beneath a large tree.",
+      "model": "claude-sonnet-5-5"
+    },
+    "met-435983": {
+      "relevant": true,
+      "confidence": 0.95,
+      "reason": "A small rowboat with a seated figure is clearly visible on the river at right, near mooring posts.",
+      "model": "claude-sonnet-5-5"
+    },
+    "met-435683": {
+      "relevant": true,
+      "confidence": 0.95,
+      "reason": "A small rowboat carrying a white-robed figure and a coffin is visible on the water in front of the rocky island.",
+      "model": "claude-sonnet-5-5"
+    }
+  },
+  "q11": {
+    "aic-64412": {
+      "relevant": true,
+      "confidence": 0.98,
+      "reason": "The image clearly shows a single cow standing in a pasture, and the title is 'Study of a Cow', so cattle are visible.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-86298": {
+      "relevant": true,
+      "confidence": 0.98,
+      "reason": "The image shows a brown and white cow standing in a field, and the title is 'Study of a Cow', so cattle are clearly visible.",
+      "model": "claude-sonnet-5-5"
+    },
+    "rijksmuseum-20026203": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "A black-and-white cow lies resting in a meadow in the foreground, with a windmill behind; cattle are clearly visible.",
+      "model": "claude-sonnet-5-5"
+    },
+    "rijksmuseum-20028277": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "The image shows several cows standing in a wet meadow by water, and the title is 'Cows in a Soggy Meadow', so cattle are clearly visible.",
+      "model": "claude-sonnet-5-5"
+    },
+    "rijksmuseum-20026918": {
+      "relevant": true,
+      "confidence": 0.99,
+      "reason": "The image shows a standing brown-and-white cow and a calf lying in a meadow, matching the title; cattle are clearly visible.",
+      "model": "claude-sonnet-5-5"
+    },
+    "rijksmuseum-20026259": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "A large white and black cow lies resting in the right foreground, with more cattle visible in the distant meadow at left, so cattle are clearly visible.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-72398": {
+      "relevant": true,
+      "confidence": 0.9,
+      "reason": "Several small cattle, white and brown, stand in the shallow water at the lower right of the pond, matching the title 'Cows in a Pond at Sunset'.",
+      "model": "claude-sonnet-5-5"
+    },
+    "met-435703": {
+      "relevant": true,
+      "confidence": 0.98,
+      "reason": "The painting clearly shows a cow with horns and several calves in a mountain landscape, with more cattle in the distance, so cattle are visible.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-899": {
+      "relevant": true,
+      "confidence": 0.98,
+      "reason": "The image clearly shows two horned cattle lying down facing each other, which is the main subject of the painting.",
+      "model": "claude-sonnet-5-5"
+    },
+    "rijksmuseum-20027280": {
+      "relevant": true,
+      "confidence": 0.9,
+      "reason": "Several cows are visible on the dirt path and grass in the foreground, with a herder and a dog, and more cattle in the distance.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-39542": {
+      "relevant": true,
+      "confidence": 0.98,
+      "reason": "The image clearly shows several cattle resting on an alpine hillside, including a dark one in the foreground and tan ones behind, matching the rule that cattle are visible.",
+      "model": "claude-sonnet-5-5"
+    }
+  },
+  "q12": {
+    "aic-263513": {
+      "relevant": true,
+      "confidence": 0.98,
+      "reason": "The painting shows a mother on a red blanket with a toddler in a white dress holding flowers and an infant lying beside her, so children are clearly depicted.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-102975": {
+      "relevant": true,
+      "confidence": 0.9,
+      "reason": "The title 'Young Children Sleeping' indicates the painting depicts children; no image was available, so this rests on catalogue data alone.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-192607": {
+      "relevant": true,
+      "confidence": 0.85,
+      "reason": "The title 'Mrs. Sturgis and Children' indicates the painting depicts children alongside their mother; no image was available, so this rests on the catalogue title alone.",
+      "model": "claude-sonnet-5-5"
+    },
+    "rijksmuseum-20026659": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "A young barefoot boy sits at a table playing with a toy sailboat, and the title is 'The Fisherman's Children'; a child is clearly depicted.",
+      "model": "claude-sonnet-5-5"
+    },
+    "rijksmuseum-200109406": {
+      "relevant": true,
+      "confidence": 0.98,
+      "reason": "The image shows several young children wading in shallow sea water, one carrying a smaller child, with a toy boat; the title is also 'Children of the Sea'.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-111057": {
+      "relevant": true,
+      "confidence": 0.6,
+      "reason": "A small nude child figure stands at the lower left in front of a group of fairy-like women, so a child appears to be depicted, though the thick, abstract brushwork makes this uncertain.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-28868": {
+      "relevant": true,
+      "confidence": 0.75,
+      "reason": "The title is 'Woman and Child (Silence)', and a sleeping figure, likely a child, lies at left while the woman holds a finger to her lips to signal quiet.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-35155": {
+      "relevant": true,
+      "confidence": 0.8,
+      "reason": "The painting shows a winged child Cupid, a putto-like boy, embracing a nude woman, so a child is clearly depicted, though he is a mythological figure.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-25810": {
+      "relevant": true,
+      "confidence": 0.7,
+      "reason": "A small seated figure in blue at the lower right appears to be a child sitting by the wall, alongside a woman carrying a pail in the courtyard.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-39493": {
+      "relevant": true,
+      "confidence": 0.4,
+      "reason": "Dim tavern scene with wrestlers and onlookers; a small figure that looks like a child stands in the lower center, but the dark image makes this uncertain.",
+      "model": "claude-sonnet-5-5"
+    },
+    "rijksmuseum-20026484": {
+      "relevant": true,
+      "confidence": 0.98,
+      "reason": "The image clearly shows two children, a girl and a boy, lying on grass with a book, with chicks nearby.",
+      "model": "claude-sonnet-5-5"
+    },
+    "rijksmuseum-20028495": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "The image shows two young children, a toddler in a cap and a girl in a red bodice, kneeling before a seated woman in a domestic interior.",
+      "model": "claude-sonnet-5-5"
+    },
+    "met-435711": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "The painting shows a woman carrying a nude young child on her shoulders; the title also names her child, so a child is clearly depicted.",
+      "model": "claude-sonnet-5-5"
+    },
+    "met-436526": {
+      "relevant": true,
+      "confidence": 0.95,
+      "reason": "The painting shows a toddler taking first steps between a kneeling father and a mother, so a child is clearly depicted.",
+      "model": "claude-sonnet-5-5"
+    },
+    "met-435752": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "The image shows a young nude toddler seated on a mother's lap, and the title refers to her child, so a child is clearly depicted.",
+      "model": "claude-sonnet-5-5"
+    },
+    "met-435653": {
+      "relevant": false,
+      "confidence": 0.35,
+      "reason": "No image is available, and the title gives no indication of children; Béraud's church scene may include some, but that can't be confirmed from the catalogue data alone.",
+      "model": "claude-sonnet-5-5"
+    }
+  },
+  "q13": {
+    "aic-64745": {
+      "relevant": true,
+      "confidence": 0.95,
+      "reason": "Dark sky with a glowing moon over a dim landscape, plus a small red firelight; title 'The Moon at Night' confirms a night scene.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-20624": {
+      "relevant": false,
+      "confidence": 0.7,
+      "reason": "Title mentions a night procession of goblins, but the image shows a pale paper background with no dark sky, moonlight or artificial light, so no night scene is visible.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-154235": {
+      "relevant": true,
+      "confidence": 0.7,
+      "reason": "Girl at a window with dark blue night outside, moonlight casting light patches on the floor and a small lit house glimpse; reads as a night scene, though indoors.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-14664": {
+      "relevant": false,
+      "confidence": 0.85,
+      "reason": "This is an indoor dance hall interior with people at a rail and table; there is no dark sky, moonlight, or outdoor artificial light, so it is not a night scene by the rule.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-64754": {
+      "relevant": true,
+      "confidence": 0.7,
+      "reason": "Titled Moonrise, the painting shows a glowing orange moon over a dim, hazy landscape with a dark tree and a figure, giving a dusk or night atmosphere; the sky is not fully dark.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-887": {
+      "relevant": false,
+      "confidence": 0.85,
+      "reason": "The image is a grayscale reproduction of a landscape with trees and figures under a cloudy but bright sky, so it reads as daytime, not a night scene with moonlight or artificial light.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-28868": {
+      "relevant": false,
+      "confidence": 0.8,
+      "reason": "Dark indoor interior with a woman gesturing for silence beside a sleeping child; no night sky, moonlight or outdoor artificial light is visible, so it is not a night scene by the rule.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-61128": {
+      "relevant": false,
+      "confidence": 0.8,
+      "reason": "This is an indoor nightclub interior at the Moulin Rouge; the rule needs a night scene with dark sky, moonlight, or outdoor artificial light, and none of these is visible.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-110867": {
+      "relevant": true,
+      "confidence": 0.85,
+      "reason": "The painting shows a tightrope walker against a dark night sky above a crowd, with artificial lights and a fairground stall glowing below, so it reads as an outdoor night scene.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-234877": {
+      "relevant": true,
+      "confidence": 0.6,
+      "reason": "The painted panel shows a figure with a sun-like halo against a dark blue starry sky with a large golden moon, so it reads as a night scene, though the symbolism is ambiguous.",
+      "model": "claude-sonnet-5-5"
+    }
+  },
+  "q14": {
+    "aic-64740": {
+      "relevant": true,
+      "confidence": 0.95,
+      "reason": "The image shows a glowing orange-red sunset sky over a dusky landscape with a pond reflecting the light; the title is also 'Landscape, Sunset'.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-64751": {
+      "relevant": true,
+      "confidence": 0.7,
+      "reason": "No image available; the title 'Sunset in the Valley' by George Inness (1890) strongly suggests sunset light in the sky, but this is unconfirmed visually.",
+      "model": "claude-sonnet-5-5"
+    },
+    "rijksmuseum-200108861": {
+      "relevant": true,
+      "confidence": 0.8,
+      "reason": "No image available; the catalogue title 'Heath Landscape at Sunset' indicates sunset light in the sky, though this is judged from the title alone.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-100191": {
+      "relevant": true,
+      "confidence": 0.9,
+      "reason": "The sky glows yellow-orange along the horizon above distant hills, showing low sunset light, and the title is 'Stack of Wheat (Thaw, Sunset)'.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-72398": {
+      "relevant": true,
+      "confidence": 0.85,
+      "reason": "The sky glows in warm amber and brown tones over a pond with cows, which reads as sunset light, and the title confirms it is a sunset.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-81545": {
+      "relevant": true,
+      "confidence": 0.93,
+      "reason": "The sky shows an orange and yellow glow low on the horizon, and the title says 'Sunset, Snow Effect', so sunset light in the sky is clearly present.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-71971": {
+      "relevant": true,
+      "confidence": 0.95,
+      "reason": "The sky shows orange-lit clouds against blue over dark Catskill hills and a lake, and the title names sunset, so sunset light is clearly visible.",
+      "model": "claude-sonnet-5-5"
+    },
+    "rijksmuseum-20028459": {
+      "relevant": true,
+      "confidence": 0.7,
+      "reason": "Title names sunset, and the image shows a glowing orange-pink horizon light behind the seated woman and tree, though the scene is very dark.",
+      "model": "claude-sonnet-5-5"
+    },
+    "rijksmuseum-20028773": {
+      "relevant": true,
+      "confidence": 0.85,
+      "reason": "The image shows a dark landscape with an orange-yellow glowing sky near the horizon, consistent with sunset light; the title 'At sundown' confirms it.",
+      "model": "claude-sonnet-5-5"
+    },
+    "rijksmuseum-20027559": {
+      "relevant": true,
+      "confidence": 0.6,
+      "reason": "Beach scene titled 'Strand bij avond' (beach at evening) shows a low sun breaking through clouds with golden light on the horizon and wet sand, suggesting sunset light, though somewhat muted.",
+      "model": "claude-sonnet-5-5"
+    }
+  },
+  "q15": {
+    "rijksmuseum-200109690": {
+      "relevant": true,
+      "confidence": 0.7,
+      "reason": "Title says the procession is in the Old Catholic Church; the image shows clergy in vestments with banners in an interior, though the church architecture is barely visible.",
+      "model": "claude-sonnet-5-5"
+    },
+    "met-435653": {
+      "relevant": true,
+      "confidence": 0.85,
+      "reason": "Title names the Church of Saint-Philippe-du-Roule in Paris, so the church is very likely depicted, though no image was available to confirm it visually.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-111630": {
+      "relevant": true,
+      "confidence": 0.95,
+      "reason": "A tall church tower with a spire rises behind the houses across the water, and the title is 'The Church of Overschie'.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-76571": {
+      "relevant": false,
+      "confidence": 0.95,
+      "reason": "The image shows a landscape with a waterfall, palm trees and the Cotopaxi volcano; no church or chapel is visible. The artist's surname is Church, which does not meet the rule.",
+      "model": "claude-sonnet-5-5"
+    },
+    "rijksmuseum-20026478": {
+      "relevant": true,
+      "confidence": 0.6,
+      "reason": "Title 'Early to Church' and the image show worshippers holding prayer books seated on pews in a dim church interior, so a church interior is visible, though details are dark.",
+      "model": "claude-sonnet-5-5"
+    },
+    "rijksmuseum-200672685": {
+      "relevant": true,
+      "confidence": 0.85,
+      "reason": "The painting shows the domed Lutheran Church of Amsterdam rising above the canal and buildings, and the title names it, so a church is visible.",
+      "model": "claude-sonnet-5-5"
+    },
+    "rijksmuseum-20028552": {
+      "relevant": false,
+      "confidence": 0.55,
+      "reason": "Shows a monk in a vaulted cellar with a Gothic doorway; the title says cellar (kelder), and no clear church or chapel interior is identifiable, though Gothic architecture is ambiguous.",
+      "model": "claude-sonnet-5-5"
+    },
+    "rijksmuseum-20028246": {
+      "relevant": false,
+      "confidence": 0.6,
+      "reason": "A kneeling monk prays at a lectern in a plain, dim interior; no clear church or chapel architecture is visible, so the setting is only implied and doubtful.",
+      "model": "claude-sonnet-5-5"
+    },
+    "rijksmuseum-200609468": {
+      "relevant": true,
+      "confidence": 0.6,
+      "reason": "The painting shows a ruined Gothic building with pointed arches and tracery, which reads as a ruined church or abbey, with a monk beside it; the catalogue calls it only a 'ruin'.",
+      "model": "claude-sonnet-5-5"
+    },
+    "rijksmuseum-20065874": {
+      "relevant": true,
+      "confidence": 0.98,
+      "reason": "The image shows the interior of a church with arches, hanging chandeliers, pews and a congregation; the title confirms it as a service in the Geertekerk, Utrecht.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-9": {
+      "relevant": true,
+      "confidence": 0.98,
+      "reason": "The painting shows the interior of St. Mark's Basilica in Venice, with an altar screen, statues, a crucifix and figures, so a church is clearly visible.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-270236": {
+      "relevant": false,
+      "confidence": 0.3,
+      "reason": "No image is available, and the title 'River Scene' by Duncanson gives no indication that a church or chapel is visible, so the rule cannot be shown to be met.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-81568": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "The painting clearly shows the Notre Dame de Paris cathedral with its spire and towers across the river, so a church is visible.",
+      "model": "claude-sonnet-5-5"
+    }
+  },
+  "q16": {
+    "rijksmuseum-2004267": {
+      "relevant": true,
+      "confidence": 0.95,
+      "reason": "The title 'Rue Notre-Dame, Paris' names Paris, and the image shows a sunlit city street with period buildings, consistent with a Paris street scene.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-81568": {
+      "relevant": true,
+      "confidence": 0.98,
+      "reason": "Title is 'Notre Dame de Paris' and the image shows the recognisable cathedral across the Seine with nuns and a seated man in the foreground, so the scene is in Paris.",
+      "model": "claude-sonnet-5-5"
+    },
+    "met-435968": {
+      "relevant": false,
+      "confidence": 0.7,
+      "reason": "Titled 'The Environs of Paris', it shows a rural country road with a distant hazy view of the city; the scene is outside Paris, not in it.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-133864": {
+      "relevant": true,
+      "confidence": 0.85,
+      "reason": "Title is 'The Defense of Paris' (1870, Franco-Prussian War siege); the image shows a tricolor-bearing allegorical figure over fallen soldiers, so the scene concerns Paris by title and subject.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-16464": {
+      "relevant": true,
+      "confidence": 0.93,
+      "reason": "The title 'Place des Batignolles, Paris' names a Paris square, so the scene is set in Paris; no image was available, so this rests on the catalogue data alone.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-20684": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "Title 'Paris Street; Rainy Day' by Caillebotte names Paris, and the image shows the well-known Paris street scene with Haussmann-style buildings and wet cobblestones.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-20542": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "Title is 'View on the Seine, Paris', and the image shows the Seine with Notre-Dame cathedral visible in the distance, a recognisable Paris view.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-81551": {
+      "relevant": true,
+      "confidence": 0.98,
+      "reason": "Title \"The Place du Havre, Paris\" by Pissarro; the image shows a busy Parisian street scene with Haussmann-style buildings and horse-drawn carriages.",
+      "model": "claude-sonnet-5-5"
+    },
+    "rijksmuseum-20015957": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "Title names Notre Dame de Lorette and Rue Fléchier in Paris, and the image shows a Parisian street with a church and Haussmann-style buildings.",
+      "model": "claude-sonnet-5-5"
+    },
+    "met-435653": {
+      "relevant": true,
+      "confidence": 0.95,
+      "reason": "The title names Saint-Philippe-du-Roule church in Paris, so the scene is set in Paris; judged from catalogue data only since no image was available.",
+      "model": "claude-sonnet-5-5"
+    },
+    "met-435702": {
+      "relevant": false,
+      "confidence": 0.4,
+      "reason": "The Horse Fair depicts the Paris horse market on Boulevard de l'Hôpital, but the title and image show no recognisable Paris view, and the catalogue data gives no location, so the rule is only doubtfully met.",
+      "model": "claude-sonnet-5-5"
+    },
+    "met-435654": {
+      "relevant": true,
+      "confidence": 0.93,
+      "reason": "The title names the Pont des Arts, a well-known Paris bridge over the Seine, and Jean Béraud was known for painting Parisian street scenes, so the scene is in Paris.",
+      "model": "claude-sonnet-5-5"
+    }
+  },
+  "q17": {
+    "rijksmuseum-200108394": {
+      "relevant": true,
+      "confidence": 0.9,
+      "reason": "Title says 'Wooded View near Barbizon'; the image shows a forest with boulders typical of Fontainebleau, so it is a Barbizon scene even though the artist (Weissenbruch) is Hague School.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-81507": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "Painted by Charles-François Daubigny, a Barbizon School painter; catalogue lists Barbizon School, and the image shows a rural landscape with a house at dusk.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-880": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "Painted by Charles-François Daubigny, a leading Barbizon School painter; catalogue lists Barbizon School, and the image shows a typical marshy landscape.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-94842": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "Catalogue lists Charles-François Daubigny, a Barbizon School painter, with Barbizon School style tags; the image shows a rural village scene consistent with that.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-28853": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "Painted by Charles-François Daubigny, a Barbizon School painter, and the catalogue lists the Barbizon School as its style; the image shows a river steamboat.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-35155": {
+      "relevant": true,
+      "confidence": 0.95,
+      "reason": "Catalogue lists Narcisse Virgilio Díaz, a Barbizon School painter, with Barbizon School in styles; the painting is signed Diaz and shows Venus with Cupid in a wooded setting.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-59004": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "Painted by Charles-François Daubigny, a leading Barbizon School painter; catalogue lists Barbizon School, and the image shows a riverside landscape with a church and animals in that style.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-886": {
+      "relevant": true,
+      "confidence": 0.95,
+      "reason": "Painted by Narcisse Virgilio Díaz, a Barbizon School painter, and the catalogue lists Barbizon School as its style; the wooded setting is also consistent.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-887": {
+      "relevant": true,
+      "confidence": 0.95,
+      "reason": "Painted by Narcisse Virgilio Díaz, a Barbizon School painter, and catalogued under Barbizon School; the image shows a wooded landscape with figures resting beneath large trees.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-95993": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "Narcisse Virgilio Díaz was a Barbizon School painter, the catalogue lists Barbizon School, and the image shows a Fontainebleau-style forest with a pond.",
+      "model": "claude-sonnet-5-5"
+    },
+    "rijksmuseum-200108879": {
+      "relevant": true,
+      "confidence": 0.85,
+      "reason": "Catalogue data lists the style as Barbizon school for Louis Aimé Japy's 1874 Landscape with Watermill, which satisfies the rule; no image was available to confirm.",
+      "model": "claude-sonnet-5-5"
+    },
+    "rijksmuseum-20027437": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "Catalogue lists Narcisse Virgilio Díaz, a Barbizon School painter, with style 'Barbizon school'; the image shows a forest scene with bathers, consistent with Fontainebleau woodland.",
+      "model": "claude-sonnet-5-5"
+    },
+    "rijksmuseum-20027440": {
+      "relevant": true,
+      "confidence": 0.95,
+      "reason": "Catalogue lists Léon-Victor Dupré with style 'Barbizon school'; the image shows a typical wooded landscape with a pond, consistent with Barbizon painting.",
+      "model": "claude-sonnet-5-5"
+    },
+    "rijksmuseum-20027456": {
+      "relevant": true,
+      "confidence": 0.85,
+      "reason": "Catalogue lists Félix Ziem with style 'Barbizon school', so it meets the artist/movement rule, though the Constantinople boat scene is not a Barbizon landscape.",
+      "model": "claude-sonnet-5-5"
+    },
+    "met-435963": {
+      "relevant": true,
+      "confidence": 0.95,
+      "reason": "Painted by Jean-Baptiste Camille Corot, a Barbizon School painter; catalogue lists the Barbizon school as a style.",
+      "model": "claude-sonnet-5-5"
+    },
+    "met-435964": {
+      "relevant": true,
+      "confidence": 0.95,
+      "reason": "Painted by Jean-Baptiste Camille Corot, a leading Barbizon School painter; catalogue lists Barbizon school as its style, and the image shows a typical wooded landscape with figures.",
+      "model": "claude-sonnet-5-5"
+    },
+    "met-435965": {
+      "relevant": true,
+      "confidence": 0.93,
+      "reason": "Painted by Jean-Baptiste Camille Corot, a Barbizon School painter; the catalogue lists the style as Barbizon school and the signature 'COROT' is visible.",
+      "model": "claude-sonnet-5-5"
+    },
+    "met-435966": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "Painted by Jean-Baptiste Camille Corot, a Barbizon School painter; the catalogue lists 'Barbizon school' as a style, and the misty landscape with trees and a boatman fits the group.",
+      "model": "claude-sonnet-5-5"
+    },
+    "met-435968": {
+      "relevant": true,
+      "confidence": 0.95,
+      "reason": "Painted by Jean-Baptiste Camille Corot, catalogued under Barbizon school; the image shows a tree-lined rural landscape typical of Barbizon painting.",
+      "model": "claude-sonnet-5-5"
+    }
+  },
+  "q18": {
+    "aic-100191": {
+      "relevant": true,
+      "confidence": 0.98,
+      "reason": "Catalogue data lists Claude Monet as the artist of 'Stack of Wheat (Thaw, Sunset)' (1890), and the image shows his signature and a haystack in his Impressionist style.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-103139": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "Catalogue lists Claude Monet as the artist of 'Waterloo Bridge, Gray Weather' (1900), and the image shows a Monet signature at lower left.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-111318": {
+      "relevant": true,
+      "confidence": 0.98,
+      "reason": "Catalogue data lists Claude Monet as the artist of 'Stack of Wheat' (1890), and the image shows a snowy haystack in his Impressionist style.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-14598": {
+      "relevant": true,
+      "confidence": 0.98,
+      "reason": "Catalogue data lists Claude Monet as the artist of The Beach at Sainte-Adresse (1867), and the image, a beach scene with boats, matches that work.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-14620": {
+      "relevant": true,
+      "confidence": 0.98,
+      "reason": "Catalogue data lists Claude Monet as the artist of 'Cliff Walk at Pourville' (1882), and the Impressionist coastal scene fits his style.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-14624": {
+      "relevant": true,
+      "confidence": 0.98,
+      "reason": "Catalogue data lists Claude Monet as the artist of 'Stacks of Wheat (End of Day, Autumn)', 1890; the image shows haystacks in Monet's Impressionist style.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-16542": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "Catalogue data lists Claude Monet as the artist of 'The Customs House at Varengeville' (1897), and the Impressionist style in the image is consistent with his work.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-16549": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "Catalogue lists Claude Monet as the artist of 'Apples and Grapes' (1880), and the image shows a signed Impressionist still life consistent with his style.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-16554": {
+      "relevant": true,
+      "confidence": 0.98,
+      "reason": "Catalogue lists Claude Monet as the artist of 'The Artist's House at Argenteuil' (1873), and the image bears a Monet signature at lower right.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-16560": {
+      "relevant": true,
+      "confidence": 0.98,
+      "reason": "Catalogue lists Claude Monet as the artist of Stack of Wheat (Snow Effect, Overcast Day), 1890, and the image shows his signature at lower right.",
+      "model": "claude-sonnet-5-5"
+    },
+    "rijksmuseum-200108883": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "Catalogue data lists Claude Monet as the artist of 'La Corniche near Monaco' (1884), and the Impressionist coastal landscape fits his style.",
+      "model": "claude-sonnet-5-5"
+    }
+  },
+  "q19": {
+    "aic-80450": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "The image shows a half-length portrait of a woman in a wide-brimmed hat with a flower and a black scarf; the title is also 'Portrait of a Woman'.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-20686": {
+      "relevant": true,
+      "confidence": 0.98,
+      "reason": "The painting is a portrait of a seated woman in a fur-trimmed shawl and brocade dress, and the title is 'Portrait of a Woman'; she is clearly the main sitter.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-80463": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "The painting is a portrait of a seated young woman in a dark dress with a blue bow, and the title confirms the sitter is a woman.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-14594": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "Manet's bust-length portrait shows a woman in a gray blouse with a black fichu against a green background; she is clearly the sole main sitter.",
+      "model": "claude-sonnet-5-5"
+    },
+    "rijksmuseum-20026926": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "The image shows a half-length portrait of a young woman in a yellow-green empire-style dress, and the catalogue title is 'Portrait of a Woman'; she is the sole sitter.",
+      "model": "claude-sonnet-5-5"
+    },
+    "rijksmuseum-20028127": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "The image is a head-and-shoulders portrait of a young woman with a dark hat, flowers in her hair and a rose corsage, titled 'Portrait of a Woman'.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-11312": {
+      "relevant": true,
+      "confidence": 0.8,
+      "reason": "The painting shows a single young woman seated and mending, filling the frame as the main sitter; it reads as a figure portrait, though it is also a genre scene.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-81562": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "The painting is a half-length portrait of a young woman in a Breton white headdress and dark costume, with the woman as the sole, main sitter.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-81525": {
+      "relevant": true,
+      "confidence": 0.93,
+      "reason": "The painting is a head-and-shoulders portrait of a woman reclining in a chair, titled 'Woman's Head'; she is clearly the main sitter.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-59779": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "The painting shows an elderly woman in a black dress seated in an armchair as the main sitter, and the title is 'Portrait of a Lady'.",
+      "model": "claude-sonnet-5-5"
+    },
+    "met-437984": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "The painting is a portrait of Augustine Roulin, a woman seated in a chair and holding a cradle cord, so she is clearly the main sitter.",
+      "model": "claude-sonnet-5-5"
+    },
+    "met-435692": {
+      "relevant": true,
+      "confidence": 0.9,
+      "reason": "The title identifies a named female sitter, Mrs. Charles Warren-Cram (Ella Brooks Carter), painted by Boldini, so it is a portrait whose main sitter is a woman; no image was available.",
+      "model": "claude-sonnet-5-5"
+    },
+    "met-435830": {
+      "relevant": true,
+      "confidence": 0.98,
+      "reason": "Full-length portrait of Catharine Lorillard Wolfe by Cabanel, showing a standing woman in a cream satin gown with fur trim as the sole sitter.",
+      "model": "claude-sonnet-5-5"
+    },
+    "met-435849": {
+      "relevant": true,
+      "confidence": 0.98,
+      "reason": "Full-length portrait of a woman in a black gown with lace, identified in the catalogue as Mrs. William Astor (Caroline Webster Schermerhorn); she is the sole main sitter.",
+      "model": "claude-sonnet-5-5"
+    },
+    "met-435875": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "A seated woman, identified as Madame Cézanne (Hortense Fiquet), is the main sitter of this portrait in a conservatory setting.",
+      "model": "claude-sonnet-5-5"
+    }
+  },
+  "q20": {
+    "aic-27163": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "Niagara Falls in winter, with snow-covered banks, large ice formations, bare trees on the cliff and a pale wintry sun; clearly a winter landscape.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-6005": {
+      "relevant": true,
+      "confidence": 0.85,
+      "reason": "Landscape titled 'The Banks of the Marne in Winter'; image shows bare, leafless trees along a path under a stormy sky, matching the winter criterion despite no snow.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-62393": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "The painting shows a snow-covered field with small evergreens under a wintry dawn sky, and the title 'Snow Field' confirms a winter landscape.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-81545": {
+      "relevant": true,
+      "confidence": 0.95,
+      "reason": "Monet's haystacks stand in a snow-covered field at sunset; the title says 'Snow Effect' and the image shows snow on the ground and stacks, making it a winter landscape.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-895": {
+      "relevant": true,
+      "confidence": 0.8,
+      "reason": "The painting shows a rider on horseback crossing a snow-covered open landscape in a blowing storm, and the title says 'through the Snow', so a winter landscape setting is clearly met.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-86998": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "Monet's Sandvika, Norway shows a village with a bridge, snow-covered roofs and ground, and bare frosted trees, clearly a winter landscape.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-45838": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "Snow-covered ground, snow-laden bare trees and a small figure in a wintry outdoor scene; titled 'Snow at Louveciennes', clearly a winter landscape.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-72801": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "Snow-covered banks and rocks around an open stream, with sparse leafless trees bearing a few orange leaves; title 'Icebound' confirms a winter landscape.",
+      "model": "claude-sonnet-5-5"
+    }
+  }
+}

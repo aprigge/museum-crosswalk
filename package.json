@@ -19,14 +19,18 @@
     "query": "tsx --env-file-if-exists=.env src/cli/query.ts",
     "index": "tsx --env-file-if-exists=.env src/cli/index.ts",
     "evaluate": "tsx --env-file-if-exists=.env src/cli/evaluate.ts",
-    "site": "tsx --env-file-if-exists=.env src/cli/site.ts"
+    "site": "tsx --env-file-if-exists=.env src/cli/site.ts",
+    "eval": "tsx --env-file-if-exists=.env src/cli/eval.ts",
+    "vocabulary": "tsx --env-file-if-exists=.env src/cli/vocabulary.ts"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^1.11.0",
     "ajv": "^8.20.0",
     "ajv-formats": "^3.0.1",
     "jsonld": "^9.0.0",
     "minisearch": "^7.2.0",
-    "oxigraph": "^0.5.13"
+    "oxigraph": "^0.5.13",
+    "zod": "^4.6.7"
   },
   "devDependencies": {
     "@types/jsonld": "^1.5.15",
