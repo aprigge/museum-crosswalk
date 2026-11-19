@@ -1,7 +1,7 @@
 import type { ArtistMatch, ArtistQuery, SourceArtistRef } from '../core/types.js';
 
 /** Wikidata external-ID properties that belong to a source, found by property label. */
-const SOURCE_PROPERTY_LABELS: Record<string, RegExp> = {
+export const SOURCE_PROPERTY_LABELS: Record<string, RegExp> = {
   rijksmuseum: /rijksmuseum/i, // only the Research Library authority ID exists, not the museum's agent ID
   met: /\bmet constituent|metropolitan museum/i, // P10882 "Met Constituent ID"
   aic: /\bartic\b|art institute of chicago/i, // P6295 "ARTIC artist ID"
@@ -88,6 +88,22 @@ export function matchRef(ref: SourceArtistRef, artist: ArtistQuery): ArtistMatch
   return { ref, qid: null, method: 'none', confidence: 0, evidence: 'No ID, crosswalk or name match' };
 }
 
+/** Some sources (AIC) put the qualifier in the agent's name, e.g. "Imitator of Vincent van Gogh". */
+export function isQualifiedMatch(m: ArtistMatch): boolean {
+  return m.ref.plainCreator === false || isQualifiedRole(m.ref.role) || isQualifiedRole(m.ref.name);
+}
+
+export type RecordStatus = 'confirmed' | 'crosswalk-only' | 'qualified' | 'other-artist' | 'no-artist';
+
+/** One label per record for reporting. Order matters: qualified beats crosswalk-only. */
+export function recordStatus(matches: ArtistMatch[], qid: string): RecordStatus {
+  if (!matches.length) return 'no-artist';
+  const toArtist = matches.filter((m) => m.qid === qid);
+  if (!toArtist.length) return 'other-artist';
+  if (toArtist.some(isQualifiedMatch)) return 'qualified';
+  return toArtist.some((m) => m.method === 'exact-id') ? 'confirmed' : 'crosswalk-only';
+}
+
 export interface ReviewItem {
   source: string;
   recordId: string;
@@ -118,10 +134,7 @@ export function reconcileRecord(
   if (!refs.length) reasons.push('Record names no artist');
   else if (!toArtist.length) reasons.push(`No artist on the record matches ${artist.qid}`);
   else if (!exact.length) reasons.push(`Artist matched by ${toArtist.map((m) => m.method).join(', ')}, not an exact ID`);
-  // Some sources (AIC) put the qualifier in the agent's name, e.g. "Imitator of Vincent van Gogh".
-  const qualified = toArtist.filter(
-    (m) => m.ref.plainCreator === false || isQualifiedRole(m.ref.role) || isQualifiedRole(m.ref.name),
-  );
+  const qualified = toArtist.filter(isQualifiedMatch);
   if (qualified.length) reasons.push(`Qualified role: ${qualified.map((m) => m.ref.role).join('; ')}`);
 
   const confirmed = exact.length > 0 && !qualified.length;

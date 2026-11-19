@@ -48,7 +48,28 @@ function stripPrivate(record: Record<string, unknown>): Record<string, unknown> 
 export function validateSchema(record: Record<string, unknown>): string[] {
   const v = validator();
   if (v(stripPrivate(record))) return [];
-  return (v.errors ?? []).map((e) => `${e.instancePath || '/'} ${e.message}`);
+  return (v.errors ?? []).map((e) => {
+    const p = e.params as { additionalProperty?: string; missingProperty?: string };
+    const detail = p.additionalProperty
+      ? ` "${p.additionalProperty}"`
+      : p.missingProperty
+        ? ` "${p.missingProperty}"`
+        : '';
+    return `${e.instancePath || '/'} ${e.message}${detail}`;
+  });
+}
+
+/**
+ * Group schema errors by what went wrong, ignoring the array index and the side
+ * errors that anyOf branches produce (`const`, "must match a schema in anyOf").
+ */
+export function schemaErrorKind(error: string): string | null {
+  if (/must be equal to constant|must match a schema in anyOf|must match exactly one schema/.test(error)) return null;
+  const extra = error.match(/additional properties "(.+)"$/);
+  if (extra) return `extra property \`${extra[1]}\``;
+  const missing = error.match(/required property '(.+)'/);
+  if (missing) return `missing \`${missing[1]}\``;
+  return error.replace(/\/\d+/g, '/*');
 }
 
 /** Offline document loader: serves the vendored Linked Art context, refuses everything else. */

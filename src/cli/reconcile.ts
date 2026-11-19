@@ -15,7 +15,7 @@ main(async () => {
   }
   const outDir = join(dataDir(), 'reconcile');
   await writeJson(join(outDir, 'matches.json'), {
-    artist: { name: artist.name, qid: artist.qid, externalIds: artist.externalIds },
+    artist,
     records: all.map(({ review, ...rest }) => rest),
   });
   await writeJson(
