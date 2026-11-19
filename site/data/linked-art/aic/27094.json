@@ -1,0 +1,206 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://api.artic.edu/api/v1/artworks/27094",
+  "type": "HumanMadeObject",
+  "_label": "Trees in the Clouds on Layered Mountains (Jûzan umbokuzu)",
+  "identified_by": [
+    {
+      "type": "Name",
+      "content": "Trees in the Clouds on Layered Mountains (Jûzan umbokuzu)",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ]
+    },
+    {
+      "type": "Identifier",
+      "content": "1967.161",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300312355",
+          "type": "Type",
+          "_label": "Accession Number"
+        }
+      ]
+    }
+  ],
+  "produced_by": {
+    "type": "Production",
+    "timespan": {
+      "type": "TimeSpan",
+      "identified_by": [
+        {
+          "type": "Name",
+          "content": "1853"
+        }
+      ],
+      "begin_of_the_begin": "1853-01-01T00:00:00Z",
+      "end_of_the_end": "1853-12-31T23:59:59Z"
+    },
+    "carried_out_by": [
+      {
+        "id": "https://api.artic.edu/api/v1/agents/18952",
+        "type": "Person",
+        "_label": "Nakabayashi Chikutô"
+      }
+    ]
+  },
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "content": "Hanging scroll; ink on silk",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435429",
+          "type": "Type",
+          "_label": "Materials Statement",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Painting: 110.1 × 40.8 cm (43 5/16 × 16 1/16 in.); With mounting: 191.2 × 56.9 cm (75 1/4 × 22 3/8 in.)",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435430",
+          "type": "Type",
+          "_label": "Dimensions Statement",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Mrs. G. William Reynolds. Purchased with funds provided by",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300026687",
+          "type": "Type",
+          "_label": "Credit Line",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "<p>Using an approach inspired by Chinese ink painting, Nakabayashi Chikutō painted these rocky cliffs out of stacked cubes that contrast with the sinewy tree trunks. At the lower right, a scholar makes his way up to the building in the center: the perfect place from which to view the waterfall nearby.</p>\n<p>Chikutō was born in Nagoya. At a pivotal moment in his career, he came under the patronage of a wealthy merchant named Kamiya Tenyū, a collector of Chinese paintings. Throughout his life, Chikutō maintained that copying the Chinese masters was the most effective way to learn the art of painting.</p>\n",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Description",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ],
+      "format": "text/html"
+    }
+  ],
+  "representation": [
+    {
+      "type": "VisualItem",
+      "digitally_shown_by": [
+        {
+          "type": "DigitalObject",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300215302",
+              "type": "Type",
+              "_label": "Digital Image"
+            }
+          ],
+          "access_point": [
+            {
+              "id": "https://www.artic.edu/iiif/2/6494f761-496e-f2af-ee6d-70967d435416/full/843,/0/default.jpg",
+              "type": "DigitalObject"
+            }
+          ],
+          "digitally_available_via": [
+            {
+              "type": "DigitalService",
+              "access_point": [
+                {
+                  "id": "https://www.artic.edu/iiif/2/6494f761-496e-f2af-ee6d-70967d435416",
+                  "type": "DigitalObject"
+                }
+              ],
+              "conforms_to": [
+                {
+                  "id": "http://iiif.io/api/image",
+                  "type": "InformationObject"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "subject_of": [
+    {
+      "type": "LinguisticObject",
+      "digitally_carried_by": [
+        {
+          "type": "DigitalObject",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300264578",
+              "type": "Type",
+              "_label": "Web Page"
+            }
+          ],
+          "format": "text/html",
+          "access_point": [
+            {
+              "id": "https://www.artic.edu/artworks/27094",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "aic",
+    "sourceUrl": "https://api.artic.edu/api/v1/artworks/27094?fields=id,api_link,title,alt_titles,main_reference_number,date_start,date_end,date_display,date_qualifier_title,artist_id,artist_ids,artist_title,artist_titles,artist_display,alt_artist_ids,place_of_origin,medium_display,dimensions,dimensions_detail,credit_line,inscriptions,provenance_text,publication_history,exhibition_history,copyright_notice,is_public_domain,image_id,alt_image_ids,description,short_description,classification_title,artwork_type_title,department_title,material_titles,technique_titles,style_titles,subject_titles,edition,catalogue_display,source_updated_at,style_ids,subject_ids",
+    "fetchedAt": "2026-11-19T20:55:47.668Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By) and the Terms and Conditions of artic.edu. All other data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu."
+  },
+  "_fieldProvenance": {
+    "referred_to_by[Description]": {
+      "source": "aic",
+      "sourceUrl": "https://api.artic.edu/api/v1/artworks/27094?fields=id,api_link,title,alt_titles,main_reference_number,date_start,date_end,date_display,date_qualifier_title,artist_id,artist_ids,artist_title,artist_titles,artist_display,alt_artist_ids,place_of_origin,medium_display,dimensions,dimensions_detail,credit_line,inscriptions,provenance_text,publication_history,exhibition_history,copyright_notice,is_public_domain,image_id,alt_image_ids,description,short_description,classification_title,artwork_type_title,department_title,material_titles,technique_titles,style_titles,subject_titles,edition,catalogue_display,source_updated_at,style_ids,subject_ids",
+      "fetchedAt": "2026-11-19T20:55:47.668Z",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "licenseNote": "AIC licenses `description` under CC BY 4.0; attribution required"
+    }
+  }
+}

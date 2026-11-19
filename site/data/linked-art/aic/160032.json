@@ -1,0 +1,246 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://api.artic.edu/api/v1/artworks/160032",
+  "type": "HumanMadeObject",
+  "_label": "The Festival",
+  "identified_by": [
+    {
+      "type": "Name",
+      "content": "The Festival",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ]
+    },
+    {
+      "type": "Identifier",
+      "content": "2002.380",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300312355",
+          "type": "Type",
+          "_label": "Accession Number"
+        }
+      ]
+    }
+  ],
+  "produced_by": {
+    "type": "Production",
+    "timespan": {
+      "type": "TimeSpan",
+      "identified_by": [
+        {
+          "type": "Name",
+          "content": "1875"
+        }
+      ],
+      "begin_of_the_begin": "1875-01-01T00:00:00Z",
+      "end_of_the_end": "1875-12-31T23:59:59Z"
+    },
+    "carried_out_by": [
+      {
+        "id": "https://api.artic.edu/api/v1/agents/40755",
+        "type": "Person",
+        "_label": "Sir John Edward Poynter"
+      }
+    ]
+  },
+  "classified_as": [
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-15636",
+      "type": "Type",
+      "_label": "nineteenth century",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300015646",
+          "type": "Type",
+          "_label": "Style"
+        }
+      ]
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-13203",
+      "type": "Type",
+      "_label": "19th century",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300015646",
+          "type": "Type",
+          "_label": "Style"
+        }
+      ]
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "content": "Oil on canvas",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435429",
+          "type": "Type",
+          "_label": "Materials Statement",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "137.2 × 53.4 cm (54 × 21 in.); Framed: 162.2 × 78.7 cm (63 7/8 × 31 in.)",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435430",
+          "type": "Type",
+          "_label": "Dimensions Statement",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Bequest of Suzette Morton Davidson",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300026687",
+          "type": "Type",
+          "_label": "Credit Line",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Monogrammed and dated lower left: EJP / 1875",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435414",
+          "type": "Type",
+          "_label": "Inscription Statement",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Collection of the artist, 1875 [lent to London 1875, along with The Golden Age, 2002.379]. Possibly B. Thomas [according to Fine Arts Society 1974]. P. & D. Colnaghi & Co. Ltd., London, by 1972, with The Golden Age [see Burlington Magazine 1972]; sold to Suzette Morton Davidson (née Zurcher) (died 1996), Santa Barbara and Chicago, 1973 with The Golden Age [according to bill of sale, dated January 31, 1973, copy in curatorial file]; bequeathed to the Art Institute with her husband Eugene Davidson (died 2002) having life interest, 2002.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435438",
+          "type": "Type",
+          "_label": "Provenance Statement",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "representation": [
+    {
+      "type": "VisualItem",
+      "digitally_shown_by": [
+        {
+          "type": "DigitalObject",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300215302",
+              "type": "Type",
+              "_label": "Digital Image"
+            }
+          ],
+          "access_point": [
+            {
+              "id": "https://www.artic.edu/iiif/2/d5133cb6-4ea6-d2f6-3391-e1b47f3f1022/full/843,/0/default.jpg",
+              "type": "DigitalObject"
+            }
+          ],
+          "digitally_available_via": [
+            {
+              "type": "DigitalService",
+              "access_point": [
+                {
+                  "id": "https://www.artic.edu/iiif/2/d5133cb6-4ea6-d2f6-3391-e1b47f3f1022",
+                  "type": "DigitalObject"
+                }
+              ],
+              "conforms_to": [
+                {
+                  "id": "http://iiif.io/api/image",
+                  "type": "InformationObject"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "shows": [
+    {
+      "id": "https://aprigge.github.io/museum-crosswalk/id/visual/aic-160032",
+      "type": "VisualItem"
+    }
+  ],
+  "subject_of": [
+    {
+      "type": "LinguisticObject",
+      "digitally_carried_by": [
+        {
+          "type": "DigitalObject",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300264578",
+              "type": "Type",
+              "_label": "Web Page"
+            }
+          ],
+          "format": "text/html",
+          "access_point": [
+            {
+              "id": "https://www.artic.edu/artworks/160032",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "aic",
+    "sourceUrl": "https://api.artic.edu/api/v1/artworks/160032?fields=id,api_link,title,alt_titles,main_reference_number,date_start,date_end,date_display,date_qualifier_title,artist_id,artist_ids,artist_title,artist_titles,artist_display,alt_artist_ids,place_of_origin,medium_display,dimensions,dimensions_detail,credit_line,inscriptions,provenance_text,publication_history,exhibition_history,copyright_notice,is_public_domain,image_id,alt_image_ids,description,short_description,classification_title,artwork_type_title,department_title,material_titles,technique_titles,style_titles,subject_titles,edition,catalogue_display,source_updated_at,style_ids,subject_ids",
+    "fetchedAt": "2026-11-19T20:48:40.097Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By) and the Terms and Conditions of artic.edu. All other data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu."
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/aic-160032",
+  "type": "VisualItem",
+  "_label": "Subjects of The Festival",
+  "about": [
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12248",
+      "type": "Type",
+      "_label": "festivals"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300025943",
+      "type": "Type",
+      "_label": "women"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-15458",
+      "type": "Type",
+      "_label": "Tile"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-9144",
+      "type": "Type",
+      "_label": "roses"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-15618",
+      "type": "Type",
+      "_label": "rose (color)"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-11890",
+      "type": "Type",
+      "_label": "ribbon"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-11851",
+      "type": "Type",
+      "_label": "red (color)"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-11848",
+      "type": "Type",
+      "_label": "pink (color)"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-11206",
+      "type": "Type",
+      "_label": "foliage"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-10482",
+      "type": "Type",
+      "_label": "flowers"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12627",
+      "type": "Type",
+      "_label": "decoration"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-15693",
+      "type": "Type",
+      "_label": "basket"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-13982",
+      "type": "Type",
+      "_label": "architecture"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12085",
+      "type": "Type",
+      "_label": "architecture"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-14891",
+      "type": "Type",
+      "_label": "architectural detail"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-15039",
+      "type": "Type",
+      "_label": "architechture"
+    }
+  ],
+  "_provenance": {
+    "source": "aic",
+    "sourceUrl": "https://api.artic.edu/api/v1/artworks/160032?fields=id,api_link,title,alt_titles,main_reference_number,date_start,date_end,date_display,date_qualifier_title,artist_id,artist_ids,artist_title,artist_titles,artist_display,alt_artist_ids,place_of_origin,medium_display,dimensions,dimensions_detail,credit_line,inscriptions,provenance_text,publication_history,exhibition_history,copyright_notice,is_public_domain,image_id,alt_image_ids,description,short_description,classification_title,artwork_type_title,department_title,material_titles,technique_titles,style_titles,subject_titles,edition,catalogue_display,source_updated_at,style_ids,subject_ids",
+    "fetchedAt": "2026-11-19T20:48:40.097Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By) and the Terms and Conditions of artic.edu. All other data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu."
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/aic-4428",
+  "type": "VisualItem",
+  "_label": "Subjects of Mère Grégoire",
+  "about": [
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12169",
+      "type": "Type",
+      "_label": "Century of Progress"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-11213",
+      "type": "Type",
+      "_label": "lace"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-15476",
+      "type": "Type",
+      "_label": "coins"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-15110",
+      "type": "Type",
+      "_label": "desk"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-10482",
+      "type": "Type",
+      "_label": "flowers"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-11206",
+      "type": "Type",
+      "_label": "foliage"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12288",
+      "type": "Type",
+      "_label": "France"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12622",
+      "type": "Type",
+      "_label": "French"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-14437",
+      "type": "Type",
+      "_label": "Money"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-14105",
+      "type": "Type",
+      "_label": "portrait"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-8582",
+      "type": "Type",
+      "_label": "portraits: female subject"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-8602",
+      "type": "Type",
+      "_label": "portraits: French subject"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-8751",
+      "type": "Type",
+      "_label": "prostitutes"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-14155",
+      "type": "Type",
+      "_label": "vase"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-13813",
+      "type": "Type",
+      "_label": "woman"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300015637",
+      "type": "Type",
+      "_label": "portraits"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300054778",
+      "type": "Type",
+      "_label": "world's fairs"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300054778",
+      "type": "Type",
+      "_label": "Chicago World's Fairs"
+    }
+  ],
+  "_provenance": {
+    "source": "aic",
+    "sourceUrl": "https://api.artic.edu/api/v1/artworks/4428?fields=id,api_link,title,alt_titles,main_reference_number,date_start,date_end,date_display,date_qualifier_title,artist_id,artist_ids,artist_title,artist_titles,artist_display,alt_artist_ids,place_of_origin,medium_display,dimensions,dimensions_detail,credit_line,inscriptions,provenance_text,publication_history,exhibition_history,copyright_notice,is_public_domain,image_id,alt_image_ids,description,short_description,classification_title,artwork_type_title,department_title,material_titles,technique_titles,style_titles,subject_titles,edition,catalogue_display,source_updated_at,style_ids,subject_ids",
+    "fetchedAt": "2026-11-19T20:40:45.434Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By) and the Terms and Conditions of artic.edu. All other data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu."
+  }
+}

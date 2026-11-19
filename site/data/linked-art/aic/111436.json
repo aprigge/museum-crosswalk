@@ -1,0 +1,274 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://api.artic.edu/api/v1/artworks/111436",
+  "type": "HumanMadeObject",
+  "_label": "The Basket of Apples",
+  "identified_by": [
+    {
+      "type": "Name",
+      "content": "The Basket of Apples",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ]
+    },
+    {
+      "type": "Identifier",
+      "content": "1926.252",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300312355",
+          "type": "Type",
+          "_label": "Accession Number"
+        }
+      ]
+    }
+  ],
+  "produced_by": {
+    "type": "Production",
+    "timespan": {
+      "type": "TimeSpan",
+      "identified_by": [
+        {
+          "type": "Name",
+          "content": "c. 1893"
+        }
+      ],
+      "begin_of_the_begin": "1887-01-01T00:00:00Z",
+      "end_of_the_end": "1900-12-31T23:59:59Z"
+    },
+    "carried_out_by": [
+      {
+        "id": "https://api.artic.edu/api/v1/agents/40482",
+        "type": "Person",
+        "_label": "Paul Cezanne"
+      }
+    ]
+  },
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300021508",
+      "type": "Type",
+      "_label": "Post-Impressionism",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300015646",
+          "type": "Type",
+          "_label": "Style"
+        }
+      ]
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-13203",
+      "type": "Type",
+      "_label": "19th century",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300015646",
+          "type": "Type",
+          "_label": "Style"
+        }
+      ]
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "content": "Oil on canvas",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435429",
+          "type": "Type",
+          "_label": "Materials Statement",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "65 × 80 cm (25 7/16 × 31 1/2 in.); Framed: 88 × 104.2 × 9.6 cm (34 5/8 × 41 × 3 3/4 in.)",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435430",
+          "type": "Type",
+          "_label": "Dimensions Statement",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Helen Birch Bartlett Memorial Collection",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300026687",
+          "type": "Type",
+          "_label": "Credit Line",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Inscribed at lower left:  P. Cézanne",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435414",
+          "type": "Type",
+          "_label": "Inscription Statement",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Ambroise Vollard (1866–1939), Paris by Nov. 1895 [this and the following information according to New York 2006-7]; Galerie Bernheim-Jeune, Paris [Bernheim-Jeune archive; 5538?]. Paul Cassirer, Berlin, June 1, 1904 [Paul Cassirer archive 5775 (5538)]; Max Linde, Lübeck, Germany, June 1, 1904. Galerie Bernheim-Jeune, Paris, by July 1907; sent to Paul Cassirer, Berlin, July 1907; returned to Bernheim-Jeune, Paris, Nov. 1908. Jos Hessel (1859–1942), Paris, by 1913 until at least 1920 [based on inscription on reverse; see also New York Times 1913, Borgmeyer 1913, Paris 1920]. Paul Rosenberg, Paris, by 1922 [see Paris 1922]; sold through Joseph Stransky of French Galleries, New York to Frederick Clay Bartlett (1873–1593), Chicago , by 1925; given to the Art Institute of Chicago, 1926.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435438",
+          "type": "Type",
+          "_label": "Provenance Statement",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "<p>In many ways Paul Cezanne was the odd man out among the artists branded as “Impressionists”—those who showed their works outside of France’s state-sponsored Salon exhibitions. Early on, he painted landscapes, the typical Impressionist subject, but his arresting and complex still lifes changed the traditional <em>nature morte</em> (dead nature) genre and continue to puzzle and tantalize today.</p>\n<p>At first glance, <em>The Basket of Apples</em>, the first of Cezanne’s works to enter the museum’s collection, appears to be a fruit-laden table setting anchored by a wine bottle. Closer looking reveals shifts in reality conveyed by the misaligned tabletop, tilted bottle, cascading apples, and the precarious tower of cookies known as <em>langues de chat</em> (cat tongues), which magically stop just short of falling out of the picture. Furthering the sense of what has been called the artist’s “controlled chaos” are the shifts in brushwork from the thick strokes used to model fruits within the cloth’s thick sculptural forms to the sketch-like marks used around the edges of both the table and the cloth. Cezanne rarely signed his paintings, so his signature at the bottom left suggests the importance he ascribed to this painting or to its original owner.</p>\n",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Description",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ],
+      "format": "text/html"
+    }
+  ],
+  "representation": [
+    {
+      "type": "VisualItem",
+      "digitally_shown_by": [
+        {
+          "type": "DigitalObject",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300215302",
+              "type": "Type",
+              "_label": "Digital Image"
+            }
+          ],
+          "access_point": [
+            {
+              "id": "https://www.artic.edu/iiif/2/52ac8996-3460-cf71-cb42-5c4d0aa29b74/full/843,/0/default.jpg",
+              "type": "DigitalObject"
+            }
+          ],
+          "digitally_available_via": [
+            {
+              "type": "DigitalService",
+              "access_point": [
+                {
+                  "id": "https://www.artic.edu/iiif/2/52ac8996-3460-cf71-cb42-5c4d0aa29b74",
+                  "type": "DigitalObject"
+                }
+              ],
+              "conforms_to": [
+                {
+                  "id": "http://iiif.io/api/image",
+                  "type": "InformationObject"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "shows": [
+    {
+      "id": "https://aprigge.github.io/museum-crosswalk/id/visual/aic-111436",
+      "type": "VisualItem"
+    }
+  ],
+  "subject_of": [
+    {
+      "type": "LinguisticObject",
+      "digitally_carried_by": [
+        {
+          "type": "DigitalObject",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300264578",
+              "type": "Type",
+              "_label": "Web Page"
+            }
+          ],
+          "format": "text/html",
+          "access_point": [
+            {
+              "id": "https://www.artic.edu/artworks/111436",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "aic",
+    "sourceUrl": "https://api.artic.edu/api/v1/artworks/111436?fields=id,api_link,title,alt_titles,main_reference_number,date_start,date_end,date_display,date_qualifier_title,artist_id,artist_ids,artist_title,artist_titles,artist_display,alt_artist_ids,place_of_origin,medium_display,dimensions,dimensions_detail,credit_line,inscriptions,provenance_text,publication_history,exhibition_history,copyright_notice,is_public_domain,image_id,alt_image_ids,description,short_description,classification_title,artwork_type_title,department_title,material_titles,technique_titles,style_titles,subject_titles,edition,catalogue_display,source_updated_at,style_ids,subject_ids",
+    "fetchedAt": "2026-11-19T20:39:27.185Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By) and the Terms and Conditions of artic.edu. All other data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu."
+  },
+  "_fieldProvenance": {
+    "referred_to_by[Description]": {
+      "source": "aic",
+      "sourceUrl": "https://api.artic.edu/api/v1/artworks/111436?fields=id,api_link,title,alt_titles,main_reference_number,date_start,date_end,date_display,date_qualifier_title,artist_id,artist_ids,artist_title,artist_titles,artist_display,alt_artist_ids,place_of_origin,medium_display,dimensions,dimensions_detail,credit_line,inscriptions,provenance_text,publication_history,exhibition_history,copyright_notice,is_public_domain,image_id,alt_image_ids,description,short_description,classification_title,artwork_type_title,department_title,material_titles,technique_titles,style_titles,subject_titles,edition,catalogue_display,source_updated_at,style_ids,subject_ids",
+      "fetchedAt": "2026-11-19T20:39:27.185Z",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "licenseNote": "AIC licenses `description` under CC BY 4.0; attribution required"
+    }
+  }
+}

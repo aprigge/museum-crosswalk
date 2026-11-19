@@ -1,0 +1,246 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://api.artic.edu/api/v1/artworks/93342",
+  "type": "HumanMadeObject",
+  "_label": "Rêverie (Portrait of Gabrielle Borreau)",
+  "identified_by": [
+    {
+      "type": "Name",
+      "content": "Rêverie (Portrait of Gabrielle Borreau)",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ]
+    },
+    {
+      "type": "Identifier",
+      "content": "1987.259",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300312355",
+          "type": "Type",
+          "_label": "Accession Number"
+        }
+      ]
+    }
+  ],
+  "produced_by": {
+    "type": "Production",
+    "timespan": {
+      "type": "TimeSpan",
+      "identified_by": [
+        {
+          "type": "Name",
+          "content": "1862"
+        }
+      ],
+      "begin_of_the_begin": "1862-01-01T00:00:00Z",
+      "end_of_the_end": "1862-12-31T23:59:59Z"
+    },
+    "carried_out_by": [
+      {
+        "id": "https://api.artic.edu/api/v1/agents/34049",
+        "type": "Person",
+        "_label": "Gustave Courbet"
+      }
+    ]
+  },
+  "classified_as": [
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-13203",
+      "type": "Type",
+      "_label": "19th century",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300015646",
+          "type": "Type",
+          "_label": "Style"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300172861",
+      "type": "Type",
+      "_label": "Realism",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300015646",
+          "type": "Type",
+          "_label": "Style"
+        }
+      ]
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "content": "Oil on paper, mounted on canvas",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435429",
+          "type": "Type",
+          "_label": "Materials Statement",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "63.5 × 77 cm (25 × 30 5/16 in.); Framed: 98.5 × 112.4 cm (38 3/4 × 44 1/4 in.)",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435430",
+          "type": "Type",
+          "_label": "Dimensions Statement",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Gift of Joseph Winterbotham Collection",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300026687",
+          "type": "Type",
+          "_label": "Credit Line",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Inscribed lower left: G. Courbet / 62",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435414",
+          "type": "Type",
+          "_label": "Inscription Statement",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Collection Dussol; sold, Hôtel Drouot, Paris, March 17, 1884, lot 26 for 1,950 francs [according to La Chronique de la Curiosité 1884, and letter of November 13, 1987 from Stephen Hahn, in curatorial file].  Martin; his estate sale, Hôtel Drouot, Paris, April 4-7, 1892, lot 26 (ill.) for 1,800 francs [according to La Chronique de la Curiosité 1892, and letter cited above]. Théodore Duret [according to letter citied above and Fernier 1977].  E. Larcade, 1922 [lent to Paris 1922].  Collection Mlle Sée, Paris, until purchased jointly by Bernheim-Jeune, Paris and Paul Rosenberg & Co., Paris, on December 8, 1925  [Bernheim Jeune stock no. 24.513, information from letter of July 11, 2000 from Guy-Pactrice Dauberville, Bernheim-Jeune, in curatorial file]; sold by them to Alphonse Kann (died 1948), St. Germain-en-Laye and London on April 8, 1931 [according to Dauberville's letter cited above]; by descent to Michael Stewart, London; sold by him through Arthur Tooth, London, 1959 [information supplied by Madeleine Korn; see also Art News 1960 and Fernier 1977].  Alfred Daber Galerie, Paris by 1960 until at least 1975 [lent to Copenhagen 1960 and Paris 1975]. Stephen Hahn, New York by 1983; sold to the Art Institute, 1987.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435438",
+          "type": "Type",
+          "_label": "Provenance Statement",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "representation": [
+    {
+      "type": "VisualItem",
+      "digitally_shown_by": [
+        {
+          "type": "DigitalObject",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300215302",
+              "type": "Type",
+              "_label": "Digital Image"
+            }
+          ],
+          "access_point": [
+            {
+              "id": "https://www.artic.edu/iiif/2/40d69445-feb4-d6d5-bcad-bb142856f0a6/full/843,/0/default.jpg",
+              "type": "DigitalObject"
+            }
+          ],
+          "digitally_available_via": [
+            {
+              "type": "DigitalService",
+              "access_point": [
+                {
+                  "id": "https://www.artic.edu/iiif/2/40d69445-feb4-d6d5-bcad-bb142856f0a6",
+                  "type": "DigitalObject"
+                }
+              ],
+              "conforms_to": [
+                {
+                  "id": "http://iiif.io/api/image",
+                  "type": "InformationObject"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "shows": [
+    {
+      "id": "https://aprigge.github.io/museum-crosswalk/id/visual/aic-93342",
+      "type": "VisualItem"
+    }
+  ],
+  "subject_of": [
+    {
+      "type": "LinguisticObject",
+      "digitally_carried_by": [
+        {
+          "type": "DigitalObject",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300264578",
+              "type": "Type",
+              "_label": "Web Page"
+            }
+          ],
+          "format": "text/html",
+          "access_point": [
+            {
+              "id": "https://www.artic.edu/artworks/93342",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "aic",
+    "sourceUrl": "https://api.artic.edu/api/v1/artworks/93342?fields=id,api_link,title,alt_titles,main_reference_number,date_start,date_end,date_display,date_qualifier_title,artist_id,artist_ids,artist_title,artist_titles,artist_display,alt_artist_ids,place_of_origin,medium_display,dimensions,dimensions_detail,credit_line,inscriptions,provenance_text,publication_history,exhibition_history,copyright_notice,is_public_domain,image_id,alt_image_ids,description,short_description,classification_title,artwork_type_title,department_title,material_titles,technique_titles,style_titles,subject_titles,edition,catalogue_display,source_updated_at,style_ids,subject_ids",
+    "fetchedAt": "2026-11-19T20:46:54.493Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By) and the Terms and Conditions of artic.edu. All other data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu."
+  }
+}

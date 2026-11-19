@@ -1,0 +1,140 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/aic-81566",
+  "type": "VisualItem",
+  "_label": "Subjects of The Sacred Grove, Beloved of the Arts and the Muses",
+  "about": [
+    {
+      "id": "http://vocab.getty.edu/aat/300015636",
+      "type": "Type",
+      "_label": "landscapes"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-10240",
+      "type": "Type",
+      "_label": "plaid"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-8649",
+      "type": "Type",
+      "_label": "nudes"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300025943",
+      "type": "Type",
+      "_label": "women"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-8853",
+      "type": "Type",
+      "_label": "boys"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-10118",
+      "type": "Type",
+      "_label": "children"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-15749",
+      "type": "Type",
+      "_label": "woman"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-11205",
+      "type": "Type",
+      "_label": "trees"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-14517",
+      "type": "Type",
+      "_label": "lake"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011772",
+      "type": "Type",
+      "_label": "water"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12407",
+      "type": "Type",
+      "_label": "rocks"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-15367",
+      "type": "Type",
+      "_label": "bushes"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12261",
+      "type": "Type",
+      "_label": "nature"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-10482",
+      "type": "Type",
+      "_label": "flowers"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12891",
+      "type": "Type",
+      "_label": "reflections"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12268",
+      "type": "Type",
+      "_label": "angels"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-15159",
+      "type": "Type",
+      "_label": "mythical"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12704",
+      "type": "Type",
+      "_label": "mythological figures"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12502",
+      "type": "Type",
+      "_label": "poetry"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-15039",
+      "type": "Type",
+      "_label": "architechture"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12085",
+      "type": "Type",
+      "_label": "architecture"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-13982",
+      "type": "Type",
+      "_label": "architecture"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12737",
+      "type": "Type",
+      "_label": "painting"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-14541",
+      "type": "Type",
+      "_label": "sculpture"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-10184",
+      "type": "Type",
+      "_label": "mysteries/fantasies"
+    }
+  ],
+  "_provenance": {
+    "source": "aic",
+    "sourceUrl": "https://api.artic.edu/api/v1/artworks/81566?fields=id,api_link,title,alt_titles,main_reference_number,date_start,date_end,date_display,date_qualifier_title,artist_id,artist_ids,artist_title,artist_titles,artist_display,alt_artist_ids,place_of_origin,medium_display,dimensions,dimensions_detail,credit_line,inscriptions,provenance_text,publication_history,exhibition_history,copyright_notice,is_public_domain,image_id,alt_image_ids,description,short_description,classification_title,artwork_type_title,department_title,material_titles,technique_titles,style_titles,subject_titles,edition,catalogue_display,source_updated_at,style_ids,subject_ids",
+    "fetchedAt": "2026-11-19T20:43:02.615Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By) and the Terms and Conditions of artic.edu. All other data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu."
+  }
+}

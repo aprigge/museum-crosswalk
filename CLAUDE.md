@@ -8,8 +8,35 @@ open museum sources, converts each record to a common Linked Art shape, matches 
 artist to a single Wikidata entity, and writes a report on overlaps, gaps and
 matching problems.
 
-This is a prototype. No triplestore and no UI yet. Those come later, once this
-report shows the data is workable.
+This is a prototype. Phase 1 (above) had no triplestore and no UI. Phase 2 adds them:
+see "Phase 2" below.
+
+## Phase 2: knowledge graph and search site
+
+A bounded slice, **paintings made 1850–1900** from the same three museums, loaded into a
+knowledge graph (Oxigraph) and searched from a static site on GitHub Pages
+(`aprigge.github.io/museum-crosswalk`). The test question: does "Impressionist
+landscapes" return works from all three museums, grouped correctly by artist?
+Findings go in `reports/impressionist-landscapes.md`.
+
+- Pipeline: `harvest --slice` → `transform` → `reconcile --slice` → `concepts` → `graph`
+  → `index` → `evaluate` → `site`. `site/` is plain HTML/CSS/ES modules, no bundler;
+  `site/js/terms.js` is shared by the index build and the browser, so search behaves
+  the same in both.
+- Artist match policy: an exact Wikidata link, two agreeing IDs, or one ID plus agreeing
+  life years merges; anything weaker or qualified stays in review and is shown unmerged.
+- Keep what each party claims apart: museums' Linked Art in per-source named graphs,
+  Wikidata-derived inferences (e.g. style from the artist's movement) in `graph/derived`,
+  and the project's own concept links in `alignments/concepts.ttl` (`graph/alignments`),
+  each with a comment saying why.
+- `site/data/` is generated but committed, because CI cannot re-harvest. Rebuild it with
+  the pipeline, then commit.
+- Read-only still applies to every museum API and Wikidata. Publishing our own site is
+  the only external write, and only on the user's go-ahead.
+- The Met's firewall blocked 2 requests/s; it is paced at one request every 3 s. A 403
+  stops a source at once; resume later from cache.
+- Third-party text and URLs on the site are escaped or allow-listed (http/https only);
+  museum images load with `referrerpolicy="no-referrer"` (AIC refuses unknown referrers).
 
 **Out of scope for now: all Getty data** (the Getty Museum collection and the Getty
 Vocabularies, including ULAN). Don't fetch from data.getty.edu or vocab.getty.edu.

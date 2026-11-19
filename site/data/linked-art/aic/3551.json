@@ -1,0 +1,274 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://api.artic.edu/api/v1/artworks/3551",
+  "type": "HumanMadeObject",
+  "_label": "Study for \"Arrangement in Grey and Black, No. 2: Portrait of Thomas Carlyle\"",
+  "identified_by": [
+    {
+      "type": "Name",
+      "content": "Study for \"Arrangement in Grey and Black, No. 2: Portrait of Thomas Carlyle\"",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ]
+    },
+    {
+      "type": "Identifier",
+      "content": "1956.763",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300312355",
+          "type": "Type",
+          "_label": "Accession Number"
+        }
+      ]
+    }
+  ],
+  "produced_by": {
+    "type": "Production",
+    "timespan": {
+      "type": "TimeSpan",
+      "identified_by": [
+        {
+          "type": "Name",
+          "content": "1872–73"
+        }
+      ],
+      "begin_of_the_begin": "1872-01-01T00:00:00Z",
+      "end_of_the_end": "1873-12-31T23:59:59Z"
+    },
+    "carried_out_by": [
+      {
+        "id": "https://api.artic.edu/api/v1/agents/37279",
+        "type": "Person",
+        "_label": "James McNeill Whistler"
+      }
+    ]
+  },
+  "classified_as": [
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-5981",
+      "type": "Type",
+      "_label": "Modernism",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300015646",
+          "type": "Type",
+          "_label": "Style"
+        }
+      ]
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "content": "Oil on canvas",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435429",
+          "type": "Type",
+          "_label": "Materials Statement",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "28.6 × 21 cm (11 1/4 × 8 1/4 in.)",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435430",
+          "type": "Type",
+          "_label": "Dimensions Statement",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Gift of Emily Crane Chadbourne",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300026687",
+          "type": "Type",
+          "_label": "Credit Line",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Signed at right with butterfly",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435414",
+          "type": "Type",
+          "_label": "Inscription Statement",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Emily Crane Chadbourne (1871–1964; born Emily Crane; also Mrs. Thomas Chadbourne), Chicago and Stone Ridge, NY, by 1956; given to the Art Institute of Chicago, 1956.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435438",
+          "type": "Type",
+          "_label": "Provenance Statement",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "In 1872, James McNeill Whistler began a large portrait of historian and philosopher Thomas Carlyle. He made several studies, including this one, which strongly resembles the finished painting. Concerned with harmonious arrangements of color and form, the artist focused on his sitter's black coat. The composition is strikingly similar to Whistler’s <em>Arrangement in Grey and Black: Portrait of the Artist’s Mother</em>, also known as <em>Whistler’s Mother</em>.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300026032",
+          "type": "Type",
+          "_label": "Summary",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "<p>In 1872, James McNeill Whistler began a large-scale portrait of Scottish historian and philosopher Thomas Carlyle, who lived near the artist in London. Whistler executed several studies, including this one, which strongly resembles the finished painting. Carlyle endured numerous sittings, as Whistler labored over the portrait with particular emphasis on the aesthetics of the sitter’s black coat. Concerned with harmonious arrangements of color and form, the artist was less interested in depicting the details of Carlyle’s face. The composition is strikingly similar to Whistler’s <em>Arrangement in Grey and Black: Portrait of the Artist’s Mother</em> (1871; Musée d’Orsay), also known as <em>Whistler’s Mother</em>.</p>\n",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Description",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ],
+      "format": "text/html"
+    }
+  ],
+  "representation": [
+    {
+      "type": "VisualItem",
+      "digitally_shown_by": [
+        {
+          "type": "DigitalObject",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300215302",
+              "type": "Type",
+              "_label": "Digital Image"
+            }
+          ],
+          "access_point": [
+            {
+              "id": "https://www.artic.edu/iiif/2/b7637e1b-47d7-123c-fe43-46981a93550e/full/843,/0/default.jpg",
+              "type": "DigitalObject"
+            }
+          ],
+          "digitally_available_via": [
+            {
+              "type": "DigitalService",
+              "access_point": [
+                {
+                  "id": "https://www.artic.edu/iiif/2/b7637e1b-47d7-123c-fe43-46981a93550e",
+                  "type": "DigitalObject"
+                }
+              ],
+              "conforms_to": [
+                {
+                  "id": "http://iiif.io/api/image",
+                  "type": "InformationObject"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "subject_of": [
+    {
+      "type": "LinguisticObject",
+      "digitally_carried_by": [
+        {
+          "type": "DigitalObject",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300264578",
+              "type": "Type",
+              "_label": "Web Page"
+            }
+          ],
+          "format": "text/html",
+          "access_point": [
+            {
+              "id": "https://www.artic.edu/artworks/3551",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "aic",
+    "sourceUrl": "https://api.artic.edu/api/v1/artworks/3551?fields=id,api_link,title,alt_titles,main_reference_number,date_start,date_end,date_display,date_qualifier_title,artist_id,artist_ids,artist_title,artist_titles,artist_display,alt_artist_ids,place_of_origin,medium_display,dimensions,dimensions_detail,credit_line,inscriptions,provenance_text,publication_history,exhibition_history,copyright_notice,is_public_domain,image_id,alt_image_ids,description,short_description,classification_title,artwork_type_title,department_title,material_titles,technique_titles,style_titles,subject_titles,edition,catalogue_display,source_updated_at,style_ids,subject_ids",
+    "fetchedAt": "2026-11-19T20:50:43.951Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By) and the Terms and Conditions of artic.edu. All other data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu."
+  },
+  "_fieldProvenance": {
+    "referred_to_by[Description]": {
+      "source": "aic",
+      "sourceUrl": "https://api.artic.edu/api/v1/artworks/3551?fields=id,api_link,title,alt_titles,main_reference_number,date_start,date_end,date_display,date_qualifier_title,artist_id,artist_ids,artist_title,artist_titles,artist_display,alt_artist_ids,place_of_origin,medium_display,dimensions,dimensions_detail,credit_line,inscriptions,provenance_text,publication_history,exhibition_history,copyright_notice,is_public_domain,image_id,alt_image_ids,description,short_description,classification_title,artwork_type_title,department_title,material_titles,technique_titles,style_titles,subject_titles,edition,catalogue_display,source_updated_at,style_ids,subject_ids",
+      "fetchedAt": "2026-11-19T20:50:43.951Z",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "licenseNote": "AIC licenses `description` under CC BY 4.0; attribution required"
+    }
+  }
+}

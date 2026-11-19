@@ -1,0 +1,70 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/met-435868",
+  "type": "VisualItem",
+  "_label": "Subjects of The Card Players",
+  "about": [
+    {
+      "id": "http://vocab.getty.edu/aat/300025928",
+      "type": "Type",
+      "_label": "Men",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q8441",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300211294",
+      "type": "Type",
+      "_label": "Playing Cards",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q47883",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300380156",
+      "type": "Type",
+      "_label": "Smoking",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q662860",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300069657",
+      "type": "Type",
+      "_label": "Games",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q11410",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300248067",
+      "type": "Type",
+      "_label": "Pipes",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q104526",
+          "type": "Type"
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "met",
+    "sourceUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/435868",
+    "fetchedAt": "2026-11-19T20:40:09.982Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "Open Access (isPublicDomain: true)"
+  }
+}

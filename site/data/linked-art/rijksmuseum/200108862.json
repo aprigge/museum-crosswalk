@@ -1,0 +1,1227 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://id.rijksmuseum.nl/200108862",
+  "type": "HumanMadeObject",
+  "assigned_by": [
+    {
+      "type": "AttributeAssignment",
+      "assigned": [
+        {
+          "type": "LinguisticObject",
+          "identified_by": [
+            {
+              "type": "Identifier",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300311705",
+                  "type": "Type"
+                }
+              ],
+              "part": [
+                {
+                  "type": "Identifier",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300445022",
+                      "type": "Type"
+                    }
+                  ],
+                  "content": "p. 258"
+                }
+              ]
+            }
+          ],
+          "part_of": [
+            {
+              "id": "https://id.rijksmuseum.nl/3015253",
+              "type": "http://id.loc.gov/ontologies/bibframe/Instance"
+            }
+          ]
+        }
+      ],
+      "assigned_property": "referred_to_by",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300311954",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "type": "AttributeAssignment",
+      "assigned": [
+        {
+          "type": "LinguisticObject",
+          "identified_by": [
+            {
+              "type": "Identifier",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300311705",
+                  "type": "Type"
+                }
+              ],
+              "part": [
+                {
+                  "type": "Identifier",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300445022",
+                      "type": "Type"
+                    }
+                  ],
+                  "content": "p. 56"
+                }
+              ]
+            }
+          ],
+          "part_of": [
+            {
+              "id": "https://id.rijksmuseum.nl/3015254",
+              "type": "http://id.loc.gov/ontologies/bibframe/Instance"
+            }
+          ]
+        }
+      ],
+      "assigned_property": "referred_to_by",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300311954",
+          "type": "Type"
+        }
+      ]
+    }
+  ],
+  "classified_as": [
+    {
+      "id": "https://id.rijksmuseum.nl/2208",
+      "type": "Type",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Type of Work"
+        }
+      ],
+      "equivalent": [
+        {
+          "id": "http://vocab.getty.edu/aat/300033618",
+          "type": "Type"
+        },
+        {
+          "id": "http://www.wikidata.org/entity/Q3305213",
+          "type": "Type"
+        }
+      ],
+      "notation": [
+        {
+          "@language": "en",
+          "@value": "painting"
+        },
+        {
+          "@language": "nl",
+          "@value": "schilderij"
+        }
+      ]
+    }
+  ],
+  "dimension": [
+    {
+      "type": "Dimension",
+      "classified_as": [
+        {
+          "id": "https://id.rijksmuseum.nl/22011",
+          "type": "Type",
+          "equivalent": [
+            {
+              "id": "http://vocab.getty.edu/aat/300055644",
+              "type": "Type"
+            }
+          ],
+          "notation": [
+            {
+              "@language": "en",
+              "@value": "height"
+            },
+            {
+              "@language": "nl",
+              "@value": "hoogte"
+            }
+          ]
+        }
+      ],
+      "unit": {
+        "id": "http://vocab.getty.edu/aat/300379098",
+        "type": "MeasurementUnit"
+      },
+      "value": "100"
+    },
+    {
+      "type": "Dimension",
+      "classified_as": [
+        {
+          "id": "https://id.rijksmuseum.nl/22012",
+          "type": "Type",
+          "equivalent": [
+            {
+              "id": "http://vocab.getty.edu/aat/300055647",
+              "type": "Type"
+            }
+          ],
+          "notation": [
+            {
+              "@language": "en",
+              "@value": "width"
+            },
+            {
+              "@language": "nl",
+              "@value": "breedte"
+            }
+          ]
+        }
+      ],
+      "unit": {
+        "id": "http://vocab.getty.edu/aat/300379098",
+        "type": "MeasurementUnit"
+      },
+      "value": "135"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://hdl.handle.net/10934/RM0001.COLLECT.7510",
+      "type": "HumanMadeObject"
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300312355",
+          "type": "Type"
+        },
+        {
+          "id": "https://id.rijksmuseum.nl/22015218",
+          "type": "Type",
+          "notation": [
+            {
+              "@language": "en",
+              "@value": "object number"
+            },
+            {
+              "@language": "nl",
+              "@value": "objectnummer"
+            }
+          ]
+        }
+      ],
+      "content": "SK-A-1813"
+    },
+    {
+      "id": "_:bnode0",
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "brief text"
+            }
+          ]
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300417200",
+          "type": "Type"
+        }
+      ],
+      "content": "Herinnering aan het bos van Fontainebleau",
+      "identified_by": [
+        {
+          "id": "_:bnode1",
+          "type": "Identifier",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300456575",
+              "type": "Type"
+            }
+          ],
+          "content": "1"
+        }
+      ],
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388256",
+          "type": "Language"
+        }
+      ]
+    },
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "brief text"
+            }
+          ]
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300417200",
+          "type": "Type"
+        }
+      ],
+      "content": "Souvenir of the Forest of Fontainebleau",
+      "identified_by": [
+        {
+          "type": "Identifier",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300456575",
+              "type": "Type"
+            }
+          ],
+          "content": "1"
+        }
+      ],
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388277",
+          "type": "Language"
+        }
+      ],
+      "translation_of": [
+        {
+          "id": "_:bnode0",
+          "type": "Name",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300404670",
+              "type": "Type",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300418049",
+                  "type": "Type",
+                  "_label": "brief text"
+                }
+              ]
+            },
+            {
+              "id": "http://vocab.getty.edu/aat/300417200",
+              "type": "Type"
+            }
+          ],
+          "content": "Herinnering aan het bos van Fontainebleau",
+          "identified_by": [
+            {
+              "id": "_:bnode1",
+              "type": "Identifier",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300456575",
+                  "type": "Type"
+                }
+              ],
+              "content": "1"
+            }
+          ],
+          "language": [
+            {
+              "id": "http://vocab.getty.edu/aat/300388256",
+              "type": "Language"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "_:bnode2",
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "https://id.rijksmuseum.nl/22015528",
+          "type": "Type",
+          "notation": [
+            {
+              "@language": "en",
+              "@value": "former title"
+            },
+            {
+              "@language": "nl",
+              "@value": "voormalige titel"
+            }
+          ]
+        }
+      ],
+      "content": "Boslandschap, bekend als 'Een uitstapje naar Gelderland'",
+      "identified_by": [
+        {
+          "id": "_:bnode3",
+          "type": "Identifier",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300456575",
+              "type": "Type"
+            }
+          ],
+          "content": "2"
+        }
+      ],
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388256",
+          "type": "Language"
+        }
+      ]
+    },
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "https://id.rijksmuseum.nl/22015528",
+          "type": "Type",
+          "notation": [
+            {
+              "@language": "en",
+              "@value": "former title"
+            },
+            {
+              "@language": "nl",
+              "@value": "voormalige titel"
+            }
+          ]
+        }
+      ],
+      "content": "Forest Landscape, known as 'An Excursion to Gelderland'",
+      "identified_by": [
+        {
+          "type": "Identifier",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300456575",
+              "type": "Type"
+            }
+          ],
+          "content": "2"
+        }
+      ],
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388277",
+          "type": "Language"
+        }
+      ],
+      "translation_of": [
+        {
+          "id": "_:bnode2",
+          "type": "Name",
+          "classified_as": [
+            {
+              "id": "https://id.rijksmuseum.nl/22015528",
+              "type": "Type",
+              "notation": [
+                {
+                  "@language": "en",
+                  "@value": "former title"
+                },
+                {
+                  "@language": "nl",
+                  "@value": "voormalige titel"
+                }
+              ]
+            }
+          ],
+          "content": "Boslandschap, bekend als 'Een uitstapje naar Gelderland'",
+          "identified_by": [
+            {
+              "id": "_:bnode3",
+              "type": "Identifier",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300456575",
+                  "type": "Type"
+                }
+              ],
+              "content": "2"
+            }
+          ],
+          "language": [
+            {
+              "id": "http://vocab.getty.edu/aat/300388256",
+              "type": "Language"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "made_of": [
+    {
+      "id": "https://id.rijksmuseum.nl/22010",
+      "type": "Material",
+      "equivalent": [
+        {
+          "id": "http://vocab.getty.edu/aat/300014078",
+          "type": "Material"
+        }
+      ],
+      "identified_by": [
+        {
+          "type": "Identifier",
+          "assigned_by": [
+            {
+              "type": "AttributeAssignment",
+              "assigned": [
+                "https://id.rijksmuseum.nl/200108862"
+              ],
+              "assigned_property": "influenced_by"
+            }
+          ],
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300456575",
+              "type": "Type"
+            }
+          ],
+          "content": "1"
+        }
+      ],
+      "notation": [
+        {
+          "@language": "en",
+          "@value": "canvas"
+        },
+        {
+          "@language": "nl",
+          "@value": "doek"
+        }
+      ]
+    },
+    {
+      "id": "https://id.rijksmuseum.nl/2209",
+      "type": "Material",
+      "equivalent": [
+        {
+          "id": "http://vocab.getty.edu/aat/300015050",
+          "type": "Material"
+        },
+        {
+          "id": "http://www.wikidata.org/entity/Q296955",
+          "type": "Material"
+        },
+        {
+          "id": "https://data.cultureelerfgoed.nl/term/id/cht/d2070bd1-9a89-4623-b793-81f9ec1f5862",
+          "type": "Material"
+        }
+      ],
+      "identified_by": [
+        {
+          "type": "Identifier",
+          "assigned_by": [
+            {
+              "type": "AttributeAssignment",
+              "assigned": [
+                "https://id.rijksmuseum.nl/200108862"
+              ],
+              "assigned_property": "influenced_by"
+            }
+          ],
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300456575",
+              "type": "Type"
+            }
+          ],
+          "content": "2"
+        }
+      ],
+      "notation": [
+        {
+          "@language": "en",
+          "@value": "oil paint (paint)"
+        },
+        {
+          "@language": "nl",
+          "@value": "olieverf"
+        }
+      ]
+    }
+  ],
+  "member_of": [
+    {
+      "id": "https://id.rijksmuseum.nl/260239",
+      "type": "Set"
+    },
+    {
+      "id": "https://id.rijksmuseum.nl/260251",
+      "type": "Set"
+    },
+    {
+      "id": "https://id.rijksmuseum.nl/261208",
+      "type": "Set"
+    }
+  ],
+  "produced_by": {
+    "type": "Production",
+    "part": [
+      {
+        "type": "Production",
+        "carried_out_by": [
+          {
+            "id": "https://id.rijksmuseum.nl/2101316",
+            "type": "Person",
+            "equivalent": [
+              {
+                "id": "http://viaf.org/viaf/37073188",
+                "type": "Person"
+              },
+              {
+                "id": "http://vocab.getty.edu/ulan/500011470",
+                "type": "Person"
+              },
+              {
+                "id": "http://www.wikidata.org/entity/Q2252008",
+                "type": "Person"
+              },
+              {
+                "id": "https://rkd.nl/artists/67474",
+                "type": "Person"
+              }
+            ],
+            "notation": [
+              {
+                "@language": "en",
+                "@value": "Charles Rochussen"
+              },
+              {
+                "@language": "nl",
+                "@value": "Charles Rochussen"
+              }
+            ]
+          }
+        ],
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300379012",
+            "type": "Type"
+          }
+        ],
+        "identified_by": [
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300456575",
+                "type": "Type"
+              }
+            ],
+            "content": "2"
+          }
+        ],
+        "referred_to_by": [
+          {
+            "type": "LinguisticObject",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300435416",
+                "type": "Type"
+              }
+            ],
+            "content": "painter: Charles Rochussen",
+            "language": [
+              {
+                "id": "http://vocab.getty.edu/aat/300388277",
+                "type": "Language"
+              }
+            ]
+          },
+          {
+            "type": "LinguisticObject",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300435416",
+                "type": "Type"
+              }
+            ],
+            "content": "schilder: Charles Rochussen",
+            "language": [
+              {
+                "id": "http://vocab.getty.edu/aat/300388256",
+                "type": "Language"
+              }
+            ]
+          }
+        ],
+        "technique": [
+          {
+            "id": "https://id.rijksmuseum.nl/2202217",
+            "type": "Type",
+            "equivalent": [
+              {
+                "id": "http://vocab.getty.edu/aat/300025136",
+                "type": "Type"
+              }
+            ],
+            "notation": [
+              {
+                "@language": "en",
+                "@value": "painter"
+              },
+              {
+                "@language": "nl",
+                "@value": "schilder"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "Production",
+        "carried_out_by": [
+          {
+            "id": "https://id.rijksmuseum.nl/2102023",
+            "type": "Person",
+            "equivalent": [
+              {
+                "id": "http://viaf.org/viaf/95707078",
+                "type": "Person"
+              },
+              {
+                "id": "http://vocab.getty.edu/ulan/500004313",
+                "type": "Person"
+              },
+              {
+                "id": "http://www.wikidata.org/entity/Q6689899",
+                "type": "Person"
+              },
+              {
+                "id": "https://rkd.nl/artists/35776",
+                "type": "Person"
+              }
+            ],
+            "notation": [
+              {
+                "@language": "en",
+                "@value": "Louwrens Hanedoes"
+              },
+              {
+                "@language": "nl",
+                "@value": "Louwrens Hanedoes"
+              }
+            ]
+          }
+        ],
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404450",
+            "type": "Type"
+          }
+        ],
+        "identified_by": [
+          {
+            "type": "Identifier",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300456575",
+                "type": "Type"
+              }
+            ],
+            "content": "1"
+          }
+        ],
+        "referred_to_by": [
+          {
+            "type": "LinguisticObject",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300435416",
+                "type": "Type"
+              }
+            ],
+            "content": "painter: Louwrens Hanedoes",
+            "language": [
+              {
+                "id": "http://vocab.getty.edu/aat/300388277",
+                "type": "Language"
+              }
+            ]
+          },
+          {
+            "type": "LinguisticObject",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300435416",
+                "type": "Type"
+              }
+            ],
+            "content": "schilder: Louwrens Hanedoes",
+            "language": [
+              {
+                "id": "http://vocab.getty.edu/aat/300388256",
+                "type": "Language"
+              }
+            ]
+          },
+          {
+            "type": "LinguisticObject",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300435417",
+                "type": "Type"
+              }
+            ],
+            "content": "Louwrens Hanedoes",
+            "language": [
+              {
+                "id": "http://vocab.getty.edu/aat/300388256",
+                "type": "Language"
+              }
+            ]
+          },
+          {
+            "type": "LinguisticObject",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300435417",
+                "type": "Type"
+              }
+            ],
+            "content": "Louwrens Hanedoes",
+            "language": [
+              {
+                "id": "http://vocab.getty.edu/aat/300388277",
+                "type": "Language"
+              }
+            ]
+          }
+        ],
+        "technique": [
+          {
+            "id": "https://id.rijksmuseum.nl/2202217",
+            "type": "Type",
+            "equivalent": [
+              {
+                "id": "http://vocab.getty.edu/aat/300025136",
+                "type": "Type"
+              }
+            ],
+            "notation": [
+              {
+                "@language": "en",
+                "@value": "painter"
+              },
+              {
+                "@language": "nl",
+                "@value": "schilder"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "referred_to_by": [
+      {
+        "type": "LinguisticObject",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300435416",
+            "type": "Type"
+          }
+        ],
+        "content": "Louwrens Hanedoes",
+        "language": [
+          {
+            "id": "http://vocab.getty.edu/aat/300388256",
+            "type": "Language"
+          }
+        ]
+      },
+      {
+        "type": "LinguisticObject",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300435416",
+            "type": "Type"
+          }
+        ],
+        "content": "Louwrens Hanedoes",
+        "language": [
+          {
+            "id": "http://vocab.getty.edu/aat/300388277",
+            "type": "Language"
+          }
+        ]
+      }
+    ],
+    "timespan": {
+      "type": "TimeSpan",
+      "begin_of_the_begin": "1851-01-01T00:00:00Z",
+      "end_of_the_end": "1851-12-31T23:59:59Z",
+      "identified_by": [
+        {
+          "type": "Name",
+          "content": "1851",
+          "language": [
+            {
+              "id": "http://vocab.getty.edu/aat/300388256",
+              "type": "Language"
+            }
+          ]
+        },
+        {
+          "type": "Name",
+          "content": "1851",
+          "language": [
+            {
+              "id": "http://vocab.getty.edu/aat/300388277",
+              "type": "Language"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300026687",
+          "type": "Type",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "brief text"
+            }
+          ]
+        }
+      ],
+      "content": "Legaat van R. baron van Lynden, Den Haag",
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388256",
+          "type": "Language"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300026687",
+          "type": "Type",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "brief text"
+            }
+          ]
+        }
+      ],
+      "content": "R., Baron van Lynden Bequest, The Hague",
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388277",
+          "type": "Language"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "brief text"
+            }
+          ]
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300435452",
+          "type": "Type",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "brief text"
+            }
+          ]
+        }
+      ],
+      "content": "Herinnering aan het bos van Fontainebleau, vroeger bekend als 'Een uitstapje naar Gelderland'. Landschap met bosschages en een gezelschap naast een boomstam bij de oever van een beekje.",
+      "created_by": {
+        "type": "Creation",
+        "timespan": {
+          "type": "TimeSpan",
+          "begin_of_the_begin": "2001-01-17T00:00:00Z",
+          "end_of_the_end": "2001-01-17T23:59:59Z",
+          "identified_by": [
+            {
+              "type": "Name",
+              "content": "2001-01-17",
+              "language": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300388256",
+                  "type": "Language"
+                }
+              ]
+            },
+            {
+              "type": "Name",
+              "content": "2001-01-17",
+              "language": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300388277",
+                  "type": "Language"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388256",
+          "type": "Language"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435414",
+          "type": "Type",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "brief text"
+            }
+          ]
+        }
+      ],
+      "content": "signature and date: ‘L. Hanedoes fct 1851’",
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388277",
+          "type": "Language"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435414",
+          "type": "Type",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "brief text"
+            }
+          ]
+        }
+      ],
+      "content": "signatuur en datum, rechtsonder: ‘L. Hanedoes fct 1851’",
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388256",
+          "type": "Language"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435429",
+          "type": "Type",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "brief text"
+            }
+          ]
+        }
+      ],
+      "content": "oil on canvas",
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388277",
+          "type": "Language"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435429",
+          "type": "Type",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "brief text"
+            }
+          ]
+        }
+      ],
+      "content": "olieverf op doek",
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388256",
+          "type": "Language"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435430",
+          "type": "Type",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "brief text"
+            }
+          ]
+        }
+      ],
+      "content": "height 100 cm x width 135 cm",
+      "identified_by": [
+        {
+          "type": "Identifier",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300456575",
+              "type": "Type"
+            }
+          ],
+          "content": "1"
+        }
+      ],
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388277",
+          "type": "Language"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435430",
+          "type": "Type",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "brief text"
+            }
+          ]
+        }
+      ],
+      "content": "hoogte 100 cm x breedte 135 cm",
+      "identified_by": [
+        {
+          "type": "Identifier",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300456575",
+              "type": "Type"
+            }
+          ],
+          "content": "1"
+        }
+      ],
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388256",
+          "type": "Language"
+        }
+      ]
+    }
+  ],
+  "shows": [
+    {
+      "id": "https://id.rijksmuseum.nl/202108862",
+      "type": "VisualItem"
+    }
+  ],
+  "subject_of": [
+    {
+      "type": "LinguisticObject",
+      "digitally_carried_by": [
+        {
+          "type": "DigitalObject",
+          "access_point": [
+            {
+              "id": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-1813--19795e60923448d26a9b4957f23c5b7a",
+              "type": "DigitalObject"
+            }
+          ],
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300264578",
+              "type": "Type"
+            }
+          ],
+          "format": "text/html"
+        }
+      ],
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388256",
+          "type": "Language"
+        }
+      ]
+    },
+    {
+      "id": "https://data.rijksmuseum.nl/200108862",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300379475",
+          "type": "Type"
+        }
+      ],
+      "subject_to": [
+        {
+          "type": "Right",
+          "classified_as": [
+            {
+              "id": "https://creativecommons.org/publicdomain/zero/1.0/",
+              "type": "Type"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "rijksmuseum",
+    "sourceUrl": "https://id.rijksmuseum.nl/200108862?_profile=la-framed",
+    "fetchedAt": "2026-11-19T20:40:23.164Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/"
+  }
+}

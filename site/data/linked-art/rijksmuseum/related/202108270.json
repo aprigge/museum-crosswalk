@@ -1,0 +1,113 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://id.rijksmuseum.nl/202108270",
+  "type": "VisualItem",
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435434",
+          "type": "Type"
+        }
+      ],
+      "content": "erven Henri Frédéric Boot",
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388256",
+          "type": "Language",
+          "_label": "Dutch"
+        }
+      ]
+    }
+  ],
+  "represents_instance_of_type": [
+    {
+      "id": "https://id.rijksmuseum.nl/2211563",
+      "type": "Type",
+      "equivalent": [
+        {
+          "id": "https://iconclass.org/25G3%28APPLE-TREE%29",
+          "type": "Type"
+        }
+      ]
+    }
+  ],
+  "shown_by": [
+    {
+      "id": "https://id.rijksmuseum.nl/200108270",
+      "type": "HumanMadeObject",
+      "equivalent": [
+        {
+          "id": "http://hdl.handle.net/10934/RM0001.COLLECT.6138",
+          "type": "HumanMadeObject"
+        }
+      ]
+    }
+  ],
+  "subject_of": [
+    {
+      "id": "https://data.rijksmuseum.nl/202108270",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300379475",
+          "type": "Type"
+        }
+      ],
+      "subject_to": [
+        {
+          "type": "Right",
+          "classified_as": [
+            {
+              "id": "https://creativecommons.org/publicdomain/zero/1.0/",
+              "type": "Type"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "classified_as": [
+        {
+          "id": "https://rightsstatements.org/vocab/InC/1.0/",
+          "type": "Type",
+          "_label": "Copyright"
+        }
+      ],
+      "identified_by": [
+        {
+          "type": "Name",
+          "content": "Auteursrecht",
+          "language": [
+            {
+              "id": "http://vocab.getty.edu/aat/300388256",
+              "type": "Language",
+              "_label": "Dutch"
+            }
+          ]
+        },
+        {
+          "type": "Name",
+          "content": "Copyright",
+          "language": [
+            {
+              "id": "http://vocab.getty.edu/aat/300388277",
+              "type": "Language",
+              "_label": "English"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "rijksmuseum",
+    "sourceUrl": "https://id.rijksmuseum.nl/202108270?_profile=la-framed",
+    "fetchedAt": "2026-11-19T20:46:33.889Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/"
+  }
+}

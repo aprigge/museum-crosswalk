@@ -1,0 +1,48 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/met-435979",
+  "type": "VisualItem",
+  "_label": "Subjects of A Pond in Picardy",
+  "about": [
+    {
+      "id": "http://vocab.getty.edu/aat/300025943",
+      "type": "Type",
+      "_label": "Women",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q467",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300008688",
+      "type": "Type",
+      "_label": "Ponds",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q3253281",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300132410",
+      "type": "Type",
+      "_label": "Trees",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q10884",
+          "type": "Type"
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "met",
+    "sourceUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/435979",
+    "fetchedAt": "2026-11-19T20:40:24.839Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "Open Access (isPublicDomain: true)"
+  }
+}

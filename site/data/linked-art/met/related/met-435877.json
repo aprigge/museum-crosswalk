@@ -1,0 +1,48 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/met-435877",
+  "type": "VisualItem",
+  "_label": "Subjects of Mont Sainte-Victoire and the Viaduct of the Arc River Valley",
+  "about": [
+    {
+      "id": "http://vocab.getty.edu/aat/300386855",
+      "type": "Type",
+      "_label": "Bridges",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q12280",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300008795",
+      "type": "Type",
+      "_label": "Mountains",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q8502",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300132294",
+      "type": "Type",
+      "_label": "Landscapes",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q191163",
+          "type": "Type"
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "met",
+    "sourceUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/435877",
+    "fetchedAt": "2026-11-19T20:40:14.367Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "Open Access (isPublicDomain: true)"
+  }
+}

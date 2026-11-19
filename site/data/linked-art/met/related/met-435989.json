@@ -1,0 +1,48 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/met-435989",
+  "type": "VisualItem",
+  "_label": "Subjects of The Banks of the Seine at Conflans",
+  "about": [
+    {
+      "id": "http://vocab.getty.edu/aat/300025928",
+      "type": "Type",
+      "_label": "Men",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q8441",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300008707",
+      "type": "Type",
+      "_label": "Rivers",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q4022",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300387598",
+      "type": "Type",
+      "_label": "Forests",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q4421",
+          "type": "Type"
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "met",
+    "sourceUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/435989",
+    "fetchedAt": "2026-11-19T20:40:28.206Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "Open Access (isPublicDomain: true)"
+  }
+}

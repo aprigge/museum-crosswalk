@@ -1,0 +1,171 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://id.rijksmuseum.nl/20228263",
+  "type": "VisualItem",
+  "about": [
+    {
+      "id": "https://id.rijksmuseum.nl/22012078",
+      "type": "Type"
+    }
+  ],
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "assigned": [
+        {
+          "id": "https://id.rijksmuseum.nl/200902971",
+          "type": "HumanMadeObject"
+        }
+      ],
+      "identified_by": [
+        {
+          "type": "Name",
+          "content": "original | reproduction",
+          "language": [
+            {
+              "id": "http://vocab.getty.edu/aat/300388277",
+              "type": "Language",
+              "_label": "English"
+            }
+          ]
+        },
+        {
+          "type": "Name",
+          "content": "origineel | reproductie",
+          "language": [
+            {
+              "id": "http://vocab.getty.edu/aat/300388256",
+              "type": "Language",
+              "_label": "Dutch"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "digitally_shown_by": [
+    {
+      "id": "https://id.rijksmuseum.nl/50010779100708211377112",
+      "type": "DigitalObject"
+    }
+  ],
+  "represents": [
+    {
+      "id": "https://id.rijksmuseum.nl/230391",
+      "type": "Place",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q694",
+          "type": "Place"
+        },
+        {
+          "id": "https://sws.geonames.org/2743698/",
+          "type": "Place"
+        }
+      ]
+    }
+  ],
+  "represents_instance_of_type": [
+    {
+      "id": "https://id.rijksmuseum.nl/2217339",
+      "type": "Type",
+      "equivalent": [
+        {
+          "id": "https://iconclass.org/25I28",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "https://id.rijksmuseum.nl/221792",
+      "type": "Type",
+      "equivalent": [
+        {
+          "id": "https://iconclass.org/25I14",
+          "type": "Type"
+        }
+      ]
+    }
+  ],
+  "shown_by": [
+    {
+      "id": "https://id.rijksmuseum.nl/20028263",
+      "type": "HumanMadeObject",
+      "equivalent": [
+        {
+          "id": "http://hdl.handle.net/10934/RM0001.COLLECT.8986",
+          "type": "HumanMadeObject"
+        }
+      ]
+    },
+    {
+      "id": "https://id.rijksmuseum.nl/200902971",
+      "type": "HumanMadeObject"
+    }
+  ],
+  "subject_of": [
+    {
+      "id": "https://data.rijksmuseum.nl/20228263",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300379475",
+          "type": "Type"
+        }
+      ],
+      "subject_to": [
+        {
+          "type": "Right",
+          "classified_as": [
+            {
+              "id": "https://creativecommons.org/publicdomain/zero/1.0/",
+              "type": "Type"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "classified_as": [
+        {
+          "id": "https://creativecommons.org/publicdomain/mark/1.0/",
+          "type": "Type",
+          "_label": "Public Domain"
+        }
+      ],
+      "identified_by": [
+        {
+          "type": "Name",
+          "content": "Public Domain",
+          "language": [
+            {
+              "id": "http://vocab.getty.edu/aat/300388277",
+              "type": "Language",
+              "_label": "English"
+            }
+          ]
+        },
+        {
+          "type": "Name",
+          "content": "Publieke domein",
+          "language": [
+            {
+              "id": "http://vocab.getty.edu/aat/300388256",
+              "type": "Language",
+              "_label": "Dutch"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "rijksmuseum",
+    "sourceUrl": "https://id.rijksmuseum.nl/20228263?_profile=la-framed",
+    "fetchedAt": "2026-11-19T20:46:18.144Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/"
+  }
+}

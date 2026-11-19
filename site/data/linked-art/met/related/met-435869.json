@@ -1,0 +1,59 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/met-435869",
+  "type": "VisualItem",
+  "_label": "Subjects of Antoine Dominique Sauveur Aubert (born 1817), the Artist's Uncle, as a Monk",
+  "about": [
+    {
+      "id": "http://vocab.getty.edu/aat/300025928",
+      "type": "Type",
+      "_label": "Men",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q8441",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300015637",
+      "type": "Type",
+      "_label": "Portraits",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q134307",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300235443",
+      "type": "Type",
+      "_label": "Cross",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q40843",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300025765",
+      "type": "Type",
+      "_label": "Monks",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q733786",
+          "type": "Type"
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "met",
+    "sourceUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/435869",
+    "fetchedAt": "2026-11-19T20:40:10.268Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "Open Access (isPublicDomain: true)"
+  }
+}

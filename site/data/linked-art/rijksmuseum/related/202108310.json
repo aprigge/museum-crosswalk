@@ -1,0 +1,177 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://id.rijksmuseum.nl/202108310",
+  "type": "VisualItem",
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "assigned": [
+        {
+          "id": "https://id.rijksmuseum.nl/200527557",
+          "type": "HumanMadeObject",
+          "equivalent": [
+            {
+              "id": "http://hdl.handle.net/10934/RM0001.COLLECT.492939",
+              "type": "HumanMadeObject"
+            }
+          ]
+        }
+      ],
+      "identified_by": [
+        {
+          "type": "Name",
+          "content": "original | reproduction",
+          "language": [
+            {
+              "id": "http://vocab.getty.edu/aat/300388277",
+              "type": "Language",
+              "_label": "English"
+            }
+          ]
+        },
+        {
+          "type": "Name",
+          "content": "origineel | reproductie",
+          "language": [
+            {
+              "id": "http://vocab.getty.edu/aat/300388256",
+              "type": "Language",
+              "_label": "Dutch"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "digitally_shown_by": [
+    {
+      "id": "https://id.rijksmuseum.nl/500111868499821127399",
+      "type": "DigitalObject"
+    }
+  ],
+  "represents": [
+    {
+      "id": "https://id.rijksmuseum.nl/2307254",
+      "type": "Place"
+    },
+    {
+      "id": "https://id.rijksmuseum.nl/2307379",
+      "type": "Place",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q2090428",
+          "type": "Place"
+        }
+      ]
+    }
+  ],
+  "represents_instance_of_type": [
+    {
+      "id": "https://id.rijksmuseum.nl/221391",
+      "type": "Type",
+      "equivalent": [
+        {
+          "id": "https://iconclass.org/25I145",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "https://id.rijksmuseum.nl/221456",
+      "type": "Type",
+      "equivalent": [
+        {
+          "id": "https://iconclass.org/26D1",
+          "type": "Type"
+        }
+      ]
+    }
+  ],
+  "shown_by": [
+    {
+      "id": "https://id.rijksmuseum.nl/200108310",
+      "type": "HumanMadeObject",
+      "equivalent": [
+        {
+          "id": "http://hdl.handle.net/10934/RM0001.COLLECT.6264",
+          "type": "HumanMadeObject"
+        }
+      ]
+    },
+    {
+      "id": "https://id.rijksmuseum.nl/200527557",
+      "type": "HumanMadeObject",
+      "equivalent": [
+        {
+          "id": "http://hdl.handle.net/10934/RM0001.COLLECT.492939",
+          "type": "HumanMadeObject"
+        }
+      ]
+    }
+  ],
+  "subject_of": [
+    {
+      "id": "https://data.rijksmuseum.nl/202108310",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300379475",
+          "type": "Type"
+        }
+      ],
+      "subject_to": [
+        {
+          "type": "Right",
+          "classified_as": [
+            {
+              "id": "https://creativecommons.org/publicdomain/zero/1.0/",
+              "type": "Type"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "classified_as": [
+        {
+          "id": "https://creativecommons.org/publicdomain/mark/1.0/",
+          "type": "Type",
+          "_label": "Public Domain"
+        }
+      ],
+      "identified_by": [
+        {
+          "type": "Name",
+          "content": "Public Domain",
+          "language": [
+            {
+              "id": "http://vocab.getty.edu/aat/300388277",
+              "type": "Language",
+              "_label": "English"
+            }
+          ]
+        },
+        {
+          "type": "Name",
+          "content": "Publieke domein",
+          "language": [
+            {
+              "id": "http://vocab.getty.edu/aat/300388256",
+              "type": "Language",
+              "_label": "Dutch"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "rijksmuseum",
+    "sourceUrl": "https://id.rijksmuseum.nl/202108310?_profile=la-framed",
+    "fetchedAt": "2026-11-19T20:46:34.851Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/"
+  }
+}

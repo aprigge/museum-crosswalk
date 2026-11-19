@@ -1,0 +1,286 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://api.artic.edu/api/v1/artworks/109314",
+  "type": "HumanMadeObject",
+  "_label": "Fishing in Spring, the Pont de Clichy (Asnières)",
+  "identified_by": [
+    {
+      "type": "Name",
+      "content": "Fishing in Spring, the Pont de Clichy (Asnières)",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ]
+    },
+    {
+      "type": "Identifier",
+      "content": "1965.1169",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300312355",
+          "type": "Type",
+          "_label": "Accession Number"
+        }
+      ]
+    }
+  ],
+  "produced_by": {
+    "type": "Production",
+    "timespan": {
+      "type": "TimeSpan",
+      "identified_by": [
+        {
+          "type": "Name",
+          "content": "1887"
+        }
+      ],
+      "begin_of_the_begin": "1887-01-01T00:00:00Z",
+      "end_of_the_end": "1887-12-31T23:59:59Z"
+    },
+    "carried_out_by": [
+      {
+        "id": "https://api.artic.edu/api/v1/agents/40610",
+        "type": "Person",
+        "_label": "Vincent van Gogh"
+      }
+    ]
+  },
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300021503",
+      "type": "Type",
+      "_label": "Impressionism",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300015646",
+          "type": "Type",
+          "_label": "Style"
+        }
+      ]
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-13203",
+      "type": "Type",
+      "_label": "19th century",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300015646",
+          "type": "Type",
+          "_label": "Style"
+        }
+      ]
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-15636",
+      "type": "Type",
+      "_label": "nineteenth century",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300015646",
+          "type": "Type",
+          "_label": "Style"
+        }
+      ]
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "content": "Oil on canvas",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435429",
+          "type": "Type",
+          "_label": "Materials Statement",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "50.5 × 60 cm (19 7/8 × 23 5/8 in.); Framed: 71.2 × 78.5 × 4.8 cm (28 × 30 7/8 × 1 7/8 in.)",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435430",
+          "type": "Type",
+          "_label": "Dimensions Statement",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Gift of Charles Deering McCormick, Brooks McCormick, and Roger McCormick",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300026687",
+          "type": "Type",
+          "_label": "Credit Line",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "The artist’s sister-in-law, Johanna van Gogh-Bonger (died 1925), Amsterdam [this and the following according to records in van Gogh Bonger’s account book, reproduced in Stolwijk and Veenenbos 2000, 47 no. 12/7, 142–43]; probably sent to Ambroise Vollard, Paris, Nov. 1896. Cornelis Hoogendijk (died 1911), The Hague, Netherlands, by 1906; by descent to his sister, Maria Ida Adriana (Riet) van Blaaderen-Hoogendijk (died 1942), Amsterdam, 1911 [Venice 1938]; by descent to her son, Tom van Blaaderen, Laren, 1942 [this and the following according to Wisselingh Stock Book, no. 6858, Rijksbureau voor Kunsthistorische Documentatie, The Hague, Netherlands; cited in a letter from Louis van Tilborg, Van Gogh Museum, Feb. 20, 2000]; sold to E. J. Van Wisselingh, Amsterdam, June 24, 1946; sold to Katz Art Gallery, Bussum and The Hague, Netherlands, June 24, 1946. Baron Louis de Chollet (died 1972), Fribourg, Switzerland, until 1947 [this and the following according to Knoedler Stock Book 9, No. A3608; copy in curatorial object file]; sold to Knoedler and Co., New York, January 2, 1947; sold to Chauncey McCormick (died 1954) and Marion Deering McCormick (died 1965), Chicago, May 1947; by descent to their children, Charles Deering McCormick, Brooks McCormick, and Roger McCormick, Chicago, 1965; given to the Art Institute of Chicago, 1965.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435438",
+          "type": "Type",
+          "_label": "Provenance Statement",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "This painting is set on the river Seine at the Clichy Bridge near Asnières, a suburb north of Paris where Van Gogh painted on several occasions with his friend and fellow artist Paul Signac. Van Gogh was inspired by a technique Signac innovated called divisionism, in which, using science-based color theory, he painted distinct strokes of different colors of paint next to each other to make each color more luminous.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300026032",
+          "type": "Type",
+          "_label": "Summary",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "<p>The setting of this work is the river Seine at the Clichy Bridge near Asnières, a suburb north of Paris where Vincent van Gogh painted on several occasions with his friend and fellow artist <a href=\"https://www.artic.edu/artists/36695\">Paul Signac</a>. Van Gogh was inspired by Signac and <a href=\"https://www.artic.edu/artists/40810\">Georges Seurat</a>, both of whose work is on view nearby. Their technique, called divisionism, used science-based theories of color, which they applied in individual strokes to maximize luminosity. Although Van Gogh was only in Paris working among these artists for about two years, their influence can be seen here in his use of small brushstrokes of pure, brilliant color that combine to create the effect of light reflecting off the various surfaces represented in the composition.</p>\n",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Description",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ],
+      "format": "text/html"
+    }
+  ],
+  "representation": [
+    {
+      "type": "VisualItem",
+      "digitally_shown_by": [
+        {
+          "type": "DigitalObject",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300215302",
+              "type": "Type",
+              "_label": "Digital Image"
+            }
+          ],
+          "access_point": [
+            {
+              "id": "https://www.artic.edu/iiif/2/5512cee9-6d00-d01b-b0be-ac7843cc8f76/full/843,/0/default.jpg",
+              "type": "DigitalObject"
+            }
+          ],
+          "digitally_available_via": [
+            {
+              "type": "DigitalService",
+              "access_point": [
+                {
+                  "id": "https://www.artic.edu/iiif/2/5512cee9-6d00-d01b-b0be-ac7843cc8f76",
+                  "type": "DigitalObject"
+                }
+              ],
+              "conforms_to": [
+                {
+                  "id": "http://iiif.io/api/image",
+                  "type": "InformationObject"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "shows": [
+    {
+      "id": "https://aprigge.github.io/museum-crosswalk/id/visual/aic-109314",
+      "type": "VisualItem"
+    }
+  ],
+  "subject_of": [
+    {
+      "type": "LinguisticObject",
+      "digitally_carried_by": [
+        {
+          "type": "DigitalObject",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300264578",
+              "type": "Type",
+              "_label": "Web Page"
+            }
+          ],
+          "format": "text/html",
+          "access_point": [
+            {
+              "id": "https://www.artic.edu/artworks/109314",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "aic",
+    "sourceUrl": "https://api.artic.edu/api/v1/artworks/109314?fields=id,api_link,title,alt_titles,main_reference_number,date_start,date_end,date_display,date_qualifier_title,artist_id,artist_ids,artist_title,artist_titles,artist_display,alt_artist_ids,place_of_origin,medium_display,dimensions,dimensions_detail,credit_line,inscriptions,provenance_text,publication_history,exhibition_history,copyright_notice,is_public_domain,image_id,alt_image_ids,description,short_description,classification_title,artwork_type_title,department_title,material_titles,technique_titles,style_titles,subject_titles,edition,catalogue_display,source_updated_at,style_ids,subject_ids",
+    "fetchedAt": "2026-11-19T20:41:31.489Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By) and the Terms and Conditions of artic.edu. All other data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu."
+  },
+  "_fieldProvenance": {
+    "referred_to_by[Description]": {
+      "source": "aic",
+      "sourceUrl": "https://api.artic.edu/api/v1/artworks/109314?fields=id,api_link,title,alt_titles,main_reference_number,date_start,date_end,date_display,date_qualifier_title,artist_id,artist_ids,artist_title,artist_titles,artist_display,alt_artist_ids,place_of_origin,medium_display,dimensions,dimensions_detail,credit_line,inscriptions,provenance_text,publication_history,exhibition_history,copyright_notice,is_public_domain,image_id,alt_image_ids,description,short_description,classification_title,artwork_type_title,department_title,material_titles,technique_titles,style_titles,subject_titles,edition,catalogue_display,source_updated_at,style_ids,subject_ids",
+      "fetchedAt": "2026-11-19T20:41:31.489Z",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "licenseNote": "AIC licenses `description` under CC BY 4.0; attribution required"
+    }
+  }
+}

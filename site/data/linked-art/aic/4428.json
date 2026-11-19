@@ -1,0 +1,292 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://api.artic.edu/api/v1/artworks/4428",
+  "type": "HumanMadeObject",
+  "_label": "Mère Grégoire",
+  "identified_by": [
+    {
+      "type": "Name",
+      "content": "Mère Grégoire",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ]
+    },
+    {
+      "type": "Identifier",
+      "content": "1930.78",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300312355",
+          "type": "Type",
+          "_label": "Accession Number"
+        }
+      ]
+    }
+  ],
+  "produced_by": {
+    "type": "Production",
+    "timespan": {
+      "type": "TimeSpan",
+      "identified_by": [
+        {
+          "type": "Name",
+          "content": "1855, reworked 1857–59"
+        }
+      ],
+      "begin_of_the_begin": "1855-01-01T00:00:00Z",
+      "end_of_the_end": "1859-12-31T23:59:59Z"
+    },
+    "carried_out_by": [
+      {
+        "id": "https://api.artic.edu/api/v1/agents/34049",
+        "type": "Person",
+        "_label": "Gustave Courbet"
+      }
+    ]
+  },
+  "classified_as": [
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-13203",
+      "type": "Type",
+      "_label": "19th century",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300015646",
+          "type": "Type",
+          "_label": "Style"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300172861",
+      "type": "Type",
+      "_label": "Realism",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300015646",
+          "type": "Type",
+          "_label": "Style"
+        }
+      ]
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "content": "Oil on canvas",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435429",
+          "type": "Type",
+          "_label": "Materials Statement",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "129 × 97.5 cm (50 3/4 × 38 3/8 in.); Framed: 168 × 137.2 × 16.2 cm (66 1/8 × 54 × 6 3/8 in.)",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435430",
+          "type": "Type",
+          "_label": "Dimensions Statement",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Wilson L. Mead Fund",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300026687",
+          "type": "Type",
+          "_label": "Credit Line",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Inscribed lower left, on counter: G. C.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435414",
+          "type": "Type",
+          "_label": "Inscription Statement",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Possession of the artist [for this and the following until 1873 see Riat 1906 and Fernier 1977]; stolen between 1872–73; found by Étienne Baudry at an art dealer in Paris, 1873. Galerie Barbzanges, Paris, by 1912 [Saint Petersburg 1912]. Possibly Alexandre Louis Philippe Marie Berthier, 4th Prince of Wagram (died 1918), Paris [according to Art Institute of Chicago 1961 and Fernier 1977]; possibly at his death to his sister, Elisabeth de la Tour d’Auvergne (née Elisabeth Bertier de Wagram), Paris (according to Art Institute of Chicago 1961 and Fernier 1977). Alex Reid & Lefèvre, Ltd., London, by 1929 [according to the receipt of sale to the Art Institute, dated November 20, 1929]; purchased by the Art Institute, 1929; accessioned 1930.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435438",
+          "type": "Type",
+          "_label": "Provenance Statement",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Gustave Courbet played a crucial role in the development of modern French Realism. Critics and the public, however, did not easily accept his large, naturalistic, and unsentimental depictions of commonplace, often rural subjects. They called him the “apostle of ugliness.” This painting's subject, Mère Grégoire, was inspired by the heroine of a popular song, the proprietor of a brothel, written in the 1820s.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300026032",
+          "type": "Type",
+          "_label": "Summary",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "<p>The demurely dressed subject of <em>Mère Grégoire</em> was inspired by the lead character in a popular song written in the 1820s by French lyricist Pierre-Jean de Béranger. Béranger often penned ribald lyrics; his “Madame Grégoire” was the proprietor of a house of prostitution. Gustave Courbet began this work in 1855 as a simple head on a horizontal canvas, but enlarged it to its present dimensions and transformed it into an elaborate genre scene between 1857 and 1859. The artist depicted the woman here in the midst of a transaction, with coins scattered on a marble-topped counter and a ledger beneath her right hand. Under her other hand is the small bell used to summon her female employees. She holds a ﬂower, a symbol of love, which she presumably offers to an unseen customer on the other side of the counter.</p>\n<p>The painting may also have had a political subtext. Béranger was a ﬁerce opponent of the monarchy, while Courbet followed in his footsteps as a dissident of the Second Empire. In the mid-1850s, when Courbet began this painting, the government had harshly attacked Béranger’s songs in an eff ort to restrict free expression. Courbet’s decision to portray the songwriter’s Madame Grégoire—whose ﬂower exhibits the blue, white, and red of the French ﬂag—may represent a protest not only against government censorship but also against the Second Empire itself. Thus the artist transformed the character into a heroine who embodies the rights to freedom in life and love that were forbidden under the repressive regime.</p>\n<p>Courbet played a crucial role in the development of modern French painting as the leader of the Realist movement, which rejected Romanticism’s dramatic subjects and emotions in favor of portraying everyday people and events with truth and accuracy, warts and all. Critics and the public did not easily accept his large, naturalistic, and unsentimental depictions of commonplace, often rural subjects, earning him the nickname the “apostle of ugliness.”</p>\n",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Description",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ],
+      "format": "text/html"
+    }
+  ],
+  "representation": [
+    {
+      "type": "VisualItem",
+      "digitally_shown_by": [
+        {
+          "type": "DigitalObject",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300215302",
+              "type": "Type",
+              "_label": "Digital Image"
+            }
+          ],
+          "access_point": [
+            {
+              "id": "https://www.artic.edu/iiif/2/2e6d08c8-dac0-4f1c-3e56-de3539ceb905/full/843,/0/default.jpg",
+              "type": "DigitalObject"
+            }
+          ],
+          "digitally_available_via": [
+            {
+              "type": "DigitalService",
+              "access_point": [
+                {
+                  "id": "https://www.artic.edu/iiif/2/2e6d08c8-dac0-4f1c-3e56-de3539ceb905",
+                  "type": "DigitalObject"
+                }
+              ],
+              "conforms_to": [
+                {
+                  "id": "http://iiif.io/api/image",
+                  "type": "InformationObject"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "shows": [
+    {
+      "id": "https://aprigge.github.io/museum-crosswalk/id/visual/aic-4428",
+      "type": "VisualItem"
+    }
+  ],
+  "subject_of": [
+    {
+      "type": "LinguisticObject",
+      "digitally_carried_by": [
+        {
+          "type": "DigitalObject",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300264578",
+              "type": "Type",
+              "_label": "Web Page"
+            }
+          ],
+          "format": "text/html",
+          "access_point": [
+            {
+              "id": "https://www.artic.edu/artworks/4428",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "aic",
+    "sourceUrl": "https://api.artic.edu/api/v1/artworks/4428?fields=id,api_link,title,alt_titles,main_reference_number,date_start,date_end,date_display,date_qualifier_title,artist_id,artist_ids,artist_title,artist_titles,artist_display,alt_artist_ids,place_of_origin,medium_display,dimensions,dimensions_detail,credit_line,inscriptions,provenance_text,publication_history,exhibition_history,copyright_notice,is_public_domain,image_id,alt_image_ids,description,short_description,classification_title,artwork_type_title,department_title,material_titles,technique_titles,style_titles,subject_titles,edition,catalogue_display,source_updated_at,style_ids,subject_ids",
+    "fetchedAt": "2026-11-19T20:40:45.434Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By) and the Terms and Conditions of artic.edu. All other data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu."
+  },
+  "_fieldProvenance": {
+    "referred_to_by[Description]": {
+      "source": "aic",
+      "sourceUrl": "https://api.artic.edu/api/v1/artworks/4428?fields=id,api_link,title,alt_titles,main_reference_number,date_start,date_end,date_display,date_qualifier_title,artist_id,artist_ids,artist_title,artist_titles,artist_display,alt_artist_ids,place_of_origin,medium_display,dimensions,dimensions_detail,credit_line,inscriptions,provenance_text,publication_history,exhibition_history,copyright_notice,is_public_domain,image_id,alt_image_ids,description,short_description,classification_title,artwork_type_title,department_title,material_titles,technique_titles,style_titles,subject_titles,edition,catalogue_display,source_updated_at,style_ids,subject_ids",
+      "fetchedAt": "2026-11-19T20:40:45.434Z",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "licenseNote": "AIC licenses `description` under CC BY 4.0; attribution required"
+    }
+  }
+}

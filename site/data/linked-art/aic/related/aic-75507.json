@@ -1,0 +1,80 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/aic-75507",
+  "type": "VisualItem",
+  "_label": "Subjects of Still Life: Corner of a Table",
+  "about": [
+    {
+      "id": "http://vocab.getty.edu/aat/300015638",
+      "type": "Type",
+      "_label": "still life"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-10482",
+      "type": "Type",
+      "_label": "flowers"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-15532",
+      "type": "Type",
+      "_label": "Frame"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12622",
+      "type": "Type",
+      "_label": "French"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-11204",
+      "type": "Type",
+      "_label": "fruit"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12166",
+      "type": "Type",
+      "_label": "glasses"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-14037",
+      "type": "Type",
+      "_label": "interior"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-15493",
+      "type": "Type",
+      "_label": "pitcher"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-15424",
+      "type": "Type",
+      "_label": "silver"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-13715",
+      "type": "Type",
+      "_label": "silverware"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-14175",
+      "type": "Type",
+      "_label": "table"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-15423",
+      "type": "Type",
+      "_label": "tablecloth"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12158",
+      "type": "Type",
+      "_label": "tea"
+    }
+  ],
+  "_provenance": {
+    "source": "aic",
+    "sourceUrl": "https://api.artic.edu/api/v1/artworks/75507?fields=id,api_link,title,alt_titles,main_reference_number,date_start,date_end,date_display,date_qualifier_title,artist_id,artist_ids,artist_title,artist_titles,artist_display,alt_artist_ids,place_of_origin,medium_display,dimensions,dimensions_detail,credit_line,inscriptions,provenance_text,publication_history,exhibition_history,copyright_notice,is_public_domain,image_id,alt_image_ids,description,short_description,classification_title,artwork_type_title,department_title,material_titles,technique_titles,style_titles,subject_titles,edition,catalogue_display,source_updated_at,style_ids,subject_ids",
+    "fetchedAt": "2026-11-19T20:44:41.127Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By) and the Terms and Conditions of artic.edu. All other data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu."
+  }
+}

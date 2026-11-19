@@ -1,0 +1,75 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/aic-885",
+  "type": "VisualItem",
+  "_label": "Subjects of A Mounted Officer",
+  "about": [
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-8811",
+      "type": "Type",
+      "_label": "soldiers"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-8884",
+      "type": "Type",
+      "_label": "swords"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-15084",
+      "type": "Type",
+      "_label": "field"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-14272",
+      "type": "Type",
+      "_label": "horse"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-8804",
+      "type": "Type",
+      "_label": "horses"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-14974",
+      "type": "Type",
+      "_label": "man"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300025928",
+      "type": "Type",
+      "_label": "men"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12728",
+      "type": "Type",
+      "_label": "war"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011772",
+      "type": "Type",
+      "_label": "water"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12304",
+      "type": "Type",
+      "_label": "weapons"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300133091",
+      "type": "Type",
+      "_label": "weather/seasons"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12230",
+      "type": "Type",
+      "_label": "military"
+    }
+  ],
+  "_provenance": {
+    "source": "aic",
+    "sourceUrl": "https://api.artic.edu/api/v1/artworks/885?fields=id,api_link,title,alt_titles,main_reference_number,date_start,date_end,date_display,date_qualifier_title,artist_id,artist_ids,artist_title,artist_titles,artist_display,alt_artist_ids,place_of_origin,medium_display,dimensions,dimensions_detail,credit_line,inscriptions,provenance_text,publication_history,exhibition_history,copyright_notice,is_public_domain,image_id,alt_image_ids,description,short_description,classification_title,artwork_type_title,department_title,material_titles,technique_titles,style_titles,subject_titles,edition,catalogue_display,source_updated_at,style_ids,subject_ids",
+    "fetchedAt": "2026-11-19T20:42:21.584Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By) and the Terms and Conditions of artic.edu. All other data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu."
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/met-436536",
+  "type": "VisualItem",
+  "_label": "Subjects of Women Picking Olives",
+  "about": [
+    {
+      "id": "http://vocab.getty.edu/aat/300025943",
+      "type": "Type",
+      "_label": "Women",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q467",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://www.wikidata.org/entity/Q35417711",
+      "type": "Type",
+      "_label": "Olive Trees"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300022376",
+      "type": "Type",
+      "_label": "Ladders",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q168639",
+          "type": "Type"
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "met",
+    "sourceUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436536",
+    "fetchedAt": "2026-11-19T20:05:17.029Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "Open Access (isPublicDomain: true)"
+  }
+}

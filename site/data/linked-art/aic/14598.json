@@ -1,0 +1,304 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://api.artic.edu/api/v1/artworks/14598",
+  "type": "HumanMadeObject",
+  "_label": "The Beach at Sainte-Adresse",
+  "identified_by": [
+    {
+      "type": "Name",
+      "content": "The Beach at Sainte-Adresse",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ]
+    },
+    {
+      "type": "Identifier",
+      "content": "1933.439",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300312355",
+          "type": "Type",
+          "_label": "Accession Number"
+        }
+      ]
+    }
+  ],
+  "produced_by": {
+    "type": "Production",
+    "timespan": {
+      "type": "TimeSpan",
+      "identified_by": [
+        {
+          "type": "Name",
+          "content": "1867"
+        }
+      ],
+      "begin_of_the_begin": "1867-01-01T00:00:00Z",
+      "end_of_the_end": "1867-12-31T23:59:59Z"
+    },
+    "carried_out_by": [
+      {
+        "id": "https://api.artic.edu/api/v1/agents/35809",
+        "type": "Person",
+        "_label": "Claude Monet"
+      }
+    ]
+  },
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300021503",
+      "type": "Type",
+      "_label": "Impressionism",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300015646",
+          "type": "Type",
+          "_label": "Style"
+        }
+      ]
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-15636",
+      "type": "Type",
+      "_label": "nineteenth century",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300015646",
+          "type": "Type",
+          "_label": "Style"
+        }
+      ]
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-13203",
+      "type": "Type",
+      "_label": "19th century",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300015646",
+          "type": "Type",
+          "_label": "Style"
+        }
+      ]
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "content": "Oil on canvas",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435429",
+          "type": "Type",
+          "_label": "Materials Statement",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "75.8 × 102.5 cm (29 13/16 × 40 5/16 in.); Framed: 104.1 × 130.2 × 11.4 cm (41 × 51 1/2 × 4 1/2 in.)",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435430",
+          "type": "Type",
+          "_label": "Dimensions Statement",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Mr. and Mrs. Lewis Larned Coburn Memorial Collection",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300026687",
+          "type": "Type",
+          "_label": "Credit Line",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Inscribed lower right: Claude Monet 67",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435414",
+          "type": "Type",
+          "_label": "Inscription Statement",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "The artist (d. 1926); sold to Durand-Ruel, Paris, Feb. 28, 1873, for 400 francs [per Durand-Ruel, Paris, stock book for 1868–73 (no. 2585, as Marine, temps gris), as confirmed by Paul-Louis Durand-Ruel and Flavie Durand-Ruel, Durand-Ruel Archives, to the Art Institute of Chicago, Oct. 5, 2010, curatorial object file]; probably sold to Jean-Baptiste Faure, Paris, by 1876 [per Wildenstein 1996; the Durand-Ruel Archives are unable to confirm Faure's purchase, see Paul-Louis Durand-Ruel and Flavie Durand-Ruel, Durand-Ruel Archives, to the Art Institute of Chicago, Oct. 5, 2010, curatorial object file]; sold to Durand-Ruel, Paris, Jan. 9, 1893, for 7,000 francs [this and the following per Durand-Ruel, Paris, stock book for 1891 (no. 2585, as Sainte-Adresse), as confirmed by Paul-Louis Durand-Ruel and Flavie Durand-Ruel, Durand-Ruel Archives, to the Art Institute of Chicago, Oct. 5, 2010, curatorial object file]; sold to Henri Véver, Paris, Jan. 17, 1893, for 8,000 francs; sold Henri Véver, Paris, sale, Galerie Georges Petit, Paris, Feb. 1–2, 1897, lot 79, to Boulley, as the agent for Georges Kohn, Paris, for 9,000 francs [per Galerie Georges Petit, Paris, sale cat. Feb. 1–2, 1897, the Durand-Ruel Archives also confirms that the painting was “acheté à G. Kohn (et non pas Kahn)”; see Paul-Louis Ruel and Flavie Durand-Ruel, Durand-Ruel Archives, to the Art Institute of Chicago, Oct. 5, 2010, curatorial object file]; sold jointly to Durand-Ruel, Paris, and Bernheim-Jeune, Paris, June 11, 1920, for 40,000 francs [per Durand-Ruel, Paris, stock book for 1921 (no. 11701, as Sainte-Adresse), as confirmed by Paul-Louis Durand-Ruel and Flavie Durand-Ruel, Durand-Ruel Archives, to the Art Institute of Chicago, Oct. 5, 2010, curatorial object file]; sold to Annie Swan Coburn, Chicago (d. 1932), Feb. 8, 1923 [per Durand-Ruel, New York, deposit book for 1894–1925 (no. 8044, as Sainte-Adresse), as confirmed by Paul-Louis Durand-Ruel and Flavie Durand-Ruel, Durand-Ruel Archives, to the Art Institute of Chicago, dated Oct. 5, 2010, curatorial object file, see also a letter on Durand-Ruel letterhead, Mar. 18, 1932, verifying that Coburn purchased the painting from Durand-Ruel] Bequeathed to the Art Institute of Chicago, 1933.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435438",
+          "type": "Type",
+          "_label": "Provenance Statement",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "In 1867 Monet stayed with his aunt in Sainte-Adresse, a suburb of the port city of Le Havre in Normandy, where the artist grew up. Monet began the painting outdoors but likely revised it in his studio. Technical analysis of the work revealed that it started as a beach scene of yachts and tourists but ultimately became a view of sailboats and local fishermen.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300026032",
+          "type": "Type",
+          "_label": "Summary",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "<p>In the summer of 1867, Claude Monet stayed with his aunt at Sainte-Adresse, an affluent suburb of the port city Le Havre in northern France. The artist was familiar with the landscape, having grown up in the area, but the region changed signiﬁcantly during his lifetime. The expansion of the country’s rail network turned this small, rural ﬁshing village into a seaside resort for tourists. Here, Monet hinted at this transformation. The viewer is immediately drawn to the visible aspects of local life—dark-sailed fishing boats drift in the water, with groups of ﬁshermen, their equipment, and other craft on the shore. The beached boats frame two ﬁgures sitting on the shoreline, highlighted by a few strokes of red and yellow paint: a man in a dark hat and suit looks through a telescope, accompanied by a woman wearing a straw hat with a scarlet ribbon. The presence of this couple—undoubtedly vacationers, given their fashionable attire—changes what might have been a traditional coastal scene into a painting of modern life, one of the artist’s ﬁrst explorations of tourism.</p>\n<p>Monet began this painting outdoors and revised it later in his studio. Conservation research has revealed that he changed his mind about the composition while he worked: he initially included other tourist ﬁgures and yachts in the scene but later painted over these details, shifting his focus to the ﬁshermen, the aspect of life in Sainte-Adresse that he knew best.</p>\n<p>Monet’s seascapes from this summer are markedly different from those painted only a few years earlier, and <em>Beach at Sainte-Adresse</em> exempliﬁes his evolving painting technique. It also foreshadows some of the qualities that became characteristic of the Impressionist movement, which is perhaps why Monet chose to show it at the second Impressionist exhibition in 1876, nearly ten years after he painted it.</p>\n",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Description",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ],
+      "format": "text/html"
+    }
+  ],
+  "representation": [
+    {
+      "type": "VisualItem",
+      "digitally_shown_by": [
+        {
+          "type": "DigitalObject",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300215302",
+              "type": "Type",
+              "_label": "Digital Image"
+            }
+          ],
+          "access_point": [
+            {
+              "id": "https://www.artic.edu/iiif/2/95be2572-b53d-8e7b-abc9-10eb48d4fa5d/full/843,/0/default.jpg",
+              "type": "DigitalObject"
+            }
+          ],
+          "digitally_available_via": [
+            {
+              "type": "DigitalService",
+              "access_point": [
+                {
+                  "id": "https://www.artic.edu/iiif/2/95be2572-b53d-8e7b-abc9-10eb48d4fa5d",
+                  "type": "DigitalObject"
+                }
+              ],
+              "conforms_to": [
+                {
+                  "id": "http://iiif.io/api/image",
+                  "type": "InformationObject"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "shows": [
+    {
+      "id": "https://aprigge.github.io/museum-crosswalk/id/visual/aic-14598",
+      "type": "VisualItem"
+    }
+  ],
+  "subject_of": [
+    {
+      "type": "LinguisticObject",
+      "digitally_carried_by": [
+        {
+          "type": "DigitalObject",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300264578",
+              "type": "Type",
+              "_label": "Web Page"
+            }
+          ],
+          "format": "text/html",
+          "access_point": [
+            {
+              "id": "https://www.artic.edu/artworks/14598",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "aic",
+    "sourceUrl": "https://api.artic.edu/api/v1/artworks/14598?fields=id,api_link,title,alt_titles,main_reference_number,date_start,date_end,date_display,date_qualifier_title,artist_id,artist_ids,artist_title,artist_titles,artist_display,alt_artist_ids,place_of_origin,medium_display,dimensions,dimensions_detail,credit_line,inscriptions,provenance_text,publication_history,exhibition_history,copyright_notice,is_public_domain,image_id,alt_image_ids,description,short_description,classification_title,artwork_type_title,department_title,material_titles,technique_titles,style_titles,subject_titles,edition,catalogue_display,source_updated_at,style_ids,subject_ids",
+    "fetchedAt": "2026-11-19T20:39:33.237Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By) and the Terms and Conditions of artic.edu. All other data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu."
+  },
+  "_fieldProvenance": {
+    "referred_to_by[Description]": {
+      "source": "aic",
+      "sourceUrl": "https://api.artic.edu/api/v1/artworks/14598?fields=id,api_link,title,alt_titles,main_reference_number,date_start,date_end,date_display,date_qualifier_title,artist_id,artist_ids,artist_title,artist_titles,artist_display,alt_artist_ids,place_of_origin,medium_display,dimensions,dimensions_detail,credit_line,inscriptions,provenance_text,publication_history,exhibition_history,copyright_notice,is_public_domain,image_id,alt_image_ids,description,short_description,classification_title,artwork_type_title,department_title,material_titles,technique_titles,style_titles,subject_titles,edition,catalogue_display,source_updated_at,style_ids,subject_ids",
+      "fetchedAt": "2026-11-19T20:39:33.237Z",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "licenseNote": "AIC licenses `description` under CC BY 4.0; attribution required"
+    }
+  }
+}

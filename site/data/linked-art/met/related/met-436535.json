@@ -1,0 +1,48 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/met-436535",
+  "type": "VisualItem",
+  "_label": "Subjects of Wheat Field with Cypresses",
+  "about": [
+    {
+      "id": "http://vocab.getty.edu/aat/300132294",
+      "type": "Type",
+      "_label": "Landscapes",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q191163",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300343641",
+      "type": "Type",
+      "_label": "Cypresses",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q146911",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300133099",
+      "type": "Type",
+      "_label": "Summer",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q1313",
+          "type": "Type"
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "met",
+    "sourceUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436535",
+    "fetchedAt": "2026-11-19T20:05:16.604Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "Open Access (isPublicDomain: true)"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/aic-111648",
+  "type": "VisualItem",
+  "_label": "Subjects of Peasants Bringing Home a Calf Born in the Fields",
+  "about": [
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12814",
+      "type": "Type",
+      "_label": "rural life"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12480",
+      "type": "Type",
+      "_label": "calfs"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-8862",
+      "type": "Type",
+      "_label": "cows"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12218",
+      "type": "Type",
+      "_label": "animals"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-15084",
+      "type": "Type",
+      "_label": "field"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-15559",
+      "type": "Type",
+      "_label": "farm"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300025928",
+      "type": "Type",
+      "_label": "men"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300025943",
+      "type": "Type",
+      "_label": "women"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-13813",
+      "type": "Type",
+      "_label": "woman"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-10118",
+      "type": "Type",
+      "_label": "children"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-11205",
+      "type": "Type",
+      "_label": "trees"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-14683",
+      "type": "Type",
+      "_label": "building"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-15111",
+      "type": "Type",
+      "_label": "wall"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-14347",
+      "type": "Type",
+      "_label": "stone"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12169",
+      "type": "Type",
+      "_label": "Century of Progress"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300054778",
+      "type": "Type",
+      "_label": "world's fairs"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300054778",
+      "type": "Type",
+      "_label": "Chicago World's Fairs"
+    }
+  ],
+  "_provenance": {
+    "source": "aic",
+    "sourceUrl": "https://api.artic.edu/api/v1/artworks/111648?fields=id,api_link,title,alt_titles,main_reference_number,date_start,date_end,date_display,date_qualifier_title,artist_id,artist_ids,artist_title,artist_titles,artist_display,alt_artist_ids,place_of_origin,medium_display,dimensions,dimensions_detail,credit_line,inscriptions,provenance_text,publication_history,exhibition_history,copyright_notice,is_public_domain,image_id,alt_image_ids,description,short_description,classification_title,artwork_type_title,department_title,material_titles,technique_titles,style_titles,subject_titles,edition,catalogue_display,source_updated_at,style_ids,subject_ids",
+    "fetchedAt": "2026-11-19T20:45:29.188Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By) and the Terms and Conditions of artic.edu. All other data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu."
+  }
+}

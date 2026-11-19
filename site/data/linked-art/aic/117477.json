@@ -1,0 +1,244 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://api.artic.edu/api/v1/artworks/117477",
+  "type": "HumanMadeObject",
+  "_label": "The Maid",
+  "identified_by": [
+    {
+      "type": "Name",
+      "content": "The Maid",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ]
+    },
+    {
+      "type": "Identifier",
+      "content": "1933.1110",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300312355",
+          "type": "Type",
+          "_label": "Accession Number"
+        }
+      ]
+    }
+  ],
+  "produced_by": {
+    "type": "Production",
+    "timespan": {
+      "type": "TimeSpan",
+      "identified_by": [
+        {
+          "type": "Name",
+          "content": "c. 1875"
+        }
+      ],
+      "begin_of_the_begin": "1870-01-01T00:00:00Z",
+      "end_of_the_end": "1880-12-31T23:59:59Z"
+    },
+    "carried_out_by": [
+      {
+        "id": "https://api.artic.edu/api/v1/agents/42695",
+        "type": "Person",
+        "_label": "François Bonvin"
+      }
+    ]
+  },
+  "classified_as": [
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-13203",
+      "type": "Type",
+      "_label": "19th century",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300015646",
+          "type": "Type",
+          "_label": "Style"
+        }
+      ]
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "content": "Oil on canvas",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435429",
+          "type": "Type",
+          "_label": "Materials Statement",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "44.5 × 30.8 cm (17 1/2 × 12 1/8 in.); Framed: 76.9 × 63.5 × 12.7 cm (30 1/4 × 25 × 5 in.)",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435430",
+          "type": "Type",
+          "_label": "Dimensions Statement",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Mr. and Mrs. Martin A. Ryerson Collection",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300026687",
+          "type": "Type",
+          "_label": "Credit Line",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "M. A. Bellino; sold Galerie George Petit, Paris, May 20, 1892, lot 2, as La Ménagère, for 2,700 francs [price according to an annotated copy of the sale catalogue in the Rijksbureau voor Kunsthistorische Documentatie, The Hague]. Durand-Ruel, New York, no. 2257, 1894 [New York gallery and number according to a label on the back of the frame; year according to a notation in the Registrar’s records] [1]. Martin A. Ryerson, by 1916 [according to a list dated February 27, 1922 in the Archives, Art Institute] [2]; intermittently on loan to the Art Institute from 1925 [see Art Institute of Chicago 1925]; bequeathed to the Art Institute, 1933.\n\n\n[1] According to Gabriel P. Weisberg, Bonvin (Paris: Geoffrey-Dechaume, 1979), p. 206, no. 98, the painting was owned by an A. Gautier and was sold in his sale at Hôtel Drouot, Paris, on May 26, 1894. However, only one painting by Bonvin appears in the sale catalogue, and it is titled “La rue des Cochers à Saint-German.”\n\nWeisberg also states that the painting was owned by an A. Robaut and was included in his sale at Hôtel Drouot in Paris on December 18, 1907. However, the catalogue contains only one painting by Bonvin, titled “La Ménagère”, and states that it is “signé à gauche et daté: 1851”. The Art Institute of Chicago painting, however, is signed “F. Bonvin” in the upper right corner and is not dated. \n\n[2] According Gabriel P. Weisberg, Bonvin (Paris: Geoffrey-Dechaume, 1979), p. 206, no. 98, the painting was sold from Tempelaere on October 11, 1923 to Brame, and then sold again by Tempelaere on April 18 1924. This is based on the Galerie Brame et Lorenceau entrybook and stockbooks, 1887–1935, no. 3419, held at the Getty Research Institute, Los Angeles. However, according to a document dated February 17, 1922 in the Ryerson Papers, Art Institute Archives, Martin A. Ryerson acquired the painting by 1916, contradicting Weisberg’s statement that the painting in the Galerie Brame et Lorenceau entry book and stockbooks is the same as the present painting.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435438",
+          "type": "Type",
+          "_label": "Provenance Statement",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "<p>This maid pours blood from a flayed ox’s head as she prepares to make a delicacy known as headcheese. Such paintings of everyday life were popular in late 19th-century France; as the nation experienced rapid industrialization and urbanization, audiences appreciated imagery that romanticized traditional rural life, with its perceived simplicity and virtuousness. François Bonvin regularly executed genre scenes reminiscent of works by 18th-century French artist <a href=\"https://www.artic.edu/artists/30723/jean-baptiste-simeon-chardin\"> Jean Siméon Chardin</a>, who also celebrated the quiet dignity of domestic labor.</p>\n",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Description",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ],
+      "format": "text/html"
+    }
+  ],
+  "representation": [
+    {
+      "type": "VisualItem",
+      "digitally_shown_by": [
+        {
+          "type": "DigitalObject",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300215302",
+              "type": "Type",
+              "_label": "Digital Image"
+            }
+          ],
+          "access_point": [
+            {
+              "id": "https://www.artic.edu/iiif/2/035e8677-22c5-d349-d2a3-7a820e4f880d/full/843,/0/default.jpg",
+              "type": "DigitalObject"
+            }
+          ],
+          "digitally_available_via": [
+            {
+              "type": "DigitalService",
+              "access_point": [
+                {
+                  "id": "https://www.artic.edu/iiif/2/035e8677-22c5-d349-d2a3-7a820e4f880d",
+                  "type": "DigitalObject"
+                }
+              ],
+              "conforms_to": [
+                {
+                  "id": "http://iiif.io/api/image",
+                  "type": "InformationObject"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "shows": [
+    {
+      "id": "https://aprigge.github.io/museum-crosswalk/id/visual/aic-117477",
+      "type": "VisualItem"
+    }
+  ],
+  "subject_of": [
+    {
+      "type": "LinguisticObject",
+      "digitally_carried_by": [
+        {
+          "type": "DigitalObject",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300264578",
+              "type": "Type",
+              "_label": "Web Page"
+            }
+          ],
+          "format": "text/html",
+          "access_point": [
+            {
+              "id": "https://www.artic.edu/artworks/117477",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "aic",
+    "sourceUrl": "https://api.artic.edu/api/v1/artworks/117477?fields=id,api_link,title,alt_titles,main_reference_number,date_start,date_end,date_display,date_qualifier_title,artist_id,artist_ids,artist_title,artist_titles,artist_display,alt_artist_ids,place_of_origin,medium_display,dimensions,dimensions_detail,credit_line,inscriptions,provenance_text,publication_history,exhibition_history,copyright_notice,is_public_domain,image_id,alt_image_ids,description,short_description,classification_title,artwork_type_title,department_title,material_titles,technique_titles,style_titles,subject_titles,edition,catalogue_display,source_updated_at,style_ids,subject_ids",
+    "fetchedAt": "2026-11-19T20:49:46.829Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By) and the Terms and Conditions of artic.edu. All other data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu."
+  },
+  "_fieldProvenance": {
+    "referred_to_by[Description]": {
+      "source": "aic",
+      "sourceUrl": "https://api.artic.edu/api/v1/artworks/117477?fields=id,api_link,title,alt_titles,main_reference_number,date_start,date_end,date_display,date_qualifier_title,artist_id,artist_ids,artist_title,artist_titles,artist_display,alt_artist_ids,place_of_origin,medium_display,dimensions,dimensions_detail,credit_line,inscriptions,provenance_text,publication_history,exhibition_history,copyright_notice,is_public_domain,image_id,alt_image_ids,description,short_description,classification_title,artwork_type_title,department_title,material_titles,technique_titles,style_titles,subject_titles,edition,catalogue_display,source_updated_at,style_ids,subject_ids",
+      "fetchedAt": "2026-11-19T20:49:46.829Z",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "licenseNote": "AIC licenses `description` under CC BY 4.0; attribution required"
+    }
+  }
+}

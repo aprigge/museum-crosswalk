@@ -1,0 +1,26 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/met-435775",
+  "type": "VisualItem",
+  "_label": "Subjects of Kynance",
+  "about": [
+    {
+      "id": "http://vocab.getty.edu/aat/300008816",
+      "type": "Type",
+      "_label": "Beaches",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q40080",
+          "type": "Type"
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "met",
+    "sourceUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/435775",
+    "fetchedAt": "2026-11-19T20:40:04.601Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "Open Access (isPublicDomain: true)"
+  }
+}

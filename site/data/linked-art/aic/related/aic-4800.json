@@ -1,0 +1,80 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/aic-4800",
+  "type": "VisualItem",
+  "_label": "Subjects of Descent of Cattle from the Pyrenees",
+  "about": [
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-8862",
+      "type": "Type",
+      "_label": "cows"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-14179",
+      "type": "Type",
+      "_label": "cattle"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-14974",
+      "type": "Type",
+      "_label": "man"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-8879",
+      "type": "Type",
+      "_label": "shepherds"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12218",
+      "type": "Type",
+      "_label": "animals"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-14335",
+      "type": "Type",
+      "_label": "dog"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-8865",
+      "type": "Type",
+      "_label": "dogs"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-14145",
+      "type": "Type",
+      "_label": "landscape"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12351",
+      "type": "Type",
+      "_label": "mountains"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-11206",
+      "type": "Type",
+      "_label": "foliage"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-11205",
+      "type": "Type",
+      "_label": "trees"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-15367",
+      "type": "Type",
+      "_label": "bushes"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-14169",
+      "type": "Type",
+      "_label": "mountain"
+    }
+  ],
+  "_provenance": {
+    "source": "aic",
+    "sourceUrl": "https://api.artic.edu/api/v1/artworks/4800?fields=id,api_link,title,alt_titles,main_reference_number,date_start,date_end,date_display,date_qualifier_title,artist_id,artist_ids,artist_title,artist_titles,artist_display,alt_artist_ids,place_of_origin,medium_display,dimensions,dimensions_detail,credit_line,inscriptions,provenance_text,publication_history,exhibition_history,copyright_notice,is_public_domain,image_id,alt_image_ids,description,short_description,classification_title,artwork_type_title,department_title,material_titles,technique_titles,style_titles,subject_titles,edition,catalogue_display,source_updated_at,style_ids,subject_ids",
+    "fetchedAt": "2026-11-19T20:55:41.655Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By) and the Terms and Conditions of artic.edu. All other data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu."
+  }
+}

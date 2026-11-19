@@ -1,0 +1,85 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/aic-111655",
+  "type": "VisualItem",
+  "_label": "Subjects of The Apple Market",
+  "about": [
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-15537",
+      "type": "Type",
+      "_label": "Market"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12218",
+      "type": "Type",
+      "_label": "animals"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-8737",
+      "type": "Type",
+      "_label": "boats"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-14683",
+      "type": "Type",
+      "_label": "building"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-15031",
+      "type": "Type",
+      "_label": "buildings"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-15048",
+      "type": "Type",
+      "_label": "church"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12657",
+      "type": "Type",
+      "_label": "cities"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300025928",
+      "type": "Type",
+      "_label": "men"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-15170",
+      "type": "Type",
+      "_label": "river"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12647",
+      "type": "Type",
+      "_label": "tents"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-11205",
+      "type": "Type",
+      "_label": "trees"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011772",
+      "type": "Type",
+      "_label": "water"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-13813",
+      "type": "Type",
+      "_label": "woman"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300025943",
+      "type": "Type",
+      "_label": "women"
+    }
+  ],
+  "_provenance": {
+    "source": "aic",
+    "sourceUrl": "https://api.artic.edu/api/v1/artworks/111655?fields=id,api_link,title,alt_titles,main_reference_number,date_start,date_end,date_display,date_qualifier_title,artist_id,artist_ids,artist_title,artist_titles,artist_display,alt_artist_ids,place_of_origin,medium_display,dimensions,dimensions_detail,credit_line,inscriptions,provenance_text,publication_history,exhibition_history,copyright_notice,is_public_domain,image_id,alt_image_ids,description,short_description,classification_title,artwork_type_title,department_title,material_titles,technique_titles,style_titles,subject_titles,edition,catalogue_display,source_updated_at,style_ids,subject_ids",
+    "fetchedAt": "2026-11-19T20:53:44.257Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By) and the Terms and Conditions of artic.edu. All other data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu."
+  }
+}

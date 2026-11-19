@@ -1,0 +1,53 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/met-436531",
+  "type": "VisualItem",
+  "_label": "Subjects of Peasant Woman Cooking by a Fireplace",
+  "about": [
+    {
+      "id": "http://vocab.getty.edu/aat/300254496",
+      "type": "Type",
+      "_label": "Food",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q2095",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300052267",
+      "type": "Type",
+      "_label": "Fireplaces",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q188669",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300025943",
+      "type": "Type",
+      "_label": "Women",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q467",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://www.wikidata.org/entity/Q38695",
+      "type": "Type",
+      "_label": "Cooking"
+    }
+  ],
+  "_provenance": {
+    "source": "met",
+    "sourceUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436531",
+    "fetchedAt": "2026-11-19T20:05:14.030Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "Open Access (isPublicDomain: true)"
+  }
+}

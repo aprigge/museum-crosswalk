@@ -1,0 +1,70 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/aic-60867",
+  "type": "VisualItem",
+  "_label": "Subjects of General Juan Prim (1814-1870)",
+  "about": [
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-8581",
+      "type": "Type",
+      "_label": "portraits: male subject"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-8811",
+      "type": "Type",
+      "_label": "soldiers"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-14669",
+      "type": "Type",
+      "_label": "sketch"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300015637",
+      "type": "Type",
+      "_label": "portraits"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-14105",
+      "type": "Type",
+      "_label": "portrait"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-14974",
+      "type": "Type",
+      "_label": "man"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-8804",
+      "type": "Type",
+      "_label": "horses"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-14272",
+      "type": "Type",
+      "_label": "horse"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12701",
+      "type": "Type",
+      "_label": "flags"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-15161",
+      "type": "Type",
+      "_label": "figures"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12016",
+      "type": "Type",
+      "_label": "battles"
+    }
+  ],
+  "_provenance": {
+    "source": "aic",
+    "sourceUrl": "https://api.artic.edu/api/v1/artworks/60867?fields=id,api_link,title,alt_titles,main_reference_number,date_start,date_end,date_display,date_qualifier_title,artist_id,artist_ids,artist_title,artist_titles,artist_display,alt_artist_ids,place_of_origin,medium_display,dimensions,dimensions_detail,credit_line,inscriptions,provenance_text,publication_history,exhibition_history,copyright_notice,is_public_domain,image_id,alt_image_ids,description,short_description,classification_title,artwork_type_title,department_title,material_titles,technique_titles,style_titles,subject_titles,edition,catalogue_display,source_updated_at,style_ids,subject_ids",
+    "fetchedAt": "2026-11-19T20:51:07.935Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By) and the Terms and Conditions of artic.edu. All other data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu."
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/aic-25832",
+  "type": "VisualItem",
+  "_label": "Subjects of Jean Renoir Sewing",
+  "about": [
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-10118",
+      "type": "Type",
+      "_label": "children"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-11842",
+      "type": "Type",
+      "_label": "yellow (color)"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12602",
+      "type": "Type",
+      "_label": "sewing"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-8582",
+      "type": "Type",
+      "_label": "portraits: female subject"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-8594",
+      "type": "Type",
+      "_label": "portraits: child subject"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-14105",
+      "type": "Type",
+      "_label": "portrait"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-11848",
+      "type": "Type",
+      "_label": "pink (color)"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-14682",
+      "type": "Type",
+      "_label": "chair"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-11843",
+      "type": "Type",
+      "_label": "blue (color)"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-15162",
+      "type": "Type",
+      "_label": "blue"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-13432",
+      "type": "Type",
+      "_label": "sons"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-10123",
+      "type": "Type",
+      "_label": "families"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300015637",
+      "type": "Type",
+      "_label": "portraits"
+    }
+  ],
+  "_provenance": {
+    "source": "aic",
+    "sourceUrl": "https://api.artic.edu/api/v1/artworks/25832?fields=id,api_link,title,alt_titles,main_reference_number,date_start,date_end,date_display,date_qualifier_title,artist_id,artist_ids,artist_title,artist_titles,artist_display,alt_artist_ids,place_of_origin,medium_display,dimensions,dimensions_detail,credit_line,inscriptions,provenance_text,publication_history,exhibition_history,copyright_notice,is_public_domain,image_id,alt_image_ids,description,short_description,classification_title,artwork_type_title,department_title,material_titles,technique_titles,style_titles,subject_titles,edition,catalogue_display,source_updated_at,style_ids,subject_ids",
+    "fetchedAt": "2026-11-19T20:43:40.604Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By) and the Terms and Conditions of artic.edu. All other data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu."
+  }
+}

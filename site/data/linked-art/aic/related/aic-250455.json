@@ -1,0 +1,75 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/aic-250455",
+  "type": "VisualItem",
+  "_label": "Subjects of Venice Seen from the Public Garden",
+  "about": [
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12239",
+      "type": "Type",
+      "_label": "Venice, Italy"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-14902",
+      "type": "Type",
+      "_label": "horizon"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-15031",
+      "type": "Type",
+      "_label": "buildings"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-14683",
+      "type": "Type",
+      "_label": "building"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-11849",
+      "type": "Type",
+      "_label": "green (color)"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-11843",
+      "type": "Type",
+      "_label": "blue (color)"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-8843",
+      "type": "Type",
+      "_label": "seascapes"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12468",
+      "type": "Type",
+      "_label": "sky"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12619",
+      "type": "Type",
+      "_label": "Italy"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12296",
+      "type": "Type",
+      "_label": "buildings"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12274",
+      "type": "Type",
+      "_label": "gardens"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011772",
+      "type": "Type",
+      "_label": "water"
+    }
+  ],
+  "_provenance": {
+    "source": "aic",
+    "sourceUrl": "https://api.artic.edu/api/v1/artworks/250455?fields=id,api_link,title,alt_titles,main_reference_number,date_start,date_end,date_display,date_qualifier_title,artist_id,artist_ids,artist_title,artist_titles,artist_display,alt_artist_ids,place_of_origin,medium_display,dimensions,dimensions_detail,credit_line,inscriptions,provenance_text,publication_history,exhibition_history,copyright_notice,is_public_domain,image_id,alt_image_ids,description,short_description,classification_title,artwork_type_title,department_title,material_titles,technique_titles,style_titles,subject_titles,edition,catalogue_display,source_updated_at,style_ids,subject_ids",
+    "fetchedAt": "2026-11-19T20:57:37.255Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By) and the Terms and Conditions of artic.edu. All other data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu."
+  }
+}

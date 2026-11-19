@@ -1,0 +1,19 @@
+# Impressionist landscapes across the three museums.
+# "Impressionist" = the museum's own style (AIC) or the artist's movement on Wikidata (derived graph).
+# "Landscape" = landscape painting (AAT, via Wikidata) or landscape (Iconclass), aligned by the project.
+PREFIX mc: <https://aprigge.github.io/museum-crosswalk/ns#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX c: <https://aprigge.github.io/museum-crosswalk/id/concept/>
+
+SELECT ?museum ?title ?artist ?how WHERE {
+  VALUES ?landscape { c:Q191163 }
+  ?work mc:museum ?museum ; dcterms:title ?title ; mc:subject ?subject .
+  FILTER(?subject = ?landscape || EXISTS { ?subject skos:closeMatch ?landscape })
+  { ?work mc:style c:Q40415 . BIND("museum style" AS ?how) }
+  UNION
+  { ?work mc:inferredStyle c:Q40415 . BIND("artist's movement (Wikidata)" AS ?how) }
+  OPTIONAL { ?work mc:artist/rdfs:label ?artist }
+}
+ORDER BY ?artist ?museum ?title

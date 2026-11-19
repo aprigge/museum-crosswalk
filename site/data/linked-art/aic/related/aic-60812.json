@@ -1,0 +1,120 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/aic-60812",
+  "type": "VisualItem",
+  "_label": "Subjects of Merahi metua no Tehamana (Tehamana Has Many Parents or The Ancestors of Tehamana)",
+  "about": [
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-8594",
+      "type": "Type",
+      "_label": "portraits: child subject"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-13075",
+      "type": "Type",
+      "_label": "deities"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-11204",
+      "type": "Type",
+      "_label": "fruit"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-10482",
+      "type": "Type",
+      "_label": "flowers"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12498",
+      "type": "Type",
+      "_label": "symbols"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12627",
+      "type": "Type",
+      "_label": "decoration"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-11841",
+      "type": "Type",
+      "_label": "white (color)"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-11843",
+      "type": "Type",
+      "_label": "blue (color)"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12686",
+      "type": "Type",
+      "_label": "fans"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-14472",
+      "type": "Type",
+      "_label": "stripes"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-8582",
+      "type": "Type",
+      "_label": "portraits: female subject"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-14105",
+      "type": "Type",
+      "_label": "portrait"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300025943",
+      "type": "Type",
+      "_label": "women"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300015637",
+      "type": "Type",
+      "_label": "portraits"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-10184",
+      "type": "Type",
+      "_label": "mysteries/fantasies"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300391239",
+      "type": "Type",
+      "_label": "interiors"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-8663",
+      "type": "Type",
+      "_label": "fashion"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12529",
+      "type": "Type",
+      "_label": "dresses"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12260",
+      "type": "Type",
+      "_label": "text"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12828",
+      "type": "Type",
+      "_label": "Tahiti"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12827",
+      "type": "Type",
+      "_label": "Tahitian people"
+    }
+  ],
+  "_provenance": {
+    "source": "aic",
+    "sourceUrl": "https://api.artic.edu/api/v1/artworks/60812?fields=id,api_link,title,alt_titles,main_reference_number,date_start,date_end,date_display,date_qualifier_title,artist_id,artist_ids,artist_title,artist_titles,artist_display,alt_artist_ids,place_of_origin,medium_display,dimensions,dimensions_detail,credit_line,inscriptions,provenance_text,publication_history,exhibition_history,copyright_notice,is_public_domain,image_id,alt_image_ids,description,short_description,classification_title,artwork_type_title,department_title,material_titles,technique_titles,style_titles,subject_titles,edition,catalogue_display,source_updated_at,style_ids,subject_ids",
+    "fetchedAt": "2026-11-19T20:40:30.414Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By) and the Terms and Conditions of artic.edu. All other data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu."
+  }
+}

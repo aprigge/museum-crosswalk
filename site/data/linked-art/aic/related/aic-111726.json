@@ -1,0 +1,105 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/aic-111726",
+  "type": "VisualItem",
+  "_label": "Subjects of Mon Ancien Regiment",
+  "about": [
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12230",
+      "type": "Type",
+      "_label": "military"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12467",
+      "type": "Type",
+      "_label": "bridges"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-13435",
+      "type": "Type",
+      "_label": "calvary"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12243",
+      "type": "Type",
+      "_label": "countryside"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12105",
+      "type": "Type",
+      "_label": "farm life"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12341",
+      "type": "Type",
+      "_label": "farmers"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-11914",
+      "type": "Type",
+      "_label": "farming"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12765",
+      "type": "Type",
+      "_label": "fields"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12288",
+      "type": "Type",
+      "_label": "France"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12514",
+      "type": "Type",
+      "_label": "helmets"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-8804",
+      "type": "Type",
+      "_label": "horses"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-14243",
+      "type": "Type",
+      "_label": "regiment"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12423",
+      "type": "Type",
+      "_label": "rivers"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-14244",
+      "type": "Type",
+      "_label": "road"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-8811",
+      "type": "Type",
+      "_label": "soldiers"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12532",
+      "type": "Type",
+      "_label": "uniforms"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12728",
+      "type": "Type",
+      "_label": "war"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-13073",
+      "type": "Type",
+      "_label": "warfare"
+    }
+  ],
+  "_provenance": {
+    "source": "aic",
+    "sourceUrl": "https://api.artic.edu/api/v1/artworks/111726?fields=id,api_link,title,alt_titles,main_reference_number,date_start,date_end,date_display,date_qualifier_title,artist_id,artist_ids,artist_title,artist_titles,artist_display,alt_artist_ids,place_of_origin,medium_display,dimensions,dimensions_detail,credit_line,inscriptions,provenance_text,publication_history,exhibition_history,copyright_notice,is_public_domain,image_id,alt_image_ids,description,short_description,classification_title,artwork_type_title,department_title,material_titles,technique_titles,style_titles,subject_titles,edition,catalogue_display,source_updated_at,style_ids,subject_ids",
+    "fetchedAt": "2026-11-19T20:56:03.674Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By) and the Terms and Conditions of artic.edu. All other data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu."
+  }
+}

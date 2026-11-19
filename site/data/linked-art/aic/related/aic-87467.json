@@ -1,0 +1,80 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/aic-87467",
+  "type": "VisualItem",
+  "_label": "Subjects of Édouard Manet",
+  "about": [
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-15228",
+      "type": "Type",
+      "_label": "artist"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12288",
+      "type": "Type",
+      "_label": "France"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12622",
+      "type": "Type",
+      "_label": "French"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-15651",
+      "type": "Type",
+      "_label": "hat"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-14105",
+      "type": "Type",
+      "_label": "portrait"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-8597",
+      "type": "Type",
+      "_label": "portraits: European subject"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-8602",
+      "type": "Type",
+      "_label": "portraits: French subject"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-8581",
+      "type": "Type",
+      "_label": "portraits: male subject"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300015637",
+      "type": "Type",
+      "_label": "portraits"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300025928",
+      "type": "Type",
+      "_label": "men"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12169",
+      "type": "Type",
+      "_label": "Century of Progress"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300054778",
+      "type": "Type",
+      "_label": "world's fairs"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300054778",
+      "type": "Type",
+      "_label": "Chicago World's Fairs"
+    }
+  ],
+  "_provenance": {
+    "source": "aic",
+    "sourceUrl": "https://api.artic.edu/api/v1/artworks/87467?fields=id,api_link,title,alt_titles,main_reference_number,date_start,date_end,date_display,date_qualifier_title,artist_id,artist_ids,artist_title,artist_titles,artist_display,alt_artist_ids,place_of_origin,medium_display,dimensions,dimensions_detail,credit_line,inscriptions,provenance_text,publication_history,exhibition_history,copyright_notice,is_public_domain,image_id,alt_image_ids,description,short_description,classification_title,artwork_type_title,department_title,material_titles,technique_titles,style_titles,subject_titles,edition,catalogue_display,source_updated_at,style_ids,subject_ids",
+    "fetchedAt": "2026-11-19T20:42:42.533Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By) and the Terms and Conditions of artic.edu. All other data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu."
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/aic-20579",
+  "type": "VisualItem",
+  "_label": "Subjects of Hercules and the Lernaean Hydra",
+  "about": [
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-8766",
+      "type": "Type",
+      "_label": "mythology"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12704",
+      "type": "Type",
+      "_label": "mythological figures"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12263",
+      "type": "Type",
+      "_label": "monsters"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-14970",
+      "type": "Type",
+      "_label": "snake"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12097",
+      "type": "Type",
+      "_label": "death"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-8649",
+      "type": "Type",
+      "_label": "nudes"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-14169",
+      "type": "Type",
+      "_label": "mountain"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12351",
+      "type": "Type",
+      "_label": "mountains"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12705",
+      "type": "Type",
+      "_label": "Heracles"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-13682",
+      "type": "Type",
+      "_label": "sun"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300025928",
+      "type": "Type",
+      "_label": "men"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300025943",
+      "type": "Type",
+      "_label": "women"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12304",
+      "type": "Type",
+      "_label": "weapons"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-15328",
+      "type": "Type",
+      "_label": "arrow"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12407",
+      "type": "Type",
+      "_label": "rocks"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-14391",
+      "type": "Type",
+      "_label": "danger"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12122",
+      "type": "Type",
+      "_label": "skulls"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-10240",
+      "type": "Type",
+      "_label": "plaid"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-8803",
+      "type": "Type",
+      "_label": "circles"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-10184",
+      "type": "Type",
+      "_label": "mysteries/fantasies"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300015636",
+      "type": "Type",
+      "_label": "landscapes"
+    }
+  ],
+  "_provenance": {
+    "source": "aic",
+    "sourceUrl": "https://api.artic.edu/api/v1/artworks/20579?fields=id,api_link,title,alt_titles,main_reference_number,date_start,date_end,date_display,date_qualifier_title,artist_id,artist_ids,artist_title,artist_titles,artist_display,alt_artist_ids,place_of_origin,medium_display,dimensions,dimensions_detail,credit_line,inscriptions,provenance_text,publication_history,exhibition_history,copyright_notice,is_public_domain,image_id,alt_image_ids,description,short_description,classification_title,artwork_type_title,department_title,material_titles,technique_titles,style_titles,subject_titles,edition,catalogue_display,source_updated_at,style_ids,subject_ids",
+    "fetchedAt": "2026-11-19T20:39:50.234Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By) and the Terms and Conditions of artic.edu. All other data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu."
+  }
+}

@@ -1,0 +1,304 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://api.artic.edu/api/v1/artworks/59927",
+  "type": "HumanMadeObject",
+  "_label": "Boats on the Beach at Étretat",
+  "identified_by": [
+    {
+      "type": "Name",
+      "content": "Boats on the Beach at Étretat",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ]
+    },
+    {
+      "type": "Identifier",
+      "content": "1947.95",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300312355",
+          "type": "Type",
+          "_label": "Accession Number"
+        }
+      ]
+    }
+  ],
+  "produced_by": {
+    "type": "Production",
+    "timespan": {
+      "type": "TimeSpan",
+      "identified_by": [
+        {
+          "type": "Name",
+          "content": "1885"
+        }
+      ],
+      "begin_of_the_begin": "1885-01-01T00:00:00Z",
+      "end_of_the_end": "1885-12-31T23:59:59Z"
+    },
+    "carried_out_by": [
+      {
+        "id": "https://api.artic.edu/api/v1/agents/35809",
+        "type": "Person",
+        "_label": "Claude Monet"
+      }
+    ]
+  },
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300021503",
+      "type": "Type",
+      "_label": "Impressionism",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300015646",
+          "type": "Type",
+          "_label": "Style"
+        }
+      ]
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-15636",
+      "type": "Type",
+      "_label": "nineteenth century",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300015646",
+          "type": "Type",
+          "_label": "Style"
+        }
+      ]
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-13203",
+      "type": "Type",
+      "_label": "19th century",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300015646",
+          "type": "Type",
+          "_label": "Style"
+        }
+      ]
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "content": "Oil on canvas",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435429",
+          "type": "Type",
+          "_label": "Materials Statement",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "66 × 82.3 cm (26 × 32 7/16 in.); Framed: 85.1 × 100.4 × 9.6 cm (33 1/2 × 39 1/2 × 3 3/4 in.)",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435430",
+          "type": "Type",
+          "_label": "Dimensions Statement",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Charles H. and Mary F. S. Worcester Collection",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300026687",
+          "type": "Type",
+          "_label": "Credit Line",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Inscribed lower right: Claude Monet",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435414",
+          "type": "Type",
+          "_label": "Inscription Statement",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Georges Bernaert [this and the following per Wildenstein 1996]. Georges Bernheim, Paris, c. 1907. Marczell de Nemes, Budapest, by 1911 [per Mayer 1911]; sold at the Marczell de Nemes Sale, Galerie Manzi-Joyant, Paris, June 18, 1913, lot 113, to Durand-Ruel, Paris, as an agent for an unnamed person, for 9,500 francs [per Galerie Manzi-Joyant 1913; see also Durand-Ruel Archives, annotated sales catalogue. The Durand-Ruel Archives also has a letter [in French translated here by G. Groom] from Durand-Ruel, Paris, to Durand-Ruel, New York, dated June 24, 1913, saying that they bought several important paintings, that were consigned but they would never have paid prices like that for these types of paintings” and that “ Durand-Ruel purchased 11 paintings at this sale, the names of the buyers are not recorded in our books”; see Paul-Louis Durand-Ruel and Flavie Durand-Ruel to the Art Institute of Chicago, Feb. 5, 2013, curatorial object file, Art Institute of Chicago. See also “Liste des prix et noms des acquéreurs de la deuxième vacation de la collection Marczell de Nemes,” Le Gil Blas, June 19, 1913, p. 2, which states that the asking price was 12,000 francs and that the painting was sold to M. Durand-Ruel for 9,500 francs]. Kleinberger Gallery, Paris, by Nov. 15, 1922 [per Rich 1938]. John Levy Galleries, Paris, by Nov. 15, 1922 [this and the following per purchase receipt on John Levy Galleries letterhead dated November 15, 1922, mentions the sale of this painting by John Levy Galleries for $2,295 as La Plage à Etretat to Mr. C. H. Worcester, copy in curatorial object file]; sold to Charles H. Worcester, Chicago, by Nov. 15, 1922, for $2,295; given by Charles H. and Mary F. S. Worcester to the Art Institute of Chicago, 1947 [the painting stayed in the Worcesters’ home until 1956, when Mr. Worcester died; see receipt of object 14829, on file in Museum Registration, Art Institute of Chicago. Mrs. Mary F. S. Worcester died in 1954].",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435438",
+          "type": "Type",
+          "_label": "Provenance Statement",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Forced indoors by inclement fall weather, Monet painted this work and <em>The Departure of the Boats, Étretat</em> while looking out the window of his room at the Hôtel Blanquet. The two form a pair that share a palette, subject, and vantage point. Monet centered each composition on the boats, combining pastel blues, pinks, purples, and greens to render wet surfaces.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300026032",
+          "type": "Type",
+          "_label": "Summary",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "<p>Forced indoors by inclement fall weather, Claude Monet painted <em>Boats on the Beach at Étretat</em> and <a href=\"https://www.artic.edu/artworks/81540/the-departure-of-the-boats-etretat\"><em>The Departure of the Boats, Étretat</em></a> while looking out the window of his room at the Hôtel Blanquet. The two form a pair that share a palette, subject, and vantage point. In one of his daily letters to his companion and future wife, Alice Hoschedé, dated November 24, 1885, Monet he described first <em>Boats on the Beach</em> and then <em>Departure of the Boats</em>: “In the afternoon, I worked in my room on my <em>caloges</em> [retired fishing boats covered with tarred planks and used for storage] in the rain, then I attempted to do, always through the window, a picture of the boats departing.”</p>\n<p>Monet centered each composition on the boats, combining pastel blues, pinks, purples, and greens to render wet surfaces. The brightly colored hulls of beached crafts lend relative scale to the structures in <em>Boats on the Beach</em>, and the groups of figures at the water’s edge, composed of quick, gestural strokes, register human activity in <em>Departure of the Boats</em>.</p>\n",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Description",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ],
+      "format": "text/html"
+    }
+  ],
+  "representation": [
+    {
+      "type": "VisualItem",
+      "digitally_shown_by": [
+        {
+          "type": "DigitalObject",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300215302",
+              "type": "Type",
+              "_label": "Digital Image"
+            }
+          ],
+          "access_point": [
+            {
+              "id": "https://www.artic.edu/iiif/2/eaf98472-70cc-0005-c2c9-6109f549f24a/full/843,/0/default.jpg",
+              "type": "DigitalObject"
+            }
+          ],
+          "digitally_available_via": [
+            {
+              "type": "DigitalService",
+              "access_point": [
+                {
+                  "id": "https://www.artic.edu/iiif/2/eaf98472-70cc-0005-c2c9-6109f549f24a",
+                  "type": "DigitalObject"
+                }
+              ],
+              "conforms_to": [
+                {
+                  "id": "http://iiif.io/api/image",
+                  "type": "InformationObject"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "shows": [
+    {
+      "id": "https://aprigge.github.io/museum-crosswalk/id/visual/aic-59927",
+      "type": "VisualItem"
+    }
+  ],
+  "subject_of": [
+    {
+      "type": "LinguisticObject",
+      "digitally_carried_by": [
+        {
+          "type": "DigitalObject",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300264578",
+              "type": "Type",
+              "_label": "Web Page"
+            }
+          ],
+          "format": "text/html",
+          "access_point": [
+            {
+              "id": "https://www.artic.edu/artworks/59927",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "aic",
+    "sourceUrl": "https://api.artic.edu/api/v1/artworks/59927?fields=id,api_link,title,alt_titles,main_reference_number,date_start,date_end,date_display,date_qualifier_title,artist_id,artist_ids,artist_title,artist_titles,artist_display,alt_artist_ids,place_of_origin,medium_display,dimensions,dimensions_detail,credit_line,inscriptions,provenance_text,publication_history,exhibition_history,copyright_notice,is_public_domain,image_id,alt_image_ids,description,short_description,classification_title,artwork_type_title,department_title,material_titles,technique_titles,style_titles,subject_titles,edition,catalogue_display,source_updated_at,style_ids,subject_ids",
+    "fetchedAt": "2026-11-19T20:43:12.561Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By) and the Terms and Conditions of artic.edu. All other data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu."
+  },
+  "_fieldProvenance": {
+    "referred_to_by[Description]": {
+      "source": "aic",
+      "sourceUrl": "https://api.artic.edu/api/v1/artworks/59927?fields=id,api_link,title,alt_titles,main_reference_number,date_start,date_end,date_display,date_qualifier_title,artist_id,artist_ids,artist_title,artist_titles,artist_display,alt_artist_ids,place_of_origin,medium_display,dimensions,dimensions_detail,credit_line,inscriptions,provenance_text,publication_history,exhibition_history,copyright_notice,is_public_domain,image_id,alt_image_ids,description,short_description,classification_title,artwork_type_title,department_title,material_titles,technique_titles,style_titles,subject_titles,edition,catalogue_display,source_updated_at,style_ids,subject_ids",
+      "fetchedAt": "2026-11-19T20:43:12.561Z",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "licenseNote": "AIC licenses `description` under CC BY 4.0; attribution required"
+    }
+  }
+}

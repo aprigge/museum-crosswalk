@@ -1,0 +1,37 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/met-435880",
+  "type": "VisualItem",
+  "_label": "Subjects of Rocks at Fontainebleau",
+  "about": [
+    {
+      "id": "http://vocab.getty.edu/aat/300387598",
+      "type": "Type",
+      "_label": "Forests",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q4421",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300132294",
+      "type": "Type",
+      "_label": "Landscapes",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q191163",
+          "type": "Type"
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "met",
+    "sourceUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/435880",
+    "fetchedAt": "2026-11-19T20:40:15.302Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "Open Access (isPublicDomain: true)"
+  }
+}

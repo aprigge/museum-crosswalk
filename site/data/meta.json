@@ -1,0 +1,32 @@
+{
+  "slice": {
+    "id": "paintings-1850-1900",
+    "type": "painting",
+    "from": 1850,
+    "to": 1900
+  },
+  "builtAt": "2026-11-19T21:32:55.307Z",
+  "harvests": {
+    "rijksmuseum": {
+      "finishedAt": "2026-11-19T20:48:30.479Z",
+      "complete": true,
+      "works": 395
+    },
+    "met": {
+      "finishedAt": "2026-11-19T20:47:25.624Z",
+      "complete": false,
+      "works": 95
+    },
+    "aic": {
+      "finishedAt": "2026-11-19T20:58:10.278Z",
+      "complete": true,
+      "works": 611
+    }
+  },
+  "queries": [
+    "artists-in-several-museums.rq",
+    "checks.rq",
+    "impressionist-landscapes.rq",
+    "works-by-decade.rq"
+  ]
+}

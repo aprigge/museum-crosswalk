@@ -1,0 +1,59 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/met-435977",
+  "type": "VisualItem",
+  "_label": "Subjects of Mother and Child",
+  "about": [
+    {
+      "id": "http://vocab.getty.edu/aat/300189561",
+      "type": "Type",
+      "_label": "Infants",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q998",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300025932",
+      "type": "Type",
+      "_label": "Mothers",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q7560",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300025943",
+      "type": "Type",
+      "_label": "Women",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q467",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300379905",
+      "type": "Type",
+      "_label": "Nursing",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q174876",
+          "type": "Type"
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "met",
+    "sourceUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/435977",
+    "fetchedAt": "2026-11-19T20:40:23.793Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "Open Access (isPublicDomain: true)"
+  }
+}

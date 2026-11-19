@@ -1,0 +1,37 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/met-435969",
+  "type": "VisualItem",
+  "_label": "Subjects of The Ferryman",
+  "about": [
+    {
+      "id": "http://vocab.getty.edu/aat/300132410",
+      "type": "Type",
+      "_label": "Trees",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q10884",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300178749",
+      "type": "Type",
+      "_label": "Boats",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q35872",
+          "type": "Type"
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "met",
+    "sourceUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/435969",
+    "fetchedAt": "2026-11-19T20:40:21.940Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "Open Access (isPublicDomain: true)"
+  }
+}

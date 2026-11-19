@@ -1,0 +1,37 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/met-435692",
+  "type": "VisualItem",
+  "_label": "Subjects of Mrs. Charles Warren-Cram (Ella Brooks Carter, 1846–1896)",
+  "about": [
+    {
+      "id": "http://vocab.getty.edu/aat/300015637",
+      "type": "Type",
+      "_label": "Portraits",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q134307",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300025943",
+      "type": "Type",
+      "_label": "Women",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q467",
+          "type": "Type"
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "met",
+    "sourceUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/435692",
+    "fetchedAt": "2026-11-19T20:39:56.971Z",
+    "license": "not-open-access",
+    "licenseNote": "isPublicDomain: false; the Met grants CC0 only for Open Access objects"
+  }
+}

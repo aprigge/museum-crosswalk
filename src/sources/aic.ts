@@ -1,6 +1,6 @@
 import { createHash } from 'node:crypto';
 import { listCached, readCached, writeCached } from '../core/cache.js';
-import { SourceClient, USER_AGENT } from '../core/http.js';
+import { SourceClient } from '../core/http.js';
 import { provenanceFor, withProvenance } from '../core/provenance.js';
 import type { AdapterOptions, CachedRaw, LinkedArtResult, Provenance, SliceQuery, SourceAdapter, SourceArtistRef } from '../core/types.js';
 import { mint } from '../core/ids.js';
@@ -206,7 +206,7 @@ export function createAic(opts: AdapterOptions = {}): SourceAdapter {
     source: 'aic',
     minIntervalMs: 1000,
     // AIC asks clients to identify themselves in this header as well.
-    headers: { 'AIC-User-Agent': USER_AGENT },
+    userAgentHeaders: ['AIC-User-Agent'],
     ...opts,
   });
   const terms = new Map<string, AicTerm>();

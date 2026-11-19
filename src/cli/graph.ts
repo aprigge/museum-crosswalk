@@ -51,9 +51,17 @@ main(async () => {
 
   const out = join(dataDir(), 'graph', slice.id);
   await mkdir(out, { recursive: true });
-  const core = [GRAPHS.crosswalk, GRAPHS.derived, GRAPHS.alignments].map((gr) => g.dump(gr)).join('');
+  // Dumping one graph at a time drops the graph name, so dump the whole dataset as N-Quads and
+  // keep the lines of the core graphs: the site's graph must keep crosswalk, derived and
+  // alignments apart.
+  const full = g.store.dump({ format: 'application/n-quads' });
+  const coreGraphs = [GRAPHS.crosswalk, GRAPHS.derived, GRAPHS.alignments].map((gr) => ` <${gr.value}> .`);
+  const core = full
+    .split('\n')
+    .filter((line) => coreGraphs.some((suffix) => line.endsWith(suffix)))
+    .join('\n') + '\n';
   await writeFile(join(out, 'core.nq'), core);
-  await writeFile(join(out, 'full.nq'), g.store.dump({ format: 'application/n-quads' }));
+  await writeFile(join(out, 'full.nq'), full);
   await mkdir('site/data', { recursive: true });
   const gz = gzipSync(core, { level: 9 });
   await writeFile('site/data/graph-core.nq.gz', gz);

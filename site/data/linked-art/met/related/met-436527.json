@@ -1,0 +1,26 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/met-436527",
+  "type": "VisualItem",
+  "_label": "Subjects of The Flowering Orchard",
+  "about": [
+    {
+      "id": "http://vocab.getty.edu/aat/300132410",
+      "type": "Type",
+      "_label": "Trees",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q10884",
+          "type": "Type"
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "met",
+    "sourceUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436527",
+    "fetchedAt": "2026-11-19T20:05:11.695Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "Open Access (isPublicDomain: true)"
+  }
+}

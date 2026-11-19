@@ -206,10 +206,6 @@ export class GraphBuilder {
     }
   }
 
-  dump(graph: Term): string {
-    return this.store.dump({ format: 'application/n-quads', from_graph_name: graph });
-  }
-
   counts(): Record<string, number> {
     const rows = this.store.query('SELECT ?g (COUNT(*) AS ?n) WHERE { GRAPH ?g { ?s ?p ?o } } GROUP BY ?g') as Map<string, any>[];
     return Object.fromEntries(rows.map((r) => [r.get('g').value, Number(r.get('n').value)]));

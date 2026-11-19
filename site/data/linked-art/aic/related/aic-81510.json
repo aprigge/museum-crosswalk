@@ -1,0 +1,95 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/aic-81510",
+  "type": "VisualItem",
+  "_label": "Subjects of Souvenir of Italy",
+  "about": [
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12169",
+      "type": "Type",
+      "_label": "Century of Progress"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12218",
+      "type": "Type",
+      "_label": "animals"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-11222",
+      "type": "Type",
+      "_label": "clouds"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12619",
+      "type": "Type",
+      "_label": "Italy"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-14145",
+      "type": "Type",
+      "_label": "landscape"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-14974",
+      "type": "Type",
+      "_label": "man"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12814",
+      "type": "Type",
+      "_label": "rural life"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-8864",
+      "type": "Type",
+      "_label": "sheep"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-8879",
+      "type": "Type",
+      "_label": "shepherds"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12468",
+      "type": "Type",
+      "_label": "sky"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12680",
+      "type": "Type",
+      "_label": "streams"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-13682",
+      "type": "Type",
+      "_label": "sun"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-11205",
+      "type": "Type",
+      "_label": "trees"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011772",
+      "type": "Type",
+      "_label": "water"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300054778",
+      "type": "Type",
+      "_label": "world's fairs"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300054778",
+      "type": "Type",
+      "_label": "Chicago World's Fairs"
+    }
+  ],
+  "_provenance": {
+    "source": "aic",
+    "sourceUrl": "https://api.artic.edu/api/v1/artworks/81510?fields=id,api_link,title,alt_titles,main_reference_number,date_start,date_end,date_display,date_qualifier_title,artist_id,artist_ids,artist_title,artist_titles,artist_display,alt_artist_ids,place_of_origin,medium_display,dimensions,dimensions_detail,credit_line,inscriptions,provenance_text,publication_history,exhibition_history,copyright_notice,is_public_domain,image_id,alt_image_ids,description,short_description,classification_title,artwork_type_title,department_title,material_titles,technique_titles,style_titles,subject_titles,edition,catalogue_display,source_updated_at,style_ids,subject_ids",
+    "fetchedAt": "2026-11-19T20:53:17.673Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By) and the Terms and Conditions of artic.edu. All other data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu."
+  }
+}

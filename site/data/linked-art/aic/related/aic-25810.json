@@ -1,0 +1,80 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/aic-25810",
+  "type": "VisualItem",
+  "_label": "Subjects of The Courtyard",
+  "about": [
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-15255",
+      "type": "Type",
+      "_label": "courtyard"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300387357",
+      "type": "Type",
+      "_label": "work"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12464",
+      "type": "Type",
+      "_label": "labor"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-14683",
+      "type": "Type",
+      "_label": "building"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-15031",
+      "type": "Type",
+      "_label": "buildings"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-10118",
+      "type": "Type",
+      "_label": "children"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-11222",
+      "type": "Type",
+      "_label": "clouds"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-15009",
+      "type": "Type",
+      "_label": "doorway"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-11206",
+      "type": "Type",
+      "_label": "foliage"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-11863",
+      "type": "Type",
+      "_label": "vines"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-14921",
+      "type": "Type",
+      "_label": "window"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-13813",
+      "type": "Type",
+      "_label": "woman"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-15267",
+      "type": "Type",
+      "_label": "woman with children"
+    }
+  ],
+  "_provenance": {
+    "source": "aic",
+    "sourceUrl": "https://api.artic.edu/api/v1/artworks/25810?fields=id,api_link,title,alt_titles,main_reference_number,date_start,date_end,date_display,date_qualifier_title,artist_id,artist_ids,artist_title,artist_titles,artist_display,alt_artist_ids,place_of_origin,medium_display,dimensions,dimensions_detail,credit_line,inscriptions,provenance_text,publication_history,exhibition_history,copyright_notice,is_public_domain,image_id,alt_image_ids,description,short_description,classification_title,artwork_type_title,department_title,material_titles,technique_titles,style_titles,subject_titles,edition,catalogue_display,source_updated_at,style_ids,subject_ids",
+    "fetchedAt": "2026-11-19T20:53:51.274Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By) and the Terms and Conditions of artic.edu. All other data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu."
+  }
+}

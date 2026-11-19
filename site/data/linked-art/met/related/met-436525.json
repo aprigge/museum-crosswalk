@@ -1,0 +1,37 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/met-436525",
+  "type": "VisualItem",
+  "_label": "Subjects of Bouquet of Flowers in a Vase",
+  "about": [
+    {
+      "id": "http://vocab.getty.edu/aat/300132399",
+      "type": "Type",
+      "_label": "Flowers",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q506",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300015638",
+      "type": "Type",
+      "_label": "Still Life",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q170571",
+          "type": "Type"
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "met",
+    "sourceUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436525",
+    "fetchedAt": "2026-11-19T20:05:10.799Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "Open Access (isPublicDomain: true)"
+  }
+}

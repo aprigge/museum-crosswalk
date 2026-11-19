@@ -8,17 +8,18 @@
     "node": ">=22.12"
   },
   "scripts": {
-    "harvest": "tsx src/cli/harvest.ts",
-    "transform": "tsx src/cli/transform.ts",
-    "reconcile": "tsx src/cli/reconcile.ts",
-    "report": "tsx src/cli/report.ts",
+    "harvest": "tsx --env-file-if-exists=.env src/cli/harvest.ts",
+    "transform": "tsx --env-file-if-exists=.env src/cli/transform.ts",
+    "reconcile": "tsx --env-file-if-exists=.env src/cli/reconcile.ts",
+    "report": "tsx --env-file-if-exists=.env src/cli/report.ts",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
-    "concepts": "tsx src/cli/concepts.ts",
-    "graph": "tsx src/cli/graph.ts",
-    "query": "tsx src/cli/query.ts",
-    "index": "tsx src/cli/index.ts",
-    "evaluate": "tsx src/cli/evaluate.ts"
+    "concepts": "tsx --env-file-if-exists=.env src/cli/concepts.ts",
+    "graph": "tsx --env-file-if-exists=.env src/cli/graph.ts",
+    "query": "tsx --env-file-if-exists=.env src/cli/query.ts",
+    "index": "tsx --env-file-if-exists=.env src/cli/index.ts",
+    "evaluate": "tsx --env-file-if-exists=.env src/cli/evaluate.ts",
+    "site": "tsx --env-file-if-exists=.env src/cli/site.ts"
   },
   "dependencies": {
     "ajv": "^8.20.0",

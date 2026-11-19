@@ -1,0 +1,92 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/met-435749",
+  "type": "VisualItem",
+  "_label": "Subjects of On the Beach at Trouville",
+  "about": [
+    {
+      "id": "http://vocab.getty.edu/aat/300138173",
+      "type": "Type",
+      "_label": "Leisure",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q180910",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300025928",
+      "type": "Type",
+      "_label": "Men",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q8441",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300025943",
+      "type": "Type",
+      "_label": "Women",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q467",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300265714",
+      "type": "Type",
+      "_label": "Dogs",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q144",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300250148",
+      "type": "Type",
+      "_label": "Horses",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q726",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300008816",
+      "type": "Type",
+      "_label": "Beaches",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q40080",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300185335",
+      "type": "Type",
+      "_label": "Carriages",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q235356",
+          "type": "Type"
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "met",
+    "sourceUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/435749",
+    "fetchedAt": "2026-11-19T20:40:00.614Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "Open Access (isPublicDomain: true)"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/met-435649",
+  "type": "VisualItem",
+  "_label": "Subjects of Judith",
+  "about": [
+    {
+      "id": "http://vocab.getty.edu/aat/300037048",
+      "type": "Type",
+      "_label": "Swords",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q12791",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ia/901000575",
+      "type": "Type",
+      "_label": "Judith",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q28532552",
+          "type": "Type"
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "met",
+    "sourceUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/435649",
+    "fetchedAt": "2026-11-19T20:39:53.876Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "Open Access (isPublicDomain: true)"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/aic-110507",
+  "type": "VisualItem",
+  "_label": "Subjects of In the Sea",
+  "about": [
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-8766",
+      "type": "Type",
+      "_label": "mythology"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-8649",
+      "type": "Type",
+      "_label": "nudes"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12163",
+      "type": "Type",
+      "_label": "seashells"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12891",
+      "type": "Type",
+      "_label": "reflections"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-11222",
+      "type": "Type",
+      "_label": "clouds"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12824",
+      "type": "Type",
+      "_label": "harps"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12825",
+      "type": "Type",
+      "_label": "mermen"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-8832",
+      "type": "Type",
+      "_label": "musical instruments"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12286",
+      "type": "Type",
+      "_label": "seas"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300011772",
+      "type": "Type",
+      "_label": "water"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12822",
+      "type": "Type",
+      "_label": "mermaids"
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-12704",
+      "type": "Type",
+      "_label": "mythological figures"
+    }
+  ],
+  "_provenance": {
+    "source": "aic",
+    "sourceUrl": "https://api.artic.edu/api/v1/artworks/110507?fields=id,api_link,title,alt_titles,main_reference_number,date_start,date_end,date_display,date_qualifier_title,artist_id,artist_ids,artist_title,artist_titles,artist_display,alt_artist_ids,place_of_origin,medium_display,dimensions,dimensions_detail,credit_line,inscriptions,provenance_text,publication_history,exhibition_history,copyright_notice,is_public_domain,image_id,alt_image_ids,description,short_description,classification_title,artwork_type_title,department_title,material_titles,technique_titles,style_titles,subject_titles,edition,catalogue_display,source_updated_at,style_ids,subject_ids",
+    "fetchedAt": "2026-11-19T20:40:18.421Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By) and the Terms and Conditions of artic.edu. All other data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu."
+  }
+}

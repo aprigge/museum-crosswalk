@@ -1,0 +1,37 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/met-435621",
+  "type": "VisualItem",
+  "_label": "Subjects of Joan of Arc",
+  "about": [
+    {
+      "id": "http://vocab.getty.edu/aat/300008090",
+      "type": "Type",
+      "_label": "Gardens",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q1107656",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/500343198",
+      "type": "Type",
+      "_label": "Joan of Arc",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q7226",
+          "type": "Type"
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "met",
+    "sourceUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/435621",
+    "fetchedAt": "2026-11-19T20:39:52.648Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "Open Access (isPublicDomain: true)"
+  }
+}

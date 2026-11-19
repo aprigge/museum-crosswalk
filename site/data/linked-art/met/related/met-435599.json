@@ -1,0 +1,48 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/met-435599",
+  "type": "VisualItem",
+  "_label": "Subjects of Boatmen of Barcelona",
+  "about": [
+    {
+      "id": "http://vocab.getty.edu/aat/300025928",
+      "type": "Type",
+      "_label": "Men",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q8441",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300178749",
+      "type": "Type",
+      "_label": "Boats",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q35872",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300082981",
+      "type": "Type",
+      "_label": "Ships",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q11446",
+          "type": "Type"
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "met",
+    "sourceUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/435599",
+    "fetchedAt": "2026-11-19T20:39:50.353Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "Open Access (isPublicDomain: true)"
+  }
+}

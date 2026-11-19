@@ -2,7 +2,7 @@ import { mkdtemp, rm } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { afterEach, beforeEach, describe, expect, it } from 'vitest';
-import { BlockedError, HttpError, retryAfterMs, SourceClient, USER_AGENT } from '../src/core/http.js';
+import { BlockedError, HttpError, retryAfterMs, SourceClient, userAgent } from '../src/core/http.js';
 import { matchRef, normaliseName } from '../src/reconcile/match.js';
 import { upgradeTupleItems } from '../src/linkedart/validate.js';
 import type { ArtistQuery } from '../src/core/types.js';
@@ -45,7 +45,7 @@ describe('SourceClient', () => {
     const first = await client.getJson('k', 'x', 'https://example.org/x');
     const second = await client.getJson('k', 'x', 'https://example.org/x');
     expect(calls).toHaveLength(1);
-    expect(calls[0]!.headers['User-Agent']).toBe(USER_AGENT);
+    expect(calls[0]!.headers['User-Agent']).toBe(userAgent('test@example.org'));
     expect(second).toEqual(first);
     expect(first).toMatchObject({ source: 'stub', id: 'x', url: 'https://example.org/x', body: { a: 1 } });
   });

@@ -1,0 +1,134 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://id.rijksmuseum.nl/202108228",
+  "type": "VisualItem",
+  "digitally_shown_by": [
+    {
+      "id": "https://id.rijksmuseum.nl/5006956897783507184",
+      "type": "DigitalObject"
+    }
+  ],
+  "represents": [
+    {
+      "id": "https://id.rijksmuseum.nl/2106183",
+      "type": "Person",
+      "equivalent": [
+        {
+          "id": "http://viaf.org/viaf/89550506",
+          "type": "Person"
+        },
+        {
+          "id": "http://vocab.getty.edu/ulan/500027077",
+          "type": "Person"
+        },
+        {
+          "id": "http://www.wikidata.org/entity/Q213612",
+          "type": "Person"
+        },
+        {
+          "id": "https://rkd.nl/artists/68835",
+          "type": "Person"
+        }
+      ]
+    }
+  ],
+  "represents_instance_of_type": [
+    {
+      "id": "https://id.rijksmuseum.nl/221558",
+      "type": "Type",
+      "equivalent": [
+        {
+          "id": "https://iconclass.org/25I42",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "https://id.rijksmuseum.nl/221559",
+      "type": "Type",
+      "equivalent": [
+        {
+          "id": "https://iconclass.org/48CC511",
+          "type": "Type"
+        }
+      ]
+    }
+  ],
+  "shown_by": [
+    {
+      "id": "https://id.rijksmuseum.nl/200108228",
+      "type": "HumanMadeObject",
+      "equivalent": [
+        {
+          "id": "http://hdl.handle.net/10934/RM0001.COLLECT.6040",
+          "type": "HumanMadeObject"
+        }
+      ]
+    }
+  ],
+  "subject_of": [
+    {
+      "id": "https://data.rijksmuseum.nl/202108228",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300379475",
+          "type": "Type"
+        }
+      ],
+      "subject_to": [
+        {
+          "type": "Right",
+          "classified_as": [
+            {
+              "id": "https://creativecommons.org/publicdomain/zero/1.0/",
+              "type": "Type"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "classified_as": [
+        {
+          "id": "https://creativecommons.org/publicdomain/mark/1.0/",
+          "type": "Type",
+          "_label": "Public Domain"
+        }
+      ],
+      "identified_by": [
+        {
+          "type": "Name",
+          "content": "Public Domain",
+          "language": [
+            {
+              "id": "http://vocab.getty.edu/aat/300388277",
+              "type": "Language",
+              "_label": "English"
+            }
+          ]
+        },
+        {
+          "type": "Name",
+          "content": "Publieke domein",
+          "language": [
+            {
+              "id": "http://vocab.getty.edu/aat/300388256",
+              "type": "Language",
+              "_label": "Dutch"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "rijksmuseum",
+    "sourceUrl": "https://id.rijksmuseum.nl/202108228?_profile=la-framed",
+    "fetchedAt": "2026-11-19T20:41:43.715Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/"
+  }
+}

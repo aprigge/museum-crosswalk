@@ -76,7 +76,12 @@ You need [nvm](https://github.com/nvm-sh/nvm). The Node version is pinned in `.n
 ```sh
 nvm use
 npm install
+cp .env.example .env   # then set MUSEUM_CROSSWALK_CONTACT to your email or URL
 ```
+
+Every request to a museum or Wikidata sends that contact in its `User-Agent`, as the APIs
+ask. It lives only in your gitignored `.env`; harvesting refuses to run without it. Tests
+and `--offline` runs don't need it.
 
 ## Usage
 

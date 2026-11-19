@@ -1,0 +1,37 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/met-435626",
+  "type": "VisualItem",
+  "_label": "Subjects of Porte de la Reine at Aigues-Mortes",
+  "about": [
+    {
+      "id": "http://vocab.getty.edu/aat/300002916",
+      "type": "Type",
+      "_label": "Gates",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q53060",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300250148",
+      "type": "Type",
+      "_label": "Horses",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q726",
+          "type": "Type"
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "met",
+    "sourceUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/435626",
+    "fetchedAt": "2026-11-19T20:39:52.917Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "Open Access (isPublicDomain: true)"
+  }
+}

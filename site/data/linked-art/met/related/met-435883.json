@@ -1,0 +1,48 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/met-435883",
+  "type": "VisualItem",
+  "_label": "Subjects of Still Life with Apples and Pears",
+  "about": [
+    {
+      "id": "http://vocab.getty.edu/aat/300266417",
+      "type": "Type",
+      "_label": "Apples",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q89",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300375178",
+      "type": "Type",
+      "_label": "Pears",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q13099586",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300015638",
+      "type": "Type",
+      "_label": "Still Life",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q170571",
+          "type": "Type"
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "met",
+    "sourceUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/435883",
+    "fetchedAt": "2026-11-19T20:40:16.770Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "Open Access (isPublicDomain: true)"
+  }
+}

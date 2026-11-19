@@ -1,0 +1,48 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/met-435881",
+  "type": "VisualItem",
+  "_label": "Subjects of Still Life with a Ginger Jar and Eggplants",
+  "about": [
+    {
+      "id": "http://vocab.getty.edu/aat/300011868",
+      "type": "Type",
+      "_label": "Fruit",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q1364",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300311491",
+      "type": "Type",
+      "_label": "Eggplants",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q12533094",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300015638",
+      "type": "Type",
+      "_label": "Still Life",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q170571",
+          "type": "Type"
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "met",
+    "sourceUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/435881",
+    "fetchedAt": "2026-11-19T20:40:15.719Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "Open Access (isPublicDomain: true)"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/met-435703",
+  "type": "VisualItem",
+  "_label": "Subjects of Weaning the Calves",
+  "about": [
+    {
+      "id": "http://vocab.getty.edu/aat/300250120",
+      "type": "Type",
+      "_label": "Cows",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q830",
+          "type": "Type"
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "met",
+    "sourceUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/435703",
+    "fetchedAt": "2026-11-19T20:39:58.269Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "Open Access (isPublicDomain: true)"
+  }
+}

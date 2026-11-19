@@ -1,8 +1,17 @@
 import { readCached, writeCached } from './cache.js';
 import type { CachedRaw } from './types.js';
 
-export const USER_AGENT =
-  'museum-crosswalk/0.1 (https://github.com/aprigge/museum-crosswalk; contact withheld)';
+/**
+ * The User-Agent every request sends: the project and a contact, which the APIs ask for.
+ * The contact comes from MUSEUM_CROSSWALK_CONTACT (set it in .env) so no address is
+ * committed; real requests refuse to run without it.
+ */
+export function userAgent(contact = process.env.MUSEUM_CROSSWALK_CONTACT): string {
+  if (!contact) {
+    throw new Error('Set MUSEUM_CROSSWALK_CONTACT (an email or URL the APIs can reach you at), e.g. in .env');
+  }
+  return `museum-crosswalk/0.1 (https://github.com/aprigge/museum-crosswalk; ${contact})`;
+}
 
 export interface ClientOptions {
   source: string;
@@ -10,6 +19,8 @@ export interface ClientOptions {
   minIntervalMs: number;
   maxRetries?: number;
   headers?: Record<string, string>;
+  /** Further headers that carry the User-Agent, e.g. AIC's own AIC-User-Agent. */
+  userAgentHeaders?: string[];
   fetchImpl?: typeof fetch;
   sleep?: (ms: number) => Promise<void>;
   now?: () => number;
@@ -66,6 +77,7 @@ export class SourceClient {
     this.opts = {
       maxRetries: 4,
       headers: {},
+      userAgentHeaders: [],
       fetchImpl: globalThis.fetch,
       sleep: (ms) => new Promise((r) => setTimeout(r, ms)),
       now: () => Date.now(),
@@ -97,6 +109,12 @@ export class SourceClient {
     return run;
   }
 
+  private requestHeaders(): Record<string, string> {
+    const ua = userAgent();
+    const extra = Object.fromEntries((this.opts.userAgentHeaders ?? []).map((h) => [h, ua]));
+    return { 'User-Agent': ua, Accept: 'application/json', ...extra, ...this.opts.headers };
+  }
+
   private async fetchWithRetry(url: string): Promise<unknown> {
     // Once blocked, refuse every further request to this source without touching the network.
     if (this.blocked) throw this.blocked;
@@ -109,7 +127,7 @@ export class SourceClient {
       let res: Response;
       try {
         res = await this.opts.fetchImpl(url, {
-          headers: { 'User-Agent': USER_AGENT, Accept: 'application/json', ...this.opts.headers },
+          headers: this.requestHeaders(),
         });
       } catch (err) {
         if (attempt >= this.opts.maxRetries) throw err;
