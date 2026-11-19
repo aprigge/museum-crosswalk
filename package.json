@@ -1,0 +1,30 @@
+{
+  "name": "museum-crosswalk",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Harvester prototype: how well open museum data lines up, one artist at a time.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "harvest": "tsx src/cli/harvest.ts",
+    "transform": "tsx src/cli/transform.ts",
+    "reconcile": "tsx src/cli/reconcile.ts",
+    "report": "tsx src/cli/report.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "ajv": "^8.20.0",
+    "ajv-formats": "^3.0.1",
+    "jsonld": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/jsonld": "^1.5.15",
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.7"
+  }
+}

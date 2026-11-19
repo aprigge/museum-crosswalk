@@ -1,0 +1,97 @@
+{
+  "source": "rijksmuseum",
+  "id": "21039974",
+  "url": "https://id.rijksmuseum.nl/21039974?_profile=la-framed",
+  "fetchedAt": "2026-11-19T20:00:12.990Z",
+  "body": {
+    "@context": "https://linked.art/ns/v1/linked-art.json",
+    "id": "https://id.rijksmuseum.nl/21039974",
+    "type": "Group",
+    "carried_out": [
+      {
+        "type": "Activity",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300393177",
+            "type": "Type",
+            "_label": "Professional Activities"
+          }
+        ],
+        "took_place_at": [
+          {
+            "id": "https://id.rijksmuseum.nl/23029985",
+            "type": "Place"
+          }
+        ]
+      },
+      {
+        "type": "Activity",
+        "classified_as": [
+          {
+            "id": "https://id.rijksmuseum.nl/2206367",
+            "type": "Type",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300393177",
+                "type": "Type",
+                "_label": "Professional Activities"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "equivalent": [
+      {
+        "id": "http://viaf.org/viaf/125979197",
+        "type": "Group"
+      },
+      {
+        "id": "http://vocab.getty.edu/ulan/500220995",
+        "type": "Group"
+      },
+      {
+        "id": "http://www.wikidata.org/entity/Q924335",
+        "type": "Group"
+      },
+      {
+        "id": "https://id.rijksmuseum.nl/2307958",
+        "type": "Group"
+      },
+      {
+        "id": "https://rkd.nl/artists/495488",
+        "type": "Group"
+      }
+    ],
+    "identified_by": [
+      {
+        "type": "Name",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404670",
+            "type": "Type"
+          }
+        ],
+        "content": "Stedelijk Museum (Amsterdam)",
+        "language": [
+          {
+            "id": "http://vocab.getty.edu/aat/300388256",
+            "type": "Language"
+          }
+        ]
+      }
+    ],
+    "subject_of": [
+      {
+        "id": "https://data.rijksmuseum.nl/21039974",
+        "type": "LinguisticObject",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300379475",
+            "type": "Type"
+          }
+        ]
+      }
+    ]
+  }
+}

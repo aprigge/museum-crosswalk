@@ -1,0 +1,4864 @@
+{
+  "source": "wikidata",
+  "id": "external-ids-Q5582",
+  "url": "https://query.wikidata.org/sparql?format=json&query=SELECT%20%3Fprop%20%3FpropLabel%20%3Fvalue%20WHERE%20%7B%0A%20%20wd%3AQ5582%20%3Fclaim%20%3Fvalue%20.%0A%20%20%3Fprop%20wikibase%3AdirectClaim%20%3Fclaim%20%3B%20wikibase%3ApropertyType%20wikibase%3AExternalId%20.%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22en%22.%20%7D%0A%7D",
+  "fetchedAt": "2026-11-19T20:00:00.951Z",
+  "body": {
+    "head": {
+      "vars": [
+        "prop",
+        "propLabel",
+        "value"
+      ]
+    },
+    "results": {
+      "bindings": [
+        {
+          "value": {
+            "type": "literal",
+            "value": "kultura_i_obrazovanie/izobrazitelnoe_iskusstvo/VAN_GOG_VINSENT.html"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P6385"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Krugosvet article (archived)"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "a1120476x"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P6394"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "ELNET ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "a11558428"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P6394"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "ELNET ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "419804"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P6441"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Douban author ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "Vincent_van_Gogh"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P6573"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Klexikon article ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "7B9431E0214A25BE"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P6578"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "MutualArt artist ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "45753"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P6640"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "JRC Names ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "372-vincent-van-gogh"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P6645"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Stedelijk Museum Amsterdam ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "127577"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P6683"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Alexander Turnbull Library ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "フィンセント・ファン・ゴッホ"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P6698"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Japan Search name ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "Van+Gogh,+Vincent"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P6706"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "De Agostini ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "vincent-van-gogh"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P6735"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Watercolour World artist ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "A30323"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P6764"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "V&A person ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "N3519"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P6764"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "V&A person ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "7750"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P6844"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "abART person ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "16014"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P7026"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Lebanese National Library ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "7775321"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P7029"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "National Library of Russia ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "000056486"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P7039"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "National Library of Iceland ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "515058"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P7214"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Allcinema person ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "9810566602805606"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P7293"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "National Library of Poland MMS ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "3906379"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P7305"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Online PWN Encyclopedia ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "2126"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P7311"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Aozora Bunko author ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "42904"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P7444"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Rijksmuseum Research Library authority ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "882"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P7466"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Edvard Munch's correspondence person ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "Vincent_van_Gogh-ZXAXY"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P7502"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Golden ID (archived)"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "9000109"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P7545"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "askArt person ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "vincent-van-gogh"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P7666"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "article ID in the Lithuanian Universal Encyclopedia Online"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "LNB:V*13438;=BF"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P7699"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "National Library of Lithuania ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "vtls011690283"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P7700"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Slovak National Library (VIAF) ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "agent/base/59832"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P7704"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Europeana entity"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "T513-30648"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P7711"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Joconde author ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "van-gogh"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P7753"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Projekt Gutenberg-DE author ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "021036375087"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P7847"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "DigitaltMuseum ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "991007823469707141"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P7848"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Frick Art Research Library Artist File ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "991004314619707141"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P7848"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Frick Art Research Library Artist File ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "95a5yja38danygu695b5yc1k70t38dr"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P7865"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "CoBiS author ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "118540416"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P7902"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Deutsche Biographie (GND) ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "p=vincent;n=van+gogh"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P7929"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Roglo person ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "bwn6/gogh"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P7941"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Biografisch Woordenboek van Nederland: 1880-2000 ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "401"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P7944"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "DoME artist ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "22495"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P7982"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Hrvatska enciklopedija ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "495/4021"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P8034"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Vatican Library VcBA ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "vanvincent"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P8094"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "GeneaStar person ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "ncf10151948"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P8179"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Canadiana Name Authority ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "987007261701105171"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P8189"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "J9U entity ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "34783"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P8210"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "LombardiaBeniCulturali artwork author ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "15928"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P8234"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "LiederNet author ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "30022"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P8238"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Bibliography of the History of Slovakia ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "18-177319"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P8309"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Yle topic ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "Vincent_van_Gogh"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P8313"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Lex ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "16598"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P8317"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Philadelphia Museum of Art entity ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "23811"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P8349"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Proleksis enciklopedija ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "T033020"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P8406"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Grove Art Online ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "VincentVanGogh-TheArtist"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P8408"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "KBpedia ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "gogh-vincent-willem-van-1853-1890-artist"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P8496"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Archive Site Trinity College Cambridge ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "1143-GOGH-Vincent-van"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P8705"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Artist ID of the Department of Prints and Drawings of the Louvre"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "285238"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P8750"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Unione Romana Biblioteche Scientifiche ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "vangogh"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P3154"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Runeberg author ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "vincent-van-gogh"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P3219"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Encyclopædia Universalis ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "vincent-van-gogh-d-arles-a-auvers-reperes-chronologiques"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P3219"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Encyclopædia Universalis ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "person/vincent-van-gogh"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P3221"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "New York Times topic ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "vincent-van-gogh"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P3222"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "NE.se ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "0000088456"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P3280"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "BAnQ authority ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "194449"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P3348"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "National Library of Greece ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "vincent-van-gogh"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P3365"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Treccani ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "722425"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P3368"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Prabook ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "Vincent-Van-Gogh-artist"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P3417"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Quora topic ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "618"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P3421"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Belvedere artist ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "w60g3k35"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P3430"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "SNAC ARK ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "2bfb0d8a45200ee348e45a8bd884b0b5f81c64a0"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P3479"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Omni topic ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "39241"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P3544"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Te Papa agent ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "19590520"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P3553"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Zhihu topic ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "nederlandse-beeldende-kunst-vanaf-1850/vincent-van-gogh"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P3569"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Cultureel Woordenboek ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "3058"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P3603"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Minneapolis Institute of Art constituent ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "9391"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P3630"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Babelio author ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "47270"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P3762"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "openMLOL author ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "210252"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P3762"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "openMLOL author ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "418212"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P3762"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "openMLOL author ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "vincent-van-gogh"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P3782"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Artnet artist ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "000056583"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P3788"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "BNMM authority ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "2162"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P3791"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Art Renewal Center artist ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "87097969227554"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P3846"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "DBC author ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "person:vincent_van_gogh_(1853-1890)"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P3847"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Open Library subject ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "7439"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P3888"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Boijmans artist ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "49"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P3965"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Bridgeman artist ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "38252"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P3987"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "SHARE Catalogue author ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "614824"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P3987"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "SHARE Catalogue author ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "nQm45y94No"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P4025"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Pinakothek artist ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "789"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P4145"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Athenaeum person ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "5BF9F74A-1253-4680-8CB1-9DA21FFB3E56"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P4177"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Finnish National Gallery artist ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "48627"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P4200"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Christie's creator ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "vincent-van-gogh"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P4223"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Treccani's Enciclopedia Italiana ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "Vincent_van_Gogh"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P4342"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Great Norwegian Encyclopedia ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "vincentvangogh"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P4359"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "gravsted.dk ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "pessoa11621/vincent-van-gogh"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P4399"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Itaú Cultural ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "vincent-van-goghs-152nd-birthday"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P4431"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Google Doodle"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "00079365T"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P4432"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Artists of the World ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "gogh-vincent-van"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P4581"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Städel Museum artist ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "000396253"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P4619"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "National Library of Brazil ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "Gogh, Vincent van, 1853-1890"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P4629"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Online Books Page author ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "210506"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P4802"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "BVPB authority ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "Entity[\"Concept\", \"Gogh::886c7\"]"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P4839"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Wolfram Language entity code"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "ckvsc4lo6s"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P4927"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Invaluable.com person ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "2137050"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P4985"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "TMDB person ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "gogh-vincent-willem"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P5019"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Brockhaus Enzyklopädie online ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "KAC199610281"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P5034"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "National Library of Korea ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "i97261"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P5063"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Interlingual Index ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "1878654"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P5068"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Flanders Arts Institute person ID (former scheme)"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "2944"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P5271"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Saint Louis Art Museum person ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "5238"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P5273"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Nelson-Atkins Museum of Art person ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "vincent-van-gogh"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P5368"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "National Gallery of Canada artist ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "8455"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P5375"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "BIU Santé person ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "1083"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P5415"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Whonamedit? doctor ID (archived)"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "72163"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P5421"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Trading Card Database name ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "202"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P5450"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Biographisches Archiv der Psychiatrie  ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "12096"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P5489"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "artist-info artist ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "people/51014886"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P5504"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "RISM ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "31fhhlwm46clncx"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P5587"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Libris-URI"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "van_gogh_vincent"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P5597"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Artcyclopedia artist ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "vincent-van-gogh-1452"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P5617"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Evene ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "47733"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P5731"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Angelicum ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "32698"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P5739"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Pontificia Università della Santa Croce ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "4005-31868"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P5905"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Comic Vine ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "vincent-van-gogh"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P6002"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "WikiArt ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "c7r5zlx0446t"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P6200"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "BBC News topic ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "art:Vincent_van_Gogh"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P6262"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Fandom article ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "tardis:Vincent_van_Gogh"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P6262"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Fandom article ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "klingon:Vincent_Van_Gogh"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P6262"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Fandom article ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "47301"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P6295"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "ARTIC artist ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "40610"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P6295"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "ARTIC artist ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "2759"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P6327"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Goodreads character ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "000083033"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P947"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "RSL ID (person)"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "000054190"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P949"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "National Library of Israel ID (old)"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "XX888249"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P950"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "National Library of Spain SpMaBN ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "000233016"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P1003"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "National Library of Romania ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "20825"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P1005"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "National Library of Portugal ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "068472676"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P1006"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Nationale Thesaurus voor Auteursnamen ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "90062600"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P1015"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "BIBSYS ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "ADV10038421"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P1017"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Vatican Library ID (former scheme)"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "ADV11433738"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P1017"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Vatican Library ID (former scheme)"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "1309"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P1138"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Kunstindeks Danmark Artist ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "2072"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P1185"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Rodovid ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "n97025102"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P1207"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "NUKAT ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "000136202"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P1213"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "NLC authorities"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "176672"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P1233"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "ISFDB author ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "2192c545-cc43-43b4-8abd-1cd22af701dc"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P1248"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "KulturNav-ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "803/000024731"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P1263"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "NNDB people ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "286307"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P1280"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "CONOR.SI ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "0030337"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P1296"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Gran Enciclopèdia Catalana ID (former scheme)"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "vtls815305"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P1309"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "EGAXA ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "835530"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P1315"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "NLA Trove people ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "van-gogh-vincent-18531890"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P1367"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Art UK artist ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "000038350"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P1368"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "National Library of Latvia ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "000001643"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P1375"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "NSK (VIAF) ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "biography/Vincent-van-Gogh"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P1417"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Encyclopædia Britannica Online ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "506"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P1430"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Open Plaques subject ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "a1237666"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P1580"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "University of Barcelona authority ID (former scheme)"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "d11974bb-18ba-4a9e-bd1e-32a17d6eba2c"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P1617"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "BBC Things ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "0021K1088"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P1670"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Canadiana Authorities ID (former scheme)"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "a0000001178997"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P1695"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "NLP ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "vincent-van-gogh"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P1707"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Design & Art Australia Online ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "29258"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P1711"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "British Museum person or institution ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "102966"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P1741"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "GTAA ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "mp164073"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P1816"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "National Portrait Gallery (London) person ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "I00129900"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P1819"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "genealogics.org person ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "g/gogh_van"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P1882"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Web Gallery of Art artist ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "000042541"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P1890"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "CCAB ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "6171"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P1899"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "LibriVox author ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "263844"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P1901"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "BALaT person/organisation ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "40599"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P1938"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Project Gutenberg author ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "2238691"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P1953"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Discogs artist ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "30789"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P1977"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Les Archives du spectacle person ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "18051495"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P2011"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Cooper Hewitt person ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "vincent-van-gogh"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P2042"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Artsy artist ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "32032"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P2163"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "FAST ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "2206"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P2174"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Museum of Modern Art artist ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "14559"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P2188"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "BiblioNet author ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "1349"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P2252"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "National Gallery of Art artist ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "35879"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P2268"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Musée d'Orsay artist or personality ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "237"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P2431"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Thyssen-Bornemisza artist ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "377"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P2432"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "J. Paul Getty Museum agent DOR ID (old)"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "46a90c46-9cfa-4cfc-8c3b-54342473e0fb"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P2533"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "SHEWROTE ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "8592"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P2538"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Nationalmuseum Sweden ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "00040910n"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P2581"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "BabelNet ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "6000000021691208720"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P2600"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Geni profile ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "e3afefea-ca65-481a-8708-047f5253c8eb"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P2607"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "BookBrainz author ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "4b6c7623078046d2932460a9db43dc8e"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P2639"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Filmportal ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "/g/11bykth6mn"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P2671"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Google Knowledge Graph ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "vincent-van-gogh-1182"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P2741"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Tate artist ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "B00076203"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P2843"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Benezit ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "L899-PXV"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P2889"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "FamilySearch person ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "1898594"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P2924"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Great Russian Encyclopedia Online ID (2017)"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "Van_Gogh-33"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P2949"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "WikiTree person ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "34583"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P2963"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Goodreads author ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "gogh-vincent-van-1853-1890"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P2966"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "National Library of Wales Authority ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "A012311687"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P3065"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "RERO ID (legacy)"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "0000000120955689"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P213"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "ISNI"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "9854560"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P214"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "VIAF cluster ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "118540416"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P227"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "GND ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "n79022935"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P244"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Library of Congress Authorities ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "500115588"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P245"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Union List of Artist Names ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "11927591g"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P268"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Bibliothèque nationale de France ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "027176207"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P269"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "IdRef ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "DA01003999"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P271"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "NACSIS-CAT author ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "nm0994883"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P345"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "IMDb ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "00441120"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P349"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "NDL Authority ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "CFIV038247"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P396"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "SBN author ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "35130087"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P409"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Libraries Australia ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "1055"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P535"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Find a Grave memorial ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "/m/07_m2"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P646"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Freebase ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "OL36119A"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P648"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Open Library ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "32439"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P650"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "RKDartists ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "32545490"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P651"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Biografisch Portaal van Nederland ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "jn20000601950"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P691"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "NL CR AUT ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "gogh006"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P723"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "DBNL author ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "Category:Gogh,_Vincent_van"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P839"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "IMSLP ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "188359"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P906"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "SELIBR ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "12494"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P13750"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Arab Encyclopedia concept ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "vincent-van-gogh"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P13772"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Harper's tag"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "01363bab-56e1-41cb-9287-d8cfa6087ff8"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P13818"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "AGORHA UUID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "143063"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P13906"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "NLAI ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "90291"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P13951"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "National Virtual Library of India ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "90384"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P13951"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "National Virtual Library of India ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "171091"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P13951"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "National Virtual Library of India ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "01948dca-b8f0-72dc-b7ab-95f603e1aaac"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P14073"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "TheaterEncyclopedie ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "43638723"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P14137"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Delfi.lv topic ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "jn20000601950"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P14177"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Medvik ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "jn20000601950"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P14178"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Obálky knih ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "981013406414307712"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P14211"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Library of the University of Santiago de Compostela authority ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "981005657351709366"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P14225"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "NSK ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "366230"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P14536"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "FES digital collections entity ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "742"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P14557"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Museum of Fine Arts, Houston person ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "1B5E-4A14-0CE7-6D33-9FB0"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P14750"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "HAND ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "1590"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P14883"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Numista engraver or designer ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "3409"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P8783"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "AAGM person or institution ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "104831"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P8796"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "FilmPolski ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "11380017-n"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P8814"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "WordNet 3.1 Synset ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "22162021"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P8849"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "CONOR.BG ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "2952807"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P8851"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "CONOR.SR ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "gogh-vincent-van"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P8899"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Swedish National Library Arken ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "people/82437"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P8902"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Archives at Yale agent ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "192693"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P8947"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Museo Galileo authority ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "000042579"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P8980"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "KANTO ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "Vincent_van_Gogh"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P9000"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "World History Encyclopedia ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "7b191576-8e14-448d-bc96-43f099d7a09c"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P9037"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "BHCL UUID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "234"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P9048"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Biographical Archive of Psychiatry ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "4a03a241e24150d7bc459758ebf35059"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P9049"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "ICCD agent ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "7945"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P9081"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "SEARCH on line catalogue ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "4661"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P9164"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Svenska Institutet i Rom ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "44090"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P9171"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "RILM ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "11544"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P9247"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Pontifical University of Salamanca ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "85386"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P9251"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Cyprus University of Technology ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "p0047270-Gogh-Vincent-van-18531890"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P9322"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "SVKKL authority ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "68515"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P9337"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Keratsini-Drapetsona libraries' catalogue authority ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "67249"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P9337"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Keratsini-Drapetsona libraries' catalogue authority ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "van-gogh"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P9346"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "France 24 topic ID (French)"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "19310509"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P9371"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "FranceArchives agent ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "gogh-vincent-van"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P9575"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Australian Music Centre artist ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "27277"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P9707"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "GCD creator ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "67512"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P9802"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Penguin Random House author ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "166434"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P9807"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "SNK ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "Ван Гог Винсент"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P9826"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Great Encyclopedia of Cyril and Methodius entry ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "PE00003379"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P9918"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Kallías ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "118540416"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P9964"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Kalliope-Verbund (GND) ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "981058512786306706"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P9984"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "CANTIC ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "49332"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P10069"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Tabakalera ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "54990"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P10141"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Academy of Athens authority ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "vtls000292516"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P10227"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "National Library of Ireland ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "05955/eu_v_0133/v0133"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P10242"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Lur Encyclopedic Dictionary ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "m07_m2"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P10297"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Google Arts & Culture entity ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "vincent-van-gogh"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P10302"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Film.ru person ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "36203"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P10387"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Databazeknih.cz author ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "35457"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P10400"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "CBDB.cz author ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "14478632X"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P10553"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "IxTheo authority ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "agent/gnd_118540416"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P10608"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "FID performing arts ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "4977"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P10757"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Personality Database profile ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "vincent-van-gogh"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P10780"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Radio France person ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "E39PBJtgYDdKdvTYGb4Xy4WxDq"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P10832"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "WorldCat Entities ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "161947"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P10882"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Met Constituent ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "van-gogh-vincent"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P10925"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Galleria Recta artist ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "89847"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P11155"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Municipal Library of Trikala ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "50445"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P11156"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "MMB ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "20902"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P11180"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Central Library of Volos authority ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "6141c555ce157a783401f954"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P11185"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Levadia Library ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "5c0f9af956972ccb3e92d07d"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P11192"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Piraeus Bank Group Cultural Foundation Library (A) ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "609ccfc27e3b95954109743e"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P11193"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Piraeus Bank Group Cultural Foundation Library (B) ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "people/vincent-van-gogh"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P11194"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Famous Birthdays ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "0002450868"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P11239"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "DFK Paris person ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "14818668"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P11249"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "KBR person ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "vincent-van-gogh"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P11386"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Listal ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "1140000791649778816"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P11496"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "CiNii Research ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "981058512786306706"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P11686"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "University of Barcelona authority ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "648"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P11827"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "documenta archiv ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "5696"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P11870"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "The Literary Encyclopedia person ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "person/103JV9"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P12040"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "J. Paul Getty Museum agent ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "per-013181"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P12046"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "ADVN ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "Vincent_van_Gogh"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P12086"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "WikiKids ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "923823"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P12098"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Kinobox person ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "vincent-willem-van-gogh"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P12385"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Gran Enciclopèdia Catalana ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "151061777"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P12451"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Arabic Ontology lexical concept ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "72593"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P12458"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Parsifal cluster ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "11464"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P12483"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "PMB – Personen der Moderne Basis person ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "13499"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P12502"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "UCA authority ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "vincent-van-goghdutch-1853-90-self-portrait-london"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P12572"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Algerian National Library ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "20110803095857848"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P12582"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Oxford Reference overview ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "14345"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P12597"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "museum-digital person/organization ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "Q146826"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P12674"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Kunstenpunt Knowledge Graph ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "829"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P12715"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Pushkin Museum artist ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "Q70073"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P12749"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "SNARC ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "ca:Vincent_van_Gogh"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P12800"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Vikidia article ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "lkl012827"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P12804"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "MNAHA person ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "54081"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P12822"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Norwegian National Museum producer ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "27367995"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P12836"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Douban personage ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "62492"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P13019"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "RedBA Granada authority ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "80897"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P13022"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Koha Kütüphane ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "118540416"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P13049"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "DDB person (GND) ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "5464"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P13051"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "CIRDOC author ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "56608"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P13166"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "PUG authority ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "vincent-van-gogh"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P13227"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Beaux-Arts ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "37490"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P13455"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Dezède person ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "36317"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P13455"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Dezède person ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "person/cdad5ce1-837b-425e-9893-6f76c5ed38d9"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P13591"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Yale LUX ID"
+          }
+        },
+        {
+          "value": {
+            "type": "literal",
+            "value": "vincent_van_gogh"
+          },
+          "prop": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/P13698"
+          },
+          "propLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Historical picture postcards University of Osnabrück ID"
+          }
+        }
+      ]
+    }
+  }
+}

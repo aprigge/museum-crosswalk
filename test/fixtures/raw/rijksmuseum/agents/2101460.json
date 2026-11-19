@@ -1,0 +1,303 @@
+{
+  "source": "rijksmuseum",
+  "id": "2101460",
+  "url": "https://id.rijksmuseum.nl/2101460?_profile=la-framed",
+  "fetchedAt": "2026-11-19T20:00:07.832Z",
+  "body": {
+    "@context": "https://linked.art/ns/v1/linked-art.json",
+    "id": "https://id.rijksmuseum.nl/2101460",
+    "type": "Person",
+    "born": {
+      "type": "Birth",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1824-01-27T00:00:00Z",
+        "end_of_the_end": "1824-01-27T23:59:59Z",
+        "identified_by": [
+          {
+            "type": "Name",
+            "content": "1824-01-27",
+            "language": [
+              {
+                "id": "http://vocab.getty.edu/aat/300388256",
+                "type": "Language"
+              }
+            ]
+          },
+          {
+            "type": "Name",
+            "content": "1824-01-27",
+            "language": [
+              {
+                "id": "http://vocab.getty.edu/aat/300388277",
+                "type": "Language"
+              }
+            ]
+          }
+        ]
+      },
+      "took_place_at": [
+        {
+          "id": "https://id.rijksmuseum.nl/2304536",
+          "type": "Place"
+        }
+      ]
+    },
+    "carried_out": [
+      {
+        "type": "Activity",
+        "classified_as": [
+          {
+            "id": "https://id.rijksmuseum.nl/2202217",
+            "type": "Type",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300393177",
+                "type": "Type",
+                "_label": "Professional Activities"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "Activity",
+        "classified_as": [
+          {
+            "id": "https://id.rijksmuseum.nl/2202348",
+            "type": "Type",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300393177",
+                "type": "Type",
+                "_label": "Professional Activities"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "Activity",
+        "classified_as": [
+          {
+            "id": "https://id.rijksmuseum.nl/2202371",
+            "type": "Type",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300393177",
+                "type": "Type",
+                "_label": "Professional Activities"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "classified_as": [
+      {
+        "id": "https://id.rijksmuseum.nl/22012059",
+        "type": "Type",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300055147",
+            "type": "Type"
+          }
+        ]
+      },
+      {
+        "id": "https://id.rijksmuseum.nl/22015709",
+        "type": "Type",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300379842",
+            "type": "Type"
+          }
+        ]
+      }
+    ],
+    "died": {
+      "type": "Death",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1911-08-12T00:00:00Z",
+        "end_of_the_end": "1911-08-12T23:59:59Z",
+        "identified_by": [
+          {
+            "type": "Name",
+            "content": "1911-08-12",
+            "language": [
+              {
+                "id": "http://vocab.getty.edu/aat/300388256",
+                "type": "Language"
+              }
+            ]
+          },
+          {
+            "type": "Name",
+            "content": "1911-08-12",
+            "language": [
+              {
+                "id": "http://vocab.getty.edu/aat/300388277",
+                "type": "Language"
+              }
+            ]
+          }
+        ]
+      },
+      "took_place_at": [
+        {
+          "id": "https://id.rijksmuseum.nl/2301261",
+          "type": "Place"
+        }
+      ]
+    },
+    "equivalent": [
+      {
+        "id": "http://viaf.org/viaf/192238",
+        "type": "Person"
+      },
+      {
+        "id": "http://vocab.getty.edu/ulan/500012980",
+        "type": "Person"
+      },
+      {
+        "id": "http://www.wikidata.org/entity/Q528460",
+        "type": "Person"
+      },
+      {
+        "id": "https://id.rijksmuseum.nl/31055284",
+        "type": "Person"
+      },
+      {
+        "id": "https://rkd.nl/artists/41177",
+        "type": "Person"
+      }
+    ],
+    "identified_by": [
+      {
+        "type": "Name",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404670",
+            "type": "Type"
+          },
+          {
+            "id": "http://vocab.getty.edu/aat/300404671",
+            "type": "Type"
+          }
+        ],
+        "content": "Jozef Israëls",
+        "language": [
+          {
+            "id": "http://vocab.getty.edu/aat/300388256",
+            "type": "Language"
+          }
+        ]
+      },
+      {
+        "type": "Name",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404670",
+            "type": "Type"
+          },
+          {
+            "id": "http://vocab.getty.edu/aat/300404671",
+            "type": "Type"
+          }
+        ],
+        "content": "Jozef Israëls",
+        "language": [
+          {
+            "id": "http://vocab.getty.edu/aat/300388277",
+            "type": "Language"
+          }
+        ]
+      },
+      {
+        "type": "Name",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404671",
+            "type": "Type"
+          }
+        ],
+        "content": "Joseph Israëls",
+        "language": [
+          {
+            "id": "http://vocab.getty.edu/aat/300388256",
+            "type": "Language"
+          }
+        ]
+      },
+      {
+        "type": "Name",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404672",
+            "type": "Type"
+          }
+        ],
+        "content": "Israëls, Joseph",
+        "language": [
+          {
+            "id": "http://vocab.getty.edu/aat/300388256",
+            "type": "Language"
+          }
+        ]
+      },
+      {
+        "type": "Name",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404672",
+            "type": "Type"
+          },
+          {
+            "id": "http://vocab.getty.edu/aat/300451544",
+            "type": "Type"
+          }
+        ],
+        "content": "Israëls, Jozef",
+        "language": [
+          {
+            "id": "http://vocab.getty.edu/aat/300388256",
+            "type": "Language"
+          }
+        ]
+      },
+      {
+        "type": "Name",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404672",
+            "type": "Type"
+          },
+          {
+            "id": "http://vocab.getty.edu/aat/300451544",
+            "type": "Type"
+          }
+        ],
+        "content": "Israëls, Jozef",
+        "language": [
+          {
+            "id": "http://vocab.getty.edu/aat/300388277",
+            "type": "Language"
+          }
+        ]
+      }
+    ],
+    "subject_of": [
+      {
+        "id": "https://data.rijksmuseum.nl/2101460",
+        "type": "LinguisticObject",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300379475",
+            "type": "Type"
+          }
+        ]
+      }
+    ]
+  }
+}

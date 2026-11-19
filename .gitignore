@@ -1,0 +1,6 @@
+node_modules/
+.DS_Store
+
+# Harvested and generated data. Rebuild with the CLIs.
+# Small test fixtures live under test/fixtures/ and are committed.
+data/

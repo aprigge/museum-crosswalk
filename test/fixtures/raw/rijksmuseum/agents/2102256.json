@@ -1,0 +1,312 @@
+{
+  "source": "rijksmuseum",
+  "id": "2102256",
+  "url": "https://id.rijksmuseum.nl/2102256?_profile=la-framed",
+  "fetchedAt": "2026-11-19T20:00:02.806Z",
+  "body": {
+    "@context": "https://linked.art/ns/v1/linked-art.json",
+    "id": "https://id.rijksmuseum.nl/2102256",
+    "type": "Person",
+    "born": {
+      "type": "Birth",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1853-03-30T00:00:00Z",
+        "end_of_the_end": "1853-03-30T23:59:59Z",
+        "identified_by": [
+          {
+            "type": "Name",
+            "content": "1853-03-30",
+            "language": [
+              {
+                "id": "http://vocab.getty.edu/aat/300388256",
+                "type": "Language"
+              }
+            ]
+          },
+          {
+            "type": "Name",
+            "content": "1853-03-30",
+            "language": [
+              {
+                "id": "http://vocab.getty.edu/aat/300388277",
+                "type": "Language"
+              }
+            ]
+          }
+        ]
+      },
+      "took_place_at": [
+        {
+          "id": "https://id.rijksmuseum.nl/2303615",
+          "type": "Place"
+        }
+      ]
+    },
+    "carried_out": [
+      {
+        "type": "Activity",
+        "classified_as": [
+          {
+            "id": "https://id.rijksmuseum.nl/2202217",
+            "type": "Type",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300393177",
+                "type": "Type",
+                "_label": "Professional Activities"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "Activity",
+        "classified_as": [
+          {
+            "id": "https://id.rijksmuseum.nl/2202348",
+            "type": "Type",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300393177",
+                "type": "Type",
+                "_label": "Professional Activities"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "Activity",
+        "classified_as": [
+          {
+            "id": "https://id.rijksmuseum.nl/2202371",
+            "type": "Type",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300393177",
+                "type": "Type",
+                "_label": "Professional Activities"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "Activity",
+        "classified_as": [
+          {
+            "id": "https://id.rijksmuseum.nl/2202965",
+            "type": "Type",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300393177",
+                "type": "Type",
+                "_label": "Professional Activities"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "classified_as": [
+      {
+        "id": "https://id.rijksmuseum.nl/22012059",
+        "type": "Type",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300055147",
+            "type": "Type"
+          }
+        ]
+      },
+      {
+        "id": "https://id.rijksmuseum.nl/22015709",
+        "type": "Type",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300379842",
+            "type": "Type"
+          }
+        ]
+      }
+    ],
+    "died": {
+      "type": "Death",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1890-07-29T00:00:00Z",
+        "end_of_the_end": "1890-07-29T23:59:59Z",
+        "identified_by": [
+          {
+            "type": "Name",
+            "content": "1890-07-29",
+            "language": [
+              {
+                "id": "http://vocab.getty.edu/aat/300388256",
+                "type": "Language"
+              }
+            ]
+          },
+          {
+            "type": "Name",
+            "content": "1890-07-29",
+            "language": [
+              {
+                "id": "http://vocab.getty.edu/aat/300388277",
+                "type": "Language"
+              }
+            ]
+          }
+        ]
+      },
+      "took_place_at": [
+        {
+          "id": "https://id.rijksmuseum.nl/2302511",
+          "type": "Place"
+        }
+      ]
+    },
+    "equivalent": [
+      {
+        "id": "http://viaf.org/viaf/9854560",
+        "type": "Person"
+      },
+      {
+        "id": "http://vocab.getty.edu/ulan/500115588",
+        "type": "Person"
+      },
+      {
+        "id": "http://www.wikidata.org/entity/Q5582",
+        "type": "Person"
+      },
+      {
+        "id": "https://id.rijksmuseum.nl/31042904",
+        "type": "Person"
+      },
+      {
+        "id": "https://rkd.nl/artists/32439",
+        "type": "Person"
+      }
+    ],
+    "identified_by": [
+      {
+        "type": "Name",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404670",
+            "type": "Type"
+          },
+          {
+            "id": "http://vocab.getty.edu/aat/300404671",
+            "type": "Type"
+          }
+        ],
+        "content": "Vincent van Gogh",
+        "language": [
+          {
+            "id": "http://vocab.getty.edu/aat/300388256",
+            "type": "Language"
+          }
+        ]
+      },
+      {
+        "type": "Name",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404670",
+            "type": "Type"
+          },
+          {
+            "id": "http://vocab.getty.edu/aat/300404671",
+            "type": "Type"
+          }
+        ],
+        "content": "Vincent van Gogh",
+        "language": [
+          {
+            "id": "http://vocab.getty.edu/aat/300388277",
+            "type": "Language"
+          }
+        ]
+      },
+      {
+        "type": "Name",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404672",
+            "type": "Type"
+          },
+          {
+            "id": "http://vocab.getty.edu/aat/300451544",
+            "type": "Type"
+          }
+        ],
+        "content": "Gogh, Vincent van",
+        "language": [
+          {
+            "id": "http://vocab.getty.edu/aat/300388256",
+            "type": "Language"
+          }
+        ]
+      },
+      {
+        "type": "Name",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404672",
+            "type": "Type"
+          },
+          {
+            "id": "http://vocab.getty.edu/aat/300451544",
+            "type": "Type"
+          }
+        ],
+        "content": "Gogh, Vincent van",
+        "language": [
+          {
+            "id": "http://vocab.getty.edu/aat/300388277",
+            "type": "Language"
+          }
+        ]
+      }
+    ],
+    "referred_to_by": [
+      {
+        "type": "LinguisticObject",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300435422",
+            "type": "Type",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300418049",
+                "type": "Type",
+                "_label": "brief text"
+              }
+            ]
+          }
+        ],
+        "content": "Vincent van Gogh (1853-1890) geldt tegenwoordig als de beroemdste en meest invloedrijke Nederlandse kunstenaar uit de 19de eeuw. Na een korte loopbaan als boek- en kunsthandelaar in Den Haag, Londen en Parijs, onderwijzer in Engeland, student theologie in Amsterdam en lekenpredikant in de Belgische mijnstreek, richtte hij zich vanaf 1880 op het kunstenaarsschap. In Den Haag en Nuenen maakte hij tussen 1881 en 1885 stillevens, landschappen en voorstellingen van boeren en vissers in veelal donkere tinten. Vanaf 1885 schilderde hij in Frankrijk veelal landschappen en (zelf)portretten in felle kleuren opgezet in een dynamische persoonlijke stijl. Tijdens zijn laatste levensjaren in Arles en Saint-Rémy-de-Provence kampte Van Gogh met een zwakke geestesgesteldheid, die zijn werk dikwijls belemmerde. Twee dagen nadat hij zichzelf in Auvers verwondde met een pistool overleed hij op 29 juli 1890. [Rijkscanon 2007]",
+        "language": [
+          {
+            "id": "http://vocab.getty.edu/aat/300388256",
+            "type": "Language"
+          }
+        ]
+      }
+    ],
+    "subject_of": [
+      {
+        "id": "https://data.rijksmuseum.nl/2102256",
+        "type": "LinguisticObject",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300379475",
+            "type": "Type"
+          }
+        ]
+      }
+    ]
+  }
+}

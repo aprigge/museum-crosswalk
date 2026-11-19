@@ -1,0 +1,272 @@
+{
+  "source": "rijksmuseum",
+  "id": "21099671",
+  "url": "https://id.rijksmuseum.nl/21099671?_profile=la-framed",
+  "fetchedAt": "2026-11-19T20:00:10.334Z",
+  "body": {
+    "@context": "https://linked.art/ns/v1/linked-art.json",
+    "id": "https://id.rijksmuseum.nl/21099671",
+    "type": "Person",
+    "born": {
+      "type": "Birth",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1890-01-31T00:00:00Z",
+        "end_of_the_end": "1890-01-31T23:59:59Z",
+        "identified_by": [
+          {
+            "type": "Name",
+            "content": "1890-01-31",
+            "language": [
+              {
+                "id": "http://vocab.getty.edu/aat/300388256",
+                "type": "Language"
+              }
+            ]
+          },
+          {
+            "type": "Name",
+            "content": "1890-01-31",
+            "language": [
+              {
+                "id": "http://vocab.getty.edu/aat/300388277",
+                "type": "Language"
+              }
+            ]
+          }
+        ]
+      },
+      "took_place_at": [
+        {
+          "id": "https://id.rijksmuseum.nl/230215",
+          "type": "Place"
+        }
+      ]
+    },
+    "carried_out": [
+      {
+        "type": "Activity",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300393177",
+            "type": "Type",
+            "_label": "Professional Activities"
+          }
+        ],
+        "timespan": {
+          "type": "TimeSpan",
+          "begin_of_the_begin": "1900-01-01T00:00:00Z",
+          "end_of_the_end": "1978-12-31T23:59:59Z",
+          "identified_by": [
+            {
+              "type": "Name",
+              "content": "1900 - 1978",
+              "language": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300388256",
+                  "type": "Language"
+                }
+              ]
+            },
+            {
+              "type": "Name",
+              "content": "1900 - 1978",
+              "language": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300388277",
+                  "type": "Language"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "type": "Activity",
+        "classified_as": [
+          {
+            "id": "https://id.rijksmuseum.nl/2205141",
+            "type": "Type",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/aat/300393177",
+                "type": "Type",
+                "_label": "Professional Activities"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "classified_as": [
+      {
+        "id": "https://id.rijksmuseum.nl/22012059",
+        "type": "Type",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300055147",
+            "type": "Type"
+          }
+        ]
+      },
+      {
+        "id": "https://id.rijksmuseum.nl/22015709",
+        "type": "Type",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300379842",
+            "type": "Type"
+          }
+        ]
+      }
+    ],
+    "died": {
+      "type": "Death",
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "1978-01-28T00:00:00Z",
+        "end_of_the_end": "1978-01-28T23:59:59Z",
+        "identified_by": [
+          {
+            "type": "Name",
+            "content": "1978-01-28",
+            "language": [
+              {
+                "id": "http://vocab.getty.edu/aat/300388256",
+                "type": "Language"
+              }
+            ]
+          },
+          {
+            "type": "Name",
+            "content": "1978-01-28",
+            "language": [
+              {
+                "id": "http://vocab.getty.edu/aat/300388277",
+                "type": "Language"
+              }
+            ]
+          }
+        ]
+      },
+      "took_place_at": [
+        {
+          "id": "https://id.rijksmuseum.nl/2304798",
+          "type": "Place"
+        }
+      ]
+    },
+    "equivalent": [
+      {
+        "id": "http://viaf.org/viaf/17230578",
+        "type": "Person"
+      },
+      {
+        "id": "http://vocab.getty.edu/ulan/500341187",
+        "type": "Person"
+      },
+      {
+        "id": "http://www.wikidata.org/entity/Q2185351",
+        "type": "Person"
+      },
+      {
+        "id": "https://rkd.nl/artists/365519",
+        "type": "Person"
+      }
+    ],
+    "identified_by": [
+      {
+        "type": "Name",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404670",
+            "type": "Type"
+          },
+          {
+            "id": "http://vocab.getty.edu/aat/300404671",
+            "type": "Type"
+          }
+        ],
+        "content": "Vincent Willem van Gogh",
+        "language": [
+          {
+            "id": "http://vocab.getty.edu/aat/300388256",
+            "type": "Language"
+          }
+        ]
+      },
+      {
+        "type": "Name",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404670",
+            "type": "Type"
+          },
+          {
+            "id": "http://vocab.getty.edu/aat/300404671",
+            "type": "Type"
+          }
+        ],
+        "content": "Vincent Willem van Gogh",
+        "language": [
+          {
+            "id": "http://vocab.getty.edu/aat/300388277",
+            "type": "Language"
+          }
+        ]
+      },
+      {
+        "type": "Name",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404672",
+            "type": "Type"
+          },
+          {
+            "id": "http://vocab.getty.edu/aat/300451544",
+            "type": "Type"
+          }
+        ],
+        "content": "Gogh, Vincent Willem van",
+        "language": [
+          {
+            "id": "http://vocab.getty.edu/aat/300388256",
+            "type": "Language"
+          }
+        ]
+      },
+      {
+        "type": "Name",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404672",
+            "type": "Type"
+          },
+          {
+            "id": "http://vocab.getty.edu/aat/300451544",
+            "type": "Type"
+          }
+        ],
+        "content": "Gogh, Vincent Willem van",
+        "language": [
+          {
+            "id": "http://vocab.getty.edu/aat/300388277",
+            "type": "Language"
+          }
+        ]
+      }
+    ],
+    "subject_of": [
+      {
+        "id": "https://data.rijksmuseum.nl/21099671",
+        "type": "LinguisticObject",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300379475",
+            "type": "Type"
+          }
+        ]
+      }
+    ]
+  }
+}

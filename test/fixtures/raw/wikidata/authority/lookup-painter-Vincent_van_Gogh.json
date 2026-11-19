@@ -1,0 +1,35 @@
+{
+  "source": "wikidata",
+  "id": "lookup-painter-Vincent van Gogh",
+  "url": "https://query.wikidata.org/sparql?format=json&query=SELECT%20%3Fitem%20%3Fbirth%20%3Fdeath%20WHERE%20%7B%0A%20%20%3Fitem%20rdfs%3Alabel%20%22Vincent%20van%20Gogh%22%40en%20%3B%20wdt%3AP31%20wd%3AQ5%20%3B%20wdt%3AP106%20%3Focc%20.%0A%20%20%3Focc%20rdfs%3Alabel%20%22painter%22%40en%20.%0A%20%20OPTIONAL%20%7B%20%3Fitem%20wdt%3AP569%20%3Fbirth%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fitem%20wdt%3AP570%20%3Fdeath%20%7D%0A%7D",
+  "fetchedAt": "2026-11-19T20:00:00.684Z",
+  "body": {
+    "head": {
+      "vars": [
+        "item",
+        "birth",
+        "death"
+      ]
+    },
+    "results": {
+      "bindings": [
+        {
+          "item": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q5582"
+          },
+          "birth": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1853-03-30T00:00:00Z"
+          },
+          "death": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "type": "literal",
+            "value": "1890-07-29T00:00:00Z"
+          }
+        }
+      ]
+    }
+  }
+}
