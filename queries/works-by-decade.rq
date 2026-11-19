@@ -1,0 +1,9 @@
+# Works per museum by the decade they were begun.
+PREFIX mc: <https://aprigge.github.io/museum-crosswalk/ns#>
+
+SELECT ?decade ?museum (COUNT(?work) AS ?works) WHERE {
+  ?work mc:museum ?museum ; mc:beginYear ?year .
+  BIND(FLOOR(?year / 10) * 10 AS ?decade)
+}
+GROUP BY ?decade ?museum
+ORDER BY ?decade ?museum

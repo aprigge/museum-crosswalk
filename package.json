@@ -14,12 +14,18 @@
     "report": "tsx src/cli/report.ts",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
-    "concepts": "tsx src/cli/concepts.ts"
+    "concepts": "tsx src/cli/concepts.ts",
+    "graph": "tsx src/cli/graph.ts",
+    "query": "tsx src/cli/query.ts",
+    "index": "tsx src/cli/index.ts",
+    "evaluate": "tsx src/cli/evaluate.ts"
   },
   "dependencies": {
     "ajv": "^8.20.0",
     "ajv-formats": "^3.0.1",
-    "jsonld": "^9.0.0"
+    "jsonld": "^9.0.0",
+    "minisearch": "^7.2.0",
+    "oxigraph": "^0.5.13"
   },
   "devDependencies": {
     "@types/jsonld": "^1.5.15",

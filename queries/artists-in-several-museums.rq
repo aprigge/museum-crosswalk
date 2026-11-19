@@ -1,0 +1,11 @@
+# Artists whose works are held by more than one of the three museums.
+PREFIX mc: <https://aprigge.github.io/museum-crosswalk/ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?artist (COUNT(DISTINCT ?museum) AS ?museums) (GROUP_CONCAT(DISTINCT ?museum; separator=", ") AS ?where) (COUNT(DISTINCT ?work) AS ?works) WHERE {
+  ?work mc:artist ?person ; mc:museum ?museum .
+  ?person rdfs:label ?artist .
+}
+GROUP BY ?artist
+HAVING (COUNT(DISTINCT ?museum) > 1)
+ORDER BY DESC(?museums) DESC(?works)

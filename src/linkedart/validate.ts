@@ -78,6 +78,14 @@ const documentLoader = async (url: string) => {
   throw new Error(`Refusing to load remote JSON-LD document ${url}`);
 };
 
+/** The record as N-Quads (default graph), offline, without our provenance keys. */
+export async function toNQuads(record: Record<string, unknown>): Promise<string> {
+  return (await jsonld.toRDF(stripPrivate(record) as jsonld.JsonLdDocument, {
+    format: 'application/n-quads',
+    documentLoader: documentLoader as never,
+  } as jsonld.Options.ToRdf)) as unknown as string;
+}
+
 /** Expand with jsonld.js; returns problems, including terms that dropped out on expansion. */
 export async function validateJsonLd(record: Record<string, unknown>): Promise<string[]> {
   try {

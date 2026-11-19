@@ -1,0 +1,9 @@
+# Sanity check: works missing a source record or a licence statement (should be none).
+PREFIX mc: <https://aprigge.github.io/museum-crosswalk/ns#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+
+SELECT ?museum (COUNT(?work) AS ?works)
+       (SUM(IF(EXISTS { ?work dcterms:source ?s }, 0, 1)) AS ?missingSource)
+       (SUM(IF(EXISTS { ?work dcterms:license ?l } || EXISTS { ?work mc:licenseNote ?n }, 0, 1)) AS ?missingLicence)
+WHERE { ?work a mc:Work ; mc:museum ?museum }
+GROUP BY ?museum

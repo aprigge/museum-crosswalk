@@ -5,23 +5,10 @@ import { SLICES } from '../core/types.js';
 import { resolveConcepts } from '../authority/concepts.js';
 import { newWikidataClient } from '../authority/wikidata.js';
 import { selectSources } from '../sources/index.js';
+import { conceptUris } from '../graph/extract.js';
 import { cliArgs, main } from './common.js';
 
 type Node = Record<string, any>;
-
-/** Concept URIs a converted record and its VisualItems use: styles, subjects, depicted types and places. */
-export function conceptUris(record: Node, related: Node[]): string[] {
-  const out: string[] = [];
-  const add = (t: Node) => {
-    if (t?.id) out.push(String(t.id));
-    for (const e of t?.equivalent ?? []) if (e?.id) out.push(String(e.id));
-  };
-  for (const c of record.classified_as ?? []) if ((c.classified_as ?? []).some((m: Node) => /300015646$/.test(m.id ?? ''))) add(c);
-  for (const v of related) {
-    for (const key of ['about', 'represents_instance_of_type', 'represents']) for (const t of v[key] ?? []) add(t);
-  }
-  return out.filter((u) => /vocab\.getty\.edu\/aat\/|iconclass\.org\/|wikidata\.org\/entity\//.test(u));
-}
 
 main(async () => {
   const args = cliArgs();

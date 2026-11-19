@@ -1,0 +1,24 @@
+# Hand-written concept alignments: claims made by this project, not by any museum or by
+# Wikidata. They load into their own named graph (graph/alignments) so every query can
+# tell them apart. Add an alignment only with a comment saying why.
+
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix concept: <https://aprigge.github.io/museum-crosswalk/id/concept/> .
+
+# AAT "landscapes" (the Met's and AIC's subject term) resolves to Wikidata Q191163
+# "landscape painting"; Iconclass 25H (the Rijksmuseum's) resolves to Q107425 "landscape".
+# For searching paintings by subject they mean the same thing.
+concept:Q191163 skos:closeMatch concept:Q107425 .
+concept:Q107425 skos:closeMatch concept:Q191163 .
+
+# The Hague School (Q1232633) is often called "Dutch Impressionism", but Wikidata keeps it
+# apart from Impressionism (Q40415), and so does this project: related, not the same. Searches
+# for "Impressionist" do not match Hague School works; the site offers it as a related movement.
+concept:Q1232633 skos:related concept:Q40415 .
+concept:Q40415 skos:related concept:Q1232633 .
+
+<https://aprigge.github.io/museum-crosswalk/graph/alignments>
+    rdfs:comment "Concept alignments asserted by the museum-crosswalk project." ;
+    dcterms:created "2026-11-19" .
