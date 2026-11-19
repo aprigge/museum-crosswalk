@@ -1,6 +1,7 @@
 import { beforeAll, describe, expect, it, vi } from 'vitest';
 import { createAic, hasText } from '../../src/sources/aic.js';
 import { reconcileRecord } from '../../src/reconcile/match.js';
+import { decide } from '../../src/reconcile/agents.js';
 import { validateJsonLd, validateSchema } from '../../src/linkedart/validate.js';
 import { AAT } from '../../src/linkedart/vocab.js';
 import type { ArtistQuery } from '../../src/core/types.js';
@@ -82,8 +83,16 @@ describe('aic reconciliation', () => {
 
   it('flags the imitator agent that Wikidata also lists under P6295', async () => {
     const r = await reconcile('27952');
-    expect(r.matches[0]).toMatchObject({ method: 'wikidata-crosswalk', confidence: 0.7 });
+    // AIC gives the imitator record Van Gogh's own life years, so ID + years scores 0.85…
+    expect(r.matches[0]).toMatchObject({ method: 'wikidata-crosswalk', confidence: 0.85 });
     expect(r.matches[0]!.ref.plainCreator).toBe(false);
     expect(r.review?.reason).toMatch(/Imitator of Vincent van Gogh/);
+    // …and the qualified name still keeps it out of the merged person.
+    expect(decide(r.matches[0]!.ref, r.matches)).toMatchObject({ decision: 'review', personKey: 'aic-47301' });
+  });
+
+  it('merges a single AIC ID when the life years also agree', async () => {
+    const r = await reconcile('28560');
+    expect(decide(r.matches[0]!.ref, r.matches)).toMatchObject({ decision: 'merged', personKey: 'Q5582' });
   });
 });

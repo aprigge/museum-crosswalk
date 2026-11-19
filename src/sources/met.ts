@@ -1,6 +1,7 @@
 import { SourceClient } from '../core/http.js';
 import { provenanceFor, withProvenance } from '../core/provenance.js';
-import type { CachedRaw, LinkedArtResult, SourceAdapter, SourceArtistRef } from '../core/types.js';
+import type { AdapterOptions, CachedRaw, LinkedArtResult, SliceQuery, SourceAdapter, SourceArtistRef } from '../core/types.js';
+import { mint } from '../core/ids.js';
 import { qidFromUri } from '../authority/wikidata.js';
 import {
   accessionNumber,
@@ -34,6 +35,43 @@ const MAPPED = new Set([
 ]);
 
 const lastSegment = (url?: string) => (url ? url.split('/').filter(Boolean).at(-1) : undefined);
+
+/**
+ * Searches that cover a painting slice. The v1.1 search has no classification filter:
+ * European Paintings is all paintings, and `medium=Paintings` narrows the American Wing.
+ * Both are looser than "painting", so `metInSlice` checks each fetched record.
+ */
+export function sliceSearches(slice: SliceQuery): { key: string; params: Record<string, string> }[] {
+  const dates = { dateBegin: String(slice.from), dateEnd: String(slice.to) };
+  return [
+    { key: 'european-paintings', params: { departmentId: '11', ...dates } },
+    { key: 'american-wing-paintings', params: { departmentId: '1', medium: 'Paintings', ...dates } },
+  ];
+}
+
+export function metInSlice(raw: CachedRaw, slice: SliceQuery): boolean {
+  const o = raw.body as Met;
+  return (
+    o.classification === 'Paintings' &&
+    typeof o.objectBeginDate === 'number' &&
+    typeof o.objectEndDate === 'number' &&
+    o.objectEndDate >= slice.from &&
+    o.objectBeginDate <= slice.to
+  );
+}
+
+/** Met tag URLs use the human page form (…/page/aat/N); Linked Art wants the entity URI. */
+export function aatEntity(url: string): string {
+  return url.replace(/^https?:\/\/vocab\.getty\.edu\/page\/aat\//, 'http://vocab.getty.edu/aat/');
+}
+
+export function tagType(t: { term: string; AAT_URL?: string; Wikidata_URL?: string }) {
+  const qid = t.Wikidata_URL ? qidFromUri(t.Wikidata_URL) : undefined;
+  const id = t.AAT_URL ? aatEntity(t.AAT_URL) : qid ? wikidataEntity(qid) : undefined;
+  return id
+    ? { id, type: 'Type', _label: t.term, ...(t.AAT_URL && qid ? { equivalent: [{ id: wikidataEntity(qid), type: 'Type' }] } : {}) }
+    : null;
+}
 
 export function metLicense(obj: Met): { license: string; note?: string } {
   return obj.isPublicDomain
@@ -86,14 +124,19 @@ export function metToLinkedArt(raw: CachedRaw): LinkedArtResult {
     o.creditLine && statement(o.creditLine, AAT.creditLine, 'Credit Line'),
   ].filter(Boolean);
 
-  const images = [o.primaryImage, ...(o.additionalImages ?? [])].filter(Boolean) as string[];
-  // Subjects belong on a VisualItem that `shows` references by id. The Met has no such
-  // record, and minting an id would be inventing data, so subject tags stay unmapped.
-  if (o.tags?.length) {
-    unmapped['tags (subjects need a separate VisualItem record)'] = o.tags.map((t: Met) =>
-      [t.term, t.AAT_URL, t.Wikidata_URL].filter(Boolean).join(' '),
-    );
-  }
+  // The Met occasionally gives image URLs with raw spaces ("letter (2).jpg"); encode them into valid URIs.
+  const images = ([o.primaryImage, ...(o.additionalImages ?? [])].filter(Boolean) as string[]).map((u) => encodeURI(decodeURI(u)));
+  // Subjects belong on a VisualItem that the object `shows`. The Met has no such record,
+  // so we mint one under the project's own URI space (the tags themselves carry AAT and
+  // Wikidata IDs). Tags with neither are reported, not guessed.
+  const tags = (o.tags ?? []) as Met[];
+  const subjects = tags.map((t) => tagType(t as never)).filter((t): t is NonNullable<typeof t> => !!t);
+  const untyped = tags.filter((t) => !t.AAT_URL && !t.Wikidata_URL).map((t) => t.term);
+  if (untyped.length) unmapped['tags (no vocabulary ID)'] = untyped;
+  const visualId = mint.visual('met', String(o.objectID));
+  const visual = subjects.length
+    ? { '@context': LA_CONTEXT, id: visualId, type: 'VisualItem', _label: `Subjects of ${o.title || `Met object ${o.objectID}`}`, about: subjects }
+    : null;
   const objectQid = lastSegment(o.objectWikidata_URL);
 
   const record = present({
@@ -113,13 +156,15 @@ export function metToLinkedArt(raw: CachedRaw): LinkedArtResult {
     dimension: dims,
     referred_to_by: statements,
     representation: images.map((url) => imageRepresentation(url)),
+    shows: visual ? [{ id: visualId, type: 'VisualItem' }] : undefined,
     subject_of: o.objectURL ? [webPage(o.objectURL)] : undefined,
     equivalent: objectQid ? [{ id: wikidataEntity(objectQid), type: 'HumanMadeObject' }] : undefined,
   });
 
   // Images follow the same isPublicDomain flag as the record, so no per-field provenance is needed.
   const { license, note } = metLicense(o);
-  return { record: withProvenance(record, provenanceFor(raw, license, note)), unmapped };
+  const prov = provenanceFor(raw, license, note);
+  return { record: withProvenance(record, prov), related: visual ? [withProvenance(visual, prov)] : [], unmapped };
 }
 
 export function metArtistRefs(raw: CachedRaw): SourceArtistRef[] {
@@ -138,8 +183,9 @@ export function metArtistRefs(raw: CachedRaw): SourceArtistRef[] {
   }));
 }
 
-export function createMet(opts: { refresh?: boolean } = {}): SourceAdapter {
-  const client = new SourceClient({ source: 'met', minIntervalMs: 500, refresh: opts.refresh });
+export function createMet(opts: AdapterOptions = {}): SourceAdapter {
+  // 3 s apart: the Met's firewall blocked 2 requests/s on 2026-11-19, well under its documented 80/s.
+  const client = new SourceClient({ source: 'met', minIntervalMs: 3000, ...opts });
 
   return {
     name: 'met',
@@ -153,6 +199,26 @@ export function createMet(opts: { refresh?: boolean } = {}): SourceAdapter {
         if (offset + PAGE >= (body.total ?? 0)) break;
       }
     },
+
+    async *searchSlice(slice) {
+      if (slice.type !== 'painting') throw new Error(`Met slice type ${slice.type} not supported`);
+      const seen = new Set<string>();
+      for (const { key, params } of sliceSearches(slice)) {
+        for (let offset = 0; offset < 10_000; offset += PAGE) {
+          const url = `${API}/v1.1/search?${new URLSearchParams({ ...params, offset: String(offset), limit: String(PAGE) })}`;
+          const body = (await client.getJson('search', `${slice.id}-${key}-o${offset}`, url)).body as Met;
+          for (const id of body.objectIDs ?? []) {
+            if (!seen.has(String(id))) {
+              seen.add(String(id));
+              yield String(id);
+            }
+          }
+          if (offset + PAGE >= (body.total ?? 0)) break;
+        }
+      }
+    },
+
+    inSlice: metInSlice,
 
     fetch: (id) => client.getJson('objects', id, `${API}/v1/objects/${id}`),
     toLinkedArt: metToLinkedArt,

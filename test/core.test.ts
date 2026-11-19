@@ -2,7 +2,7 @@ import { mkdtemp, rm } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { afterEach, beforeEach, describe, expect, it } from 'vitest';
-import { HttpError, retryAfterMs, SourceClient, USER_AGENT } from '../src/core/http.js';
+import { BlockedError, HttpError, retryAfterMs, SourceClient, USER_AGENT } from '../src/core/http.js';
 import { matchRef, normaliseName } from '../src/reconcile/match.js';
 import { upgradeTupleItems } from '../src/linkedart/validate.js';
 import type { ArtistQuery } from '../src/core/types.js';
@@ -66,6 +66,13 @@ describe('SourceClient', () => {
     expect(calls).toHaveLength(2);
     expect(sleeps).toContain(3000);
     expect(raw.body).toEqual({ done: true });
+  });
+
+  it('stops all requests to a source after a 403 block', async () => {
+    const { client, calls } = harness([new Response('blocked', { status: 403 }), ok(1)]);
+    await expect(client.getJson('k', 'a', 'https://example.org/a')).rejects.toBeInstanceOf(BlockedError);
+    await expect(client.getJson('k', 'b', 'https://example.org/b')).rejects.toBeInstanceOf(BlockedError);
+    expect(calls).toHaveLength(1);
   });
 
   it('does not retry a 404', async () => {

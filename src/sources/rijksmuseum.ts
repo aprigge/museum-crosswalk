@@ -1,7 +1,7 @@
-import { readCached } from '../core/cache.js';
+import { listCached, readCached } from '../core/cache.js';
 import { SourceClient } from '../core/http.js';
 import { provenanceFor, withProvenance } from '../core/provenance.js';
-import type { ArtistQuery, CachedRaw, LinkedArtResult, SourceAdapter, SourceArtistRef } from '../core/types.js';
+import type { AdapterOptions, ArtistQuery, CachedRaw, LinkedArtResult, SliceQuery, SourceAdapter, SourceArtistRef } from '../core/types.js';
 import { qidFromUri } from '../authority/wikidata.js';
 import { AAT, sameTerm } from '../linkedart/vocab.js';
 
@@ -69,18 +69,42 @@ export function images(obj: Node): { url: string; license?: string; label?: stri
   return out;
 }
 
+/** creationDate patterns covering a year range: decade wildcards where whole decades fit, else years. */
+export function sliceDatePatterns(slice: SliceQuery): string[] {
+  const out: string[] = [];
+  for (let y = slice.from; y <= slice.to; ) {
+    if (y % 10 === 0 && y + 9 <= slice.to) {
+      out.push(`${String(y).slice(0, 3)}?`);
+      y += 10;
+    } else {
+      out.push(String(y));
+      y += 1;
+    }
+  }
+  return out;
+}
+
+/** The production date range in years, from the record's own timespan. */
+export function productionSpan(obj: Node): { begin: number; end: number } | null {
+  const ts = obj.produced_by?.timespan;
+  const begin = Number(String(ts?.begin_of_the_begin ?? '').slice(0, 4));
+  const end = Number(String(ts?.end_of_the_end ?? '').slice(0, 4));
+  return begin && end ? { begin, end } : null;
+}
+
 export function personNames(person: Node): string[] {
   const names: string[] = (person.identified_by ?? []).filter((n: Node) => n.type === 'Name').map((n: Node) => String(n.content));
   return [...new Set(names)];
 }
 
-export function createRijksmuseum(opts: { refresh?: boolean } = {}): SourceAdapter {
+export function createRijksmuseum(opts: AdapterOptions = {}): SourceAdapter {
   const client = new SourceClient({
     source: 'rijksmuseum',
     minIntervalMs: 500,
     headers: { Accept: 'application/ld+json' },
-    refresh: opts.refresh,
+    ...opts,
   });
+  const visualItems = new Map<string, CachedRaw>();
 
   return {
     name: 'rijksmuseum',
@@ -104,12 +128,44 @@ export function createRijksmuseum(opts: { refresh?: boolean } = {}): SourceAdapt
       }
     },
 
+    async *searchSlice(slice) {
+      if (slice.type !== 'painting') throw new Error(`Rijksmuseum slice type ${slice.type} not supported`);
+      const seen = new Set<string>();
+      for (const creationDate of sliceDatePatterns(slice)) {
+        let url: string | undefined = `${SEARCH}?${new URLSearchParams({ type: 'painting', creationDate })}`;
+        for (let page = 1; url; page++) {
+          const body = (await client.getJson('search', `${slice.id}-${creationDate}-p${page}`, url)).body as Node;
+          for (const item of body.orderedItems ?? []) {
+            const id = numericId(item.id);
+            if (!seen.has(id)) {
+              seen.add(id);
+              yield id;
+            }
+          }
+          url = body.next?.id;
+        }
+      }
+    },
+
+    inSlice: (raw, slice) => {
+      const span = productionSpan(raw.body as Node);
+      return !!span && span.end >= slice.from && span.begin <= slice.to;
+    },
+
     fetch: (id) => client.getJson('objects', id, resolveUrl(id)),
 
     async fetchRelated(raw) {
       for (const a of productionAgents(raw.body as Node)) {
         if (a.id?.startsWith(PID)) await client.getJson('agents', numericId(a.id), resolveUrl(numericId(a.id)));
       }
+      for (const v of (raw.body as Node).shows ?? []) {
+        if (v.id?.startsWith(PID)) await client.getJson('visual-items', numericId(v.id), resolveUrl(numericId(v.id)));
+      }
+    },
+
+    async prepareTransform() {
+      visualItems.clear();
+      for (const raw of await listCached('rijksmuseum', 'visual-items')) visualItems.set(raw.id, raw);
     },
 
     toLinkedArt(raw): LinkedArtResult {
@@ -121,8 +177,15 @@ export function createRijksmuseum(opts: { refresh?: boolean } = {}): SourceAdapt
           fieldProv[`subject_of.digitally_carried_by[image ${i}]`] = provenanceFor(raw, img.license, img.label);
         }
       });
-      // Already Linked Art: pass the record through untouched apart from provenance.
-      return { record: withProvenance(obj, provenanceFor(raw, license), fieldProv), unmapped: {} };
+      // Already Linked Art: pass the record, and the VisualItems it shows, through untouched
+      // apart from provenance. A VisualItem carries its own rights statement when it has one.
+      const related = ((obj.shows ?? []) as Node[]).flatMap((v) => {
+        const cached = v.id?.startsWith(PID) ? visualItems.get(numericId(v.id)) : undefined;
+        if (!cached) return [];
+        const vi = cached.body as Node;
+        return [withProvenance(vi, provenanceFor(cached, recordLicense(vi) ?? license))];
+      });
+      return { record: withProvenance(obj, provenanceFor(raw, license), fieldProv), related, unmapped: {} };
     },
 
     async artistRefs(raw) {

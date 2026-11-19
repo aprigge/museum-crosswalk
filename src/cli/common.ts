@@ -11,7 +11,9 @@ export function cliArgs() {
       artist: { type: 'string', default: DEFAULT_ARTIST },
       qid: { type: 'string' },
       refresh: { type: 'boolean', default: false },
+      offline: { type: 'boolean', default: false },
       limit: { type: 'string' },
+      slice: { type: 'string' },
     },
   });
   return { ...values, limit: values.limit ? Number(values.limit) : undefined };

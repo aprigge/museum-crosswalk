@@ -11,9 +11,14 @@ main(async () => {
     const validation: Record<string, { schema: string[]; jsonld: string[] }> = {};
     const unmapped: Record<string, Record<string, unknown>> = {};
     const raws = await listCached(adapter.name, 'objects');
+    await adapter.prepareTransform?.();
     for (const raw of raws) {
       const result = adapter.toLinkedArt(raw);
       await writeJson(join(outDir, `${cacheKey(raw.id)}.json`), result.record);
+      // Records the object points to (e.g. its VisualItem), named by the last segment of their id.
+      for (const rel of result.related ?? []) {
+        await writeJson(join(outDir, 'related', `${String(rel.id).split('/').at(-1)}.json`), rel);
+      }
       validation[raw.id] = { schema: validateSchema(result.record), jsonld: await validateJsonLd(result.record) };
       if (Object.keys(result.unmapped).length) unmapped[raw.id] = result.unmapped;
     }

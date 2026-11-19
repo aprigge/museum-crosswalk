@@ -13,7 +13,8 @@
     "reconcile": "tsx src/cli/reconcile.ts",
     "report": "tsx src/cli/report.ts",
     "typecheck": "tsc --noEmit",
-    "test": "vitest run"
+    "test": "vitest run",
+    "concepts": "tsx src/cli/concepts.ts"
   },
   "dependencies": {
     "ajv": "^8.20.0",

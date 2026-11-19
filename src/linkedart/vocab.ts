@@ -15,6 +15,7 @@ export const AAT = {
   provenanceStatement: aat(300435438),
   rightsStatement: aat(300435434),
   summary: aat(300026032),
+  style: aat(300015646),
   briefText: aat(300418049),
   webPage: aat(300264578),
   digitalImage: aat(300215302),

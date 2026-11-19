@@ -60,13 +60,18 @@ export function matchRef(ref: SourceArtistRef, artist: ArtistQuery): ArtistMatch
   const xw = crosswalk(ref, artist);
   if (xw.length) {
     // One agreeing ID can be a Wikidata data error (it lists AIC's "Imitator of" agent
-    // under P6295 for Van Gogh); two independent ones are much stronger.
+    // under P6295 for Van Gogh); two independent ones are much stronger. AIC rarely
+    // records ULAN, so for one ID, birth and death years that both agree count as the
+    // second piece of evidence. Qualified names are still caught by isQualifiedMatch.
+    const yearsAgree =
+      !!year(ref.birth) && !!year(ref.death) && year(ref.birth) === year(artist.birth) && year(ref.death) === year(artist.death);
+    const ids = `${artist.qid} lists ${xw.map((x) => `${x.pid} (${x.label}) = ${x.value}`).join('; ')}`;
     return {
       ref,
       qid: artist.qid,
       method: 'wikidata-crosswalk',
-      confidence: xw.length > 1 ? 0.9 : 0.7,
-      evidence: `${artist.qid} lists ${xw.map((x) => `${x.pid} (${x.label}) = ${x.value}`).join('; ')}`,
+      confidence: xw.length > 1 ? 0.9 : yearsAgree ? 0.85 : 0.7,
+      evidence: xw.length === 1 && yearsAgree ? `${ids}; life years agree (${year(ref.birth)}–${year(ref.death)})` : ids,
     };
   }
   if (ref.name && normaliseName(ref.name) === normaliseName(artist.name)) {

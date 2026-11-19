@@ -1,16 +1,16 @@
-import type { SourceAdapter } from '../core/types.js';
+import type { AdapterOptions, SourceAdapter } from '../core/types.js';
 import { createAic } from './aic.js';
 import { createMet } from './met.js';
 import { createRijksmuseum } from './rijksmuseum.js';
 
 /** Adding a source: write one adapter and register it here. */
-export const SOURCES: Record<string, (opts: { refresh?: boolean }) => SourceAdapter> = {
+export const SOURCES: Record<string, (opts: AdapterOptions) => SourceAdapter> = {
   rijksmuseum: createRijksmuseum,
   met: createMet,
   aic: createAic,
 };
 
-export function selectSources(arg: string | undefined, opts: { refresh?: boolean } = {}): SourceAdapter[] {
+export function selectSources(arg: string | undefined, opts: AdapterOptions = {}): SourceAdapter[] {
   const names = !arg || arg === 'all' ? Object.keys(SOURCES) : arg.split(',');
   return names.map((n) => {
     const make = SOURCES[n];

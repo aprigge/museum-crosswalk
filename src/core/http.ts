@@ -15,6 +15,8 @@ export interface ClientOptions {
   now?: () => number;
   /** Refetch even when a cached copy exists. */
   refresh?: boolean;
+  /** Serve only from the cache; a miss throws CacheMissError instead of fetching. */
+  offline?: boolean;
 }
 
 export class HttpError extends Error {
@@ -28,6 +30,25 @@ export class HttpError extends Error {
 
 const RETRYABLE = new Set([408, 429, 500, 502, 503, 504]);
 
+/** Offline mode found no cached copy; nothing was requested. */
+export class CacheMissError extends Error {
+  constructor(readonly url: string) {
+    super(`Not cached (offline): ${url}`);
+  }
+}
+
+/**
+ * The source has refused us (a 403 from a firewall such as the Met's Incapsula). Harvests
+ * stop that source at once rather than keep requesting: retrying a block is impolite and
+ * tends to lengthen it.
+ */
+export class BlockedError extends HttpError {
+  constructor(status: number, url: string) {
+    super(status, url);
+    this.message = `Blocked by ${new URL(url).host} (HTTP ${status}); stopped requesting this source`;
+  }
+}
+
 /**
  * Polite, cached JSON client for one source: one request at a time, a minimum
  * interval between requests, and exponential backoff that honours Retry-After.
@@ -35,6 +56,7 @@ const RETRYABLE = new Set([408, 429, 500, 502, 503, 504]);
 export class SourceClient {
   readonly source: string;
   networkRequests = 0;
+  blocked: BlockedError | null = null;
   private readonly opts: Required<Omit<ClientOptions, 'headers'>> & { headers: Record<string, string> };
   private queue: Promise<unknown> = Promise.resolve();
   private lastStart = -Infinity;
@@ -48,16 +70,21 @@ export class SourceClient {
       sleep: (ms) => new Promise((r) => setTimeout(r, ms)),
       now: () => Date.now(),
       refresh: false,
+      offline: false,
       ...opts,
     };
   }
 
-  /** GET JSON, serving from data/raw/{source}/{kind}/ when cached. */
+  /**
+   * GET JSON, serving from data/raw/{source}/{kind}/ when cached. A cached copy made
+   * from a different URL (e.g. a changed `fields=` list) is stale and refetched.
+   */
   async getJson(kind: string, id: string, url: string): Promise<CachedRaw> {
     if (!this.opts.refresh) {
       const hit = await readCached(this.source, kind, id);
-      if (hit) return hit;
+      if (hit && hit.url === url) return hit;
     }
+    if (this.opts.offline) throw new CacheMissError(url);
     const body = await this.enqueue(() => this.fetchWithRetry(url));
     const raw: CachedRaw = { source: this.source, id, url, fetchedAt: new Date(this.opts.now()).toISOString(), body };
     await writeCached(kind, raw);
@@ -71,6 +98,8 @@ export class SourceClient {
   }
 
   private async fetchWithRetry(url: string): Promise<unknown> {
+    // Once blocked, refuse every further request to this source without touching the network.
+    if (this.blocked) throw this.blocked;
     for (let attempt = 0; ; attempt++) {
       const wait = this.lastStart + this.opts.minIntervalMs - this.opts.now();
       if (wait > 0) await this.opts.sleep(wait);
@@ -88,6 +117,10 @@ export class SourceClient {
         continue;
       }
       if (res.ok) return res.json();
+      if (res.status === 403) {
+        this.blocked = new BlockedError(res.status, url);
+        throw this.blocked;
+      }
       if (!RETRYABLE.has(res.status) || attempt >= this.opts.maxRetries) throw new HttpError(res.status, url);
       await this.opts.sleep(retryAfterMs(res.headers.get('retry-after')) ?? backoffMs(attempt));
     }

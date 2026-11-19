@@ -1,6 +1,6 @@
 import { readdir, readFile, writeFile, mkdir } from 'node:fs/promises';
 import { join } from 'node:path';
-import { dataDir, readJson } from '../core/cache.js';
+import { dataDir, harvestedIds, readJson } from '../core/cache.js';
 import type { ArtistMatch, ArtistQuery } from '../core/types.js';
 import { END_MARKER, renderReport } from '../report/render.js';
 import type { SourceData } from '../report/stats.js';
@@ -18,18 +18,21 @@ async function readOr<T>(path: string, fallback: T): Promise<T> {
 
 async function loadSource(name: string, matches: { source: string; recordId: string; matches: ArtistMatch[] }[]): Promise<SourceData> {
   const dir = join(dataDir(), 'linked-art', name);
+  // The artist report covers only the artist harvest's records, not slices sharing the cache.
+  const ids = await harvestedIds(name);
+  const only = <T>(byId: Record<string, T>) => Object.fromEntries(Object.entries(byId).filter(([id]) => ids.has(id)));
   const records: SourceData['records'] = {};
   const files = await readdir(dir).catch(() => [] as string[]);
   for (const f of files.filter((f) => f.endsWith('.json') && !f.startsWith('_'))) {
-    const r = await readJson<Record<string, unknown>>(join(dir, f));
-    records[f.replace(/\.json$/, '')] = r;
+    const id = f.replace(/\.json$/, '');
+    if (ids.has(id)) records[id] = await readJson<Record<string, unknown>>(join(dir, f));
   }
   return {
     name,
     harvest: await readOr(join(dataDir(), 'raw', name, '_harvest.json'), null),
     records,
-    validation: await readOr(join(dir, '_validation.json'), {}),
-    unmapped: await readOr(join(dir, '_unmapped.json'), {}),
+    validation: only(await readOr(join(dir, '_validation.json'), {})),
+    unmapped: only(await readOr(join(dir, '_unmapped.json'), {})),
     matches: matches.filter((m) => m.source === name),
   };
 }

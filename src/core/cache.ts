@@ -44,6 +44,21 @@ export async function listCached(source: string, kind: string): Promise<CachedRa
   return out;
 }
 
+/**
+ * The ids a harvest run recorded: the artist run (`_harvest.json`) or a slice run
+ * (`_harvest-{slice}.json`). The raw cache is shared, so steps after harvest use this
+ * to stay within one run's records.
+ */
+export async function harvestedIds(source: string, sliceId?: string): Promise<Set<string>> {
+  const file = join(dataDir(), 'raw', source, sliceId ? `_harvest-${sliceId}.json` : '_harvest.json');
+  try {
+    return new Set((await readJson<{ ids: string[] }>(file)).ids);
+  } catch (err) {
+    if ((err as NodeJS.ErrnoException).code === 'ENOENT') return new Set();
+    throw err;
+  }
+}
+
 export async function writeJson(path: string, value: unknown): Promise<void> {
   await mkdir(dirname(path), { recursive: true });
   await writeFile(path, JSON.stringify(value, null, 2) + '\n');
