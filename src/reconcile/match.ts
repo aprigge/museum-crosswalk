@@ -9,7 +9,7 @@ const SOURCE_PROPERTY_LABELS: Record<string, RegExp> = {
 
 /** Roles that mean "not simply by the artist". Matched on the source's own wording. */
 const QUALIFIED_ROLE =
-  /\b(after|attributed|copy|copied|follower|circle|school|manner|workshop|imitator|style of|formerly|possibly|forgery|fake|influenced_by)\b/i;
+  /\b(after|attributed|copy|copied|follower|circle|school|manner|workshop|imitator|style of|former|formerly|possibly|forgery|fake|influenced_by)\b/i;
 
 export function normaliseName(name: string): string {
   const n = name.normalize('NFD').replace(/\p{Diacritic}/gu, '').toLowerCase().trim();
@@ -114,7 +114,7 @@ export function reconcileRecord(
   if (!refs.length) reasons.push('Record names no artist');
   else if (!toArtist.length) reasons.push(`No artist on the record matches ${artist.qid}`);
   else if (!exact.length) reasons.push(`Artist matched by ${toArtist.map((m) => m.method).join(', ')}, not an exact ID`);
-  const qualified = toArtist.filter((m) => isQualifiedRole(m.ref.role));
+  const qualified = toArtist.filter((m) => m.ref.plainCreator === false || isQualifiedRole(m.ref.role));
   if (qualified.length) reasons.push(`Qualified role: ${qualified.map((m) => m.ref.role).join('; ')}`);
 
   const confirmed = exact.length > 0 && !qualified.length;

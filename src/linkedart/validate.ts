@@ -37,9 +37,12 @@ function validator() {
   return objectValidator;
 }
 
-/** Strip our own underscore-prefixed provenance keys before validating. */
+/** Our provenance keys. Linked Art's own `_label` is not one of them and must stay. */
+const PROVENANCE_KEYS = new Set(['_provenance', '_fieldProvenance']);
+
+/** Strip our provenance keys before validating. */
 function stripPrivate(record: Record<string, unknown>): Record<string, unknown> {
-  return Object.fromEntries(Object.entries(record).filter(([k]) => !k.startsWith('_')));
+  return Object.fromEntries(Object.entries(record).filter(([k]) => !PROVENANCE_KEYS.has(k)));
 }
 
 export function validateSchema(record: Record<string, unknown>): string[] {

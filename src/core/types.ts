@@ -31,6 +31,8 @@ export interface SourceArtistRef {
   recordId: string;
   name?: string;
   role?: string; // as the source states it, e.g. "Artist", "after", "attributed to"
+  /** The adapter's reading of `role` in the source's own vocabulary: false means not simply "made by". */
+  plainCreator?: boolean;
   sourceAgentId?: string; // the museum's own ID for the person
   wikidata?: string; // QID if the source links one
   ulan?: string; // ID only if the source itself supplies it; we never fetch Getty

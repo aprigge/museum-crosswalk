@@ -134,6 +134,7 @@ export function createRijksmuseum(opts: { refresh?: boolean } = {}): SourceAdapt
           recordId: raw.id,
           sourceAgentId: a.id,
           role: [a.property, ...a.statements].join(' | '),
+          plainCreator: a.property === 'carried_out_by',
         };
         const agent = a.id?.startsWith(PID) ? await readCached('rijksmuseum', 'agents', numericId(a.id)) : null;
         if (agent) {

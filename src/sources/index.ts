@@ -1,9 +1,11 @@
 import type { SourceAdapter } from '../core/types.js';
+import { createMet } from './met.js';
 import { createRijksmuseum } from './rijksmuseum.js';
 
 /** Adding a source: write one adapter and register it here. */
 export const SOURCES: Record<string, (opts: { refresh?: boolean }) => SourceAdapter> = {
   rijksmuseum: createRijksmuseum,
+  met: createMet,
 };
 
 export function selectSources(arg: string | undefined, opts: { refresh?: boolean } = {}): SourceAdapter[] {
