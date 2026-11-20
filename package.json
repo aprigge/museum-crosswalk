@@ -22,7 +22,9 @@
     "site": "tsx --env-file-if-exists=.env src/cli/site.ts",
     "eval": "tsx --env-file-if-exists=.env src/cli/eval.ts",
     "vocabulary": "tsx --env-file-if-exists=.env src/cli/vocabulary.ts",
-    "enrich": "tsx --env-file-if-exists=.env src/cli/enrich.ts"
+    "enrich": "tsx --env-file-if-exists=.env src/cli/enrich.ts",
+    "review-assist": "tsx --env-file-if-exists=.env src/cli/review-assist.ts",
+    "review": "tsx --env-file-if-exists=.env src/cli/review.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^1.11.0",

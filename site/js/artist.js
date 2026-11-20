@@ -10,9 +10,10 @@ const METHOD = {
   'exact-id': 'The museum links this Wikidata person directly',
   'wikidata-crosswalk': 'Wikidata lists the museum’s own ID for this person',
   'name-dates': 'Name and life years',
+  'human-approved': 'Wikidata lists the museum’s own ID; an AI reviewed the evidence and a person approved the match',
   none: 'No match',
 };
-const DECISION = { merged: 'Merged', review: 'In review', unmatched: 'Not matched' };
+const DECISION = { merged: 'Merged', review: 'In review', unmatched: 'Not matched', 'kept-separate': 'Kept separate (a person decided)' };
 
 (async () => {
   if (!key) {

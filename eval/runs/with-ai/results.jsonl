@@ -1,4 +1,4 @@
-{"id":"q01","query":"Impressionist landscapes","tags":["headline","combined"],"results":95,"precisionAt10":0.8,"recall":1,"museumsWithHit":3,"splitArtists":[],"aiOnlyResults":0,"unlabelledInTop10":0}
+{"id":"q01","query":"Impressionist landscapes","tags":["headline","combined"],"results":96,"precisionAt10":0.8,"recall":1,"museumsWithHit":3,"splitArtists":[],"aiOnlyResults":0,"unlabelledInTop10":0}
 {"id":"q02","query":"landscape","tags":["genre"],"results":406,"precisionAt10":1,"recall":1,"museumsWithHit":3,"splitArtists":[],"aiOnlyResults":146,"unlabelledInTop10":0}
 {"id":"q03","query":"seascape","tags":["genre"],"results":6,"precisionAt10":1,"recall":1,"museumsWithHit":2,"splitArtists":[],"aiOnlyResults":0,"unlabelledInTop10":0}
 {"id":"q04","query":"portrait","tags":["genre"],"results":231,"precisionAt10":1,"recall":1,"museumsWithHit":3,"splitArtists":[],"aiOnlyResults":82,"unlabelledInTop10":0}

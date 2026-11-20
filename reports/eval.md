@@ -1,6 +1,6 @@
 # Search eval
 
-Generated 2026-11-19 by `npm run eval`. 20 queries (`eval/queries.json`), relevance labelled
+Generated 2026-11-20 by `npm run eval`. 20 queries (`eval/queries.json`), relevance labelled
 over a pool of each variant's top 10 plus top 5 per museum (`eval/labels.json`; who labelled it is below the table).
 
 | Variant | Precision@10 | Recall (pooled) | Museums with a hit (of 3) | Queries with all 3 | Split artists | AI-only results | Unlabelled in top 10 |

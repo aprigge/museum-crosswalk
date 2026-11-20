@@ -2,7 +2,9 @@ import { join } from 'node:path';
 import { dataDir, harvestedIds, listCached, writeJson } from '../core/cache.js';
 import { SLICES, type SourceArtistRef } from '../core/types.js';
 import { newWikidataClient } from '../authority/wikidata.js';
-import { resolveAgents } from '../reconcile/agents.js';
+import { applyDecision, resolveAgents, type PersonDecision } from '../reconcile/agents.js';
+import { reviewKey } from '../ai/review.js';
+import { readFile } from 'node:fs/promises';
 import { reconcileRecord, type RecordReconciliation } from '../reconcile/match.js';
 import { selectSources } from '../sources/index.js';
 import { artistFor, cliArgs, main } from './common.js';
@@ -20,7 +22,11 @@ async function reconcileSlice(args: ReturnType<typeof cliArgs>) {
     await adapter.prepareTransform?.();
     for (const raw of raws) refs.push(...(await adapter.artistRefs(raw)));
   }
-  const { resolutions, people } = await resolveAgents(newWikidataClient(args.refresh), refs);
+  const found = await resolveAgents(newWikidataClient(args.refresh), refs);
+  // A person's decisions on review proposals (alignments/review-decisions.json) settle those refs.
+  const decisions = JSON.parse(await readFile('alignments/review-decisions.json', 'utf8').catch(() => '{}')) as Record<string, PersonDecision>;
+  const resolutions = found.resolutions.map((r) => applyDecision(r, decisions[reviewKey(r.ref.source, r.ref.sourceAgentId ?? r.ref.name ?? 'unknown')]));
+  const people = found.people;
 
   const outDir = join(dataDir(), 'reconcile', slice.id);
   await writeJson(join(outDir, 'works.json'), works);
@@ -28,7 +34,7 @@ async function reconcileSlice(args: ReturnType<typeof cliArgs>) {
   await writeJson(join(outDir, 'people.json'), Object.fromEntries(people));
   await writeJson(
     join(outDir, 'review.json'),
-    resolutions.filter((r) => r.decision !== 'merged'),
+    resolutions.filter((r) => r.decision === 'review' || r.decision === 'unmatched'),
   );
   for (const source of Object.keys(works)) {
     const rs = resolutions.filter((r) => r.ref.source === source);
@@ -36,7 +42,7 @@ async function reconcileSlice(args: ReturnType<typeof cliArgs>) {
     const agents = new Set(rs.map((r) => r.ref.sourceAgentId)).size;
     console.log(
       `${source}: ${works[source]!.length} works, ${rs.length} artist refs (${agents} agents): ` +
-        `${count('merged')} merged, ${count('review')} review, ${count('unmatched')} unmatched`,
+        `${count('merged')} merged, ${count('review')} review, ${count('kept-separate')} kept separate, ${count('unmatched')} unmatched`,
     );
   }
   console.log(`people merged across sources: ${new Set(resolutions.filter((r) => r.decision === 'merged').map((r) => r.personKey)).size}`);

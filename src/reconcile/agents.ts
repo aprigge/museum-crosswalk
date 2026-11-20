@@ -75,7 +75,8 @@ async function cachedSparql(client: SourceClient, kind: string, query: string): 
   return (await client.getJson(kind, key, sparqlUrl(query))).body as SparqlResults;
 }
 
-export type AgentDecision = 'merged' | 'review' | 'unmatched';
+/** kept-separate: a person decided the record is not the candidate; it leaves the review queue unmerged. */
+export type AgentDecision = 'merged' | 'review' | 'unmatched' | 'kept-separate';
 
 export interface AgentResolution {
   ref: SourceArtistRef;
@@ -114,6 +115,30 @@ export function decide(ref: SourceArtistRef, candidates: ArtistMatch[]): AgentRe
  * find candidate people by any ID the refs carry, fetch those candidates' facts and IDs,
  * then score each ref against each candidate with the phase-1 matcher.
  */
+/** A person's decision on one museum artist, keyed like reviewKey (source + agent ID). */
+export interface PersonDecision {
+  decision: 'merge' | 'keep-separate';
+  qid: string;
+  ai: { decision: string; confidence: number } | null;
+}
+
+/**
+ * Apply a person's decision to a ref the matcher left in review. Only refs still in review
+ * are touched: a decision never overrides an exact ID or a qualified role.
+ */
+export function applyDecision(res: AgentResolution, d: PersonDecision | undefined): AgentResolution {
+  if (!d || res.decision !== 'review' || /Qualified role/.test(res.reason ?? '')) return res;
+  const via = d.ai ? `AI proposed "${d.ai.decision}" (${d.ai.confidence}); a person approved` : 'decided by a person';
+  if (d.decision === 'keep-separate') return { ...res, decision: 'kept-separate', reason: `Kept separate: ${via}` };
+  return {
+    ...res,
+    decision: 'merged',
+    personKey: d.qid,
+    best: { ref: res.ref, qid: d.qid, method: 'human-approved', confidence: 1, evidence: `${res.best?.evidence ?? ''}; ${via}`.replace(/^; /, '') },
+    reason: undefined,
+  };
+}
+
 export async function resolveAgents(
   client: SourceClient,
   refs: SourceArtistRef[],

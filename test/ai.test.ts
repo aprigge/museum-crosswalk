@@ -119,3 +119,28 @@ describe('concept labels', () => {
     expect(rows.map((r) => r.get('l')!.value).sort()).toEqual(['Children', 'children']);
   });
 });
+
+describe('person decisions on review proposals', () => {
+  const ref = { source: 'aic', recordId: '1', sourceAgentId: '63743', name: 'Emily Mary Osborn' };
+  const inReview = { ref, best: { ref, qid: 'Q5372282', method: 'wikidata-crosswalk' as const, confidence: 0.7, evidence: 'P6295' }, decision: 'review' as const, personKey: 'aic-63743', reason: 'wikidata-crosswalk on one ID, life years missing or different' };
+
+  it('merges an approved proposal as human-approved, with the trail in the evidence', async () => {
+    const { applyDecision } = await import('../src/reconcile/agents.js');
+    const r = applyDecision(inReview, { decision: 'merge', qid: 'Q5372282', ai: { decision: 'merge', confidence: 0.85 } });
+    expect(r).toMatchObject({ decision: 'merged', personKey: 'Q5372282', best: { method: 'human-approved', confidence: 1 } });
+    expect(r.best!.evidence).toMatch(/AI proposed "merge" \(0.85\); a person approved/);
+  });
+
+  it('takes a kept-separate record out of the queue without merging it', async () => {
+    const { applyDecision } = await import('../src/reconcile/agents.js');
+    expect(applyDecision(inReview, { decision: 'keep-separate', qid: 'Q4233718', ai: null })).toMatchObject({ decision: 'kept-separate', personKey: 'aic-63743' });
+  });
+
+  it('never overrides a qualified role or an exact match', async () => {
+    const { applyDecision } = await import('../src/reconcile/agents.js');
+    const qualified = { ...inReview, reason: 'Qualified role: Imitator of Vincent van Gogh' };
+    expect(applyDecision(qualified, { decision: 'merge', qid: 'Q5582', ai: null })).toBe(qualified);
+    const merged = { ...inReview, decision: 'merged' as const, personKey: 'Q5372282' };
+    expect(applyDecision(merged, { decision: 'keep-separate', qid: 'Q5372282', ai: null })).toBe(merged);
+  });
+});

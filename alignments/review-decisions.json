@@ -1,0 +1,866 @@
+{
+  "aic-112116": {
+    "decision": "merge",
+    "qid": "Q21996030",
+    "museumName": "Yao Luan",
+    "candidateLabel": "Yao Luan",
+    "decidedBy": "person",
+    "decidedAt": "2026-11-20T00:25:34.702Z",
+    "ai": {
+      "model": "claude-opus-5-5",
+      "prompt": "9767800c7e",
+      "decision": "merge",
+      "confidence": 0.82,
+      "reasons": [
+        {
+          "field": "externalIds",
+          "point": "The Wikidata person lists P6295 (ARTIC artist ID) = 112116, the museum's own agent ID, which is a direct crosswalk."
+        },
+        {
+          "field": "name",
+          "point": "The label 'Yao Luan' matches the museum name exactly, and the candidate's occupation is painter."
+        },
+        {
+          "field": "birthYear/deathYear",
+          "point": "The museum's 1801–1900 looks like a placeholder 19th-century range, and Wikidata gives no dates, so there is no contradiction. Missing dates are not evidence against a match."
+        },
+        {
+          "field": "works",
+          "point": "'Ghosts' (1893) falls in 1850–1900 and fits a 19th-century painter."
+        }
+      ]
+    }
+  },
+  "aic-114854": {
+    "decision": "keep-separate",
+    "qid": "Q4233718",
+    "museumName": "Artist unknown",
+    "candidateLabel": "anonymous",
+    "decidedBy": "person",
+    "decidedAt": "2026-11-20T00:25:34.702Z",
+    "ai": {
+      "model": "claude-opus-5-5",
+      "prompt": "9767800c7e",
+      "decision": "keep-separate",
+      "confidence": 0.97,
+      "reasons": [
+        {
+          "field": "museum.name",
+          "point": "\"Artist unknown\" is a placeholder for unattributed works, not one individual."
+        },
+        {
+          "field": "candidate.label/description",
+          "point": "Q4233718 is the generic \"anonymous\" item for an unknown creator, not a real person."
+        },
+        {
+          "field": "candidate.externalIds",
+          "point": "The item also carries Met and RKD anonymous IDs, so merging would wrongly group unrelated unattributed works across all three museums."
+        },
+        {
+          "field": "works",
+          "point": "Subjects and dates span 1850–1888 across different regions (Boston, Illinois, New Jersey), which fits many different makers rather than one hand."
+        }
+      ]
+    }
+  },
+  "aic-115980": {
+    "decision": "merge",
+    "qid": "Q7257206",
+    "museumName": "Pu Hua",
+    "candidateLabel": "Pu Hua",
+    "decidedBy": "person",
+    "decidedAt": "2026-11-20T00:25:34.702Z",
+    "ai": {
+      "model": "claude-opus-5-5",
+      "prompt": "9767800c7e",
+      "decision": "merge",
+      "confidence": 0.92,
+      "reasons": [
+        {
+          "field": "externalIds",
+          "point": "Wikidata Q7257206 lists ARTIC artist ID 115980, directly matching the museum agentId"
+        },
+        {
+          "field": "birthYear",
+          "point": "1834 vs 1830 in Wikidata's structured field, but the Wikidata description itself says 1834-1911, so the gap is a cataloguing discrepancy rather than a different person"
+        },
+        {
+          "field": "deathYear",
+          "point": "Both records give 1911, and the names are identical"
+        },
+        {
+          "field": "works",
+          "point": "An 1890 album of paintings and calligraphy fits a Chinese painter and calligrapher active in 1890"
+        }
+      ]
+    }
+  },
+  "aic-14404": {
+    "decision": "merge",
+    "qid": "Q3082969",
+    "museumName": "Xugu",
+    "candidateLabel": "Xu Gu",
+    "decidedBy": "person",
+    "decidedAt": "2026-11-20T00:25:34.702Z",
+    "ai": {
+      "model": "claude-opus-5-5",
+      "prompt": "9767800c7e",
+      "decision": "merge",
+      "confidence": 0.93,
+      "reasons": [
+        {
+          "field": "externalIds",
+          "point": "Q3082969 lists ARTIC artist ID 14404, exactly this museum record, plus a Met ID and a ULAN ID."
+        },
+        {
+          "field": "birthYear",
+          "point": "1824 vs 1823 is a one-year difference, common for Chinese lunar-calendar dates. The description itself says 1824, and the death year 1896 matches exactly."
+        },
+        {
+          "field": "description",
+          "point": "'Chinese painter and poet' and the painter occupation fit the name Xugu and an album of landscapes."
+        },
+        {
+          "field": "works",
+          "point": "The 1895 album falls within his life. The 1897 'Calligraphy Accompanying Xugu's Painting' is likely an inscription added by another hand after his death, so it does not contradict the match."
+        }
+      ]
+    }
+  },
+  "aic-21570": {
+    "decision": "merge",
+    "qid": "Q560787",
+    "museumName": "Frederic Remington",
+    "candidateLabel": "Frederic Remington",
+    "decidedBy": "person",
+    "decidedAt": "2026-11-20T00:25:34.702Z",
+    "ai": {
+      "model": "claude-opus-5-5",
+      "prompt": "9767800c7e",
+      "decision": "merge",
+      "confidence": 0.95,
+      "reasons": [
+        {
+          "field": "externalIds",
+          "point": "Q560787 lists P6295 ARTIC artist ID = 21570, exactly this museum agent, plus ULAN, RKD and Met IDs"
+        },
+        {
+          "field": "birthYear",
+          "point": "1851 vs 1861 is a ten-year gap, but Frederic Remington was born in 1861; the AIC value looks like a one-digit typo"
+        },
+        {
+          "field": "deathYear",
+          "point": "1909 in both records"
+        },
+        {
+          "field": "works",
+          "point": "Western and Native American illustration subjects dated 1898–1900 fit Remington, an American painter and illustrator"
+        }
+      ]
+    }
+  },
+  "aic-26257": {
+    "decision": "merge",
+    "qid": "Q2095915",
+    "museumName": "Walasse Ting",
+    "candidateLabel": "Q2095915",
+    "decidedBy": "person",
+    "decidedAt": "2026-11-20T00:25:34.702Z",
+    "ai": {
+      "model": "claude-opus-5-5",
+      "prompt": "9767800c7e",
+      "decision": "merge",
+      "confidence": 0.85,
+      "reasons": [
+        {
+          "field": "candidate.externalIds.P6295",
+          "point": "Wikidata Q2095915 lists ARTIC artist ID 26257, exactly this museum record"
+        },
+        {
+          "field": "birthYear",
+          "point": "Museum birth year 1929 matches Wikidata 1929; the missing museum death year is not evidence against the match"
+        },
+        {
+          "field": "description/occupations",
+          "point": "Chinese-American artist and painter, which fits the name Walasse Ting"
+        },
+        {
+          "field": "works.date",
+          "point": "The work date of 1900 is impossible for someone born in 1929. It is likely a placeholder or cataloguing error in the work record, not a sign of a different artist, but the date should be corrected."
+        }
+      ]
+    }
+  },
+  "aic-29571": {
+    "decision": "keep-separate",
+    "qid": "Q124152826",
+    "museumName": "Zosetsu Teikan",
+    "candidateLabel": "Zosetsu Teikan",
+    "decidedBy": "person",
+    "decidedAt": "2026-11-20T00:25:34.702Z",
+    "ai": {
+      "model": "claude-opus-5-5",
+      "prompt": "9767800c7e",
+      "decision": "keep-separate",
+      "confidence": 0.6,
+      "reasons": [
+        {
+          "field": "museum.name",
+          "point": "'Zosetsu Teikan' is the work's title 'Teikan Zusetsu' (A Mirror of Emperors, a classic illustrated book on Chinese emperors) with its words swapped, so the agent record looks like a cataloguing artifact, not a real person."
+        },
+        {
+          "field": "works",
+          "point": "The single 1895 work carries that same title, which suggests the 'artist' was taken from the book title rather than naming an identifiable maker."
+        },
+        {
+          "field": "candidate.qid",
+          "point": "Q124152826 is a recent item with only the generic occupation 'artist', no dates, no movements, and no IDs beyond ARTIC 29571. It appears to mirror the AIC record rather than give independent evidence of a person."
+        },
+        {
+          "field": "matcherEvidence",
+          "point": "The ID crosswalk is circular: it only confirms the Wikidata item was made from this AIC record. It cannot validate that the record is one individual, so merging would assert a person who probably does not exist."
+        }
+      ]
+    }
+  },
+  "aic-30511": {
+    "decision": "merge",
+    "qid": "Q1287527",
+    "museumName": "Edouard Béliard",
+    "candidateLabel": "Edouard Béliard",
+    "decidedBy": "person",
+    "decidedAt": "2026-11-20T00:25:34.702Z",
+    "ai": {
+      "model": "claude-opus-5-5",
+      "prompt": "9767800c7e",
+      "decision": "merge",
+      "confidence": 0.92,
+      "reasons": [
+        {
+          "field": "externalIds.P6295",
+          "point": "Wikidata Q1287527 lists ARTIC artist ID 30511, exactly matching the museum agentId"
+        },
+        {
+          "field": "name/label",
+          "point": "Names match exactly: 'Edouard Béliard'"
+        },
+        {
+          "field": "description/occupations",
+          "point": "French painter (1832-1912), fits an artist active 1850–1900; Béliard was an Impressionist-circle landscape painter"
+        },
+        {
+          "field": "works.date",
+          "point": "'French Street Scene' dated 1873 falls well within his lifespan; missing museum life years are not evidence against"
+        }
+      ]
+    }
+  },
+  "aic-30905": {
+    "decision": "merge",
+    "qid": "Q21462284",
+    "museumName": "Cesare Agostino Detti",
+    "candidateLabel": "Cesare Augusto Detti",
+    "decidedBy": "person",
+    "decidedAt": "2026-11-20T00:25:34.702Z",
+    "ai": {
+      "model": "claude-opus-5-5",
+      "prompt": "9767800c7e",
+      "decision": "merge",
+      "confidence": 0.92,
+      "reasons": [
+        {
+          "field": "externalIds",
+          "point": "Wikidata Q21462284 lists ARTIC artist ID 30905, matching the museum's agentId directly"
+        },
+        {
+          "field": "birthYear",
+          "point": "1847 vs 1848 is a one-year discrepancy; the Wikidata description itself says 1847-1914, and the death year 1914 matches exactly"
+        },
+        {
+          "field": "name",
+          "point": "'Agostino' vs 'Augusto' is a minor middle-name variant; the surname Detti and the given name Cesare match"
+        },
+        {
+          "field": "works",
+          "point": "'At the Fountain' (1887) fits an Italian painter active in the period, and the candidate's occupation is painter"
+        }
+      ]
+    }
+  },
+  "aic-33867": {
+    "decision": "merge",
+    "qid": "Q5371205",
+    "museumName": "Emil Carlsen",
+    "candidateLabel": "Emil Carlsen",
+    "decidedBy": "person",
+    "decidedAt": "2026-11-20T00:25:34.702Z",
+    "ai": {
+      "model": "claude-opus-5-5",
+      "prompt": "9767800c7e",
+      "decision": "merge",
+      "confidence": 0.93,
+      "reasons": [
+        {
+          "field": "externalIds",
+          "point": "Wikidata lists P6295 ARTIC artist ID = 33867, matching the museum agentId exactly, plus RKD, ULAN and Met IDs."
+        },
+        {
+          "field": "birthYear",
+          "point": "1853 vs 1848 is a known variant in Carlsen's biography (some sources give 1853). The death year 1932 matches exactly."
+        },
+        {
+          "field": "name/occupation",
+          "point": "Identical name; a Danish-American painter fits the 1850–1900 scope."
+        },
+        {
+          "field": "works",
+          "point": "'Nantasket Beach' (1876) fits the career of a painter active in the US from the 1870s."
+        }
+      ]
+    }
+  },
+  "aic-33980": {
+    "decision": "merge",
+    "qid": "Q21809596",
+    "museumName": "Ralph Elmer Clarkson",
+    "candidateLabel": "Ralph Elmer Clarkson",
+    "decidedBy": "person",
+    "decidedAt": "2026-11-20T00:25:34.702Z",
+    "ai": {
+      "model": "claude-opus-5-5",
+      "prompt": "9767800c7e",
+      "decision": "merge",
+      "confidence": 0.95,
+      "reasons": [
+        {
+          "field": "externalIds",
+          "point": "Wikidata Q21809596 lists P6295 ARTIC artist ID 33980, matching the museum's agentId directly"
+        },
+        {
+          "field": "deathYear",
+          "point": "1942 vs 1943, a one-year cataloguing difference; birth year 1861 matches exactly"
+        },
+        {
+          "field": "name",
+          "point": "Full name 'Ralph Elmer Clarkson' is identical in both records"
+        },
+        {
+          "field": "works",
+          "point": "A 1900 portrait fits an American painter active 1861–1943 (Clarkson was a Chicago portraitist)"
+        }
+      ]
+    }
+  },
+  "aic-35230": {
+    "decision": "merge",
+    "qid": "Q3688068",
+    "museumName": "William Keith",
+    "candidateLabel": "William Keith",
+    "decidedBy": "person",
+    "decidedAt": "2026-11-20T00:25:34.702Z",
+    "ai": {
+      "model": "claude-opus-5-5",
+      "prompt": "9767800c7e",
+      "decision": "merge",
+      "confidence": 0.95,
+      "reasons": [
+        {
+          "field": "externalIds",
+          "point": "Wikidata Q3688068 lists ARTIC artist ID 35230, exactly this museum record"
+        },
+        {
+          "field": "birthYear",
+          "point": "1839 vs 1838, a one-year cataloguing difference; deathYear 1911 matches exactly"
+        },
+        {
+          "field": "description",
+          "point": "Scottish-American Tonalist painter, consistent with the name and with landscape painting"
+        },
+        {
+          "field": "works",
+          "point": "Landscapes dated 1868 fall within his active career (age ~29)"
+        }
+      ]
+    }
+  },
+  "aic-36333": {
+    "decision": "merge",
+    "qid": "Q20892627",
+    "museumName": "Carducius Plantagenet Ream",
+    "candidateLabel": "Carducius Plantagenet Ream",
+    "decidedBy": "person",
+    "decidedAt": "2026-11-20T00:25:34.702Z",
+    "ai": {
+      "model": "claude-opus-5-5",
+      "prompt": "9767800c7e",
+      "decision": "merge",
+      "confidence": 0.95,
+      "reasons": [
+        {
+          "field": "externalIds.P6295",
+          "point": "Wikidata person lists ARTIC artist ID 36333, exactly this museum record"
+        },
+        {
+          "field": "birthYear",
+          "point": "1838 vs 1837, a one-year cataloguing difference; deathYear 1917 matches exactly"
+        },
+        {
+          "field": "name",
+          "point": "Distinctive full name 'Carducius Plantagenet Ream' is identical in both records"
+        },
+        {
+          "field": "works",
+          "point": "'Purple Plums' (1895) fits an American still-life painter active in this period"
+        }
+      ]
+    }
+  },
+  "aic-36449": {
+    "decision": "merge",
+    "qid": "Q1610297",
+    "museumName": "Toby Edward Rosenthal",
+    "candidateLabel": "Toby Edward Rosenthal",
+    "decidedBy": "person",
+    "decidedAt": "2026-11-20T00:25:34.702Z",
+    "ai": {
+      "model": "claude-opus-5-5",
+      "prompt": "9767800c7e",
+      "decision": "merge",
+      "confidence": 0.88,
+      "reasons": [
+        {
+          "field": "candidate.externalIds.P6295",
+          "point": "Wikidata lists ARTIC artist ID 36449, exactly this museum's agentId, with an identical full name 'Toby Edward Rosenthal'."
+        },
+        {
+          "field": "deathYear",
+          "point": "Both records give 1917, an exact agreement."
+        },
+        {
+          "field": "birthYear",
+          "point": "1838 vs 1848 is a decade apart, but it differs by a single digit and is likely a transcription error. Other sources disagree on Rosenthal's birth year too."
+        },
+        {
+          "field": "works",
+          "point": "'Elaine' (1874) is Rosenthal's best-known painting and fits an American painter active in the 1870s under either birth year."
+        }
+      ]
+    }
+  },
+  "aic-42673": {
+    "decision": "merge",
+    "qid": "Q369608",
+    "museumName": "Qi Baishi",
+    "candidateLabel": "Qi Baishi",
+    "decidedBy": "person",
+    "decidedAt": "2026-11-20T00:25:34.702Z",
+    "ai": {
+      "model": "claude-opus-5-5",
+      "prompt": "9767800c7e",
+      "decision": "merge",
+      "confidence": 0.88,
+      "reasons": [
+        {
+          "field": "externalIds",
+          "point": "Q369608 lists ARTIC artist ID 42673, the exact AIC agent ID, plus Met and RKD IDs. This is a strong direct crosswalk."
+        },
+        {
+          "field": "deathYear",
+          "point": "Both records give 1957, and the name 'Qi Baishi' matches exactly for a distinctive Chinese painter."
+        },
+        {
+          "field": "birthYear",
+          "point": "1861 vs 1864. Qi Baishi's birth year is reported inconsistently because he later altered his stated age, so a three-year gap is a known discrepancy rather than a different person."
+        },
+        {
+          "field": "works",
+          "point": "Lotus, Crabs and Corn and Insects are signature Qi Baishi subjects. The 1876 dates (when he was about 12) are probably approximate or catalogue artifacts, and the subjects themselves fit the candidate."
+        }
+      ]
+    }
+  },
+  "aic-42734": {
+    "decision": "merge",
+    "qid": "Q2502854",
+    "museumName": "Kunitoshi, Utagawa",
+    "candidateLabel": "Utagawa Kunitoshi",
+    "decidedBy": "person",
+    "decidedAt": "2026-11-20T00:25:34.702Z",
+    "ai": {
+      "model": "claude-opus-5-5",
+      "prompt": "9767800c7e",
+      "decision": "merge",
+      "confidence": 0.88,
+      "reasons": [
+        {
+          "field": "externalIds",
+          "point": "Wikidata Q2502854 lists ARTIC artist ID 42734, exactly the museum's agentId, so the crosswalk is direct."
+        },
+        {
+          "field": "name",
+          "point": "'Kunitoshi, Utagawa' is the same name as the label 'Utagawa Kunitoshi', written surname-first."
+        },
+        {
+          "field": "works",
+          "point": "'Tempest' dated 1875 falls within the candidate's life (1847–1899), when he was active as an artist."
+        },
+        {
+          "field": "occupations",
+          "point": "As a ukiyo-e artist working 1847–1899, he fits someone making pictures in 1850–1900. Museum life years are missing, which is not evidence against the match."
+        }
+      ]
+    }
+  },
+  "aic-42745": {
+    "decision": "merge",
+    "qid": "Q11509541",
+    "museumName": "Hine Taizan",
+    "candidateLabel": "Hine Taizan",
+    "decidedBy": "person",
+    "decidedAt": "2026-11-20T00:25:34.702Z",
+    "ai": {
+      "model": "claude-opus-5-5",
+      "prompt": "9767800c7e",
+      "decision": "merge",
+      "confidence": 0.85,
+      "reasons": [
+        {
+          "field": "candidate.externalIds",
+          "point": "Q11509541 lists ARTIC artist ID 42745, plus Met and ULAN IDs, so the museum ID crosswalk is direct."
+        },
+        {
+          "field": "name/birthYear",
+          "point": "Name 'Hine Taizan' and birth year 1813 match exactly."
+        },
+        {
+          "field": "deathYear",
+          "point": "1860 vs 1869 is a nine-year gap, but it looks like a museum typo, since the AIC's own work 'Waves' is dated 1867, after its stated death year."
+        },
+        {
+          "field": "works.date",
+          "point": "The 1867 work fits the Wikidata lifespan of 1813–1869 for a painter."
+        }
+      ]
+    }
+  },
+  "aic-44070": {
+    "decision": "keep-separate",
+    "qid": "Q322951",
+    "museumName": "Cheyenne",
+    "candidateLabel": "Cheyennes",
+    "decidedBy": "person",
+    "decidedAt": "2026-11-20T00:25:34.702Z",
+    "ai": {
+      "model": "claude-opus-5-5",
+      "prompt": "9767800c7e",
+      "decision": "keep-separate",
+      "confidence": 0.93,
+      "reasons": [
+        {
+          "field": "candidate.description",
+          "point": "Q322951 is 'group of indigenous people of the Great Plains', an entire people rather than an individual artist"
+        },
+        {
+          "field": "museum.name",
+          "point": "'Cheyenne' is a cultural attribution for an unnamed maker, not a single identified person"
+        },
+        {
+          "field": "works",
+          "point": "The painted tipi curtain (1870) is attributed to the culture. Merging on the people's entity would wrongly group unrelated Cheyenne works from other museums as one artist's output"
+        },
+        {
+          "field": "matcherEvidence",
+          "point": "The P6295 ID link is real, but it reflects a culture-level attribution and not person identity"
+        }
+      ]
+    }
+  },
+  "aic-54963": {
+    "decision": "merge",
+    "qid": "Q2699889",
+    "museumName": "Robert S. Duncanson",
+    "candidateLabel": "Robert Seldon Duncanson",
+    "decidedBy": "person",
+    "decidedAt": "2026-11-20T00:25:34.702Z",
+    "ai": {
+      "model": "claude-opus-5-5",
+      "prompt": "9767800c7e",
+      "decision": "merge",
+      "confidence": 0.95,
+      "reasons": [
+        {
+          "field": "externalIds",
+          "point": "Wikidata Q2699889 lists ARTIC artist ID 54963, exactly this museum's agentId"
+        },
+        {
+          "field": "birthYear",
+          "point": "1817 vs 1821 is a known discrepancy for Duncanson, whose birth year is variously given in sources; the death year of 1872 matches exactly"
+        },
+        {
+          "field": "name",
+          "point": "'Robert S. Duncanson' is consistent with 'Robert Seldon Duncanson', and the Hudson River school painter fits a landscape titled River Scene"
+        },
+        {
+          "field": "works",
+          "point": "River Scene dated 1867 falls within his active career, before his death in 1872"
+        }
+      ]
+    }
+  },
+  "aic-59017": {
+    "decision": "merge",
+    "qid": "Q20731246",
+    "museumName": "Harry Thompson",
+    "candidateLabel": "Harry Thompson",
+    "decidedBy": "person",
+    "decidedAt": "2026-11-20T00:25:34.702Z",
+    "ai": {
+      "model": "claude-opus-5-5",
+      "prompt": "9767800c7e",
+      "decision": "merge",
+      "confidence": 0.88,
+      "reasons": [
+        {
+          "field": "externalIds.P6295",
+          "point": "Wikidata Q20731246 lists ARTIC artist ID 59017, the museum's own agent ID, which is a direct crosswalk."
+        },
+        {
+          "field": "deathYear",
+          "point": "1901 on both sides, an exact agreement. Only the birth year is missing, which is not evidence against a match."
+        },
+        {
+          "field": "description/occupations",
+          "point": "'English painter' with occupation painter fits the maker of an oil landscape in the 1850–1900 period."
+        },
+        {
+          "field": "works",
+          "point": "'Landscape with Sheep, Picardy' fits an English painter working in France. Its 1850 date is early but plausible for someone who died in 1901."
+        }
+      ]
+    }
+  },
+  "aic-63444": {
+    "decision": "merge",
+    "qid": "Q617906",
+    "museumName": "Jules Achille Noël",
+    "candidateLabel": "Jules Achille Noël",
+    "decidedBy": "person",
+    "decidedAt": "2026-11-20T00:25:34.702Z",
+    "ai": {
+      "model": "claude-opus-5-5",
+      "prompt": "9767800c7e",
+      "decision": "merge",
+      "confidence": 0.92,
+      "reasons": [
+        {
+          "field": "externalIds",
+          "point": "Wikidata Q617906 lists ARTIC artist ID 63444, exactly this museum record, plus ULAN, RKD and Met IDs"
+        },
+        {
+          "field": "name",
+          "point": "Exact name match: Jules Achille Noël, an uncommon full name"
+        },
+        {
+          "field": "birthYear",
+          "point": "1815 vs 1810 is a known discrepancy in sources for this painter. The death year of 1881 agrees exactly"
+        },
+        {
+          "field": "works",
+          "point": "'Beached Fishing Boats' (1855) fits a French marine painter active mid-century"
+        }
+      ]
+    }
+  },
+  "aic-63743": {
+    "decision": "merge",
+    "qid": "Q5372282",
+    "museumName": "Emily Mary Osborn",
+    "candidateLabel": "Emily Mary Osborn",
+    "decidedBy": "person",
+    "decidedAt": "2026-11-20T00:25:34.702Z",
+    "ai": {
+      "model": "claude-opus-5-5",
+      "prompt": "9767800c7e",
+      "decision": "merge",
+      "confidence": 0.85,
+      "reasons": [
+        {
+          "field": "candidate.externalIds",
+          "point": "Wikidata lists ARTIC artist ID 63743, the exact AIC agent, along with ULAN, RKD and Met IDs, so several catalogues treat this as one person."
+        },
+        {
+          "field": "name",
+          "point": "'Emily Mary Osborn' matches exactly, and the name of a Victorian woman painter is distinctive enough that a homonym is unlikely."
+        },
+        {
+          "field": "birthYear/deathYear",
+          "point": "1834–1918 vs 1828–1925 is a large gap on both ends, but 1828–1925 is the widely cited span for this painter. The AIC dates look like an outdated record rather than a different person."
+        },
+        {
+          "field": "works",
+          "point": "'Mrs. Sturgis and Children' (1855) is a known Osborn portrait and fits a British painter active in the 1850s under either date range."
+        }
+      ]
+    }
+  },
+  "aic-7311": {
+    "decision": "merge",
+    "qid": "Q21288630",
+    "museumName": "Charles Gifford Dyer",
+    "candidateLabel": "Charles Gifford Dyer",
+    "decidedBy": "person",
+    "decidedAt": "2026-11-20T00:25:34.702Z",
+    "ai": {
+      "model": "claude-opus-5-5",
+      "prompt": "9767800c7e",
+      "decision": "merge",
+      "confidence": 0.88,
+      "reasons": [
+        {
+          "field": "externalIds",
+          "point": "Wikidata lists P6295 ARTIC artist ID 7311, exactly this AIC record, and the names match exactly"
+        },
+        {
+          "field": "deathYear",
+          "point": "Both give 1912, so the death years agree"
+        },
+        {
+          "field": "birthYear",
+          "point": "1846 vs 1840 is a six-year gap, likely a source discrepancy for a minor artist rather than a different person"
+        },
+        {
+          "field": "works",
+          "point": "An 1877 interior painting fits an American painter active in the late 19th century"
+        }
+      ]
+    }
+  },
+  "aic-75135": {
+    "decision": "merge",
+    "qid": "Q10514143",
+    "museumName": "Su Liupeng",
+    "candidateLabel": "Su Liupeng",
+    "decidedBy": "person",
+    "decidedAt": "2026-11-20T00:25:34.702Z",
+    "ai": {
+      "model": "claude-opus-5-5",
+      "prompt": "9767800c7e",
+      "decision": "merge",
+      "confidence": 0.9,
+      "reasons": [
+        {
+          "field": "externalIds",
+          "point": "Wikidata Q10514143 lists P6295 ARTIC artist ID = 75135, directly matching the museum's agentId"
+        },
+        {
+          "field": "name",
+          "point": "Museum name 'Su Liupeng' matches the Wikidata label exactly"
+        },
+        {
+          "field": "birthYear/deathYear",
+          "point": "The museum record gives no life years, which is not evidence against a match; Wikidata's 1791–1862 fits a work dated 1850"
+        },
+        {
+          "field": "occupations",
+          "point": "Wikidata gives painter, Qing dynasty, which fits the Chinese painting 'Envoys Presenting Tribute'"
+        }
+      ]
+    }
+  },
+  "aic-9960": {
+    "decision": "merge",
+    "qid": "Q464300",
+    "museumName": "Eva Gonzalès",
+    "candidateLabel": "Eva Gonzalès",
+    "decidedBy": "person",
+    "decidedAt": "2026-11-20T00:25:34.702Z",
+    "ai": {
+      "model": "claude-opus-5-5",
+      "prompt": "9767800c7e",
+      "decision": "merge",
+      "confidence": 0.95,
+      "reasons": [
+        {
+          "field": "externalIds",
+          "point": "Wikidata Q464300 lists ARTIC artist ID 9960, matching the museum's agentId exactly"
+        },
+        {
+          "field": "birthYear",
+          "point": "1849 vs 1847 in the structured field, but the Wikidata description itself says 1849-1883, so this is an internal Wikidata inconsistency, not a different person"
+        },
+        {
+          "field": "deathYear",
+          "point": "1883 on both sides, an exact match"
+        },
+        {
+          "field": "occupations",
+          "point": "French Impressionist painter and pastellist, the same name, fits 1850–1900 painting; a work dated 1865 is plausible as early work"
+        }
+      ]
+    }
+  },
+  "rijksmuseum-2102202": {
+    "decision": "merge",
+    "qid": "Q18608118",
+    "museumName": "L. Nicolas",
+    "candidateLabel": "L. Nicolas",
+    "decidedBy": "person",
+    "decidedAt": "2026-11-20T00:25:34.701Z",
+    "ai": {
+      "model": "claude-opus-5-5",
+      "prompt": "9767800c7e",
+      "decision": "merge",
+      "confidence": 0.8,
+      "reasons": [
+        {
+          "field": "ids.ulan",
+          "point": "Wikidata Q18608118 lists ULAN 500159466, the same ID the Rijksmuseum record carries, which is strong direct crosswalk evidence"
+        },
+        {
+          "field": "name/label",
+          "point": "Name 'L. Nicolas' matches exactly. The record is a named individual, not an anonymous, workshop or firm entry"
+        },
+        {
+          "field": "description/occupations",
+          "point": "'French painter' with occupation painter fits the 1886 painting 'Nimf'"
+        },
+        {
+          "field": "lifeYears",
+          "point": "Life years are missing on both sides. That is not evidence against the match, but it leaves the identity resting mainly on the shared ULAN ID"
+        }
+      ]
+    }
+  },
+  "rijksmuseum-2102883": {
+    "decision": "merge",
+    "qid": "Q18608168",
+    "museumName": "F. Taupel",
+    "candidateLabel": "F. Taupel",
+    "decidedBy": "person",
+    "decidedAt": "2026-11-20T00:25:34.702Z",
+    "ai": {
+      "model": "claude-opus-5-5",
+      "prompt": "9767800c7e",
+      "decision": "merge",
+      "confidence": 0.85,
+      "reasons": [
+        {
+          "field": "externalIds.P245",
+          "point": "Wikidata Q18608168 carries the same ULAN ID 500185467 as the Rijksmuseum record, a strong crosswalk"
+        },
+        {
+          "field": "label",
+          "point": "Name 'F. Taupel' matches exactly, and the description 'Dutch painter' fits a Rijksmuseum artist"
+        },
+        {
+          "field": "lifeYears",
+          "point": "Life years are missing on both sides, which is not evidence against the match"
+        },
+        {
+          "field": "works.date",
+          "point": "The single work is dated 1800, outside 1850–1900, but this does not contradict the identity; it is consistent with an obscure Dutch genre painter"
+        }
+      ]
+    }
+  }
+}

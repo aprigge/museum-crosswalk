@@ -53,7 +53,8 @@ export interface SourceArtistRef {
   death?: string;
 }
 
-export type MatchMethod = 'exact-id' | 'wikidata-crosswalk' | 'name-dates' | 'none';
+/** human-approved: a person accepted an AI review proposal (alignments/review-decisions.json). */
+export type MatchMethod = 'exact-id' | 'wikidata-crosswalk' | 'name-dates' | 'human-approved' | 'none';
 
 export interface ArtistMatch {
   ref: SourceArtistRef;

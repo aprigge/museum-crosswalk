@@ -1,10 +1,10 @@
 # "Impressionist landscapes" across three museums
 
-Generated 2026-11-19 by `npm run evaluate` from the search index the site uses
+Generated 2026-11-20 by `npm run evaluate` from the search index the site uses
 (`site/data/search-index.json`) and the core graph. Slice: paintings made 1850–1900.
 
-**Answer: 3 of 3 museums return results** Rijksmuseum 2, The Met 3, Art Institute of Chicago 90.
-Results group by 34 artists; 3 of them have hits in more than one museum.
+**Answer: 3 of 3 museums return results** Rijksmuseum 2, The Met 3, Art Institute of Chicago 91.
+Results group by 35 artists; 3 of them have hits in more than one museum.
 
 ## Hits per museum
 
@@ -12,13 +12,13 @@ Results group by 34 artists; 3 of them have hits in more than one museum.
 |---|---|---|---|
 | Rijksmuseum | 395 | 2 | 0 |
 | The Met | 95 | 3 | 2 |
-| Art Institute of Chicago | 611 | 90 | 80 |
+| Art Institute of Chicago | 611 | 91 | 80 |
 
 The Met's slice is **partial**: 95 of its paintings were harvested before its firewall blocked requests.
 
 - **Text search** is what the site runs: MiniSearch with all terms required ("Impressionist landscapes" → `impression` AND `landscape`), prefix and light fuzzy matching.
 - **Concept query** is `queries/impressionist-landscapes.rq`: Impressionism (Wikidata Q40415) as the museum's style or the artist's movement, and landscape (Q191163, aligned with Q107425).
-- 15 of 95 hits match "Impressionist" only through the artist's movement on Wikidata, not through the museum's own data.
+- 16 of 96 hits match "Impressionist" only through the artist's movement on Wikidata, not through the museum's own data.
 
 ## Grouped by artist
 
