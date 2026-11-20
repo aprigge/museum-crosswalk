@@ -1,5 +1,5 @@
 import { esc, licenseLabel, loadIndex, MUSEUM_NAMES, years } from './common.js';
-import { FIELD_EXPLANATION, processTerm, SEARCH_OPTIONS, tokenize } from './terms.js';
+import { FIELD_EXPLANATION, processTerm, SEARCH_FIELDS, SEARCH_OPTIONS, tokenize } from './terms.js';
 
 const form = document.getElementById('search-form');
 const input = document.getElementById('q');
@@ -7,6 +7,7 @@ const statusEl = document.getElementById('status');
 const resultsEl = document.getElementById('results');
 const facetsEl = document.getElementById('facets');
 const relatedEl = document.getElementById('related');
+const useAi = document.getElementById('use-ai');
 
 const GROUPS_PER_PAGE = 20;
 const FACETS = [
@@ -16,7 +17,7 @@ const FACETS = [
   { key: 'decade', legend: 'Decade begun', values: (d) => (d.begin != null ? [`${Math.floor(d.begin / 10) * 10}s`] : []) },
 ];
 
-const state = { q: '', filters: Object.fromEntries(FACETS.map((f) => [f.key, new Set()])), shownGroups: GROUPS_PER_PAGE };
+const state = { q: '', ai: true, filters: Object.fromEntries(FACETS.map((f) => [f.key, new Set()])), shownGroups: GROUPS_PER_PAGE };
 let index;
 let related = [];
 
@@ -25,6 +26,8 @@ const terms = (text) => tokenize(text).map(processTerm).filter(Boolean);
 function readUrl() {
   const p = new URLSearchParams(location.search);
   state.q = p.get('q') ?? '';
+  state.ai = p.get('ai') !== 'off';
+  useAi.checked = state.ai;
   for (const f of FACETS) state.filters[f.key] = new Set(p.getAll(f.key));
   input.value = state.q;
 }
@@ -32,6 +35,7 @@ function readUrl() {
 function writeUrl() {
   const p = new URLSearchParams();
   if (state.q) p.set('q', state.q);
+  if (!state.ai) p.set('ai', 'off');
   for (const f of FACETS) for (const v of state.filters[f.key]) p.append(f.key, v);
   history.replaceState(null, '', p.toString() ? `?${p}` : location.pathname);
 }
@@ -52,6 +56,7 @@ function card(hit) {
   const img = hit.thumb
     ? `<img referrerpolicy="no-referrer" src="${esc(hit.thumb)}" alt="${esc(`${hit.title}, ${by}`)}" loading="lazy" decoding="async">`
     : `<span class="no-image">No openly licensed image</span>`;
+  const aiOnly = Object.values(hit.match).every((fields) => fields.every((f) => f === 'aiSubjects'));
   const styleChips = [
     ...hit.styles.map((s) => `<li class="chip" title="Stated by the museum">${esc(s)}</li>`),
     ...hit.inferredStyles
@@ -65,7 +70,7 @@ function card(hit) {
       <p class="meta">${esc(years(hit.begin, hit.end))}${hit.begin != null ? ' · ' : ''}${esc(hit.museumName)}</p>
       ${hit.qualified.length ? `<p class="meta">Related attribution: ${esc(hit.qualified.join(', '))}</p>` : ''}
       ${styleChips ? `<ul class="chips" aria-label="Style or movement">${styleChips}</ul>` : ''}
-      <p class="why">Matched ${whyText(hit)}</p>
+      <p class="why">${aiOnly ? '<span class="chip ai" title="Found only through subjects an AI model suggested from the image">AI</span> ' : ''}Matched ${whyText(hit)}</p>
       <p class="meta"><span class="badge" title="Licence of the record's data">Data: ${esc(licenseLabel(hit.license))}</span></p>
     </div>
   </li>`;
@@ -105,7 +110,9 @@ function render() {
     statusEl.textContent = `${index.documentCount.toLocaleString()} paintings indexed. Try a search.`;
     return;
   }
-  const all = index.search(state.q, SEARCH_OPTIONS);
+  // Without AI suggestions, search every field except the AI-suggested subjects.
+  const options = state.ai ? SEARCH_OPTIONS : { ...SEARCH_OPTIONS, fields: SEARCH_FIELDS.filter((f) => f !== 'aiSubjects') };
+  const all = index.search(state.q, options);
   const hits = all.filter((d) => passes(d));
   renderFacets(all);
   renderRelated();
@@ -167,6 +174,13 @@ document.addEventListener('click', (e) => {
     state.shownGroups += GROUPS_PER_PAGE;
     render();
   }
+});
+
+useAi.addEventListener('change', () => {
+  state.ai = useAi.checked;
+  state.shownGroups = GROUPS_PER_PAGE;
+  writeUrl();
+  render();
 });
 
 facetsEl.addEventListener('change', (e) => {

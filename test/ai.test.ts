@@ -61,3 +61,61 @@ describe('cost', () => {
     expect(costUsd('claude-sonnet-5-5', u, true)).toBeCloseTo(1.1);
   });
 });
+
+describe('enrichment safeguards', () => {
+  const vocab = new Map([
+    ['Q7561', { qid: 'Q7561', label: 'snow', aliases: [], origin: 'extension' as const }],
+    ['Q35872', { qid: 'Q35872', label: 'boat', aliases: [], origin: 'graph' as const }],
+  ]);
+
+  it('drops IDs that are not in the vocabulary and reports them', async () => {
+    const { checkAgainstVocabulary } = await import('../src/ai/enrich.js');
+    const out = checkAgainstVocabulary(
+      { genre: 'landscape painting', otherSubjects: [], subjects: [
+        { conceptId: 'Q7561', confidence: 0.9, evidence: 'snow on the field' },
+        { conceptId: 'Q99999999', confidence: 0.9, evidence: 'made up' },
+      ] },
+      vocab,
+    );
+    expect(out.subjects.map((s) => s.conceptId)).toEqual(['Q7561']);
+    expect(out.unknownIds).toEqual(['Q99999999']);
+  });
+
+  it('puts suggestions in graph/ai and links only confident ones for search', async () => {
+    const { GraphBuilder, GRAPHS } = await import('../src/graph/build.js');
+    const g = new GraphBuilder(new Map(), new Map());
+    g.addAiSubjects('rijksmuseum', '1', [
+      { qid: 'Q7561', label: 'snow', confidence: 0.9, evidence: 'snow on the roofs' },
+      { qid: 'Q35872', label: 'boat', confidence: 0.4, evidence: 'maybe a boat' },
+    ], { model: 'claude-opus-5-5', promptVersion: 'v1', at: '2026-11-19T00:00:00Z' });
+    const rows = g.store.query(
+      `PREFIX mc: <https://aprigge.github.io/museum-crosswalk/ns#>
+       SELECT ?g ?c WHERE { GRAPH ?g { ?w mc:aiSubject ?c } }`,
+    ) as Map<string, { value: string }>[];
+    expect(rows.map((r) => r.get('c')!.value.split('/').at(-1))).toEqual(['Q7561']);
+    expect(rows[0]!.get('g')!.value).toBe(GRAPHS.ai.value);
+    const notes = g.store.query(`PREFIX mc: <https://aprigge.github.io/museum-crosswalk/ns#> SELECT ?n WHERE { ?n a mc:AiSuggestion }`, { use_default_graph_as_union: true }) as unknown[];
+    expect(notes).toHaveLength(2); // the weak one is kept as an annotation, just not searchable
+  });
+});
+
+describe('concept labels', () => {
+  it('keeps every museum label as an alias, even after an AI suggestion defined the concept first', async () => {
+    const { GraphBuilder } = await import('../src/graph/build.js');
+    const concepts = new Map([['http://vocab.getty.edu/aat/300255118', { sourceUri: '', qid: 'Q7569', label: 'child', aliases: [], match: 'exact' as const, via: '' }]]);
+    const g = new GraphBuilder(concepts, new Map());
+    g.addAiSubjects('met', '1', [{ qid: 'Q7569', label: 'child', confidence: 0.9, evidence: 'a child' }], { model: 'm', promptVersion: 'v', at: '2026-11-19T00:00:00Z' });
+    const work = (label: string) => ({
+      source: 'met', id: label, raw: { body: {} } as never,
+      record: { id: `https://example.org/${label}`, _provenance: { sourceUrl: 'https://example.org', fetchedAt: '2026-11-19T00:00:00Z', license: 'https://creativecommons.org/publicdomain/zero/1.0/' }, shows: [] },
+      related: [{ about: [{ id: 'http://vocab.getty.edu/aat/300255118', _label: label }] }],
+    });
+    g.addWork(work('Children') as never, []);
+    g.addWork(work('children') as never, []);
+    const rows = g.store.query(
+      `SELECT ?l WHERE { <https://aprigge.github.io/museum-crosswalk/id/concept/Q7569> <http://www.w3.org/2004/02/skos/core#altLabel> ?l }`,
+      { use_default_graph_as_union: true },
+    ) as Map<string, { value: string }>[];
+    expect(rows.map((r) => r.get('l')!.value).sort()).toEqual(['Children', 'children']);
+  });
+});

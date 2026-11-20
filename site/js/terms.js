@@ -2,13 +2,14 @@
 // so a query is processed exactly as the documents were.
 
 /** Fields indexed, and how much a match in each counts. */
-export const SEARCH_FIELDS = ['title', 'artists', 'styles', 'inferredStyles', 'subjects', 'museumName'];
-export const BOOST = { title: 2, artists: 2, styles: 1.5, inferredStyles: 1.2, subjects: 1, museumName: 0.5 };
+export const SEARCH_FIELDS = ['title', 'artists', 'styles', 'inferredStyles', 'subjects', 'aiSubjects', 'museumName'];
+// AI-suggested subjects count for less than the museums' own, so museum data ranks first.
+export const BOOST = { title: 2, artists: 2, styles: 1.5, inferredStyles: 1.2, subjects: 1, aiSubjects: 0.7, museumName: 0.5 };
 
 /** Fields kept in the index to draw a result without fetching anything else. */
 export const STORE_FIELDS = [
   'title', 'museum', 'museumName', 'artists', 'artistKeys', 'qualified', 'begin', 'end',
-  'styles', 'inferredStyles', 'subjects', 'thumb', 'url', 'license', 'record',
+  'styles', 'inferredStyles', 'subjects', 'aiSubjects', 'aiDetail', 'thumb', 'url', 'license', 'record',
 ];
 
 /** Plain words for how a field matched, for the "why this matched" chips. */
@@ -18,6 +19,7 @@ export const FIELD_EXPLANATION = {
   styles: "museum's style",
   inferredStyles: "artist's movement (Wikidata)",
   subjects: 'subject',
+  aiSubjects: 'AI-suggested subject',
   museumName: 'museum',
 };
 

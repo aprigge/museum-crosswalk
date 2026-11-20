@@ -126,6 +126,16 @@ SELECT ?g ?p ?o WHERE { GRAPH ?g { <${workUri}> ?p ?o } } ORDER BY ?g ?p`);
           ${doc.thumb && imageLicense !== doc.license ? `<dt>Image licence</dt><dd>${esc(licenseLabel(imageLicense))}</dd>` : ''}
         </dl>
         ${
+          doc.aiDetail?.length
+            ? `<h2>AI-suggested subjects</h2>
+               <p class="muted">Suggested by an AI model (Claude) from the image, not by the museum. Kept in their own graph,
+                 <code>graph/ai</code>; <a href="about.html#ai">how this works</a>.</p>
+               <ul class="ai-list">${doc.aiDetail
+                 .map((a) => `<li><span class="chip ai">AI</span> <strong>${esc(a.label)}</strong> <span class="muted">${Math.round(a.confidence * 100)}%</span> — ${esc(a.evidence)}</li>`)
+                 .join('')}</ul>`
+            : ''
+        }
+        ${
           description
             ? `<h2>Description</h2><div class="description">${safeParagraphs(description)}</div>
                <p class="muted">Description © Art Institute of Chicago, ${esc(licenseLabel(descField?.license))}.</p>`

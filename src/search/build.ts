@@ -18,6 +18,10 @@ export interface SearchDoc {
   styles: string[];
   inferredStyles: string[];
   subjects: string[];
+  /** Subjects a model suggested from the image (graph/ai), with their labels' aliases. */
+  aiSubjects: string[];
+  /** One entry per suggestion, for display: what it saw and how sure it was. */
+  aiDetail: { label: string; confidence: number; evidence: string }[];
   thumb?: string;
   url?: string;
   license?: string;
@@ -61,6 +65,18 @@ SELECT ?work ?label WHERE {
   ?work mc:subject ?c .
   { ?c skos:prefLabel ?label } UNION { ?c skos:altLabel ?label } UNION { ?c skos:closeMatch/skos:prefLabel ?label }
 }`,
+  // AI-suggested subjects that passed the confidence threshold, searched like subjects.
+  aiSubjects: `${PREFIXES}
+SELECT ?work ?label WHERE {
+  ?work mc:aiSubject ?c .
+  { ?c skos:prefLabel ?label } UNION { ?c skos:altLabel ?label } UNION { ?c skos:closeMatch/skos:prefLabel ?label }
+}`,
+  aiDetail: `${PREFIXES}
+SELECT DISTINCT ?work ?label ?confidence ?evidence WHERE {
+  ?note a mc:AiSuggestion ; mc:onWork ?work ; mc:concept ?c ; mc:confidence ?confidence ; mc:evidence ?evidence .
+  ?work mc:aiSubject ?c .
+  ?c skos:prefLabel ?label .
+} ORDER BY DESC(?confidence)`,
 };
 
 const key = (uri: string) => uri.split('/').at(-1)!;
@@ -85,6 +101,8 @@ export function buildDocs(store: Store): SearchDoc[] {
       styles: [],
       inferredStyles: [],
       subjects: [],
+      aiSubjects: [],
+      aiDetail: [],
       thumb: r.get('thumb')?.value,
       url: r.get('url')?.value,
       license: r.get('license')?.value ?? r.get('licenseNote')?.value,
@@ -101,7 +119,11 @@ export function buildDocs(store: Store): SearchDoc[] {
       push(d.artistKeys, key(r.get('person')!.value));
     }
   }
-  for (const field of ['styles', 'inferredStyles', 'subjects'] as const) {
+  for (const r of q(QUERIES.aiDetail)) {
+    const d = docs.get(key(r.get('work')!.value));
+    if (d) d.aiDetail.push({ label: r.get('label')!.value, confidence: Number(r.get('confidence')!.value), evidence: r.get('evidence')!.value });
+  }
+  for (const field of ['styles', 'inferredStyles', 'subjects', 'aiSubjects'] as const) {
     for (const r of q(QUERIES[field])) {
       const d = docs.get(key(r.get('work')!.value));
       if (d) push(d[field], r.get('label')!.value);

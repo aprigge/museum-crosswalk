@@ -1,0 +1,20 @@
+{"id":"q01","query":"Impressionist landscapes","tags":["headline","combined"],"results":95,"precisionAt10":0.8,"recall":1,"museumsWithHit":3,"splitArtists":[],"aiOnlyResults":0,"unlabelledInTop10":0}
+{"id":"q02","query":"landscape","tags":["genre"],"results":406,"precisionAt10":1,"recall":1,"museumsWithHit":3,"splitArtists":[],"aiOnlyResults":146,"unlabelledInTop10":0}
+{"id":"q03","query":"seascape","tags":["genre"],"results":6,"precisionAt10":1,"recall":1,"museumsWithHit":2,"splitArtists":[],"aiOnlyResults":0,"unlabelledInTop10":0}
+{"id":"q04","query":"portrait","tags":["genre"],"results":231,"precisionAt10":1,"recall":1,"museumsWithHit":3,"splitArtists":[],"aiOnlyResults":82,"unlabelledInTop10":0}
+{"id":"q05","query":"self-portrait","tags":["genre"],"results":18,"precisionAt10":1,"recall":1,"museumsWithHit":3,"splitArtists":[],"aiOnlyResults":3,"unlabelledInTop10":0}
+{"id":"q06","query":"still life","tags":["genre"],"results":65,"precisionAt10":1,"recall":1,"museumsWithHit":3,"splitArtists":[],"aiOnlyResults":9,"unlabelledInTop10":0}
+{"id":"q07","query":"interior","tags":["genre"],"results":131,"precisionAt10":1,"recall":1,"museumsWithHit":3,"splitArtists":[],"aiOnlyResults":87,"unlabelledInTop10":0}
+{"id":"q08","query":"flowers","tags":["subject"],"results":111,"precisionAt10":1,"recall":1,"museumsWithHit":3,"splitArtists":[],"aiOnlyResults":55,"unlabelledInTop10":0}
+{"id":"q09","query":"snow","tags":["subject"],"results":26,"precisionAt10":1,"recall":1,"museumsWithHit":2,"splitArtists":[],"aiOnlyResults":14,"unlabelledInTop10":0}
+{"id":"q10","query":"boats","tags":["subject"],"results":123,"precisionAt10":1,"recall":1,"museumsWithHit":3,"splitArtists":[],"aiOnlyResults":73,"unlabelledInTop10":0}
+{"id":"q11","query":"cows","tags":["subject"],"results":26,"precisionAt10":1,"recall":1,"museumsWithHit":3,"splitArtists":[],"aiOnlyResults":8,"unlabelledInTop10":0}
+{"id":"q12","query":"children","tags":["subject"],"results":91,"precisionAt10":1,"recall":1,"museumsWithHit":3,"splitArtists":[],"aiOnlyResults":36,"unlabelledInTop10":0}
+{"id":"q13","query":"night","tags":["subject"],"results":30,"precisionAt10":0.6,"recall":1,"museumsWithHit":2,"splitArtists":[],"aiOnlyResults":17,"unlabelledInTop10":0}
+{"id":"q14","query":"sunset","tags":["subject"],"results":45,"precisionAt10":1,"recall":1,"museumsWithHit":3,"splitArtists":[],"aiOnlyResults":34,"unlabelledInTop10":0}
+{"id":"q15","query":"church","tags":["subject"],"results":44,"precisionAt10":0.9,"recall":1,"museumsWithHit":3,"splitArtists":[],"aiOnlyResults":27,"unlabelledInTop10":0}
+{"id":"q16","query":"Paris","tags":["place"],"results":25,"precisionAt10":0.9,"recall":1,"museumsWithHit":3,"splitArtists":[],"aiOnlyResults":5,"unlabelledInTop10":0}
+{"id":"q17","query":"Barbizon","tags":["movement"],"results":65,"precisionAt10":1,"recall":1,"museumsWithHit":3,"splitArtists":[],"aiOnlyResults":0,"unlabelledInTop10":0}
+{"id":"q18","query":"Claude Monet","tags":["artist"],"results":26,"precisionAt10":1,"recall":1,"museumsWithHit":2,"splitArtists":[],"aiOnlyResults":0,"unlabelledInTop10":0}
+{"id":"q19","query":"portrait of a woman","tags":["combined"],"results":100,"precisionAt10":1,"recall":1,"museumsWithHit":3,"splitArtists":[],"aiOnlyResults":16,"unlabelledInTop10":0}
+{"id":"q20","query":"winter landscape","tags":["combined"],"results":21,"precisionAt10":1,"recall":1,"museumsWithHit":2,"splitArtists":[],"aiOnlyResults":3,"unlabelledInTop10":0}

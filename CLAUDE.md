@@ -38,6 +38,27 @@ Findings go in `reports/impressionist-landscapes.md`.
 - Third-party text and URLs on the site are escaped or allow-listed (http/https only);
   museum images load with `referrerpolicy="no-referrer"` (AIC refuses unknown referrers).
 
+## Phase 3: AI in the demo
+
+AI fills gaps the data showed (uneven subjects, a manual review queue, an expert-only
+interface), and an eval measures whether it helps. Plan: enrichment (done), review assist,
+"Ask the graph".
+
+- **AI claims live in `graph/ai`**, each an `mc:AiSuggestion` with confidence, evidence and
+  the run that made it (model, prompt version). Only confidence ≥ 0.6 reaches search, boosted
+  below museum subjects; the site labels them "AI" and can switch them off.
+- **Controlled vocabulary, no invented IDs.** The model chooses from the graph's concepts plus
+  `alignments/ai-vocabulary-extra.json` (resolved on Wikidata by description, reviewed in
+  `ai-vocabulary.resolved.json`). Answers are validated with Zod and re-checked against the
+  vocabulary. Style, movement and period are never inferred from images.
+- **Measure every change** with `npm run eval` (`reports/eval.md`): 20 reviewed queries, pooled
+  results judged by Claude Sonnet 5.5 (a different model from the one making suggestions).
+- **Spend only with approval.** Show the dry-run estimate first; sample before batch; batches
+  are submitted in chunks of 100 (large image payloads drop the connection).
+- Prompts are versioned files in `prompts/`; results are cached under `data/ai/{task}/{version}/`,
+  so reruns are free unless the prompt or vocabulary changes. The API key lives in `.env`.
+- Models: `claude-opus-5-5` for enrichment, review assist and Ask; `claude-sonnet-5-5` as judge.
+
 **Out of scope for now: all Getty data** (the Getty Museum collection and the Getty
 Vocabularies, including ULAN). Don't fetch from data.getty.edu or vocab.getty.edu.
 Getty sources may be added in a later phase, so keep the adapter design open to

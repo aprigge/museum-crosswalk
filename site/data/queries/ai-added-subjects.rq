@@ -1,0 +1,13 @@
+# Subjects an AI model added from the image that the museum had not recorded.
+PREFIX mc: <https://aprigge.github.io/museum-crosswalk/ns#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+SELECT ?museum ?title ?subject ?confidence ?evidence WHERE {
+  ?note a mc:AiSuggestion ; mc:onWork ?work ; mc:concept ?c ; mc:confidence ?confidence ; mc:evidence ?evidence .
+  ?work mc:aiSubject ?c ; mc:museum ?museum ; dcterms:title ?title .
+  ?c skos:prefLabel ?subject .
+  FILTER NOT EXISTS { ?work mc:subject ?c }
+}
+ORDER BY DESC(?confidence) ?museum ?title
+LIMIT 200

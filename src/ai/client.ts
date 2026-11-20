@@ -104,21 +104,30 @@ export type BatchRequest = Anthropic.Messages.Batches.BatchCreateParams.Request;
 export async function runBatch(
   requests: BatchRequest[],
   onProgress: (msg: string) => void = console.log,
+  chunkSize = 100,
 ): Promise<Map<string, Anthropic.Message | { error: string }>> {
   const api = anthropic();
-  const batch = await api.messages.batches.create({ requests });
-  onProgress(`batch ${batch.id}: ${requests.length} requests submitted`);
-  let status = batch;
-  while (status.processing_status !== 'ended') {
-    await new Promise((r) => setTimeout(r, 30_000));
-    status = await api.messages.batches.retrieve(batch.id);
-    const c = status.request_counts;
-    onProgress(`batch ${batch.id}: ${c.succeeded} done, ${c.processing} processing, ${c.errored} errored`);
+  // Requests with images are large: one upload of ~1,000 of them (~150 MB) dropped the
+  // connection, so submit in chunks, then wait for all of them.
+  const ids: string[] = [];
+  for (let i = 0; i < requests.length; i += chunkSize) {
+    const batch = await api.messages.batches.create({ requests: requests.slice(i, i + chunkSize) }, { timeout: 10 * 60_000 });
+    ids.push(batch.id);
+    onProgress(`batch ${batch.id}: requests ${i + 1}–${Math.min(i + chunkSize, requests.length)} of ${requests.length} submitted`);
   }
   const out = new Map<string, Anthropic.Message | { error: string }>();
-  for await (const r of await api.messages.batches.results(batch.id)) {
-    if (r.result.type === 'succeeded') out.set(r.custom_id, r.result.message);
-    else out.set(r.custom_id, { error: r.result.type === 'errored' ? `errored: ${JSON.stringify(r.result.error).slice(0, 300)}` : r.result.type });
+  for (const id of ids) {
+    let status = await api.messages.batches.retrieve(id);
+    while (status.processing_status !== 'ended') {
+      await new Promise((r) => setTimeout(r, 30_000));
+      status = await api.messages.batches.retrieve(id);
+      const c = status.request_counts;
+      onProgress(`batch ${id}: ${c.succeeded} done, ${c.processing} processing, ${c.errored} errored`);
+    }
+    for await (const r of await api.messages.batches.results(id)) {
+      if (r.result.type === 'succeeded') out.set(r.custom_id, r.result.message);
+      else out.set(r.custom_id, { error: r.result.type === 'errored' ? `errored: ${JSON.stringify(r.result.error).slice(0, 300)}` : r.result.type });
+    }
   }
   return out;
 }

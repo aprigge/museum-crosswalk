@@ -31,8 +31,19 @@ export const GRAPHS = {
   crosswalk: namedNode(mint.graph('crosswalk')),
   derived: namedNode(mint.graph('derived')),
   alignments: namedNode(mint.graph('alignments')),
+  /** Suggestions made by a model from the images: labelled as such everywhere they appear. */
+  ai: namedNode(mint.graph('ai')),
   source: (s: string) => namedNode(mint.graph(s)),
 };
+
+/** Suggestions below this confidence are kept as annotations but don't reach search. */
+export const AI_MIN_CONFIDENCE = 0.6;
+
+export interface AiRun {
+  model: string;
+  promptVersion: string;
+  at: string;
+}
 
 export interface WorkInput {
   source: string;
@@ -70,6 +81,9 @@ export function conceptKey(ref: ConceptRef, concepts: Map<string, Concept>): { k
 export class GraphBuilder {
   readonly store = new oxigraph.Store();
   private conceptsSeen = new Set<string>();
+  /** Kept apart from conceptsSeen: an AI suggestion must not stop the museums' labels being added. */
+  private aiConceptsSeen = new Set<string>();
+  private runsSeen = new Set<string>();
   private peopleSeen = new Set<string>();
 
   constructor(
@@ -101,9 +115,11 @@ export class GraphBuilder {
       this.add(node, n('rdf', 'type'), n('skos', 'Concept'));
       this.add(node, n('skos', 'prefLabel'), literal(label, 'en'));
       for (const a of resolved?.aliases ?? []) this.add(node, n('skos', 'altLabel'), literal(a, 'en'));
-      if (ref.label && ref.label !== label) this.add(node, n('skos', 'altLabel'), literal(ref.label, 'en'));
       if (resolved) this.add(node, n('owl', 'sameAs'), n('wd', resolved.qid));
     }
+    // Every museum's own word for the concept is searchable ("child", "Children"), not just the
+    // first one seen; the store keeps one copy of each.
+    if (ref.label && ref.label !== label) this.add(node, n('skos', 'altLabel'), literal(ref.label, 'en'));
     // Record how each source URI reaches the concept: exactly, or through a broader Iconclass code.
     for (const uri of [ref.uri, ...ref.equivalents]) {
       const c = this.concepts.get(uri);
@@ -203,6 +219,48 @@ export class GraphBuilder {
       for (const m of this.people.get(r.personKey)?.movements ?? []) {
         this.add(work, n('mc', 'inferredStyle'), this.movementConcept(m), GRAPHS.derived);
       }
+    }
+  }
+
+  /**
+   * AI-suggested subjects for one work, in graph/ai. Every suggestion becomes an annotation
+   * (confidence, the visual evidence, the run that made it); only those at or above `minConfidence`
+   * also link the work to the concept directly, which is what search uses.
+   */
+  addAiSubjects(
+    source: string,
+    id: string,
+    suggestions: { qid: string; label: string; confidence: number; evidence: string }[],
+    run: AiRun,
+    minConfidence = AI_MIN_CONFIDENCE,
+  ) {
+    const g = GRAPHS.ai;
+    const work = namedNode(mint.work(source, id));
+    const runNode = namedNode(mint.aiRun(run.promptVersion));
+    if (!this.runsSeen.has(run.promptVersion)) {
+      this.runsSeen.add(run.promptVersion);
+      this.add(runNode, n('rdf', 'type'), n('prov', 'Activity'), g);
+      this.add(runNode, n('mc', 'model'), literal(run.model), g);
+      this.add(runNode, n('mc', 'promptVersion'), literal(run.promptVersion), g);
+      this.add(runNode, n('prov', 'endedAtTime'), dateTime(run.at), g);
+    }
+    for (const sgn of suggestions) {
+      const concept = namedNode(mint.concept(sgn.qid));
+      if (!this.aiConceptsSeen.has(sgn.qid)) {
+        // A concept only the AI uses (from the reviewed vocabulary extension) is defined here.
+        this.aiConceptsSeen.add(sgn.qid);
+        this.add(concept, n('rdf', 'type'), n('skos', 'Concept'), g);
+        this.add(concept, n('skos', 'prefLabel'), literal(sgn.label, 'en'), g);
+        this.add(concept, n('owl', 'sameAs'), n('wd', sgn.qid), g);
+      }
+      const note = namedNode(mint.aiSuggestion(`${source}-${id}`, sgn.qid));
+      this.add(note, n('rdf', 'type'), n('mc', 'AiSuggestion'), g);
+      this.add(note, n('mc', 'onWork'), work, g);
+      this.add(note, n('mc', 'concept'), concept, g);
+      this.add(note, n('mc', 'confidence'), dec(sgn.confidence), g);
+      this.add(note, n('mc', 'evidence'), literal(sgn.evidence), g);
+      this.add(note, n('prov', 'wasGeneratedBy'), runNode, g);
+      if (sgn.confidence >= minConfidence) this.add(work, n('mc', 'aiSubject'), concept, g);
     }
   }
 

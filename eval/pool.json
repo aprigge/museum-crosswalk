@@ -15,7 +15,8 @@
         "thumb": "https://www.artic.edu/iiif/2/c4648834-49dd-3589-6ac3-66d41fd574ef/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/44017",
         "seenIn": {
-          "baseline": "impression: styles, inferredStyles; landscape: title, subjects"
+          "baseline": "impression: styles, inferredStyles; landscape: title, subjects",
+          "with-ai": "impression: styles, inferredStyles; landscape: title, subjects, aiSubjects"
         }
       },
       {
@@ -30,7 +31,8 @@
         "thumb": "https://www.artic.edu/iiif/2/2bcffdac-951e-569f-8f05-f4c8e4228302/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/58984",
         "seenIn": {
-          "baseline": "impression: styles, inferredStyles; landscape: title, subjects"
+          "baseline": "impression: styles, inferredStyles; landscape: title, subjects",
+          "with-ai": "impression: styles, inferredStyles; landscape: title, subjects, aiSubjects"
         }
       },
       {
@@ -45,7 +47,8 @@
         "thumb": "https://www.artic.edu/iiif/2/bda9058b-5be6-37d0-e5a6-926584540757/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/100026",
         "seenIn": {
-          "baseline": "impression: styles, inferredStyles; landscape: title, subjects"
+          "baseline": "impression: styles, inferredStyles; landscape: title, subjects",
+          "with-ai": "impression: styles, inferredStyles; landscape: title, subjects, aiSubjects"
         }
       },
       {
@@ -59,7 +62,8 @@
         "begin": 1893,
         "url": "https://www.artic.edu/artworks/16464",
         "seenIn": {
-          "baseline": "impression: styles, subjects; landscape: subjects"
+          "baseline": "impression: styles, subjects; landscape: subjects",
+          "with-ai": "impression: styles, subjects; landscape: subjects"
         }
       },
       {
@@ -74,7 +78,8 @@
         "thumb": "https://www.artic.edu/iiif/2/ff5e49d3-448f-2aba-4461-6e36c1dc7dfa/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/120296",
         "seenIn": {
-          "baseline": "impression: styles, inferredStyles; landscape: subjects"
+          "baseline": "impression: styles, inferredStyles; landscape: subjects",
+          "with-ai": "impression: styles, inferredStyles; landscape: subjects, aiSubjects"
         }
       },
       {
@@ -89,7 +94,8 @@
         "thumb": "https://www.artic.edu/iiif/2/b4ee4891-5d7b-11ad-93df-2b64e34de991/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/105462",
         "seenIn": {
-          "baseline": "impression: styles, inferredStyles; landscape: subjects"
+          "baseline": "impression: styles, inferredStyles; landscape: subjects",
+          "with-ai": "impression: styles, inferredStyles; landscape: subjects, aiSubjects"
         }
       },
       {
@@ -104,7 +110,8 @@
         "thumb": "https://www.artic.edu/iiif/2/b2b488b9-99f2-d091-ead4-538f20a94592/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/25872",
         "seenIn": {
-          "baseline": "impression: styles, inferredStyles; landscape: subjects"
+          "baseline": "impression: styles, inferredStyles; landscape: subjects",
+          "with-ai": "impression: styles, inferredStyles; landscape: subjects, aiSubjects"
         }
       },
       {
@@ -119,7 +126,8 @@
         "thumb": "https://www.artic.edu/iiif/2/a9771181-0ff7-d85a-9ec5-d43f97426531/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/40549",
         "seenIn": {
-          "baseline": "impression: styles, inferredStyles; landscape: subjects"
+          "baseline": "impression: styles, inferredStyles; landscape: subjects",
+          "with-ai": "impression: styles, inferredStyles; landscape: subjects, aiSubjects"
         }
       },
       {
@@ -134,7 +142,8 @@
         "thumb": "https://www.artic.edu/iiif/2/72a76270-d6f4-e744-d47b-307873a8e8ff/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/28849",
         "seenIn": {
-          "baseline": "impression: styles, inferredStyles; landscape: subjects"
+          "baseline": "impression: styles, inferredStyles; landscape: subjects",
+          "with-ai": "impression: styles, inferredStyles; landscape: subjects, aiSubjects"
         }
       },
       {
@@ -164,7 +173,8 @@
         "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-17451-001.jpg",
         "url": "https://www.metmuseum.org/art/collection/search/435750",
         "seenIn": {
-          "baseline": "impression: inferredStyles; landscape: subjects"
+          "baseline": "impression: inferredStyles; landscape: subjects",
+          "with-ai": "impression: inferredStyles; landscape: subjects, aiSubjects"
         }
       },
       {
@@ -179,7 +189,68 @@
         "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-23422-001.jpg",
         "url": "https://www.metmuseum.org/art/collection/search/435751",
         "seenIn": {
-          "baseline": "impression: inferredStyles; landscape: subjects"
+          "baseline": "impression: inferredStyles; landscape: subjects",
+          "with-ai": "impression: inferredStyles; landscape: subjects"
+        }
+      },
+      {
+        "id": "aic-72801",
+        "title": "Icebound",
+        "artists": [
+          "John Henry Twachtman"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1889,
+        "thumb": "https://www.artic.edu/iiif/2/3ae75415-0551-ae17-c478-3b8687a6f246/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/72801",
+        "seenIn": {
+          "with-ai": "impression: styles, inferredStyles; landscape: subjects, aiSubjects"
+        }
+      },
+      {
+        "id": "rijksmuseum-200108883",
+        "title": "La Corniche near Monaco",
+        "artists": [
+          "Claude Monet"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1884,
+        "thumb": "https://iiif.micr.io/VPrnZ/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-1892--f66e7df764f1dd1ad1bae6533dc9faa8",
+        "seenIn": {
+          "with-ai": "impression: inferredStyles; landscape: aiSubjects"
+        }
+      },
+      {
+        "id": "rijksmuseum-20028459",
+        "title": "Young Woman under a Tree at Sunset, called 'Autumn'",
+        "artists": [
+          "Henri Fantin-Latour"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1855,
+        "thumb": "https://iiif.micr.io/KZNBm/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-2893--51229d971e2fd4288a2b629048f6e2bc",
+        "seenIn": {
+          "with-ai": "impression: inferredStyles; landscape: aiSubjects"
+        }
+      },
+      {
+        "id": "met-435626",
+        "title": "Porte de la Reine at Aigues-Mortes",
+        "artists": [
+          "Frédéric Bazille"
+        ],
+        "museum": "met",
+        "museumName": "The Met",
+        "begin": 1867,
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-17243-001.jpg",
+        "url": "https://www.metmuseum.org/art/collection/search/435626",
+        "seenIn": {
+          "with-ai": "impression: inferredStyles; landscape: aiSubjects"
         }
       }
     ]
@@ -200,7 +271,8 @@
         "thumb": "https://www.artic.edu/iiif/2/43228273-29dd-c5d7-b75c-536109504fc0/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/94239",
         "seenIn": {
-          "baseline": "landscape: title, subjects"
+          "baseline": "landscape: title, subjects",
+          "with-ai": "landscape: title, subjects, aiSubjects"
         }
       },
       {
@@ -215,7 +287,8 @@
         "thumb": "https://www.artic.edu/iiif/2/d906f17c-de41-07b3-c1d6-f26139f711a0/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/269229",
         "seenIn": {
-          "baseline": "landscape: title, subjects"
+          "baseline": "landscape: title, subjects",
+          "with-ai": "landscape: title, subjects, aiSubjects"
         }
       },
       {
@@ -230,7 +303,8 @@
         "thumb": "https://www.artic.edu/iiif/2/c6cea784-0e0d-e690-f2dd-c25b5d061bef/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/269230",
         "seenIn": {
-          "baseline": "landscape: title, subjects"
+          "baseline": "landscape: title, subjects",
+          "with-ai": "landscape: title, subjects, aiSubjects"
         }
       },
       {
@@ -245,7 +319,8 @@
         "thumb": "https://www.artic.edu/iiif/2/4493119c-7fca-5647-60e3-e96b0e242edc/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/74884",
         "seenIn": {
-          "baseline": "landscape: title, subjects"
+          "baseline": "landscape: title, subjects",
+          "with-ai": "landscape: title, subjects, aiSubjects"
         }
       },
       {
@@ -258,7 +333,8 @@
         "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-23285-001.jpg",
         "url": "https://www.metmuseum.org/art/collection/search/435684",
         "seenIn": {
-          "baseline": "landscape: title, subjects"
+          "baseline": "landscape: title, subjects",
+          "with-ai": "landscape: title, subjects, aiSubjects"
         }
       },
       {
@@ -273,7 +349,8 @@
         "thumb": "https://www.artic.edu/iiif/2/2a1e5636-e9c6-6b72-70ab-437f767f73db/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/269223",
         "seenIn": {
-          "baseline": "landscape: title, subjects"
+          "baseline": "landscape: title, subjects",
+          "with-ai": "landscape: title, subjects, aiSubjects"
         }
       },
       {
@@ -288,7 +365,8 @@
         "thumb": "https://www.artic.edu/iiif/2/3a34f988-f779-2e96-1786-8945b6b9c87d/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/874",
         "seenIn": {
-          "baseline": "landscape: title, subjects"
+          "baseline": "landscape: title, subjects",
+          "with-ai": "landscape: title, subjects, aiSubjects"
         }
       },
       {
@@ -303,7 +381,8 @@
         "thumb": "https://www.artic.edu/iiif/2/1501b057-0441-f1fa-e949-298b06ec6270/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/877",
         "seenIn": {
-          "baseline": "landscape: title, subjects"
+          "baseline": "landscape: title, subjects",
+          "with-ai": "landscape: title, subjects, aiSubjects"
         }
       },
       {
@@ -332,7 +411,8 @@
         "thumb": "https://www.artic.edu/iiif/2/59bd7c26-0294-662e-626c-fc1afb01f1c0/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/80567",
         "seenIn": {
-          "baseline": "landscape: title, subjects"
+          "baseline": "landscape: title, subjects",
+          "with-ai": "landscape: title, subjects, aiSubjects"
         }
       },
       {
@@ -347,7 +427,8 @@
         "thumb": "https://iiif.micr.io/Imiuq/full/400,/0/default.jpg",
         "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-2265--801d8b6ecf16f9b3328ab60aaf030f01",
         "seenIn": {
-          "baseline": "landscape: title, subjects"
+          "baseline": "landscape: title, subjects",
+          "with-ai": "landscape: title, subjects"
         }
       },
       {
@@ -362,7 +443,8 @@
         "thumb": "https://iiif.micr.io/rWxEH/full/400,/0/default.jpg",
         "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-3590--6e289b3835e78bf73a6dc8d3c689d3c2",
         "seenIn": {
-          "baseline": "landscape: title, subjects"
+          "baseline": "landscape: title, subjects",
+          "with-ai": "landscape: title, subjects, aiSubjects"
         }
       },
       {
@@ -377,7 +459,8 @@
         "thumb": "https://iiif.micr.io/xgeNA/full/400,/0/default.jpg",
         "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-1876--223fb86fa716a006907809b788c29495",
         "seenIn": {
-          "baseline": "landscape: title"
+          "baseline": "landscape: title",
+          "with-ai": "landscape: title, aiSubjects"
         }
       },
       {
@@ -392,7 +475,8 @@
         "thumb": "https://iiif.micr.io/mtrZE/full/400,/0/default.jpg",
         "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-2297--1c0acd3cab8d5a8e6b7044f3a9ca499f",
         "seenIn": {
-          "baseline": "landscape: title"
+          "baseline": "landscape: title",
+          "with-ai": "landscape: title, aiSubjects"
         }
       },
       {
@@ -422,7 +506,8 @@
         "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/ep29.100.598.R.jpg",
         "url": "https://www.metmuseum.org/art/collection/search/435965",
         "seenIn": {
-          "baseline": "landscape: title, subjects"
+          "baseline": "landscape: title, subjects",
+          "with-ai": "landscape: title, subjects, aiSubjects"
         }
       },
       {
@@ -437,7 +522,8 @@
         "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-16064-001.jpg",
         "url": "https://www.metmuseum.org/art/collection/search/435964",
         "seenIn": {
-          "baseline": "landscape: title, subjects"
+          "baseline": "landscape: title, subjects",
+          "with-ai": "landscape: title, subjects, aiSubjects"
         }
       },
       {
@@ -469,6 +555,96 @@
         "seenIn": {
           "baseline": "landscape: subjects"
         }
+      },
+      {
+        "id": "rijksmuseum-20026198",
+        "title": "Landscape by Moonlight",
+        "artists": [
+          "Richard Roland Holst"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1891,
+        "thumb": "https://iiif.micr.io/tDbwF/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-4738--37439214d89b6f7d9e56d50ba30269de",
+        "seenIn": {
+          "with-ai": "landscape: title, aiSubjects"
+        }
+      },
+      {
+        "id": "met-435880",
+        "title": "Rocks at Fontainebleau",
+        "artists": [
+          "Paul Cézanne"
+        ],
+        "museum": "met",
+        "museumName": "The Met",
+        "begin": 1890,
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-23704-001.jpg",
+        "url": "https://www.metmuseum.org/art/collection/search/435880",
+        "seenIn": {
+          "with-ai": "landscape: subjects, aiSubjects"
+        }
+      },
+      {
+        "id": "met-437980",
+        "title": "Cypresses",
+        "artists": [
+          "Vincent van Gogh"
+        ],
+        "museum": "met",
+        "museumName": "The Met",
+        "begin": 1889,
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP130999.jpg",
+        "url": "https://www.metmuseum.org/art/collection/search/437980",
+        "seenIn": {
+          "with-ai": "landscape: subjects, aiSubjects"
+        }
+      },
+      {
+        "id": "met-435874",
+        "title": "The House with the Cracked Walls",
+        "artists": [
+          "Paul Cézanne"
+        ],
+        "museum": "met",
+        "museumName": "The Met",
+        "begin": 1892,
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1943.jpg",
+        "url": "https://www.metmuseum.org/art/collection/search/435874",
+        "seenIn": {
+          "baseline": "landscape: subjects"
+        }
+      },
+      {
+        "id": "aic-44017",
+        "title": "Landscape at Chailly",
+        "artists": [
+          "Frédéric Bazille"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1865,
+        "thumb": "https://www.artic.edu/iiif/2/c4648834-49dd-3589-6ac3-66d41fd574ef/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/44017",
+        "seenIn": {
+          "with-ai": "landscape: title, subjects, aiSubjects"
+        }
+      },
+      {
+        "id": "met-437998",
+        "title": "Olive Trees",
+        "artists": [
+          "Vincent van Gogh"
+        ],
+        "museum": "met",
+        "museumName": "The Met",
+        "begin": 1853,
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1946.jpg",
+        "url": "https://www.metmuseum.org/art/collection/search/437998",
+        "seenIn": {
+          "with-ai": "landscape: subjects, aiSubjects"
+        }
       }
     ]
   },
@@ -488,7 +664,8 @@
         "thumb": "https://www.artic.edu/iiif/2/caf4fa39-e2e8-344a-542c-2d9a03ec9d4b/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/81557",
         "seenIn": {
-          "baseline": "seascape: title"
+          "baseline": "seascape: title",
+          "with-ai": "seascape: title"
         }
       },
       {
@@ -503,7 +680,8 @@
         "thumb": "https://iiif.micr.io/MFZUL/full/400,/0/default.jpg",
         "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-2884--5d271f8dbad243060138d186153ae175",
         "seenIn": {
-          "baseline": "seascape: title"
+          "baseline": "seascape: title",
+          "with-ai": "seascape: title"
         }
       },
       {
@@ -517,7 +695,8 @@
         "begin": 1896,
         "url": "https://www.artic.edu/artworks/25801",
         "seenIn": {
-          "baseline": "seascape: subjects"
+          "baseline": "seascape: subjects",
+          "with-ai": "seascape: subjects"
         }
       },
       {
@@ -532,7 +711,8 @@
         "thumb": "https://www.artic.edu/iiif/2/dc92647e-40e2-8a20-45d1-7ccf569e39da/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/250455",
         "seenIn": {
-          "baseline": "seascape: subjects"
+          "baseline": "seascape: subjects",
+          "with-ai": "seascape: subjects"
         }
       },
       {
@@ -547,7 +727,8 @@
         "thumb": "https://www.artic.edu/iiif/2/5d1261c0-11bd-eb2c-91c5-653aa98c2b5a/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/111632",
         "seenIn": {
-          "baseline": "seascape: subjects"
+          "baseline": "seascape: subjects",
+          "with-ai": "seascape: subjects"
         }
       },
       {
@@ -562,7 +743,8 @@
         "thumb": "https://www.artic.edu/iiif/2/6ca224d1-c3dc-a223-a127-0492301a2ebb/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/81540",
         "seenIn": {
-          "baseline": "seascape: subjects"
+          "baseline": "seascape: subjects",
+          "with-ai": "seascape: subjects"
         }
       }
     ]
@@ -583,7 +765,8 @@
         "thumb": "https://www.artic.edu/iiif/2/971bc877-e947-4331-5189-c5106c18dcc1/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/7489",
         "seenIn": {
-          "baseline": "portrait: title, subjects; portraiture: subjects"
+          "baseline": "portrait: title, subjects; portraiture: subjects",
+          "with-ai": "portrait: title, subjects, aiSubjects; portraiture: subjects, aiSubjects"
         }
       },
       {
@@ -598,7 +781,8 @@
         "thumb": "https://www.artic.edu/iiif/2/8cb9f5ea-c955-96fd-c2d6-c720b0dbf7d4/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/31285",
         "seenIn": {
-          "baseline": "portrait: title, subjects; portraiture: subjects"
+          "baseline": "portrait: title, subjects; portraiture: subjects",
+          "with-ai": "portrait: title, subjects, aiSubjects; portraiture: subjects, aiSubjects"
         }
       },
       {
@@ -613,7 +797,8 @@
         "thumb": "https://www.artic.edu/iiif/2/99c39143-a45c-5fa1-ddd3-0dae633fbb87/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/20686",
         "seenIn": {
-          "baseline": "portrait: title, subjects; portraiture: subjects"
+          "baseline": "portrait: title, subjects; portraiture: subjects",
+          "with-ai": "portrait: title, subjects, aiSubjects; portraiture: subjects, aiSubjects"
         }
       },
       {
@@ -626,7 +811,8 @@
         "thumb": "https://www.artic.edu/iiif/2/e1e8e197-93e7-bd6a-5870-36200c27445e/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/59779",
         "seenIn": {
-          "baseline": "portrait: title, subjects; portraiture: subjects"
+          "baseline": "portrait: title, subjects; portraiture: subjects",
+          "with-ai": "portrait: title, subjects, aiSubjects; portraiture: subjects, aiSubjects"
         }
       },
       {
@@ -641,7 +827,8 @@
         "thumb": "https://www.artic.edu/iiif/2/e30b27db-b263-abb6-0005-ff238f8fd530/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/80450",
         "seenIn": {
-          "baseline": "portrait: title, subjects; portraiture: subjects"
+          "baseline": "portrait: title, subjects; portraiture: subjects",
+          "with-ai": "portrait: title, subjects, aiSubjects; portraiture: subjects, aiSubjects"
         }
       },
       {
@@ -656,7 +843,8 @@
         "thumb": "https://www.artic.edu/iiif/2/f9aacbc6-191c-3725-85bf-198612a51d25/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/111478",
         "seenIn": {
-          "baseline": "portrait: title, subjects; portraiture: subjects"
+          "baseline": "portrait: title, subjects; portraiture: subjects",
+          "with-ai": "portrait: title, subjects, aiSubjects; portraiture: subjects, aiSubjects"
         }
       },
       {
@@ -671,7 +859,8 @@
         "thumb": "https://www.artic.edu/iiif/2/c2a4b60c-bf43-6a37-e001-a91cba741168/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/42949",
         "seenIn": {
-          "baseline": "portrait: title, subjects; portraiture: subjects"
+          "baseline": "portrait: title, subjects; portraiture: subjects",
+          "with-ai": "portrait: title, subjects, aiSubjects; portraiture: subjects, aiSubjects"
         }
       },
       {
@@ -686,7 +875,8 @@
         "thumb": "https://www.artic.edu/iiif/2/a56877d3-f08c-e469-2b4c-81823ea30e40/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/80604",
         "seenIn": {
-          "baseline": "portrait: title, subjects; portraiture: subjects"
+          "baseline": "portrait: title, subjects; portraiture: subjects",
+          "with-ai": "portrait: title, subjects, aiSubjects; portraiture: subjects, aiSubjects"
         }
       },
       {
@@ -701,7 +891,8 @@
         "thumb": "https://www.artic.edu/iiif/2/8bcc9188-1d3d-14be-6ae7-ed211e089c0f/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/79586",
         "seenIn": {
-          "baseline": "portrait: title, subjects; portraiture: subjects"
+          "baseline": "portrait: title, subjects; portraiture: subjects",
+          "with-ai": "portrait: title, subjects, aiSubjects"
         }
       },
       {
@@ -716,7 +907,8 @@
         "thumb": "https://www.artic.edu/iiif/2/40d69445-feb4-d6d5-bcad-bb142856f0a6/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/93342",
         "seenIn": {
-          "baseline": "portrait: title, subjects; portraiture: subjects"
+          "baseline": "portrait: title, subjects; portraiture: subjects",
+          "with-ai": "portrait: title, subjects, aiSubjects"
         }
       },
       {
@@ -731,7 +923,8 @@
         "thumb": "https://iiif.micr.io/wuKAf/full/400,/0/default.jpg",
         "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-1489--33a61b0d1f8312b6f300867c21aef25c",
         "seenIn": {
-          "baseline": "portrait: title"
+          "baseline": "portrait: title",
+          "with-ai": "portrait: title, aiSubjects; portraiture: aiSubjects"
         }
       },
       {
@@ -746,7 +939,8 @@
         "thumb": "https://iiif.micr.io/aTgoq/full/400,/0/default.jpg",
         "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-3019--6226b57e09ab0385038224f6ba647092",
         "seenIn": {
-          "baseline": "portrait: title"
+          "baseline": "portrait: title",
+          "with-ai": "portrait: title, aiSubjects; portraiture: aiSubjects"
         }
       },
       {
@@ -776,7 +970,8 @@
         "thumb": "https://iiif.micr.io/HaRYs/full/400,/0/default.jpg",
         "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-3266--c99511c7fd4f8eab313f3f8c3ba0f6ff",
         "seenIn": {
-          "baseline": "portrait: title"
+          "baseline": "portrait: title",
+          "with-ai": "portrait: title, aiSubjects; portraiture: aiSubjects"
         }
       },
       {
@@ -791,7 +986,8 @@
         "thumb": "https://iiif.micr.io/RwJsC/full/400,/0/default.jpg",
         "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-3044--ec325af5aedf85de19046ecd79203123",
         "seenIn": {
-          "baseline": "portrait: title"
+          "baseline": "portrait: title",
+          "with-ai": "portrait: title, aiSubjects; portraiture: aiSubjects"
         }
       },
       {
@@ -806,7 +1002,8 @@
         "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-17011-001.jpg",
         "url": "https://www.metmuseum.org/art/collection/search/435709",
         "seenIn": {
-          "baseline": "portrait: subjects; portraiture: subjects"
+          "baseline": "portrait: subjects; portraiture: subjects",
+          "with-ai": "portrait: subjects, aiSubjects; portraiture: subjects, aiSubjects"
         }
       },
       {
@@ -836,7 +1033,8 @@
         "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1408.jpg",
         "url": "https://www.metmuseum.org/art/collection/search/435870",
         "seenIn": {
-          "baseline": "portrait: subjects; portraiture: subjects"
+          "baseline": "portrait: subjects; portraiture: subjects",
+          "with-ai": "portrait: subjects, aiSubjects; portraiture: subjects, aiSubjects"
         }
       },
       {
@@ -851,7 +1049,8 @@
         "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1938.jpg",
         "url": "https://www.metmuseum.org/art/collection/search/435873",
         "seenIn": {
-          "baseline": "portrait: subjects; portraiture: subjects"
+          "baseline": "portrait: subjects; portraiture: subjects",
+          "with-ai": "portrait: subjects, aiSubjects; portraiture: subjects, aiSubjects"
         }
       },
       {
@@ -866,6 +1065,130 @@
         "url": "https://www.metmuseum.org/art/collection/search/435692",
         "seenIn": {
           "baseline": "portrait: subjects; portraiture: subjects"
+        }
+      },
+      {
+        "id": "aic-2823",
+        "title": "Portrait of a Boy",
+        "artists": [
+          "Eugène Carrière"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1886,
+        "thumb": "https://www.artic.edu/iiif/2/8f385b97-9e44-4b7b-a7ce-acd9bee0a732/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/2823",
+        "seenIn": {
+          "with-ai": "portrait: title, subjects, aiSubjects",
+          "baseline": "portrait: title, subjects"
+        }
+      },
+      {
+        "id": "aic-56464",
+        "title": "Portrait of Henry Field",
+        "artists": [
+          "Léon Bonnat"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1896,
+        "thumb": "https://www.artic.edu/iiif/2/95ad6bb3-00e0-cb37-fae0-915f5ebacf84/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/56464",
+        "seenIn": {
+          "with-ai": "portrait: title, subjects, aiSubjects",
+          "baseline": "portrait: title, subjects"
+        }
+      },
+      {
+        "id": "rijksmuseum-20028127",
+        "title": "Portrait of a Woman",
+        "artists": [
+          "Isaac Israëls"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1900,
+        "thumb": "https://iiif.micr.io/htSbb/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-2918--0735bc9198c59abd6a22afa254ccc2cb",
+        "seenIn": {
+          "with-ai": "portrait: title, aiSubjects; portraiture: aiSubjects"
+        }
+      },
+      {
+        "id": "met-435830",
+        "title": "Catharine Lorillard Wolfe (1828–1887)",
+        "artists": [
+          "Alexandre Cabanel"
+        ],
+        "museum": "met",
+        "museumName": "The Met",
+        "begin": 1876,
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DT11971.jpg",
+        "url": "https://www.metmuseum.org/art/collection/search/435830",
+        "seenIn": {
+          "with-ai": "portrait: subjects, aiSubjects; portraiture: subjects, aiSubjects",
+          "baseline": "portrait: subjects"
+        }
+      },
+      {
+        "id": "met-435849",
+        "title": "Mrs. William Astor (Caroline Webster Schermerhorn, 1831–1908)",
+        "artists": [
+          "Carolus-Duran"
+        ],
+        "museum": "met",
+        "museumName": "The Met",
+        "begin": 1890,
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DT204990.jpg",
+        "url": "https://www.metmuseum.org/art/collection/search/435849",
+        "seenIn": {
+          "with-ai": "portrait: subjects, aiSubjects",
+          "baseline": "portrait: subjects"
+        }
+      },
+      {
+        "id": "aic-111626",
+        "title": "Portrait of Mrs. Charles L. Hutchinson",
+        "artists": [
+          "Jules-Élie Delaunay"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1890,
+        "thumb": "https://www.artic.edu/iiif/2/c8566357-e7cc-3040-4d1d-2c67669f3456/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/111626",
+        "seenIn": {
+          "with-ai": "portrait: title, subjects, aiSubjects; portraiture: subjects, aiSubjects"
+        }
+      },
+      {
+        "id": "aic-14594",
+        "title": "Portrait of a Woman with a Black Fichu",
+        "artists": [
+          "Édouard Manet"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1873,
+        "thumb": "https://www.artic.edu/iiif/2/23c6c5c9-b8bf-8664-f547-4ddc932733f8/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/14594",
+        "seenIn": {
+          "with-ai": "portrait: title, subjects, aiSubjects; portraiture: subjects, aiSubjects"
+        }
+      },
+      {
+        "id": "met-436000",
+        "title": "Madame Frederic Breyer (Fanny Hélène Van Bruyssel, 1830–1894)",
+        "artists": [
+          "Gustave Courbet"
+        ],
+        "museum": "met",
+        "museumName": "The Met",
+        "begin": 1858,
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-17408-001.jpg",
+        "url": "https://www.metmuseum.org/art/collection/search/436000",
+        "seenIn": {
+          "with-ai": "portrait: subjects, aiSubjects; portraiture: subjects, aiSubjects"
         }
       }
     ]
@@ -886,7 +1209,8 @@
         "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14201-015.jpg",
         "url": "https://www.metmuseum.org/art/collection/search/435856",
         "seenIn": {
-          "baseline": "self-portrait: title, subjects; selfportrait: subjects"
+          "baseline": "self-portrait: title, subjects; selfportrait: subjects",
+          "with-ai": "self-portrait: title, subjects, aiSubjects; selfportrait: subjects, aiSubjects"
         }
       },
       {
@@ -901,7 +1225,8 @@
         "thumb": "https://www.artic.edu/iiif/2/7b7a6f39-1cd8-ea2f-9811-18b0e23edac0/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/11",
         "seenIn": {
-          "baseline": "self-portrait: title, subjects"
+          "baseline": "self-portrait: title, subjects",
+          "with-ai": "self-portrait: title, subjects, aiSubjects; selfportrait: aiSubjects"
         }
       },
       {
@@ -916,7 +1241,8 @@
         "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1502_cropped2.jpg",
         "url": "https://www.metmuseum.org/art/collection/search/436532",
         "seenIn": {
-          "baseline": "self-portrait: title, subjects; selfportrait: subjects"
+          "baseline": "self-portrait: title, subjects; selfportrait: subjects",
+          "with-ai": "self-portrait: title, subjects, aiSubjects; selfportrait: subjects, aiSubjects"
         }
       },
       {
@@ -931,7 +1257,8 @@
         "thumb": "https://www.artic.edu/iiif/2/eb2cd58f-db63-0236-cebd-7ca8e63eda54/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/110661",
         "seenIn": {
-          "baseline": "self-portrait: title, subjects"
+          "baseline": "self-portrait: title, subjects",
+          "with-ai": "self-portrait: title, subjects, aiSubjects; selfportrait: aiSubjects"
         }
       },
       {
@@ -946,7 +1273,8 @@
         "thumb": "https://www.artic.edu/iiif/2/47c5bcb8-62ef-e5d7-55e7-f5121f409a30/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/80607",
         "seenIn": {
-          "baseline": "self-portrait: title, subjects"
+          "baseline": "self-portrait: title, subjects",
+          "with-ai": "self-portrait: title, subjects, aiSubjects; selfportrait: aiSubjects"
         }
       },
       {
@@ -990,7 +1318,8 @@
         "thumb": "https://www.artic.edu/iiif/2/89fda02c-4a5d-1c23-b358-827cc99cea4e/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/136190",
         "seenIn": {
-          "baseline": "self-portrait: title"
+          "baseline": "self-portrait: title",
+          "with-ai": "self-portrait: title, aiSubjects; selfportrait: aiSubjects"
         }
       },
       {
@@ -1005,7 +1334,8 @@
         "thumb": "https://www.artic.edu/iiif/2/5cde06a4-c11d-ab9a-8016-a1644a967a89/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/40647",
         "seenIn": {
-          "baseline": "self-portrait: title"
+          "baseline": "self-portrait: title",
+          "with-ai": "self-portrait: title, aiSubjects; selfportrait: aiSubjects"
         }
       },
       {
@@ -1034,7 +1364,8 @@
         "thumb": "https://iiif.micr.io/bTpft/full/400,/0/default.jpg",
         "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-3262--72f97ac66c33f86b161cd51d62f7d365",
         "seenIn": {
-          "baseline": "self-portrait: title"
+          "baseline": "self-portrait: title",
+          "with-ai": "self-portrait: title, aiSubjects; selfportrait: aiSubjects"
         }
       },
       {
@@ -1049,7 +1380,8 @@
         "thumb": "https://iiif.micr.io/lXjDS/full/400,/0/default.jpg",
         "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-3263--6dae0bef16327eae1044e1adf0b3d7e9",
         "seenIn": {
-          "baseline": "self-portrait: title"
+          "baseline": "self-portrait: title",
+          "with-ai": "self-portrait: title, aiSubjects; selfportrait: aiSubjects"
         }
       },
       {
@@ -1064,7 +1396,8 @@
         "thumb": "https://iiif.micr.io/iQyYD/full/400,/0/default.jpg",
         "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-2818--d1a8f3aa2c03e106f71894b2393c314a",
         "seenIn": {
-          "baseline": "self-portrait: title"
+          "baseline": "self-portrait: title",
+          "with-ai": "self-portrait: title, aiSubjects; selfportrait: aiSubjects"
         }
       },
       {
@@ -1079,7 +1412,8 @@
         "thumb": "https://iiif.micr.io/pTBOr/full/400,/0/default.jpg",
         "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-5072--0a46f5d367fce80202611f805c8a638a",
         "seenIn": {
-          "baseline": "self-portrait: title"
+          "baseline": "self-portrait: title",
+          "with-ai": "self-portrait: title, aiSubjects; selfportrait: aiSubjects"
         }
       },
       {
@@ -1094,7 +1428,38 @@
         "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1503.jpg",
         "url": "https://www.metmuseum.org/art/collection/search/438722",
         "seenIn": {
-          "baseline": "self-portrait: title"
+          "baseline": "self-portrait: title",
+          "with-ai": "self-portrait: title"
+        }
+      },
+      {
+        "id": "rijksmuseum-20026259",
+        "title": "The Artist Painting a Cow in a Meadow",
+        "artists": [
+          "Hendrik van de Sande Bakhuyzen"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1850,
+        "thumb": "https://iiif.micr.io/kQOSv/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-4163--3da9be3392a6145767f3555f3fa7c591",
+        "seenIn": {
+          "with-ai": "self-portrait: aiSubjects"
+        }
+      },
+      {
+        "id": "rijksmuseum-200109378",
+        "title": "Self Portrait",
+        "artists": [
+          "Hendrik Hollander"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1876,
+        "thumb": "https://iiif.micr.io/wuKAf/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-1489--33a61b0d1f8312b6f300867c21aef25c",
+        "seenIn": {
+          "with-ai": "self-portrait: aiSubjects; selfportrait: aiSubjects"
         }
       }
     ]
@@ -1115,7 +1480,8 @@
         "thumb": "https://www.artic.edu/iiif/2/19967481-f358-3d6d-781e-9aa9187d6007/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/27170",
         "seenIn": {
-          "baseline": "still: title, subjects; still-life: subjects; life: title, subjects"
+          "baseline": "still: title, subjects; still-life: subjects; life: title, subjects",
+          "with-ai": "still: title, subjects, aiSubjects; still-life: subjects, aiSubjects; life: title, subjects, aiSubjects"
         }
       },
       {
@@ -1130,7 +1496,8 @@
         "thumb": "https://www.artic.edu/iiif/2/862608e5-8953-b1a3-53fd-ec009662516f/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/39492",
         "seenIn": {
-          "baseline": "still: title, subjects; still-life: subjects; life: title, subjects"
+          "baseline": "still: title, subjects; still-life: subjects; life: title, subjects",
+          "with-ai": "still: title, subjects, aiSubjects; still-life: subjects, aiSubjects; life: title, subjects, aiSubjects"
         }
       },
       {
@@ -1144,7 +1511,8 @@
         "begin": 1869,
         "url": "https://www.artic.edu/artworks/66149",
         "seenIn": {
-          "baseline": "still: title, subjects; still-life: subjects; life: title, subjects"
+          "baseline": "still: title, subjects; still-life: subjects; life: title, subjects",
+          "with-ai": "still: title, subjects; life: title, subjects"
         }
       },
       {
@@ -1173,7 +1541,8 @@
         "thumb": "https://www.artic.edu/iiif/2/0cbe27e8-2fec-3445-bc48-ce40a8f2dc25/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/44892",
         "seenIn": {
-          "baseline": "still: title, subjects; still-life: subjects; life: title, subjects"
+          "baseline": "still: title, subjects; still-life: subjects; life: title, subjects",
+          "with-ai": "still: title, subjects, aiSubjects; still-life: subjects, aiSubjects; life: title, subjects, aiSubjects"
         }
       },
       {
@@ -1188,7 +1557,8 @@
         "thumb": "https://www.artic.edu/iiif/2/94245750-c169-eb03-673e-cd03f718f885/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/72180",
         "seenIn": {
-          "baseline": "still: title, subjects; still-life: subjects; life: title, subjects"
+          "baseline": "still: title, subjects; still-life: subjects; life: title, subjects",
+          "with-ai": "still: title, subjects, aiSubjects; still-life: subjects, aiSubjects; life: title, subjects, aiSubjects"
         }
       },
       {
@@ -1217,7 +1587,8 @@
         "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14936-049.jpg",
         "url": "https://www.metmuseum.org/art/collection/search/435883",
         "seenIn": {
-          "baseline": "still: title, subjects; still-life: subjects; life: title, subjects"
+          "baseline": "still: title, subjects; still-life: subjects; life: title, subjects",
+          "with-ai": "still: title, subjects, aiSubjects; still-life: subjects, aiSubjects; life: title, subjects, aiSubjects"
         }
       },
       {
@@ -1230,7 +1601,8 @@
         "thumb": "https://www.artic.edu/iiif/2/2cd8ec20-4fc8-5084-dc2c-a1c06a9cc699/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/27952",
         "seenIn": {
-          "baseline": "still: title, subjects; still-life: subjects; life: title, subjects"
+          "baseline": "still: title, subjects; still-life: subjects; life: title, subjects",
+          "with-ai": "still: title, subjects, aiSubjects; still-life: subjects, aiSubjects; life: title, subjects, aiSubjects"
         }
       },
       {
@@ -1245,7 +1617,8 @@
         "thumb": "https://www.artic.edu/iiif/2/85d05bad-1205-6de5-e75c-ec9113a626ab/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/75507",
         "seenIn": {
-          "baseline": "still: title, subjects; still-life: subjects; life: title, subjects"
+          "baseline": "still: title, subjects; still-life: subjects; life: title, subjects",
+          "with-ai": "still: title, subjects, aiSubjects; still-life: subjects, aiSubjects; life: title, subjects, aiSubjects"
         }
       },
       {
@@ -1260,7 +1633,8 @@
         "thumb": "https://iiif.micr.io/PgZFa/full/400,/0/default.jpg",
         "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-1859--416cf89726a4d7eb1dbb231e080ac600",
         "seenIn": {
-          "baseline": "still: title; life: title"
+          "baseline": "still: title; life: title",
+          "with-ai": "still: title, aiSubjects; still-life: aiSubjects; life: title, aiSubjects"
         }
       },
       {
@@ -1275,7 +1649,8 @@
         "thumb": "https://iiif.micr.io/xqwrl/full/400,/0/default.jpg",
         "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-C-1561--6fda0e012a1a6434aacdbf01cb4245f2",
         "seenIn": {
-          "baseline": "still: title; life: title"
+          "baseline": "still: title; life: title",
+          "with-ai": "still: title, aiSubjects; still-life: aiSubjects; life: title, aiSubjects"
         }
       },
       {
@@ -1318,7 +1693,8 @@
         "thumb": "https://iiif.micr.io/MKeSy/full/400,/0/default.jpg",
         "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-1729--5e8f091c6b2934e41f2cce584bec3d8e",
         "seenIn": {
-          "baseline": "still: title; life: title"
+          "baseline": "still: title; life: title",
+          "with-ai": "still: title, aiSubjects; still-life: aiSubjects; life: title, aiSubjects"
         }
       },
       {
@@ -1333,7 +1709,8 @@
         "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP130322.jpg",
         "url": "https://www.metmuseum.org/art/collection/search/435884",
         "seenIn": {
-          "baseline": "still: title, subjects; still-life: subjects; life: title, subjects"
+          "baseline": "still: title, subjects; still-life: subjects; life: title, subjects",
+          "with-ai": "still: title, subjects, aiSubjects; still-life: subjects, aiSubjects; life: title, subjects, aiSubjects"
         }
       },
       {
@@ -1348,7 +1725,8 @@
         "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DT47.jpg",
         "url": "https://www.metmuseum.org/art/collection/search/435882",
         "seenIn": {
-          "baseline": "still: title, subjects; still-life: subjects; life: title, subjects"
+          "baseline": "still: title, subjects; still-life: subjects; life: title, subjects",
+          "with-ai": "still: title, subjects, aiSubjects; still-life: subjects, aiSubjects; life: title, subjects, aiSubjects"
         }
       },
       {
@@ -1363,7 +1741,8 @@
         "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-20100-001.jpg",
         "url": "https://www.metmuseum.org/art/collection/search/435881",
         "seenIn": {
-          "baseline": "still: title, subjects; still-life: subjects; life: title, subjects"
+          "baseline": "still: title, subjects; still-life: subjects; life: title, subjects",
+          "with-ai": "still: title, subjects, aiSubjects; still-life: subjects, aiSubjects; life: title, subjects, aiSubjects"
         }
       },
       {
@@ -1378,7 +1757,98 @@
         "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP346475.jpg",
         "url": "https://www.metmuseum.org/art/collection/search/436534",
         "seenIn": {
-          "baseline": "still: subjects; still-life: subjects; life: subjects"
+          "baseline": "still: subjects; still-life: subjects; life: subjects",
+          "with-ai": "still: subjects, aiSubjects; still-life: subjects, aiSubjects; life: subjects, aiSubjects"
+        }
+      },
+      {
+        "id": "aic-153797",
+        "title": "Still Life: Wood Tankard and Metal Pitcher",
+        "artists": [
+          "Paul Gauguin"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1880,
+        "thumb": "https://www.artic.edu/iiif/2/9964135a-b3df-8af6-5af9-9e6eac7a041d/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/153797",
+        "seenIn": {
+          "with-ai": "still: title, subjects, aiSubjects; still-life: subjects, aiSubjects; life: title, subjects, aiSubjects"
+        }
+      },
+      {
+        "id": "rijksmuseum-20027235",
+        "title": "Still Life with Flowers and Fruit",
+        "artists": [
+          "Gerardina Jacoba van de Sande Bakhuyzen"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1869,
+        "thumb": "https://iiif.micr.io/FNXKd/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-1002--aa3e1c823ea28204fb7ea0bbb5746919",
+        "seenIn": {
+          "with-ai": "still: title, aiSubjects; still-life: aiSubjects; life: title, aiSubjects"
+        }
+      },
+      {
+        "id": "rijksmuseum-20027479",
+        "title": "Still life with Wood Pigeon and Powder Horn",
+        "artists": [
+          "Guillaume Anne van der Brugghen"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1874,
+        "thumb": "https://iiif.micr.io/LncDh/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-2087--7f5972a83c872fb6be5174077dbe8ddc",
+        "seenIn": {
+          "with-ai": "still: title, aiSubjects; still-life: aiSubjects; life: title, aiSubjects"
+        }
+      },
+      {
+        "id": "met-436533",
+        "title": "Shoes",
+        "artists": [
+          "Vincent van Gogh"
+        ],
+        "museum": "met",
+        "museumName": "The Met",
+        "begin": 1888,
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1947.jpg",
+        "url": "https://www.metmuseum.org/art/collection/search/436533",
+        "seenIn": {
+          "with-ai": "still: subjects, aiSubjects; life: subjects, aiSubjects"
+        }
+      },
+      {
+        "id": "met-435866",
+        "title": "Apples",
+        "artists": [
+          "Paul Cézanne"
+        ],
+        "museum": "met",
+        "museumName": "The Met",
+        "begin": 1878,
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1940.jpg",
+        "url": "https://www.metmuseum.org/art/collection/search/435866",
+        "seenIn": {
+          "baseline": "still: subjects; life: subjects"
+        }
+      },
+      {
+        "id": "aic-72183",
+        "title": "Still Life with Fruit and Wine Jug",
+        "artists": [
+          "Adolphe Joseph Thomas Monticelli"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1874,
+        "thumb": "https://www.artic.edu/iiif/2/3c61e694-6a53-c3ad-8a1e-a2c5d3f25080/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/72183",
+        "seenIn": {
+          "with-ai": "still: title, subjects, aiSubjects; still-life: subjects, aiSubjects; life: title, subjects, aiSubjects"
         }
       }
     ]
@@ -1399,7 +1869,8 @@
         "thumb": "https://www.artic.edu/iiif/2/b55d836c-ee20-59f8-1f0c-a95e09905361/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/9",
         "seenIn": {
-          "baseline": "interior: title, subjects"
+          "baseline": "interior: title, subjects",
+          "with-ai": "interior: title, subjects, aiSubjects"
         }
       },
       {
@@ -1414,7 +1885,8 @@
         "thumb": "https://www.artic.edu/iiif/2/be4d3662-4e77-6e13-9ff9-bcdebff0f56d/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/39954",
         "seenIn": {
-          "baseline": "interior: title"
+          "baseline": "interior: title",
+          "with-ai": "interior: title, aiSubjects"
         }
       },
       {
@@ -1429,7 +1901,8 @@
         "thumb": "https://iiif.micr.io/nhcvh/full/400,/0/default.jpg",
         "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-3617--8e8a6792e80a6d429ede95bfdcfa0eaa",
         "seenIn": {
-          "baseline": "interior: title"
+          "baseline": "interior: title",
+          "with-ai": "interior: title, aiSubjects"
         }
       },
       {
@@ -1444,7 +1917,8 @@
         "thumb": "https://iiif.micr.io/UtGVZ/full/400,/0/default.jpg",
         "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-1563--78647acc89a1eaf38e909f7b53e7f411",
         "seenIn": {
-          "baseline": "interior: title"
+          "baseline": "interior: title",
+          "with-ai": "interior: title, aiSubjects"
         }
       },
       {
@@ -1459,7 +1933,8 @@
         "thumb": "https://iiif.micr.io/YrPvL/full/400,/0/default.jpg",
         "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-1076--5636460cdb1904c21b92e103e59ea25b",
         "seenIn": {
-          "baseline": "interior: title"
+          "baseline": "interior: title",
+          "with-ai": "interior: title, aiSubjects"
         }
       },
       {
@@ -1474,7 +1949,8 @@
         "thumb": "https://iiif.micr.io/hcYMA/full/400,/0/default.jpg",
         "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-4120--7469daa6ff1a3bd03af511c021536fb1",
         "seenIn": {
-          "baseline": "interior: title"
+          "baseline": "interior: title",
+          "with-ai": "interior: title"
         }
       },
       {
@@ -1489,7 +1965,8 @@
         "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DT219388.jpg",
         "url": "https://www.metmuseum.org/art/collection/search/435691",
         "seenIn": {
-          "baseline": "interior: subjects"
+          "baseline": "interior: subjects",
+          "with-ai": "interior: subjects, aiSubjects"
         }
       },
       {
@@ -1504,7 +1981,8 @@
         "thumb": "https://iiif.micr.io/DtBmd/full/400,/0/default.jpg",
         "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-C-1659--56f79fee928d0c6cf2c210fbc9c3e455",
         "seenIn": {
-          "baseline": "interior: subjects"
+          "baseline": "interior: subjects",
+          "with-ai": "interior: subjects, aiSubjects"
         }
       },
       {
@@ -1517,7 +1995,8 @@
         "thumb": "https://www.artic.edu/iiif/2/e1e8e197-93e7-bd6a-5870-36200c27445e/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/59779",
         "seenIn": {
-          "baseline": "interior: subjects"
+          "baseline": "interior: subjects",
+          "with-ai": "interior: subjects, aiSubjects"
         }
       },
       {
@@ -1532,7 +2011,8 @@
         "thumb": "https://www.artic.edu/iiif/2/2479fd9c-a90e-2f5a-b418-6ed505ab2bb9/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/210893",
         "seenIn": {
-          "baseline": "interior: subjects"
+          "baseline": "interior: subjects",
+          "with-ai": "interior: subjects, aiSubjects"
         }
       },
       {
@@ -1547,7 +2027,113 @@
         "thumb": "https://www.artic.edu/iiif/2/8f385b97-9e44-4b7b-a7ce-acd9bee0a732/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/2823",
         "seenIn": {
+          "baseline": "interior: subjects",
+          "with-ai": "interior: subjects, aiSubjects"
+        }
+      },
+      {
+        "id": "aic-28868",
+        "title": "Woman and Child (Silence)",
+        "artists": [],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1855,
+        "thumb": "https://www.artic.edu/iiif/2/c5fad810-883a-7322-edef-c096899023cb/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/28868",
+        "seenIn": {
+          "with-ai": "interior: subjects, aiSubjects",
           "baseline": "interior: subjects"
+        }
+      },
+      {
+        "id": "met-436002",
+        "title": "Woman with a Parrot",
+        "artists": [
+          "Gustave Courbet"
+        ],
+        "museum": "met",
+        "museumName": "The Met",
+        "begin": 1866,
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-17680-001.jpg",
+        "url": "https://www.metmuseum.org/art/collection/search/436002",
+        "seenIn": {
+          "with-ai": "interior: aiSubjects"
+        }
+      },
+      {
+        "id": "met-435876",
+        "title": "Madame Cézanne (Hortense Fiquet, 1850–1922) in a Red Dress",
+        "artists": [
+          "Paul Cézanne"
+        ],
+        "museum": "met",
+        "museumName": "The Met",
+        "begin": 1888,
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP320128.jpg",
+        "url": "https://www.metmuseum.org/art/collection/search/435876",
+        "seenIn": {
+          "with-ai": "interior: aiSubjects"
+        }
+      },
+      {
+        "id": "met-438722",
+        "title": "The Potato Peeler (reverse: Self-Portrait with a Straw Hat)",
+        "artists": [
+          "Vincent van Gogh"
+        ],
+        "museum": "met",
+        "museumName": "The Met",
+        "begin": 1885,
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1503.jpg",
+        "url": "https://www.metmuseum.org/art/collection/search/438722",
+        "seenIn": {
+          "with-ai": "interior: aiSubjects"
+        }
+      },
+      {
+        "id": "met-436531",
+        "title": "Peasant Woman Cooking by a Fireplace",
+        "artists": [
+          "Vincent van Gogh"
+        ],
+        "museum": "met",
+        "museumName": "The Met",
+        "begin": 1885,
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DT2163.jpg",
+        "url": "https://www.metmuseum.org/art/collection/search/436531",
+        "seenIn": {
+          "with-ai": "interior: aiSubjects"
+        }
+      },
+      {
+        "id": "aic-69137",
+        "title": "Persons in Louis XV Costumes",
+        "artists": [
+          "Adolphe Joseph Thomas Monticelli"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1875,
+        "thumb": "https://www.artic.edu/iiif/2/ef2f5040-c247-bc8a-5d06-431c09fbafd5/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/69137",
+        "seenIn": {
+          "with-ai": "interior: subjects, aiSubjects",
+          "baseline": "interior: subjects"
+        }
+      },
+      {
+        "id": "met-435976",
+        "title": "The Letter",
+        "artists": [
+          "Jean-Baptiste Camille Corot"
+        ],
+        "museum": "met",
+        "museumName": "The Met",
+        "begin": 1860,
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DT2129.jpg",
+        "url": "https://www.metmuseum.org/art/collection/search/435976",
+        "seenIn": {
+          "with-ai": "interior: aiSubjects"
         }
       }
     ]
@@ -1567,7 +2153,8 @@
         "begin": 1869,
         "url": "https://www.artic.edu/artworks/66149",
         "seenIn": {
-          "baseline": "flower: title, subjects"
+          "baseline": "flower: title, subjects",
+          "with-ai": "flower: title, subjects"
         }
       },
       {
@@ -1582,7 +2169,8 @@
         "thumb": "https://www.artic.edu/iiif/2/e72305c9-1a1c-8a36-7450-582619366338/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/138",
         "seenIn": {
-          "baseline": "flower: title, subjects"
+          "baseline": "flower: title, subjects",
+          "with-ai": "flower: title, subjects, aiSubjects"
         }
       },
       {
@@ -1597,7 +2185,8 @@
         "thumb": "https://www.artic.edu/iiif/2/d424c734-f5c1-5f89-3bb8-d83e4e0287e3/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/94240",
         "seenIn": {
-          "baseline": "flower: title, subjects"
+          "baseline": "flower: title, subjects",
+          "with-ai": "flower: title, subjects, aiSubjects"
         }
       },
       {
@@ -1612,7 +2201,8 @@
         "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DT7098.jpg",
         "url": "https://www.metmuseum.org/art/collection/search/436525",
         "seenIn": {
-          "baseline": "flower: title, subjects"
+          "baseline": "flower: title, subjects",
+          "with-ai": "flower: title, subjects, aiSubjects"
         }
       },
       {
@@ -1627,7 +2217,8 @@
         "thumb": "https://www.artic.edu/iiif/2/94245750-c169-eb03-673e-cd03f718f885/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/72180",
         "seenIn": {
-          "baseline": "flower: title, subjects"
+          "baseline": "flower: title, subjects",
+          "with-ai": "flower: title, subjects, aiSubjects"
         }
       },
       {
@@ -1642,7 +2233,8 @@
         "thumb": "https://iiif.micr.io/LQqcH/full/400,/0/default.jpg",
         "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-2895--aebbf52fd69b7cccd4d3ac5f4276ae55",
         "seenIn": {
-          "baseline": "flower: title"
+          "baseline": "flower: title",
+          "with-ai": "flower: title, aiSubjects"
         }
       },
       {
@@ -1656,7 +2248,8 @@
         "begin": 1865,
         "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-1471--28695e17b8142fb4c26b9401faab858a",
         "seenIn": {
-          "baseline": "flower: title"
+          "baseline": "flower: title",
+          "with-ai": "flower: title"
         }
       },
       {
@@ -1670,7 +2263,8 @@
         "begin": 1900,
         "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-3039--c13c2bf32d12dabc0ab6a4140aaccf88",
         "seenIn": {
-          "baseline": "flower: title"
+          "baseline": "flower: title",
+          "with-ai": "flower: title"
         }
       },
       {
@@ -1685,7 +2279,8 @@
         "thumb": "https://iiif.micr.io/FNXKd/full/400,/0/default.jpg",
         "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-1002--aa3e1c823ea28204fb7ea0bbb5746919",
         "seenIn": {
-          "baseline": "flower: title"
+          "baseline": "flower: title",
+          "with-ai": "flower: title, aiSubjects"
         }
       },
       {
@@ -1700,7 +2295,8 @@
         "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14936-045.jpg",
         "url": "https://www.metmuseum.org/art/collection/search/436527",
         "seenIn": {
-          "baseline": "flowering: title"
+          "baseline": "flowering: title",
+          "with-ai": "flower: aiSubjects; flowering: title"
         }
       },
       {
@@ -1729,7 +2325,8 @@
         "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP346474.jpg",
         "url": "https://www.metmuseum.org/art/collection/search/436528",
         "seenIn": {
-          "baseline": "flower: subjects"
+          "baseline": "flower: subjects",
+          "with-ai": "flower: subjects, aiSubjects"
         }
       },
       {
@@ -1744,7 +2341,8 @@
         "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-19279-001.jpg",
         "url": "https://www.metmuseum.org/art/collection/search/437984",
         "seenIn": {
-          "baseline": "flower: subjects"
+          "baseline": "flower: subjects",
+          "with-ai": "flower: subjects, aiSubjects"
         }
       },
       {
@@ -1759,7 +2357,8 @@
         "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1494.jpg",
         "url": "https://www.metmuseum.org/art/collection/search/436530",
         "seenIn": {
-          "baseline": "flower: subjects"
+          "baseline": "flower: subjects",
+          "with-ai": "flower: subjects, aiSubjects"
         }
       },
       {
@@ -1772,6 +2371,66 @@
         "url": "https://www.artic.edu/artworks/145675",
         "seenIn": {
           "baseline": "flowering: title"
+        }
+      },
+      {
+        "id": "rijksmuseum-20058995",
+        "title": "Anemones",
+        "artists": [
+          "Floris Verster"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1888,
+        "thumb": "https://iiif.micr.io/YEsge/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-4912--89a6572026fde26a3a1f1b70702669b1",
+        "seenIn": {
+          "with-ai": "flower: subjects, aiSubjects"
+        }
+      },
+      {
+        "id": "aic-80450",
+        "title": "Portrait of a Woman",
+        "artists": [
+          "Charles Cottet"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1895,
+        "thumb": "https://www.artic.edu/iiif/2/e30b27db-b263-abb6-0005-ff238f8fd530/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/80450",
+        "seenIn": {
+          "with-ai": "flower: subjects, aiSubjects"
+        }
+      },
+      {
+        "id": "rijksmuseum-20026804",
+        "title": "Ginger Pot wit Anemones",
+        "artists": [
+          "George Hendrik Breitner"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1900,
+        "thumb": "https://iiif.micr.io/YOJYv/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-3540--a26aff03adf88ade6975fd4d5c0e9381",
+        "seenIn": {
+          "with-ai": "flower: subjects, aiSubjects"
+        }
+      },
+      {
+        "id": "aic-18951",
+        "title": "Yellow Dancers (In the Wings)",
+        "artists": [
+          "Edgar Degas"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1874,
+        "thumb": "https://www.artic.edu/iiif/2/8fe022ba-e358-5cda-aa70-d96edd0b4f20/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/18951",
+        "seenIn": {
+          "with-ai": "flower: subjects, aiSubjects; lower: aiSubjects"
         }
       }
     ]
@@ -1792,7 +2451,8 @@
         "thumb": "https://www.artic.edu/iiif/2/d4e43d76-594b-ce65-c1a3-45c865624f70/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/45838",
         "seenIn": {
-          "baseline": "snow: title, subjects"
+          "baseline": "snow: title, subjects",
+          "with-ai": "snow: title, subjects, aiSubjects"
         }
       },
       {
@@ -1807,7 +2467,8 @@
         "thumb": "https://www.artic.edu/iiif/2/053f9be8-3617-c4ef-36cd-1deb5e13b288/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/20530",
         "seenIn": {
-          "baseline": "snow: title, subjects"
+          "baseline": "snow: title, subjects",
+          "with-ai": "snow: title, subjects, aiSubjects"
         }
       },
       {
@@ -1822,7 +2483,8 @@
         "thumb": "https://www.artic.edu/iiif/2/fa96ef54-c3b1-8f4d-390a-219f7bc64c4a/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/895",
         "seenIn": {
-          "baseline": "snow: title, subjects"
+          "baseline": "snow: title, subjects",
+          "with-ai": "snow: title, subjects, aiSubjects"
         }
       },
       {
@@ -1837,7 +2499,8 @@
         "thumb": "https://www.artic.edu/iiif/2/db36f74f-47d9-ad08-cdf9-b4b436e6d18c/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/16560",
         "seenIn": {
-          "baseline": "snow: title, subjects"
+          "baseline": "snow: title, subjects",
+          "with-ai": "snow: title, subjects, aiSubjects"
         }
       },
       {
@@ -1849,7 +2512,8 @@
         "begin": 1900,
         "url": "https://www.artic.edu/artworks/5825",
         "seenIn": {
-          "baseline": "snow: title"
+          "baseline": "snow: title",
+          "with-ai": "snow: title"
         }
       },
       {
@@ -1864,7 +2528,8 @@
         "thumb": "https://www.artic.edu/iiif/2/8e5f3773-9396-0fde-8547-490cca07b68b/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/62393",
         "seenIn": {
-          "baseline": "snow: title"
+          "baseline": "snow: title",
+          "with-ai": "snow: title, aiSubjects"
         }
       },
       {
@@ -1879,7 +2544,8 @@
         "thumb": "https://www.artic.edu/iiif/2/be0d3e50-a600-6f33-ea8f-16a34d892442/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/81545",
         "seenIn": {
-          "baseline": "snow: title"
+          "baseline": "snow: title",
+          "with-ai": "snow: title, aiSubjects"
         }
       },
       {
@@ -1894,7 +2560,8 @@
         "thumb": "https://iiif.micr.io/GYopX/full/400,/0/default.jpg",
         "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-4925--f57431d295d58e974263d60e7df70048",
         "seenIn": {
-          "baseline": "snow: title"
+          "baseline": "snow: title",
+          "with-ai": "snow: title, aiSubjects"
         }
       },
       {
@@ -1909,7 +2576,8 @@
         "thumb": "https://www.artic.edu/iiif/2/27c1d720-8ca5-79a4-5e51-530bf75c1591/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/111318",
         "seenIn": {
-          "baseline": "snow: subjects"
+          "baseline": "snow: subjects",
+          "with-ai": "snow: subjects, aiSubjects"
         }
       },
       {
@@ -1924,7 +2592,98 @@
         "thumb": "https://www.artic.edu/iiif/2/07d8dd31-d44b-85aa-ab09-ca51ee86f631/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/86998",
         "seenIn": {
-          "baseline": "snow: subjects"
+          "baseline": "snow: subjects",
+          "with-ai": "snow: subjects, aiSubjects"
+        }
+      },
+      {
+        "id": "rijksmuseum-200108944",
+        "title": "Dordrecht in the Winter",
+        "artists": [
+          "Siebe Johannes ten Cate"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1892,
+        "thumb": "https://iiif.micr.io/cJXML/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-2299--81b472105783b891a18da9a41d65eb91",
+        "seenIn": {
+          "with-ai": "snow: aiSubjects"
+        }
+      },
+      {
+        "id": "rijksmuseum-200107978",
+        "title": "A Frozen Canal near the River Maas",
+        "artists": [
+          "Andreas Schelfhout"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1867,
+        "thumb": "https://iiif.micr.io/RPjbD/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-1128--88c8e670d6671ca0ffe9308af74f6069",
+        "seenIn": {
+          "with-ai": "snow: aiSubjects"
+        }
+      },
+      {
+        "id": "rijksmuseum-200108310",
+        "title": "Winter in Amsterdam",
+        "artists": [
+          "George Hendrik Breitner"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1900,
+        "thumb": "https://iiif.micr.io/kPAhS/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-2979--e39aad660bbd065ac53a8ddc919b12d9",
+        "seenIn": {
+          "with-ai": "snow: aiSubjects"
+        }
+      },
+      {
+        "id": "rijksmuseum-20026477",
+        "title": "Life's Eventide",
+        "artists": [
+          "August Allebé"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1863,
+        "thumb": "https://iiif.micr.io/yjNhQ/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-1731--2decc23f4d4518ed69c854b2927cbe5d",
+        "seenIn": {
+          "with-ai": "snow: aiSubjects"
+        }
+      },
+      {
+        "id": "rijksmuseum-200383492",
+        "title": "Albumblad",
+        "artists": [
+          "Hui Nian"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1850,
+        "thumb": "https://iiif.micr.io/aUepB/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/AK-RAK-1991-1-N--9e8ea1db0d85121f85640e4ae2e9d632",
+        "seenIn": {
+          "with-ai": "snow: aiSubjects"
+        }
+      },
+      {
+        "id": "rijksmuseum-20026500",
+        "title": "A January Evening in the Woods of The Hague",
+        "artists": [
+          "Louis Apol"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1875,
+        "thumb": "https://iiif.micr.io/yePDN/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-1164--b01d7ff9da48f9b1f114e54b57931dcf",
+        "seenIn": {
+          "with-ai": "snow: aiSubjects"
         }
       }
     ]
@@ -1945,7 +2704,8 @@
         "thumb": "https://www.artic.edu/iiif/2/24f5a9ff-fe25-e1be-65f5-d65f2d509ad4/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/28853",
         "seenIn": {
-          "baseline": "boat: title, subjects"
+          "baseline": "boat: title, subjects",
+          "with-ai": "boat: title, subjects, aiSubjects"
         }
       },
       {
@@ -1958,7 +2718,8 @@
         "thumb": "https://www.artic.edu/iiif/2/fe455a66-c3c0-7cd0-32e2-b8fd146bb110/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/209910",
         "seenIn": {
-          "baseline": "boat: title, subjects"
+          "baseline": "boat: title, subjects",
+          "with-ai": "boat: title, subjects, aiSubjects"
         }
       },
       {
@@ -1973,7 +2734,8 @@
         "thumb": "https://www.artic.edu/iiif/2/6e7e8593-f529-4b73-9f96-75ff24623fe9/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/86297",
         "seenIn": {
-          "baseline": "boat: title, subjects"
+          "baseline": "boat: title, subjects",
+          "with-ai": "boat: title, subjects, aiSubjects"
         }
       },
       {
@@ -1988,7 +2750,8 @@
         "thumb": "https://www.artic.edu/iiif/2/eaf98472-70cc-0005-c2c9-6109f549f24a/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/59927",
         "seenIn": {
-          "baseline": "boat: title, subjects"
+          "baseline": "boat: title, subjects",
+          "with-ai": "boat: title, subjects, aiSubjects"
         }
       },
       {
@@ -2003,7 +2766,8 @@
         "thumb": "https://www.artic.edu/iiif/2/6ca224d1-c3dc-a223-a127-0492301a2ebb/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/81540",
         "seenIn": {
-          "baseline": "boat: title, subjects"
+          "baseline": "boat: title, subjects",
+          "with-ai": "boat: title, subjects, aiSubjects"
         }
       },
       {
@@ -2018,7 +2782,8 @@
         "thumb": "https://www.artic.edu/iiif/2/56a4af78-1d23-3e2a-6119-8aa47e0cf285/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/121377",
         "seenIn": {
-          "baseline": "boat: title"
+          "baseline": "boat: title",
+          "with-ai": "boat: title, aiSubjects"
         }
       },
       {
@@ -2033,7 +2798,8 @@
         "thumb": "https://iiif.micr.io/VVFrn/full/400,/0/default.jpg",
         "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-2456--990b47153748fe97f50eef1857692644",
         "seenIn": {
-          "baseline": "boat: title"
+          "baseline": "boat: title",
+          "with-ai": "boat: title, aiSubjects"
         }
       },
       {
@@ -2048,7 +2814,8 @@
         "thumb": "https://iiif.micr.io/yYtAQ/full/400,/0/default.jpg",
         "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-2993--760f2d7afe3b9acd95c8f9ea4ed05ba6",
         "seenIn": {
-          "baseline": "boat: title"
+          "baseline": "boat: title",
+          "with-ai": "boat: title, aiSubjects"
         }
       },
       {
@@ -2063,7 +2830,8 @@
         "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP332566.jpg",
         "url": "https://www.metmuseum.org/art/collection/search/435966",
         "seenIn": {
-          "baseline": "boat: subjects; boatman: title"
+          "baseline": "boat: subjects; boatman: title",
+          "with-ai": "boat: subjects, aiSubjects; boatman: title"
         }
       },
       {
@@ -2078,7 +2846,8 @@
         "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/EP603.jpg",
         "url": "https://www.metmuseum.org/art/collection/search/435599",
         "seenIn": {
-          "baseline": "boat: subjects; boatmen: title"
+          "baseline": "boat: subjects; boatmen: title",
+          "with-ai": "boat: subjects; boatmen: title"
         }
       },
       {
@@ -2093,7 +2862,8 @@
         "thumb": "https://iiif.micr.io/CeXfO/full/400,/0/default.jpg",
         "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-2459--abf40c0783a4c6210390d92e79a3d79e",
         "seenIn": {
-          "baseline": "boat: subjects"
+          "baseline": "boat: subjects",
+          "with-ai": "boat: subjects"
         }
       },
       {
@@ -2108,7 +2878,8 @@
         "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-24153-001.jpg",
         "url": "https://www.metmuseum.org/art/collection/search/435969",
         "seenIn": {
-          "baseline": "boat: subjects"
+          "baseline": "boat: subjects",
+          "with-ai": "boat: subjects"
         }
       },
       {
@@ -2123,7 +2894,8 @@
         "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14936-055.jpg",
         "url": "https://www.metmuseum.org/art/collection/search/435983",
         "seenIn": {
-          "baseline": "boat: subjects"
+          "baseline": "boat: subjects",
+          "with-ai": "boat: subjects"
         }
       },
       {
@@ -2138,7 +2910,68 @@
         "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-47457-001.jpg",
         "url": "https://www.metmuseum.org/art/collection/search/435683",
         "seenIn": {
-          "baseline": "boat: subjects"
+          "baseline": "boat: subjects",
+          "with-ai": "boat: subjects, aiSubjects"
+        }
+      },
+      {
+        "id": "aic-15279",
+        "title": "The Boathouse",
+        "artists": [
+          "Luigi Loir"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1880,
+        "thumb": "https://www.artic.edu/iiif/2/12514262-7163-403d-80a2-2c64e57325f2/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/15279",
+        "seenIn": {
+          "with-ai": "boat: subjects, aiSubjects; boathouse: title"
+        }
+      },
+      {
+        "id": "rijksmuseum-20027565",
+        "title": "Houses on the Prins Hendrikkade, Amsterdam, on a Misty Day",
+        "artists": [
+          "Jacob Maris"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1899,
+        "thumb": "https://iiif.micr.io/RssvY/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-2472--5d7cbeb6c0c93de05061c4a9ec9c68a9",
+        "seenIn": {
+          "with-ai": "boat: aiSubjects"
+        }
+      },
+      {
+        "id": "rijksmuseum-20028526",
+        "title": "Houses on a Waterway near Crooswijk",
+        "artists": [
+          "Johan Jongkind"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1874,
+        "thumb": "https://iiif.micr.io/GAVep/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-3317--de875e4220814f8480cb448505731303",
+        "seenIn": {
+          "with-ai": "boat: aiSubjects"
+        }
+      },
+      {
+        "id": "rijksmuseum-20028250",
+        "title": "Ships in Dull Weather",
+        "artists": [
+          "Jacob Maris"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1877,
+        "thumb": "https://iiif.micr.io/XjXcy/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-3176--ff952d047df7c3d08b4419af1b05cb4f",
+        "seenIn": {
+          "with-ai": "boat: aiSubjects"
         }
       }
     ]
@@ -2159,7 +2992,8 @@
         "thumb": "https://www.artic.edu/iiif/2/c66cff23-22a1-e440-b390-ef4e68facd6a/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/64412",
         "seenIn": {
-          "baseline": "cow: title, subjects"
+          "baseline": "cow: title, subjects",
+          "with-ai": "cow: title, subjects, aiSubjects"
         }
       },
       {
@@ -2174,7 +3008,8 @@
         "thumb": "https://www.artic.edu/iiif/2/c2bf35ea-3878-ffd1-18c3-311f13db873a/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/86298",
         "seenIn": {
-          "baseline": "cow: title, subjects"
+          "baseline": "cow: title, subjects",
+          "with-ai": "cow: title, subjects, aiSubjects"
         }
       },
       {
@@ -2189,7 +3024,8 @@
         "thumb": "https://iiif.micr.io/LfHWQ/full/400,/0/default.jpg",
         "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-4731--fdbb130a854e594c24920b53c9e1b62d",
         "seenIn": {
-          "baseline": "cow: title, subjects"
+          "baseline": "cow: title, subjects",
+          "with-ai": "cow: title, subjects, aiSubjects"
         }
       },
       {
@@ -2204,7 +3040,8 @@
         "thumb": "https://iiif.micr.io/xbUdT/full/400,/0/default.jpg",
         "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-1887--b693718d9f104f5114c9393333b4030b",
         "seenIn": {
-          "baseline": "cow: title, subjects"
+          "baseline": "cow: title, subjects",
+          "with-ai": "cow: title, subjects, aiSubjects"
         }
       },
       {
@@ -2219,7 +3056,8 @@
         "thumb": "https://iiif.micr.io/EFHQK/full/400,/0/default.jpg",
         "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-4682--4c715ad2cdf2176ebb4066849ed809b7",
         "seenIn": {
-          "baseline": "cow: title, subjects"
+          "baseline": "cow: title, subjects",
+          "with-ai": "cow: title, subjects, aiSubjects"
         }
       },
       {
@@ -2234,7 +3072,8 @@
         "thumb": "https://iiif.micr.io/kQOSv/full/400,/0/default.jpg",
         "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-4163--3da9be3392a6145767f3555f3fa7c591",
         "seenIn": {
-          "baseline": "cow: title, subjects"
+          "baseline": "cow: title, subjects",
+          "with-ai": "cow: title, subjects, aiSubjects"
         }
       },
       {
@@ -2249,7 +3088,8 @@
         "thumb": "https://www.artic.edu/iiif/2/ea5875fc-48ab-037d-3eec-86ccf6e9be60/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/72398",
         "seenIn": {
-          "baseline": "cow: title"
+          "baseline": "cow: title",
+          "with-ai": "cow: title, aiSubjects"
         }
       },
       {
@@ -2264,7 +3104,8 @@
         "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DT2579.jpg",
         "url": "https://www.metmuseum.org/art/collection/search/435703",
         "seenIn": {
-          "baseline": "cow: subjects"
+          "baseline": "cow: subjects",
+          "with-ai": "cow: subjects, aiSubjects"
         }
       },
       {
@@ -2279,7 +3120,8 @@
         "thumb": "https://www.artic.edu/iiif/2/a8258ace-3df9-7232-73c0-157a0f916e1f/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/899",
         "seenIn": {
-          "baseline": "cow: subjects"
+          "baseline": "cow: subjects",
+          "with-ai": "cow: subjects, aiSubjects"
         }
       },
       {
@@ -2294,7 +3136,8 @@
         "thumb": "https://iiif.micr.io/ghNzO/full/400,/0/default.jpg",
         "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-1185--8ae6d830b1e4031b073d7d1d1f00da5f",
         "seenIn": {
-          "baseline": "cow: subjects"
+          "baseline": "cow: subjects",
+          "with-ai": "cow: subjects, aiSubjects"
         }
       },
       {
@@ -2308,6 +3151,22 @@
         "begin": 1885,
         "thumb": "https://www.artic.edu/iiif/2/efdd5540-5579-8761-fd1d-af318f65a0a6/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/39542",
+        "seenIn": {
+          "baseline": "cow: subjects",
+          "with-ai": "cow: subjects, aiSubjects"
+        }
+      },
+      {
+        "id": "rijksmuseum-200108227",
+        "title": "Meadow near Oosterbeek",
+        "artists": [
+          "Gerard Bilders"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1860,
+        "thumb": "https://iiif.micr.io/CELNr/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-2298--60c38c68dde3f4f769ebd11f6ebe8161",
         "seenIn": {
           "baseline": "cow: subjects"
         }
@@ -2330,7 +3189,8 @@
         "thumb": "https://www.artic.edu/iiif/2/5f575140-664b-74a0-ebdb-69823dfd7bab/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/263513",
         "seenIn": {
-          "baseline": "children: title, subjects"
+          "baseline": "children: title, subjects",
+          "with-ai": "children: title, subjects, aiSubjects"
         }
       },
       {
@@ -2344,7 +3204,8 @@
         "begin": 1885,
         "url": "https://www.artic.edu/artworks/102975",
         "seenIn": {
-          "baseline": "children: title, subjects"
+          "baseline": "children: title, subjects",
+          "with-ai": "children: title, subjects"
         }
       },
       {
@@ -2358,7 +3219,8 @@
         "begin": 1855,
         "url": "https://www.artic.edu/artworks/192607",
         "seenIn": {
-          "baseline": "children: title, subjects"
+          "baseline": "children: title, subjects",
+          "with-ai": "children: title, subjects"
         }
       },
       {
@@ -2373,7 +3235,8 @@
         "thumb": "https://iiif.micr.io/xJhjc/full/400,/0/default.jpg",
         "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-2296--607c01645849115b4b0ee7665526a1d7",
         "seenIn": {
-          "baseline": "children: title"
+          "baseline": "children: title",
+          "with-ai": "children: title, aiSubjects"
         }
       },
       {
@@ -2388,7 +3251,8 @@
         "thumb": "https://iiif.micr.io/nnjuR/full/400,/0/default.jpg",
         "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-2382--98cc90bcb55dfc39dda04341bc8414c1",
         "seenIn": {
-          "baseline": "children: title"
+          "baseline": "children: title",
+          "with-ai": "children: title, aiSubjects"
         }
       },
       {
@@ -2403,7 +3267,8 @@
         "thumb": "https://www.artic.edu/iiif/2/4d682c85-3e87-2998-5e66-6628d4ddf9f1/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/111057",
         "seenIn": {
-          "baseline": "children: subjects"
+          "baseline": "children: subjects",
+          "with-ai": "children: subjects, aiSubjects"
         }
       },
       {
@@ -2416,7 +3281,8 @@
         "thumb": "https://www.artic.edu/iiif/2/c5fad810-883a-7322-edef-c096899023cb/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/28868",
         "seenIn": {
-          "baseline": "children: subjects"
+          "baseline": "children: subjects",
+          "with-ai": "children: subjects, aiSubjects"
         }
       },
       {
@@ -2446,7 +3312,8 @@
         "thumb": "https://www.artic.edu/iiif/2/fabda58b-7ed5-1af7-92c9-6bf823b71cf5/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/25810",
         "seenIn": {
-          "baseline": "children: subjects"
+          "baseline": "children: subjects",
+          "with-ai": "children: subjects, aiSubjects"
         }
       },
       {
@@ -2461,7 +3328,8 @@
         "thumb": "https://www.artic.edu/iiif/2/efe1099f-d131-b964-b1f4-7eec47b9af0f/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/39493",
         "seenIn": {
-          "baseline": "children: subjects"
+          "baseline": "children: subjects",
+          "with-ai": "children: subjects, aiSubjects"
         }
       },
       {
@@ -2476,7 +3344,8 @@
         "thumb": "https://iiif.micr.io/StEbd/full/400,/0/default.jpg",
         "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-3095--011a7bfeeb53aa53dfb28e04901da445",
         "seenIn": {
-          "baseline": "children: subjects"
+          "baseline": "children: subjects",
+          "with-ai": "children: subjects"
         }
       },
       {
@@ -2491,7 +3360,8 @@
         "thumb": "https://iiif.micr.io/sApKr/full/400,/0/default.jpg",
         "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-3081--68d24ba0a94b4e49741235f4ac35eb8b",
         "seenIn": {
-          "baseline": "children: subjects"
+          "baseline": "children: subjects",
+          "with-ai": "children: subjects"
         }
       },
       {
@@ -2506,7 +3376,8 @@
         "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DT234058.jpg",
         "url": "https://www.metmuseum.org/art/collection/search/435711",
         "seenIn": {
-          "baseline": "children: subjects"
+          "baseline": "children: subjects",
+          "with-ai": "children: subjects"
         }
       },
       {
@@ -2521,7 +3392,8 @@
         "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP124808.jpg",
         "url": "https://www.metmuseum.org/art/collection/search/436526",
         "seenIn": {
-          "baseline": "children: subjects"
+          "baseline": "children: subjects",
+          "with-ai": "children: subjects"
         }
       },
       {
@@ -2536,7 +3408,8 @@
         "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-16481-001.jpg",
         "url": "https://www.metmuseum.org/art/collection/search/435752",
         "seenIn": {
-          "baseline": "children: subjects"
+          "baseline": "children: subjects",
+          "with-ai": "children: subjects, aiSubjects"
         }
       },
       {
@@ -2550,7 +3423,83 @@
         "begin": 1877,
         "url": "https://www.metmuseum.org/art/collection/search/435653",
         "seenIn": {
+          "baseline": "children: subjects",
+          "with-ai": "children: subjects"
+        }
+      },
+      {
+        "id": "aic-30368",
+        "title": "Colonnade and Gardens of the Medici Palace",
+        "artists": [],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1870,
+        "thumb": "https://www.artic.edu/iiif/2/9d104816-e515-03d6-c4b1-174c1c80166f/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/30368",
+        "seenIn": {
+          "with-ai": "children: subjects",
           "baseline": "children: subjects"
+        }
+      },
+      {
+        "id": "aic-29392",
+        "title": "Boy with Pitcher (La Régalade)",
+        "artists": [
+          "Édouard Manet"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1862,
+        "thumb": "https://www.artic.edu/iiif/2/db370ca6-29bc-af9e-bc57-1d3126076d0e/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/29392",
+        "seenIn": {
+          "with-ai": "children: subjects",
+          "baseline": "children: subjects"
+        }
+      },
+      {
+        "id": "aic-2823",
+        "title": "Portrait of a Boy",
+        "artists": [
+          "Eugène Carrière"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1886,
+        "thumb": "https://www.artic.edu/iiif/2/8f385b97-9e44-4b7b-a7ce-acd9bee0a732/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/2823",
+        "seenIn": {
+          "with-ai": "children: subjects, aiSubjects"
+        }
+      },
+      {
+        "id": "rijksmuseum-20026479",
+        "title": "Portrait of a Boy",
+        "artists": [
+          "August Allebé"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1856,
+        "thumb": "https://iiif.micr.io/HaRYs/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-3266--c99511c7fd4f8eab313f3f8c3ba0f6ff",
+        "seenIn": {
+          "with-ai": "children: aiSubjects"
+        }
+      },
+      {
+        "id": "met-435975",
+        "title": "A Lane through the Trees",
+        "artists": [
+          "Jean-Baptiste Camille Corot"
+        ],
+        "museum": "met",
+        "museumName": "The Met",
+        "begin": 1870,
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP332562.jpg",
+        "url": "https://www.metmuseum.org/art/collection/search/435975",
+        "seenIn": {
+          "with-ai": "children: aiSubjects"
         }
       }
     ]
@@ -2571,7 +3520,8 @@
         "thumb": "https://www.artic.edu/iiif/2/ee3eaad2-d2f4-5f04-9fb0-db581bc1d06d/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/64745",
         "seenIn": {
-          "baseline": "night: title"
+          "baseline": "night: title",
+          "with-ai": "night: title, aiSubjects"
         }
       },
       {
@@ -2586,7 +3536,8 @@
         "thumb": "https://www.artic.edu/iiif/2/5bae42a0-6a4d-40a3-d8ef-065b055c675a/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/20624",
         "seenIn": {
-          "baseline": "night: title"
+          "baseline": "night: title",
+          "with-ai": "night: title"
         }
       },
       {
@@ -2601,7 +3552,8 @@
         "thumb": "https://www.artic.edu/iiif/2/d7df2633-3b40-f570-c906-211503a37cde/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/154235",
         "seenIn": {
-          "baseline": "night: subjects"
+          "baseline": "night: subjects",
+          "with-ai": "night: subjects, aiSubjects"
         }
       },
       {
@@ -2616,7 +3568,8 @@
         "thumb": "https://www.artic.edu/iiif/2/156aaed6-fe3c-a13c-f39e-55f381205929/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/14664",
         "seenIn": {
-          "baseline": "night: subjects; nightlife: subjects"
+          "baseline": "night: subjects; nightlife: subjects",
+          "with-ai": "night: subjects; nightlife: subjects"
         }
       },
       {
@@ -2631,7 +3584,8 @@
         "thumb": "https://www.artic.edu/iiif/2/4425984b-e241-6413-1404-cdac0fb06518/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/64754",
         "seenIn": {
-          "baseline": "night: subjects"
+          "baseline": "night: subjects",
+          "with-ai": "night: subjects"
         }
       },
       {
@@ -2646,7 +3600,8 @@
         "thumb": "https://www.artic.edu/iiif/2/ad3280c6-611a-c136-29b8-8f303a02f416/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/887",
         "seenIn": {
-          "baseline": "night: subjects"
+          "baseline": "night: subjects",
+          "with-ai": "night: subjects"
         }
       },
       {
@@ -2659,7 +3614,8 @@
         "thumb": "https://www.artic.edu/iiif/2/c5fad810-883a-7322-edef-c096899023cb/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/28868",
         "seenIn": {
-          "baseline": "night: subjects"
+          "baseline": "night: subjects",
+          "with-ai": "night: subjects"
         }
       },
       {
@@ -2689,7 +3645,8 @@
         "thumb": "https://www.artic.edu/iiif/2/f67d49b0-90a6-7aa3-29ab-77e5d1e9fd9c/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/110867",
         "seenIn": {
-          "baseline": "night: subjects"
+          "baseline": "night: subjects",
+          "with-ai": "night: subjects, aiSubjects"
         }
       },
       {
@@ -2704,7 +3661,128 @@
         "thumb": "https://www.artic.edu/iiif/2/585675bb-6b89-3c49-eb28-4bc4b2bbe500/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/234877",
         "seenIn": {
+          "baseline": "night: subjects",
+          "with-ai": "night: subjects, aiSubjects"
+        }
+      },
+      {
+        "id": "aic-56905",
+        "title": "Nocturne: Blue and Gold—Southampton Water",
+        "artists": [
+          "James McNeill Whistler"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1872,
+        "thumb": "https://www.artic.edu/iiif/2/50034c7f-ce51-00f1-430e-a6f7efc233fc/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/56905",
+        "seenIn": {
+          "with-ai": "night: subjects, aiSubjects"
+        }
+      },
+      {
+        "id": "rijksmuseum-20027561",
+        "title": "Vaart bij maanlicht",
+        "artists": [
+          "Jacob Maris"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1882,
+        "thumb": "https://iiif.micr.io/yArJe/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-2465--c95062abb3e8565335c4f670c8359486",
+        "seenIn": {
+          "with-ai": "night: aiSubjects"
+        }
+      },
+      {
+        "id": "rijksmuseum-200752923",
+        "title": "Henri van Booven as a Young Priest",
+        "artists": [
+          "Karel de Nerée tot Babberich"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1900,
+        "thumb": "https://iiif.micr.io/MlFyW/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-5063--887e3d82e22b3c61490f0408f49abd1f",
+        "seenIn": {
+          "with-ai": "night: aiSubjects"
+        }
+      },
+      {
+        "id": "rijksmuseum-200383483",
+        "title": "Albumblad",
+        "artists": [
+          "Hui Nian"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1850,
+        "thumb": "https://iiif.micr.io/mvLEb/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/AK-RAK-1991-1-I--6aa6d955631a02e18ffebee3e42766fb",
+        "seenIn": {
+          "with-ai": "night: aiSubjects"
+        }
+      },
+      {
+        "id": "rijksmuseum-200109401",
+        "title": "Shop Window",
+        "artists": [
+          "Isaac Israëls"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1894,
+        "thumb": "https://iiif.micr.io/hkTBS/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-3592--6ef153108bc428873ee148bff1b9738a",
+        "seenIn": {
+          "with-ai": "night: aiSubjects"
+        }
+      },
+      {
+        "id": "rijksmuseum-20026198",
+        "title": "Landscape by Moonlight",
+        "artists": [
+          "Richard Roland Holst"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1891,
+        "thumb": "https://iiif.micr.io/tDbwF/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-4738--37439214d89b6f7d9e56d50ba30269de",
+        "seenIn": {
+          "with-ai": "night: aiSubjects"
+        }
+      },
+      {
+        "id": "aic-84076",
+        "title": "Café Singer",
+        "artists": [
+          "Edgar Degas"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1879,
+        "thumb": "https://www.artic.edu/iiif/2/a867af78-9a29-c75b-33ab-2f21a2d92b3f/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/84076",
+        "seenIn": {
           "baseline": "night: subjects"
+        }
+      },
+      {
+        "id": "rijksmuseum-20027425",
+        "title": "Forest Landscape in the Moonlight",
+        "artists": [
+          "Georg Saal"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1861,
+        "thumb": "https://iiif.micr.io/XRCyZ/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-1827--f20a4913dbb122bad9efa767afb90d7f",
+        "seenIn": {
+          "with-ai": "night: aiSubjects"
         }
       }
     ]
@@ -2725,7 +3803,8 @@
         "thumb": "https://www.artic.edu/iiif/2/0b66bb30-3170-f7d1-543a-93e02ffe194f/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/64740",
         "seenIn": {
-          "baseline": "sunset: title"
+          "baseline": "sunset: title",
+          "with-ai": "sunset: title, aiSubjects"
         }
       },
       {
@@ -2739,7 +3818,8 @@
         "begin": 1890,
         "url": "https://www.artic.edu/artworks/64751",
         "seenIn": {
-          "baseline": "sunset: title"
+          "baseline": "sunset: title",
+          "with-ai": "sunset: title"
         }
       },
       {
@@ -2753,7 +3833,8 @@
         "begin": 1851,
         "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-1812--fb86d5bbc58f236497c74df61bd28ffb",
         "seenIn": {
-          "baseline": "sunset: title"
+          "baseline": "sunset: title",
+          "with-ai": "sunset: title"
         }
       },
       {
@@ -2768,7 +3849,8 @@
         "thumb": "https://www.artic.edu/iiif/2/8bd40b36-43ea-8b02-d76a-b325962b86db/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/100191",
         "seenIn": {
-          "baseline": "sunset: title"
+          "baseline": "sunset: title",
+          "with-ai": "sunset: title, aiSubjects"
         }
       },
       {
@@ -2783,7 +3865,8 @@
         "thumb": "https://www.artic.edu/iiif/2/ea5875fc-48ab-037d-3eec-86ccf6e9be60/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/72398",
         "seenIn": {
-          "baseline": "sunset: title"
+          "baseline": "sunset: title",
+          "with-ai": "sunset: title, aiSubjects"
         }
       },
       {
@@ -2798,7 +3881,8 @@
         "thumb": "https://www.artic.edu/iiif/2/be0d3e50-a600-6f33-ea8f-16a34d892442/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/81545",
         "seenIn": {
-          "baseline": "sunset: title"
+          "baseline": "sunset: title",
+          "with-ai": "sunset: title, aiSubjects"
         }
       },
       {
@@ -2813,7 +3897,8 @@
         "thumb": "https://www.artic.edu/iiif/2/30491751-fb43-fc27-51fe-d068be7b6568/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/71971",
         "seenIn": {
-          "baseline": "sunset: title"
+          "baseline": "sunset: title",
+          "with-ai": "sunset: title, aiSubjects"
         }
       },
       {
@@ -2828,7 +3913,8 @@
         "thumb": "https://iiif.micr.io/KZNBm/full/400,/0/default.jpg",
         "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-2893--51229d971e2fd4288a2b629048f6e2bc",
         "seenIn": {
-          "baseline": "sunset: title"
+          "baseline": "sunset: title",
+          "with-ai": "sunset: title, aiSubjects"
         }
       },
       {
@@ -2843,7 +3929,8 @@
         "thumb": "https://iiif.micr.io/VWisn/full/400,/0/default.jpg",
         "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-4182--42df09ed3a00efadde93d9521adc05cb",
         "seenIn": {
-          "baseline": "sunset: subjects"
+          "baseline": "sunset: subjects",
+          "with-ai": "sunset: subjects, aiSubjects"
         }
       },
       {
@@ -2858,7 +3945,68 @@
         "thumb": "https://iiif.micr.io/gqHna/full/400,/0/default.jpg",
         "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-2460--f906be55ab5922ceeb22ae9c46498629",
         "seenIn": {
-          "baseline": "sunset: subjects"
+          "baseline": "sunset: subjects",
+          "with-ai": "sunset: subjects"
+        }
+      },
+      {
+        "id": "rijksmuseum-200109305",
+        "title": "Farming Village at Twilight",
+        "artists": [
+          "Vincent van Gogh"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1884,
+        "thumb": "https://iiif.micr.io/egrgo/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-3307--4ebb55b7b02fc5361de4d4e0952e3b07",
+        "seenIn": {
+          "with-ai": "sunset: aiSubjects"
+        }
+      },
+      {
+        "id": "met-435773",
+        "title": "The Weeders",
+        "artists": [
+          "Jules Breton"
+        ],
+        "museum": "met",
+        "museumName": "The Met",
+        "begin": 1868,
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DT2155.jpg",
+        "url": "https://www.metmuseum.org/art/collection/search/435773",
+        "seenIn": {
+          "with-ai": "sunset: aiSubjects"
+        }
+      },
+      {
+        "id": "met-435964",
+        "title": "Landscape with Figures (Les Bohémiens)",
+        "artists": [
+          "Jean-Baptiste Camille Corot"
+        ],
+        "museum": "met",
+        "museumName": "The Met",
+        "begin": 1872,
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-16064-001.jpg",
+        "url": "https://www.metmuseum.org/art/collection/search/435964",
+        "seenIn": {
+          "with-ai": "sunset: aiSubjects"
+        }
+      },
+      {
+        "id": "met-435826",
+        "title": "The Love Song",
+        "artists": [
+          "Edward Burne-Jones"
+        ],
+        "museum": "met",
+        "museumName": "The Met",
+        "begin": 1868,
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP323394.jpg",
+        "url": "https://www.metmuseum.org/art/collection/search/435826",
+        "seenIn": {
+          "with-ai": "sunset: aiSubjects"
         }
       }
     ]
@@ -2879,7 +4027,8 @@
         "thumb": "https://iiif.micr.io/OwJUv/full/400,/0/default.jpg",
         "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-2914--9a174f490f55f689fd0de73d40e3b2d7",
         "seenIn": {
-          "baseline": "church: title, subjects"
+          "baseline": "church: title, subjects",
+          "with-ai": "church: title, subjects, aiSubjects"
         }
       },
       {
@@ -2893,7 +4042,8 @@
         "begin": 1877,
         "url": "https://www.metmuseum.org/art/collection/search/435653",
         "seenIn": {
-          "baseline": "church: title, subjects"
+          "baseline": "church: title, subjects",
+          "with-ai": "church: title, subjects"
         }
       },
       {
@@ -2908,7 +4058,8 @@
         "thumb": "https://www.artic.edu/iiif/2/a05ed5e5-eb97-451a-9bc0-50108ab9dbe3/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/111630",
         "seenIn": {
-          "baseline": "church: title, subjects"
+          "baseline": "church: title, subjects",
+          "with-ai": "church: title, subjects, aiSubjects"
         }
       },
       {
@@ -2923,7 +4074,8 @@
         "thumb": "https://www.artic.edu/iiif/2/33fc29fc-097b-576b-c9e6-c3352d9d3f15/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/76571",
         "seenIn": {
-          "baseline": "church: artists"
+          "baseline": "church: artists",
+          "with-ai": "church: artists"
         }
       },
       {
@@ -2938,7 +4090,8 @@
         "thumb": "https://iiif.micr.io/bNQpe/full/400,/0/default.jpg",
         "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-1799--b05d30127c61c5065ab34ed3c7689017",
         "seenIn": {
-          "baseline": "church: title"
+          "baseline": "church: title",
+          "with-ai": "church: title, aiSubjects"
         }
       },
       {
@@ -2953,7 +4106,8 @@
         "thumb": "https://iiif.micr.io/PMnLE/full/400,/0/default.jpg",
         "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-C-1843--36b6b173d8e26073592095ed2f15108f",
         "seenIn": {
-          "baseline": "church: title"
+          "baseline": "church: title",
+          "with-ai": "church: title, aiSubjects"
         }
       },
       {
@@ -2968,7 +4122,8 @@
         "thumb": "https://iiif.micr.io/tnEsJ/full/400,/0/default.jpg",
         "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-3499--6bac8d3366c8c88257dd124a9efa102b",
         "seenIn": {
-          "baseline": "church: subjects"
+          "baseline": "church: subjects",
+          "with-ai": "church: subjects"
         }
       },
       {
@@ -2998,7 +4153,8 @@
         "thumb": "https://iiif.micr.io/AVPLN/full/400,/0/default.jpg",
         "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-5032--6b4fbbb112a149475cd03d4098745798",
         "seenIn": {
-          "baseline": "church: subjects"
+          "baseline": "church: subjects",
+          "with-ai": "church: subjects, aiSubjects"
         }
       },
       {
@@ -3013,7 +4169,8 @@
         "thumb": "https://iiif.micr.io/DtBmd/full/400,/0/default.jpg",
         "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-C-1659--56f79fee928d0c6cf2c210fbc9c3e455",
         "seenIn": {
-          "baseline": "church: subjects"
+          "baseline": "church: subjects",
+          "with-ai": "church: subjects, aiSubjects"
         }
       },
       {
@@ -3028,7 +4185,8 @@
         "thumb": "https://www.artic.edu/iiif/2/b55d836c-ee20-59f8-1f0c-a95e09905361/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/9",
         "seenIn": {
-          "baseline": "church: subjects"
+          "baseline": "church: subjects",
+          "with-ai": "church: subjects, aiSubjects"
         }
       },
       {
@@ -3057,7 +4215,53 @@
         "thumb": "https://www.artic.edu/iiif/2/e5a07fc5-650c-065a-a3e5-8e9ef516137a/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/81568",
         "seenIn": {
-          "baseline": "church: subjects"
+          "baseline": "church: subjects",
+          "with-ai": "church: subjects, aiSubjects"
+        }
+      },
+      {
+        "id": "met-435871",
+        "title": "Gardanne",
+        "artists": [
+          "Paul Cézanne"
+        ],
+        "museum": "met",
+        "museumName": "The Met",
+        "begin": 1885,
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14936-047.jpg",
+        "url": "https://www.metmuseum.org/art/collection/search/435871",
+        "seenIn": {
+          "with-ai": "church: aiSubjects"
+        }
+      },
+      {
+        "id": "aic-111655",
+        "title": "The Apple Market",
+        "artists": [
+          "Stanislas Lépine"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1875,
+        "thumb": "https://www.artic.edu/iiif/2/5696ad92-09d8-edb5-345c-a05134fc4909/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/111655",
+        "seenIn": {
+          "with-ai": "church: subjects, aiSubjects"
+        }
+      },
+      {
+        "id": "aic-109926",
+        "title": "Landscape: Window Overlooking the Woods",
+        "artists": [
+          "Édouard Vuillard"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1899,
+        "thumb": "https://www.artic.edu/iiif/2/a1dc6109-6e0c-7801-ebe8-8c95fec2c4e4/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/109926",
+        "seenIn": {
+          "with-ai": "church: subjects, aiSubjects"
         }
       }
     ]
@@ -3078,7 +4282,8 @@
         "thumb": "https://iiif.micr.io/JBFfm/full/400,/0/default.jpg",
         "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-4996--fea975e0088cfad530dbe4ce721db6e9",
         "seenIn": {
-          "baseline": "paris: title, subjects"
+          "baseline": "paris: title, subjects",
+          "with-ai": "paris: title, subjects"
         }
       },
       {
@@ -3093,7 +4298,8 @@
         "thumb": "https://www.artic.edu/iiif/2/e5a07fc5-650c-065a-a3e5-8e9ef516137a/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/81568",
         "seenIn": {
-          "baseline": "paris: title, subjects"
+          "baseline": "paris: title, subjects",
+          "with-ai": "paris: title, subjects, aiSubjects"
         }
       },
       {
@@ -3108,7 +4314,8 @@
         "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DT225534.jpg",
         "url": "https://www.metmuseum.org/art/collection/search/435968",
         "seenIn": {
-          "baseline": "paris: title, subjects"
+          "baseline": "paris: title, subjects",
+          "with-ai": "paris: title, subjects"
         }
       },
       {
@@ -3123,7 +4330,8 @@
         "thumb": "https://www.artic.edu/iiif/2/f66e2513-20d7-f876-c880-858d585e57fb/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/133864",
         "seenIn": {
-          "baseline": "paris: title, subjects"
+          "baseline": "paris: title, subjects",
+          "with-ai": "paris: title, subjects, aiSubjects"
         }
       },
       {
@@ -3137,7 +4345,8 @@
         "begin": 1893,
         "url": "https://www.artic.edu/artworks/16464",
         "seenIn": {
-          "baseline": "paris: title, subjects"
+          "baseline": "paris: title, subjects",
+          "with-ai": "paris: title, subjects"
         }
       },
       {
@@ -3152,7 +4361,8 @@
         "thumb": "https://www.artic.edu/iiif/2/f8fd76e9-c396-5678-36ed-6a348c904d27/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/20684",
         "seenIn": {
-          "baseline": "paris: title, subjects"
+          "baseline": "paris: title, subjects",
+          "with-ai": "paris: title, subjects, aiSubjects"
         }
       },
       {
@@ -3167,7 +4377,8 @@
         "thumb": "https://www.artic.edu/iiif/2/3b901b0a-b8a8-7299-1851-c25116dfa116/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/20542",
         "seenIn": {
-          "baseline": "paris: title, subjects"
+          "baseline": "paris: title, subjects",
+          "with-ai": "paris: title, subjects, aiSubjects"
         }
       },
       {
@@ -3182,7 +4393,8 @@
         "thumb": "https://www.artic.edu/iiif/2/0ff20364-c795-c2ca-c1e8-e5a848f09554/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/81551",
         "seenIn": {
-          "baseline": "paris: title, subjects"
+          "baseline": "paris: title, subjects",
+          "with-ai": "paris: title, subjects"
         }
       },
       {
@@ -3197,7 +4409,8 @@
         "thumb": "https://iiif.micr.io/SfGFn/full/400,/0/default.jpg",
         "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-3092--87e98bf1287055f88688a01f240f827d",
         "seenIn": {
-          "baseline": "paris: title, subjects"
+          "baseline": "paris: title, subjects",
+          "with-ai": "paris: title, subjects"
         }
       },
       {
@@ -3211,7 +4424,8 @@
         "begin": 1877,
         "url": "https://www.metmuseum.org/art/collection/search/435653",
         "seenIn": {
-          "baseline": "paris: title, subjects"
+          "baseline": "paris: title, subjects",
+          "with-ai": "paris: title, subjects"
         }
       },
       {
@@ -3226,7 +4440,8 @@
         "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-23550-001.jpg",
         "url": "https://www.metmuseum.org/art/collection/search/435702",
         "seenIn": {
-          "baseline": "paris: subjects"
+          "baseline": "paris: subjects",
+          "with-ai": "paris: subjects"
         }
       },
       {
@@ -3240,7 +4455,8 @@
         "begin": 1880,
         "url": "https://www.metmuseum.org/art/collection/search/435654",
         "seenIn": {
-          "baseline": "paris: subjects"
+          "baseline": "paris: subjects",
+          "with-ai": "paris: subjects"
         }
       }
     ]
@@ -3261,7 +4477,8 @@
         "thumb": "https://iiif.micr.io/oZLfA/full/400,/0/default.jpg",
         "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-1923--fd2b0d9df7abb994e3dba47b5c5eef79",
         "seenIn": {
-          "baseline": "barbizon: title, subjects"
+          "baseline": "barbizon: title, subjects",
+          "with-ai": "barbizon: title, subjects"
         }
       },
       {
@@ -3276,7 +4493,8 @@
         "thumb": "https://www.artic.edu/iiif/2/68e24e96-1f25-75cd-bb2c-232713f131a9/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/81507",
         "seenIn": {
-          "baseline": "barbizon: styles, inferredStyles"
+          "baseline": "barbizon: styles, inferredStyles",
+          "with-ai": "barbizon: styles, inferredStyles"
         }
       },
       {
@@ -3291,7 +4509,8 @@
         "thumb": "https://www.artic.edu/iiif/2/0faa1fea-aaaa-83bf-8324-8b7f90266dd2/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/880",
         "seenIn": {
-          "baseline": "barbizon: styles, inferredStyles"
+          "baseline": "barbizon: styles, inferredStyles",
+          "with-ai": "barbizon: styles, inferredStyles"
         }
       },
       {
@@ -3306,7 +4525,8 @@
         "thumb": "https://www.artic.edu/iiif/2/314637b6-22f5-5c2d-5b33-cd6ef4218748/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/94842",
         "seenIn": {
-          "baseline": "barbizon: styles, inferredStyles"
+          "baseline": "barbizon: styles, inferredStyles",
+          "with-ai": "barbizon: styles, inferredStyles"
         }
       },
       {
@@ -3321,7 +4541,8 @@
         "thumb": "https://www.artic.edu/iiif/2/24f5a9ff-fe25-e1be-65f5-d65f2d509ad4/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/28853",
         "seenIn": {
-          "baseline": "barbizon: styles, inferredStyles"
+          "baseline": "barbizon: styles, inferredStyles",
+          "with-ai": "barbizon: styles, inferredStyles"
         }
       },
       {
@@ -3336,7 +4557,8 @@
         "thumb": "https://www.artic.edu/iiif/2/3dae143d-6840-2e6e-dff5-cd2eea745da2/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/35155",
         "seenIn": {
-          "baseline": "barbizon: styles, inferredStyles"
+          "baseline": "barbizon: styles, inferredStyles",
+          "with-ai": "barbizon: styles, inferredStyles"
         }
       },
       {
@@ -3351,7 +4573,8 @@
         "thumb": "https://www.artic.edu/iiif/2/70d375a0-25bd-7fe1-c586-0e8919aaf395/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/59004",
         "seenIn": {
-          "baseline": "barbizon: styles, inferredStyles"
+          "baseline": "barbizon: styles, inferredStyles",
+          "with-ai": "barbizon: styles, inferredStyles"
         }
       },
       {
@@ -3366,7 +4589,8 @@
         "thumb": "https://www.artic.edu/iiif/2/8b526140-7667-b1df-97bb-2d0f6e1be095/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/886",
         "seenIn": {
-          "baseline": "barbizon: styles, inferredStyles"
+          "baseline": "barbizon: styles, inferredStyles",
+          "with-ai": "barbizon: styles, inferredStyles"
         }
       },
       {
@@ -3381,7 +4605,8 @@
         "thumb": "https://www.artic.edu/iiif/2/ad3280c6-611a-c136-29b8-8f303a02f416/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/887",
         "seenIn": {
-          "baseline": "barbizon: styles, inferredStyles"
+          "baseline": "barbizon: styles, inferredStyles",
+          "with-ai": "barbizon: styles, inferredStyles"
         }
       },
       {
@@ -3396,7 +4621,8 @@
         "thumb": "https://www.artic.edu/iiif/2/44c6f2f1-90fc-f386-734b-fbb9427b6ff3/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/95993",
         "seenIn": {
-          "baseline": "barbizon: styles, inferredStyles"
+          "baseline": "barbizon: styles, inferredStyles",
+          "with-ai": "barbizon: styles, inferredStyles"
         }
       },
       {
@@ -3410,7 +4636,8 @@
         "begin": 1874,
         "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-1879--33022e210966bc29507dabeaa419ddbe",
         "seenIn": {
-          "baseline": "barbizon: inferredStyles"
+          "baseline": "barbizon: inferredStyles",
+          "with-ai": "barbizon: inferredStyles"
         }
       },
       {
@@ -3425,7 +4652,8 @@
         "thumb": "https://iiif.micr.io/KDMnv/full/400,/0/default.jpg",
         "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-1872--978218888c229b3bd9e9d72f79c942ad",
         "seenIn": {
-          "baseline": "barbizon: inferredStyles"
+          "baseline": "barbizon: inferredStyles",
+          "with-ai": "barbizon: inferredStyles"
         }
       },
       {
@@ -3440,7 +4668,8 @@
         "thumb": "https://iiif.micr.io/xgeNA/full/400,/0/default.jpg",
         "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-1876--223fb86fa716a006907809b788c29495",
         "seenIn": {
-          "baseline": "barbizon: inferredStyles"
+          "baseline": "barbizon: inferredStyles",
+          "with-ai": "barbizon: inferredStyles"
         }
       },
       {
@@ -3455,7 +4684,8 @@
         "thumb": "https://iiif.micr.io/MuHpg/full/400,/0/default.jpg",
         "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-1903--4341b97e0302cb619b6b18a2636b1951",
         "seenIn": {
-          "baseline": "barbizon: inferredStyles"
+          "baseline": "barbizon: inferredStyles",
+          "with-ai": "barbizon: inferredStyles"
         }
       },
       {
@@ -3470,7 +4700,8 @@
         "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-16590-001.jpg",
         "url": "https://www.metmuseum.org/art/collection/search/435963",
         "seenIn": {
-          "baseline": "barbizon: inferredStyles"
+          "baseline": "barbizon: inferredStyles",
+          "with-ai": "barbizon: inferredStyles"
         }
       },
       {
@@ -3485,7 +4716,8 @@
         "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-16064-001.jpg",
         "url": "https://www.metmuseum.org/art/collection/search/435964",
         "seenIn": {
-          "baseline": "barbizon: inferredStyles"
+          "baseline": "barbizon: inferredStyles",
+          "with-ai": "barbizon: inferredStyles"
         }
       },
       {
@@ -3500,7 +4732,8 @@
         "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/ep29.100.598.R.jpg",
         "url": "https://www.metmuseum.org/art/collection/search/435965",
         "seenIn": {
-          "baseline": "barbizon: inferredStyles"
+          "baseline": "barbizon: inferredStyles",
+          "with-ai": "barbizon: inferredStyles"
         }
       },
       {
@@ -3515,7 +4748,8 @@
         "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP332566.jpg",
         "url": "https://www.metmuseum.org/art/collection/search/435966",
         "seenIn": {
-          "baseline": "barbizon: inferredStyles"
+          "baseline": "barbizon: inferredStyles",
+          "with-ai": "barbizon: inferredStyles"
         }
       },
       {
@@ -3530,7 +4764,8 @@
         "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DT225534.jpg",
         "url": "https://www.metmuseum.org/art/collection/search/435968",
         "seenIn": {
-          "baseline": "barbizon: inferredStyles"
+          "baseline": "barbizon: inferredStyles",
+          "with-ai": "barbizon: inferredStyles"
         }
       }
     ]
@@ -3551,7 +4786,8 @@
         "thumb": "https://www.artic.edu/iiif/2/8bd40b36-43ea-8b02-d76a-b325962b86db/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/100191",
         "seenIn": {
-          "baseline": "claude: artists; monet: artists"
+          "baseline": "claude: artists; monet: artists",
+          "with-ai": "claude: artists; monet: artists"
         }
       },
       {
@@ -3566,7 +4802,8 @@
         "thumb": "https://www.artic.edu/iiif/2/6f61a6fc-dcd8-e801-0ad8-5f7e561d91b6/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/103139",
         "seenIn": {
-          "baseline": "claude: artists; monet: artists"
+          "baseline": "claude: artists; monet: artists",
+          "with-ai": "claude: artists; monet: artists"
         }
       },
       {
@@ -3581,7 +4818,8 @@
         "thumb": "https://www.artic.edu/iiif/2/27c1d720-8ca5-79a4-5e51-530bf75c1591/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/111318",
         "seenIn": {
-          "baseline": "claude: artists; monet: artists"
+          "baseline": "claude: artists; monet: artists",
+          "with-ai": "claude: artists; monet: artists"
         }
       },
       {
@@ -3596,7 +4834,8 @@
         "thumb": "https://www.artic.edu/iiif/2/95be2572-b53d-8e7b-abc9-10eb48d4fa5d/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/14598",
         "seenIn": {
-          "baseline": "claude: artists; monet: artists"
+          "baseline": "claude: artists; monet: artists",
+          "with-ai": "claude: artists; monet: artists"
         }
       },
       {
@@ -3611,7 +4850,8 @@
         "thumb": "https://www.artic.edu/iiif/2/b0effb1c-ff23-bbaa-f809-9fd94e31c1a0/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/14620",
         "seenIn": {
-          "baseline": "claude: artists; monet: artists"
+          "baseline": "claude: artists; monet: artists",
+          "with-ai": "claude: artists; monet: artists"
         }
       },
       {
@@ -3626,7 +4866,8 @@
         "thumb": "https://www.artic.edu/iiif/2/4c364c64-2108-4e19-5fc5-1ab26ba924a7/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/14624",
         "seenIn": {
-          "baseline": "claude: artists; monet: artists"
+          "baseline": "claude: artists; monet: artists",
+          "with-ai": "claude: artists; monet: artists"
         }
       },
       {
@@ -3641,7 +4882,8 @@
         "thumb": "https://www.artic.edu/iiif/2/2b30e687-4526-f487-cedc-448b3188fd19/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/16542",
         "seenIn": {
-          "baseline": "claude: artists; monet: artists"
+          "baseline": "claude: artists; monet: artists",
+          "with-ai": "claude: artists; monet: artists"
         }
       },
       {
@@ -3656,7 +4898,8 @@
         "thumb": "https://www.artic.edu/iiif/2/c12058f4-188f-c6ed-f0fe-52b32acfb296/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/16549",
         "seenIn": {
-          "baseline": "claude: artists; monet: artists"
+          "baseline": "claude: artists; monet: artists",
+          "with-ai": "claude: artists; monet: artists"
         }
       },
       {
@@ -3671,7 +4914,8 @@
         "thumb": "https://www.artic.edu/iiif/2/7d533ed4-ff54-fa2c-64f4-2b16bfbb5880/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/16554",
         "seenIn": {
-          "baseline": "claude: artists; monet: artists"
+          "baseline": "claude: artists; monet: artists",
+          "with-ai": "claude: artists; monet: artists"
         }
       },
       {
@@ -3686,7 +4930,8 @@
         "thumb": "https://www.artic.edu/iiif/2/db36f74f-47d9-ad08-cdf9-b4b436e6d18c/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/16560",
         "seenIn": {
-          "baseline": "claude: artists; monet: artists"
+          "baseline": "claude: artists; monet: artists",
+          "with-ai": "claude: artists; monet: artists"
         }
       },
       {
@@ -3701,7 +4946,8 @@
         "thumb": "https://iiif.micr.io/VPrnZ/full/400,/0/default.jpg",
         "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-1892--f66e7df764f1dd1ad1bae6533dc9faa8",
         "seenIn": {
-          "baseline": "claude: artists; monet: artists"
+          "baseline": "claude: artists; monet: artists",
+          "with-ai": "claude: artists; monet: artists"
         }
       }
     ]
@@ -3722,7 +4968,8 @@
         "thumb": "https://www.artic.edu/iiif/2/e30b27db-b263-abb6-0005-ff238f8fd530/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/80450",
         "seenIn": {
-          "baseline": "portrait: title, subjects; portraiture: subjects; woman: title, subjects"
+          "baseline": "portrait: title, subjects; portraiture: subjects; woman: title, subjects",
+          "with-ai": "portrait: title, subjects, aiSubjects; portraiture: subjects, aiSubjects; woman: title, subjects, aiSubjects"
         }
       },
       {
@@ -3737,7 +4984,8 @@
         "thumb": "https://www.artic.edu/iiif/2/99c39143-a45c-5fa1-ddd3-0dae633fbb87/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/20686",
         "seenIn": {
-          "baseline": "portrait: title, subjects; portraiture: subjects; woman: title, subjects"
+          "baseline": "portrait: title, subjects; portraiture: subjects; woman: title, subjects",
+          "with-ai": "portrait: title, subjects, aiSubjects; portraiture: subjects, aiSubjects; woman: title, subjects, aiSubjects"
         }
       },
       {
@@ -3752,7 +5000,8 @@
         "thumb": "https://www.artic.edu/iiif/2/cba37025-23eb-b55d-4e53-57a0a694eb37/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/80463",
         "seenIn": {
-          "baseline": "portrait: title, subjects; portraiture: subjects; woman: title, subjects"
+          "baseline": "portrait: title, subjects; portraiture: subjects; woman: title, subjects",
+          "with-ai": "portrait: title, subjects, aiSubjects; portraiture: subjects, aiSubjects; woman: title, subjects, aiSubjects"
         }
       },
       {
@@ -3767,7 +5016,8 @@
         "thumb": "https://www.artic.edu/iiif/2/23c6c5c9-b8bf-8664-f547-4ddc932733f8/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/14594",
         "seenIn": {
-          "baseline": "portrait: title, subjects; portraiture: subjects; woman: title, subjects"
+          "baseline": "portrait: title, subjects; portraiture: subjects; woman: title, subjects",
+          "with-ai": "portrait: title, subjects, aiSubjects; portraiture: subjects, aiSubjects; woman: title, subjects, aiSubjects"
         }
       },
       {
@@ -3782,7 +5032,8 @@
         "thumb": "https://iiif.micr.io/RwJsC/full/400,/0/default.jpg",
         "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-3044--ec325af5aedf85de19046ecd79203123",
         "seenIn": {
-          "baseline": "portrait: title; woman: title"
+          "baseline": "portrait: title; woman: title",
+          "with-ai": "portrait: title, aiSubjects; portraiture: aiSubjects; woman: title, aiSubjects"
         }
       },
       {
@@ -3797,7 +5048,8 @@
         "thumb": "https://iiif.micr.io/htSbb/full/400,/0/default.jpg",
         "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-2918--0735bc9198c59abd6a22afa254ccc2cb",
         "seenIn": {
-          "baseline": "portrait: title; woman: title"
+          "baseline": "portrait: title; woman: title",
+          "with-ai": "portrait: title, aiSubjects; portraiture: aiSubjects; woman: title, aiSubjects"
         }
       },
       {
@@ -3827,7 +5079,8 @@
         "thumb": "https://www.artic.edu/iiif/2/4872e681-f833-1533-0bc2-dbc8241cfdb8/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/81562",
         "seenIn": {
-          "baseline": "portrait: subjects; portraiture: subjects; woman: title, subjects"
+          "baseline": "portrait: subjects; portraiture: subjects; woman: title, subjects",
+          "with-ai": "portrait: subjects, aiSubjects; portraiture: subjects, aiSubjects; woman: title, subjects, aiSubjects"
         }
       },
       {
@@ -3842,7 +5095,8 @@
         "thumb": "https://www.artic.edu/iiif/2/bba8ef2a-2af7-e111-1269-382f38d32fdd/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/81525",
         "seenIn": {
-          "baseline": "portrait: subjects; woman: title, subjects"
+          "baseline": "portrait: subjects; woman: title, subjects",
+          "with-ai": "portrait: subjects, aiSubjects; portraiture: aiSubjects; woman: title, subjects, aiSubjects"
         }
       },
       {
@@ -3855,7 +5109,8 @@
         "thumb": "https://www.artic.edu/iiif/2/e1e8e197-93e7-bd6a-5870-36200c27445e/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/59779",
         "seenIn": {
-          "baseline": "portrait: title, subjects; portraiture: subjects; woman: subjects"
+          "baseline": "portrait: title, subjects; portraiture: subjects; woman: subjects",
+          "with-ai": "portrait: title, subjects, aiSubjects; portraiture: subjects, aiSubjects; woman: subjects, aiSubjects"
         }
       },
       {
@@ -3870,7 +5125,8 @@
         "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-19279-001.jpg",
         "url": "https://www.metmuseum.org/art/collection/search/437984",
         "seenIn": {
-          "baseline": "portrait: subjects; portraiture: subjects; woman: title, subjects"
+          "baseline": "portrait: subjects; portraiture: subjects; woman: title, subjects",
+          "with-ai": "portrait: subjects, aiSubjects; portraiture: subjects, aiSubjects; woman: title, subjects, aiSubjects"
         }
       },
       {
@@ -3899,7 +5155,8 @@
         "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DT11971.jpg",
         "url": "https://www.metmuseum.org/art/collection/search/435830",
         "seenIn": {
-          "baseline": "portrait: subjects; portraiture: subjects; woman: subjects"
+          "baseline": "portrait: subjects; portraiture: subjects; woman: subjects",
+          "with-ai": "portrait: subjects, aiSubjects; portraiture: subjects, aiSubjects; woman: subjects, aiSubjects"
         }
       },
       {
@@ -3914,7 +5171,8 @@
         "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DT204990.jpg",
         "url": "https://www.metmuseum.org/art/collection/search/435849",
         "seenIn": {
-          "baseline": "portrait: subjects; portraiture: subjects; woman: subjects"
+          "baseline": "portrait: subjects; portraiture: subjects; woman: subjects",
+          "with-ai": "portrait: subjects, aiSubjects; portraiture: subjects, aiSubjects; woman: subjects, aiSubjects"
         }
       },
       {
@@ -3930,6 +5188,96 @@
         "url": "https://www.metmuseum.org/art/collection/search/435875",
         "seenIn": {
           "baseline": "portrait: subjects; portraiture: subjects; woman: subjects"
+        }
+      },
+      {
+        "id": "aic-153798",
+        "title": "Woman in a Garden",
+        "artists": [
+          "Berthe Morisot"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1882,
+        "thumb": "https://www.artic.edu/iiif/2/5edb357d-2e8f-8673-d9e8-4b1150af3895/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/153798",
+        "seenIn": {
+          "with-ai": "portrait: subjects, aiSubjects; portraiture: subjects, aiSubjects; woman: title, subjects, aiSubjects"
+        }
+      },
+      {
+        "id": "rijksmuseum-20027468",
+        "title": "Old Jewish Woman",
+        "artists": [
+          "Meijer de Haan"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1880,
+        "thumb": "https://iiif.micr.io/XeJDC/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-1987--4c1befd464cdd0d1f907e8444bb4e68f",
+        "seenIn": {
+          "with-ai": "portrait: aiSubjects; portraiture: aiSubjects; woman: title, aiSubjects"
+        }
+      },
+      {
+        "id": "rijksmuseum-20026483",
+        "title": "A young Woman",
+        "artists": [
+          "August Allebé"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1863,
+        "thumb": "https://iiif.micr.io/CJOSa/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-1730--d0b36f7b2d16532e839407b3f5e200cc",
+        "seenIn": {
+          "with-ai": "portrait: aiSubjects; portraiture: aiSubjects; woman: title, aiSubjects"
+        }
+      },
+      {
+        "id": "rijksmuseum-20028124",
+        "title": "Young Woman, Gazing at the Sea",
+        "artists": [
+          "Isaac Israëls"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1895,
+        "thumb": "https://iiif.micr.io/MeKaK/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-4679--77f1c5b936bde68e8cce8b85d20854c9",
+        "seenIn": {
+          "with-ai": "portrait: aiSubjects; portraiture: aiSubjects; woman: title, aiSubjects"
+        }
+      },
+      {
+        "id": "met-435711",
+        "title": "An Egyptian Peasant Woman and Her Child",
+        "artists": [
+          "Léon Bonnat"
+        ],
+        "museum": "met",
+        "museumName": "The Met",
+        "begin": 1869,
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DT234058.jpg",
+        "url": "https://www.metmuseum.org/art/collection/search/435711",
+        "seenIn": {
+          "with-ai": "portrait: aiSubjects; portraiture: aiSubjects; woman: title, subjects"
+        }
+      },
+      {
+        "id": "met-436000",
+        "title": "Madame Frederic Breyer (Fanny Hélène Van Bruyssel, 1830–1894)",
+        "artists": [
+          "Gustave Courbet"
+        ],
+        "museum": "met",
+        "museumName": "The Met",
+        "begin": 1858,
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-17408-001.jpg",
+        "url": "https://www.metmuseum.org/art/collection/search/436000",
+        "seenIn": {
+          "with-ai": "portrait: subjects, aiSubjects; portraiture: subjects, aiSubjects; woman: subjects, aiSubjects"
         }
       }
     ]
@@ -3950,7 +5298,8 @@
         "thumb": "https://www.artic.edu/iiif/2/42924282-d483-cd95-e676-52aee4bc4164/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/27163",
         "seenIn": {
-          "baseline": "winter: title; landscape: subjects"
+          "baseline": "winter: title; landscape: subjects",
+          "with-ai": "winter: title, aiSubjects; landscape: subjects, aiSubjects"
         }
       },
       {
@@ -3965,7 +5314,8 @@
         "thumb": "https://www.artic.edu/iiif/2/3d950ecc-73f4-c28a-f216-0940b23fa5e8/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/6005",
         "seenIn": {
-          "baseline": "winter: title; landscape: subjects"
+          "baseline": "winter: title; landscape: subjects",
+          "with-ai": "winter: title, aiSubjects; landscape: subjects, aiSubjects"
         }
       },
       {
@@ -3980,7 +5330,8 @@
         "thumb": "https://www.artic.edu/iiif/2/8e5f3773-9396-0fde-8547-490cca07b68b/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/62393",
         "seenIn": {
-          "baseline": "winter: subjects; landscape: subjects"
+          "baseline": "winter: subjects; landscape: subjects",
+          "with-ai": "winter: subjects, aiSubjects; landscape: subjects, aiSubjects"
         }
       },
       {
@@ -3995,7 +5346,8 @@
         "thumb": "https://www.artic.edu/iiif/2/be0d3e50-a600-6f33-ea8f-16a34d892442/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/81545",
         "seenIn": {
-          "baseline": "winter: subjects; landscape: subjects"
+          "baseline": "winter: subjects; landscape: subjects",
+          "with-ai": "winter: subjects, aiSubjects; landscape: subjects, aiSubjects"
         }
       },
       {
@@ -4010,7 +5362,8 @@
         "thumb": "https://www.artic.edu/iiif/2/fa96ef54-c3b1-8f4d-390a-219f7bc64c4a/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/895",
         "seenIn": {
-          "baseline": "winter: subjects; landscape: subjects"
+          "baseline": "winter: subjects; landscape: subjects",
+          "with-ai": "winter: subjects, aiSubjects; landscape: subjects"
         }
       },
       {
@@ -4025,7 +5378,8 @@
         "thumb": "https://www.artic.edu/iiif/2/07d8dd31-d44b-85aa-ab09-ca51ee86f631/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/86998",
         "seenIn": {
-          "baseline": "winter: subjects; landscape: subjects"
+          "baseline": "winter: subjects; landscape: subjects",
+          "with-ai": "winter: subjects, aiSubjects; landscape: subjects, aiSubjects"
         }
       },
       {
@@ -4040,7 +5394,8 @@
         "thumb": "https://www.artic.edu/iiif/2/d4e43d76-594b-ce65-c1a3-45c865624f70/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/45838",
         "seenIn": {
-          "baseline": "winter: subjects; landscape: subjects"
+          "baseline": "winter: subjects; landscape: subjects",
+          "with-ai": "winter: subjects, aiSubjects; landscape: subjects, aiSubjects"
         }
       },
       {
@@ -4056,6 +5411,96 @@
         "url": "https://www.artic.edu/artworks/72801",
         "seenIn": {
           "baseline": "winter: subjects; landscape: subjects"
+        }
+      },
+      {
+        "id": "rijksmuseum-20027253",
+        "title": "Winter Scene",
+        "artists": [
+          "Charles Leickert"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1867,
+        "thumb": "https://iiif.micr.io/RHkAV/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-1074--bbe998c2b94204b31a2052da78136ba6",
+        "seenIn": {
+          "with-ai": "winter: title, aiSubjects; landscape: aiSubjects"
+        }
+      },
+      {
+        "id": "rijksmuseum-200108944",
+        "title": "Dordrecht in the Winter",
+        "artists": [
+          "Siebe Johannes ten Cate"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1892,
+        "thumb": "https://iiif.micr.io/cJXML/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-2299--81b472105783b891a18da9a41d65eb91",
+        "seenIn": {
+          "with-ai": "winter: title, aiSubjects; landscape: aiSubjects"
+        }
+      },
+      {
+        "id": "rijksmuseum-20029334",
+        "title": "Winter Scene, with a City in the Distance",
+        "artists": [
+          "Charles Leickert"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1850,
+        "thumb": "https://iiif.micr.io/gxOZj/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-3922--bdf9cbfa8bb60d6946f26131812a64d4",
+        "seenIn": {
+          "with-ai": "winter: title, aiSubjects; landscape: aiSubjects"
+        }
+      },
+      {
+        "id": "aic-217687",
+        "title": "Landscape and Figure, from an album of Landscapes and Calligraphy for Liu Songfu",
+        "artists": [
+          "Xugu"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1895,
+        "thumb": "https://www.artic.edu/iiif/2/62277b3b-feae-0307-fbc7-de7083eb4bfa/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/217687",
+        "seenIn": {
+          "with-ai": "winter: aiSubjects; landscape: title, aiSubjects"
+        }
+      },
+      {
+        "id": "rijksmuseum-200107978",
+        "title": "A Frozen Canal near the River Maas",
+        "artists": [
+          "Andreas Schelfhout"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1867,
+        "thumb": "https://iiif.micr.io/RPjbD/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-1128--88c8e670d6671ca0ffe9308af74f6069",
+        "seenIn": {
+          "with-ai": "winter: aiSubjects; landscape: subjects"
+        }
+      },
+      {
+        "id": "rijksmuseum-20020092",
+        "title": "View of the Oosterpark, Amsterdam, in the Snow",
+        "artists": [
+          "George Hendrik Breitner"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1892,
+        "thumb": "https://iiif.micr.io/GYopX/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-4925--f57431d295d58e974263d60e7df70048",
+        "seenIn": {
+          "with-ai": "winter: aiSubjects; landscape: aiSubjects"
         }
       }
     ]

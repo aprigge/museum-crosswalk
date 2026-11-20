@@ -1,6 +1,7 @@
 import { readFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import { dataDir } from '../core/cache.js';
+import oxigraph from 'oxigraph';
 import type { SourceClient } from '../core/http.js';
 import type { Concept } from '../authority/concepts.js';
 
@@ -52,4 +53,30 @@ export async function loadVocabulary(sliceId = 'paintings-1850-1900'): Promise<V
     if (r.qid && !byQid.has(r.qid)) byQid.set(r.qid, { qid: r.qid, label: r.wikidataLabel ?? r.label, aliases: [], origin: 'extension' });
   }
   return [...byQid.values()].sort((a, b) => a.label.localeCompare(b.label));
+}
+
+/** Labels that name a style, movement or period rather than something depicted. */
+const STYLE_LIKE = /(ism|ist painting|ist art|\bschool\b|\bmovement\b|\bstyle\b|\bcentury\b|\bperiod\b)/i;
+
+/** Wikidata items the current graph uses as a style, an inferred style or an artist's movement. */
+async function styleQids(sliceId: string): Promise<Set<string>> {
+  const nq = await readFile(join(dataDir(), 'graph', sliceId, 'core.nq'), 'utf8').catch(() => '');
+  if (!nq) return new Set();
+  const store = new oxigraph.Store();
+  store.load(nq, { format: 'application/n-quads' });
+  const rows = store.query(
+    `PREFIX mc: <https://aprigge.github.io/museum-crosswalk/ns#> PREFIX owl: <http://www.w3.org/2002/07/owl#>
+     SELECT DISTINCT ?wd WHERE { { ?w mc:style ?c } UNION { ?w mc:inferredStyle ?c } UNION { ?p mc:movement ?c } ?c owl:sameAs ?wd }`,
+    { use_default_graph_as_union: true },
+  ) as Map<string, { value: string }>[];
+  return new Set(rows.map((r) => r.get('wd')!.value.split('/').at(-1)!));
+}
+
+/**
+ * The list the enrichment model chooses from, and that its answers are checked against: styles,
+ * movements and periods come from the museums and Wikidata, never from looking at an image.
+ */
+export async function loadEnrichVocabulary(sliceId = 'paintings-1850-1900'): Promise<VocabEntry[]> {
+  const styles = await styleQids(sliceId);
+  return (await loadVocabulary(sliceId)).filter((v) => !styles.has(v.qid) && !STYLE_LIKE.test(v.label));
 }

@@ -21,7 +21,8 @@
     "evaluate": "tsx --env-file-if-exists=.env src/cli/evaluate.ts",
     "site": "tsx --env-file-if-exists=.env src/cli/site.ts",
     "eval": "tsx --env-file-if-exists=.env src/cli/eval.ts",
-    "vocabulary": "tsx --env-file-if-exists=.env src/cli/vocabulary.ts"
+    "vocabulary": "tsx --env-file-if-exists=.env src/cli/vocabulary.ts",
+    "enrich": "tsx --env-file-if-exists=.env src/cli/enrich.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^1.11.0",

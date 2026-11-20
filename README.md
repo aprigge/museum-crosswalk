@@ -87,6 +87,23 @@ museums, grouped correctly by artist. Answer so far, in
 - Grouping is correct where an artist appears in more than one museum: 379 artists
   merged across the three, 24 of them in two or more museums.
 
+**Phase 3, AI in the demo: in progress.** Claude Opus 5.5 looked at 953 openly licensed
+images and suggested what each depicts, choosing only from 375 concepts with verified
+Wikidata IDs, never style or movement. Suggestions sit in their own named graph with
+confidence and evidence, and the site marks them "AI" and can switch them off. Measured
+on 20 test searches ([reports/eval.md](reports/eval.md)), with relevance judged by Claude
+Sonnet 5.5:
+
+| | Precision in top 10 | Museums with a hit (of 3) | Queries all 3 museums answer |
+|---|---|---|---|
+| Museum data only | 95% | 2.55 | 13 of 20 |
+| With AI subjects | 96% | 2.75 | 15 of 20 |
+
+"Impressionist landscapes" now returns all three museums, starting with Monet's *La
+Corniche near Monaco* at the Rijksmuseum, which the museum had catalogued without a
+landscape subject. Cost: about $7 for the images, under $0.50 for judging. Next: AI-assisted
+review of the remaining artist matches, and "Ask the graph" (plain English to SPARQL).
+
 **Out of scope:** all Getty data (the Getty Museum collection and the Getty
 Vocabularies). Nothing is fetched from Getty; AAT and ULAN IDs appear only where the
 museums supply them.
@@ -124,6 +141,12 @@ npm run evaluate         # writes reports/impressionist-landscapes.md
 npm run site             # vendored libraries, Linked Art files and presets into site/
 
 npm run query -- queries/artists-in-several-museums.rq   # run any SPARQL file on the graph
+
+# Phase 3: AI (needs ANTHROPIC_API_KEY in .env; each step prints a cost estimate first)
+npm run vocabulary       # resolve the extra concepts on Wikidata, for review
+npm run enrich -- --dry-run          # then --sample 20, then the full batch
+npm run graph && npm run index       # rebuild with the AI suggestions
+npm run eval -- pool --variant with-ai && npm run eval -- judge && npm run eval -- score --variant with-ai
 
 # Phase 1: one artist (defaults to Vincent van Gogh)
 npm run harvest && npm run transform && npm run reconcile && npm run report
@@ -167,12 +190,16 @@ src/
   reconcile/   artist matching and the slice-wide match policy
   graph/       the crosswalk layer and graph build (Oxigraph)
   search/      search documents built from the graph, and the index
+  ai/          Claude client, image fetching, vocabulary, enrichment and the eval judge
+  eval/        search eval: queries, pooling and metrics
   report/      phase 1 report statistics and rendering
   cli/         one entry point per command
 site/          the static site; site/js/terms.js is shared with the index build
                so search behaves the same in Node and the browser
 queries/       SPARQL presets, also served on the site's Explore page
-alignments/    concept links the project asserts itself (Turtle)
+alignments/    concept links the project asserts itself, and the AI vocabulary extension
+prompts/       versioned prompts for each AI task
+eval/          eval queries, pooled results, labels with the judge's reasons, runs
 schemas/       Linked Art JSON Schemas and JSON-LD context, used offline
 reports/       generated reports with hand-written findings
 test/          Vitest tests and fixtures/raw/ (small saved API responses)

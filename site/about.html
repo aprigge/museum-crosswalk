@@ -60,6 +60,21 @@
     <p>The full reports are in the repository: <a href="https://github.com/aprigge/museum-crosswalk/blob/main/reports/impressionist-landscapes.md">Impressionist landscapes</a>
       and the earlier single-artist study, <a href="https://github.com/aprigge/museum-crosswalk/blob/main/reports/van-gogh.md">Van Gogh across three museums</a>.</p>
 
+    <h2 id="ai">AI in this project</h2>
+    <p>The museums record subjects unevenly: one museum tags snow, another doesn't tag anything at all. An AI model fills that gap,
+      and an evaluation measures whether it helped.</p>
+    <ul>
+      <li><strong>Subjects from images.</strong> Claude Opus 5.5 looks at each openly licensed image and suggests what it depicts (snow,
+        boats, a portrait of a woman), choosing only from a fixed list of concepts with verified Wikidata entries, so it cannot invent
+        identifiers. It never suggests a style or movement: those come from the museums and Wikidata.</li>
+      <li><strong>Labelled and separate.</strong> Every suggestion keeps its confidence and a short note of what the model saw, in its own
+        named graph (<code>graph/ai</code>). Only suggestions at 60% confidence or more reach search, and they count for less than the
+        museums' own subjects. Results found only through them carry an “AI” mark, and the search page can switch them off.</li>
+      <li><strong>Measured.</strong> Twenty test searches are scored with and without AI suggestions. A second model, Claude Sonnet 5.5,
+        judges whether each result is relevant from the image and catalogue data, so the model is not grading its own work. The
+        <a href="https://github.com/aprigge/museum-crosswalk/blob/main/reports/eval.md">evaluation report</a> has the numbers.</li>
+    </ul>
+
     <h2 id="data">Data status</h2>
     <div id="data-status"><p class="muted">Loading…</p></div>
 

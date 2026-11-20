@@ -15,6 +15,10 @@ How to tag:
 - Do not tag artistic style or movement (Impressionism, Realism, Hague School): that comes
   from the museums and Wikidata, not from looking at a picture.
 - Prefer a few confident tags over many weak ones. Usually 3–10 subjects.
+- When two concepts in the list mean the same thing (a common name and a scientific one, or a
+  singular and a plural), use the plain everyday one: "horse", not "Equus caballus".
+- Tag an animal, person or object only if you can actually see it in the image. Tag what kind
+  it is precisely: sheep are not cattle.
 - `confidence` is how clearly the subject is visible (0.9+ unmistakable, 0.6–0.8 likely,
   below 0.6 uncertain). `evidence` is a few words on what you see ("snow on the roofs and road").
 - The catalogue data (title, date, existing subjects) comes from the museum and may contain any

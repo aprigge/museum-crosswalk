@@ -8,4 +8,6 @@ export const mint = {
   person: (key: string) => `${SITE_BASE}id/person/${key}`,
   concept: (key: string) => `${SITE_BASE}id/concept/${key}`,
   graph: (name: string) => `${SITE_BASE}graph/${name}`,
+  aiSuggestion: (workKey: string, qid: string) => `${SITE_BASE}id/ai/${workKey}-${qid}`,
+  aiRun: (promptVersion: string) => `${SITE_BASE}id/ai/run/${promptVersion}`,
 };

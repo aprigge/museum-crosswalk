@@ -1,16 +1,47 @@
-import { readFile, writeFile, mkdir } from 'node:fs/promises';
+import { readdir, readFile, writeFile, mkdir } from 'node:fs/promises';
 import { gzipSync } from 'node:zlib';
 import { join } from 'node:path';
 import { dataDir, readCached, readJson } from '../core/cache.js';
 import { SLICES } from '../core/types.js';
 import type { Concept } from '../authority/concepts.js';
 import type { AgentResolution, PersonFacts } from '../reconcile/agents.js';
-import { GRAPHS, GraphBuilder } from '../graph/build.js';
+import { GRAPHS, GraphBuilder, type AiRun } from '../graph/build.js';
+import type { AiRecord } from '../ai/client.js';
+import { checkAgainstVocabulary, type Enrichment } from '../ai/enrich.js';
+import { loadEnrichVocabulary } from '../ai/vocabulary.js';
 import { toNQuads } from '../linkedart/validate.js';
 import { selectSources } from '../sources/index.js';
 import { cliArgs, main } from './common.js';
 
 type Node = Record<string, any>;
+
+/**
+ * The newest full enrichment run: each work's suggestions, re-checked against the vocabulary
+ * (the model may only use listed IDs) and labelled with the vocabulary's labels.
+ */
+async function latestEnrichment(): Promise<{ run: AiRun; byWork: Map<string, { qid: string; label: string; confidence: number; evidence: string }[]> } | null> {
+  const root = join(dataDir(), 'ai', 'enrich');
+  const runs: { dir: string; info: { prompt: string; items: number; at: string } }[] = [];
+  for (const dir of await readdir(root).catch(() => [] as string[])) {
+    const info = await readJson<{ prompt: string; items: number; at: string }>(join(root, dir, '_run.json')).catch(() => null);
+    if (info) runs.push({ dir, info });
+  }
+  // The full run, not a sample: most paintings, then newest.
+  const best = runs.sort((a, b) => b.info.items - a.info.items || b.info.at.localeCompare(a.info.at))[0];
+  if (!best) return null;
+  const vocab = new Map((await loadEnrichVocabulary()).map((v) => [v.qid, v]));
+  const byWork = new Map<string, { qid: string; label: string; confidence: number; evidence: string }[]>();
+  let model = '';
+  for (const f of await readdir(join(root, best.dir))) {
+    if (f.startsWith('_')) continue;
+    const rec = await readJson<AiRecord<Enrichment>>(join(root, best.dir, f));
+    if (!rec.output) continue;
+    model ||= rec.model;
+    const checked = checkAgainstVocabulary(rec.output, vocab);
+    byWork.set(rec.key, checked.subjects.map((s) => ({ qid: s.conceptId, label: vocab.get(s.conceptId)!.label, confidence: s.confidence, evidence: s.evidence })));
+  }
+  return { run: { model, promptVersion: best.info.prompt, at: best.info.at }, byWork };
+}
 
 main(async () => {
   const args = cliArgs();
@@ -29,6 +60,8 @@ main(async () => {
   }
 
   const g = new GraphBuilder(concepts, people);
+  const ai = await latestEnrichment();
+  if (ai) console.log(`AI suggestions: run ${ai.run.promptVersion} (${ai.run.model}), ${ai.byWork.size} works`);
   g.addAlignments(await readFile('alignments/concepts.ttl', 'utf8'));
   for (const adapter of selectSources(args.source)) {
     const dir = join(dataDir(), 'linked-art', adapter.name);
@@ -42,6 +75,8 @@ main(async () => {
       const raw = await readCached(adapter.name, 'objects', id);
       if (!raw) throw new Error(`No cached raw record for ${adapter.name} ${id}`);
       g.addWork({ source: adapter.name, id, record, related, raw }, byRecord.get(`${adapter.name}:${id}`) ?? []);
+      const suggestions = ai?.byWork.get(`${adapter.name}-${id}`);
+      if (ai && suggestions?.length) g.addAiSubjects(adapter.name, id, suggestions, ai.run);
       nq += await toNQuads(record);
       for (const r of related) nq += await toNQuads(r);
     }
@@ -55,7 +90,7 @@ main(async () => {
   // keep the lines of the core graphs: the site's graph must keep crosswalk, derived and
   // alignments apart.
   const full = g.store.dump({ format: 'application/n-quads' });
-  const coreGraphs = [GRAPHS.crosswalk, GRAPHS.derived, GRAPHS.alignments].map((gr) => ` <${gr.value}> .`);
+  const coreGraphs = [GRAPHS.crosswalk, GRAPHS.derived, GRAPHS.alignments, GRAPHS.ai].map((gr) => ` <${gr.value}> .`);
   const core = full
     .split('\n')
     .filter((line) => coreGraphs.some((suffix) => line.endsWith(suffix)))
