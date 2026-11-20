@@ -8,12 +8,13 @@
   "vars": {
     // Pages that may call this Worker (CORS). Localhost is for testing the site locally.
     "ALLOWED_ORIGINS": "https://aprigge.github.io,http://127.0.0.1:8765,http://localhost:8765",
-    // A ceiling on questions per day across all visitors: a spending cap (approximate; KV is eventually consistent).
-    "DAILY_CAP": "300"
+    // A ceiling on model calls per day across all visitors (a question is up to two: query and
+    // answer sentence): a spending cap, approximate because KV is eventually consistent.
+    "DAILY_CAP": "600"
   },
-  // Per visitor: 5 questions per minute in each Cloudflare location (approximate, per the binding's docs).
+  // Per visitor: 10 model calls (about 5 questions) per minute in each Cloudflare location (approximate).
   "ratelimits": [
-    { "name": "ASK_LIMIT", "namespace_id": "1001", "simple": { "limit": 5, "period": 60 } }
+    { "name": "ASK_LIMIT", "namespace_id": "1001", "simple": { "limit": 10, "period": 60 } }
   ],
   // Daily counter, provisioned by the first deploy. Local dev uses a local namespace.
   "kv_namespaces": [{ "binding": "ASK_COUNTS", "id": "75e06fab8d0449c1a54aee94fda2576f" }]

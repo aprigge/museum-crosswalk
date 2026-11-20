@@ -32,7 +32,7 @@ id:      <https://aprigge.github.io/museum-crosswalk/id/>
 
 ## People (URIs like `id:person/Q296`)
 
-`rdfs:label` (plain string, e.g. `"Claude Monet"`), `owl:sameAs` Wikidata, `mc:birthYear`, `mc:deathYear` (integers), `mc:movement` (a concept, e.g. Impressionism, Hague School). Each person has `mc:sourceAgent` nodes, one per museum record of them, with `mc:museum`, `mc:matchMethod` (`"exact-id"`, `"wikidata-crosswalk"`, `"name-dates"`, `"human-approved"`), `mc:matchConfidence`, `mc:matchDecision`.
+`rdfs:label` (plain string, e.g. `"Claude Monet"`), `owl:sameAs` Wikidata, `mc:birthYear`, `mc:deathYear` (integers), `mc:movement` (a concept, e.g. Impressionism, Hague School). From Wikidata, as plain strings: `mc:birthPlace` (e.g. `"Paris"`), `mc:citizenship` (country, often a historical name such as `"Kingdom of the Netherlands"` or `"United Kingdom of Great Britain and Ireland"`, so match it with `CONTAINS`), and `mc:gender` (`"male"`, `"female"`). Some people have more than one citizenship. Each person has `mc:sourceAgent` nodes, one per museum record of them, with `mc:museum`, `mc:matchMethod` (`"exact-id"`, `"wikidata-crosswalk"`, `"name-dates"`, `"human-approved"`), `mc:matchConfidence`, `mc:matchDecision`.
 
 ## Concepts (URIs like `id:concept/Q191163`)
 

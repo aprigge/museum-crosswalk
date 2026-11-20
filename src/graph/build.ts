@@ -154,6 +154,16 @@ export class GraphBuilder {
         if (by) this.add(node, n('mc', 'birthYear'), int(by));
         if (dy) this.add(node, n('mc', 'deathYear'), int(dy));
         for (const m of facts.movements) this.add(node, n('mc', 'movement'), this.movementConcept(m));
+        // As Wikidata states them: a label to query by, and the Wikidata item to follow.
+        for (const b of facts.birthPlaces ?? []) {
+          this.add(node, n('mc', 'birthPlace'), literal(b.label));
+          this.add(node, n('schema', 'birthPlace'), n('wd', b.qid));
+        }
+        for (const c of facts.citizenships ?? []) {
+          this.add(node, n('mc', 'citizenship'), literal(c.label));
+          this.add(node, n('schema', 'nationality'), n('wd', c.qid));
+        }
+        for (const g of facts.genders ?? []) this.add(node, n('mc', 'gender'), literal(g.label));
       }
     }
     // The museum's own record of this person, and how it was matched.

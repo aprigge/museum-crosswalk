@@ -35,6 +35,10 @@ export function loadIndex() {
 }
 
 let graphPromise;
+let graphReady = false;
+/** True once the graph is in memory: later queries answer in milliseconds. */
+export const isGraphLoaded = () => graphReady;
+
 /** The core knowledge graph, loaded into Oxigraph running in the browser (WebAssembly). */
 export function loadGraph() {
   graphPromise ??= (async () => {
@@ -44,6 +48,7 @@ export function loadGraph() {
     const text = await new Response(res.body.pipeThrough(new DecompressionStream('gzip'))).text();
     const store = new oxigraph.Store();
     store.load(text, { format: 'application/n-quads' });
+    graphReady = true;
     return store;
   })();
   return graphPromise;

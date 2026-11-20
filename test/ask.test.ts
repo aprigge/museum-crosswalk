@@ -61,3 +61,25 @@ describe('ask requests', () => {
     expect(p.messages[2].content).toMatch(/parse error/);
   });
 });
+
+describe('answer sentence guard', () => {
+  it('accepts numbers that appear in the rows or are the row count', async () => {
+    const { unsupportedNumbers } = await import('../site/js/answer-guard.js');
+    const rows = [['Gustave Courbet', '13'], ['Léon Bonnat', '5'], ['Vincent van Gogh', '31']];
+    expect(unsupportedNumbers('3 artists are in all three museums; Van Gogh leads with 31 paintings.', rows, 3)).toEqual([]);
+  });
+
+  it('flags a number the rows do not contain', async () => {
+    const { unsupportedNumbers } = await import('../site/js/answer-guard.js');
+    expect(unsupportedNumbers('Courbet painted 1,200 works.', [['Gustave Courbet', '13']], 1)).toEqual(['1200']);
+  });
+
+  it('caps and shortens rows sent to the model', async () => {
+    const { tableForSummary } = await import('../site/js/answer-guard.js');
+    const rows = Array.from({ length: 50 }, (_, i) => [`https://aprigge.github.io/museum-crosswalk/id/work/aic-${i}`]);
+    const t = tableForSummary(['w'], rows);
+    expect(t.rows).toHaveLength(30);
+    expect(t.rowCount).toBe(50);
+    expect(t.rows[0]).toEqual(['work/aic-0']);
+  });
+});

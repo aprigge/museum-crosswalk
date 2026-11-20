@@ -36,10 +36,11 @@ export function lookupByIdQuery(pid: Pid, values: string[]): string {
 
 /** Label, life dates, movements and the ID properties above, for a set of people. */
 export function factsQuery(qids: string[]): string {
-  return `SELECT ?item ?itemLabel ?birth ?death ?movement ?movementLabel ?prop ?value WHERE {
+  return `SELECT ?item ?itemLabel ?birth ?death ?movement ?movementLabel ?prop ?value ?factProp ?fact ?factLabel WHERE {
   VALUES ?item { ${qids.map((q) => `wd:${q}`).join(' ')} }
   { OPTIONAL { ?item wdt:P569 ?birth } OPTIONAL { ?item wdt:P570 ?death } }
   UNION { ?item wdt:P135 ?movement }
+  UNION { VALUES ?factProp { wdt:P19 wdt:P27 wdt:P21 } ?item ?factProp ?fact }
   UNION { VALUES ?prop { ${Object.keys(ID_PROPERTIES).map((p) => `wdt:${p}`).join(' ')} } ?item ?prop ?value }
   SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
 }`;
@@ -47,7 +48,14 @@ export function factsQuery(qids: string[]): string {
 
 export interface PersonFacts extends ArtistQuery {
   movements: { qid: string; label: string }[];
+  /** As Wikidata states them: P19 place of birth, P27 country of citizenship, P21 sex or gender. */
+  birthPlaces?: { qid: string; label: string }[];
+  citizenships?: { qid: string; label: string }[];
+  genders?: { qid: string; label: string }[];
 }
+
+/** Wikidata property -> the PersonFacts list it fills. */
+const FACT_FIELDS = { P19: 'birthPlaces', P27: 'citizenships', P21: 'genders' } as const;
 
 export function parseFacts(res: SparqlResults): Map<string, PersonFacts> {
   const out = new Map<string, PersonFacts>();
@@ -59,6 +67,13 @@ export function parseFacts(res: SparqlResults): Map<string, PersonFacts> {
     p.death ??= b.death?.value;
     if (b.movement && !p.movements.some((m) => m.qid === qidFromUri(b.movement!.value))) {
       p.movements.push({ qid: qidFromUri(b.movement.value), label: b.movementLabel?.value ?? '' });
+    }
+    if (b.factProp && b.fact) {
+      const field = FACT_FIELDS[b.factProp.value.split('/').at(-1) as keyof typeof FACT_FIELDS];
+      const list = (p[field] ??= []);
+      const fq = qidFromUri(b.fact.value);
+      // Skip values Wikidata can't label in English (they come back as the bare QID).
+      if (field && b.factLabel && b.factLabel.value !== fq && !list.some((x) => x.qid === fq)) list.push({ qid: fq, label: b.factLabel.value });
     }
     if (b.prop && b.value) {
       const pid = b.prop.value.split('/').at(-1) as Pid;
