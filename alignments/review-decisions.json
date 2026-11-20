@@ -862,5 +862,35 @@
         }
       ]
     }
+  },
+  "smk-1871_person": {
+    "decision": "merge",
+    "qid": "Q5598",
+    "museumName": "Rembrandt van Rijn",
+    "candidateLabel": "Rembrandt",
+    "decidedBy": "person",
+    "decidedAt": "2026-11-20T19:08:55.303874Z",
+    "ai": null,
+    "note": "Name and life years (1606–1669) match Wikidata; the museum gives no ID Wikidata knows. Qualified records stay qualified."
+  },
+  "cleveland-2520": {
+    "decision": "merge",
+    "qid": "Q5598",
+    "museumName": "Rembrandt van Rijn",
+    "candidateLabel": "Rembrandt",
+    "decidedBy": "person",
+    "decidedAt": "2026-11-20T19:08:55.303874Z",
+    "ai": null,
+    "note": "Name and life years (1606–1669) match Wikidata; the museum gives no ID Wikidata knows. Qualified records stay qualified."
+  },
+  "cleveland-291869": {
+    "decision": "merge",
+    "qid": "Q5598",
+    "museumName": "Rembrandt van Rijn",
+    "candidateLabel": "Rembrandt",
+    "decidedBy": "person",
+    "decidedAt": "2026-11-20T19:08:55.303874Z",
+    "ai": null,
+    "note": "Name and life years (1606–1669) match Wikidata; the museum gives no ID Wikidata knows. Qualified records stay qualified."
   }
 }

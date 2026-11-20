@@ -1,28 +1,32 @@
 import { join } from 'node:path';
 import { dataDir, harvestedIds, listCached, writeJson } from '../core/cache.js';
-import { SLICES, type SourceArtistRef } from '../core/types.js';
+import { isArtistDataset, type Dataset, type SourceArtistRef } from '../core/types.js';
 import { newWikidataClient } from '../authority/wikidata.js';
-import { applyDecision, resolveAgents, type PersonDecision } from '../reconcile/agents.js';
+import { applyDecision, artistNames, resolveAgents, type PersonDecision } from '../reconcile/agents.js';
 import { reviewKey } from '../ai/review.js';
 import { readFile } from 'node:fs/promises';
 import { reconcileRecord, type RecordReconciliation } from '../reconcile/match.js';
 import { selectSources } from '../sources/index.js';
-import { artistFor, cliArgs, main } from './common.js';
+import { artistFor, cliArgs, datasetFor, main } from './common.js';
 
-/** Slice mode: resolve every artist on every work in the slice. */
-async function reconcileSlice(args: ReturnType<typeof cliArgs>) {
-  const slice = SLICES[args.slice!];
-  if (!slice) throw new Error(`Unknown slice "${args.slice}"`);
+/**
+ * Dataset mode: resolve every artist on every work harvested for the dataset (a slice, or one
+ * artist's works, where the records also name engravers, publishers and "after" sources).
+ */
+async function reconcileDataset(args: ReturnType<typeof cliArgs>, slice: Dataset) {
   const refs: SourceArtistRef[] = [];
   const works: Record<string, string[]> = {};
   for (const adapter of selectSources(args.source)) {
     const ids = await harvestedIds(adapter.name, slice.id);
-    const raws = (await listCached(adapter.name, 'objects')).filter((r) => ids.has(r.id) && (adapter.inSlice?.(r, slice) ?? true));
+    if (!ids.size) continue; // not harvested for this dataset
+    const raws = (await listCached(adapter.name, 'objects')).filter((r) => ids.has(r.id) && (isArtistDataset(slice) || (adapter.inSlice?.(r, slice) ?? true)));
     works[adapter.name] = raws.map((r) => r.id);
     await adapter.prepareTransform?.();
     for (const raw of raws) refs.push(...(await adapter.artistRefs(raw)));
   }
-  const found = await resolveAgents(newWikidataClient(args.refresh), refs);
+  const client = newWikidataClient(args.refresh);
+  const datasetArtist = isArtistDataset(slice) ? { qid: slice.qid, names: await artistNames(client, slice.qid) } : undefined;
+  const found = await resolveAgents(client, refs, datasetArtist);
   // A person's decisions on review proposals (alignments/review-decisions.json) settle those refs.
   const decisions = JSON.parse(await readFile('alignments/review-decisions.json', 'utf8').catch(() => '{}')) as Record<string, PersonDecision>;
   const resolutions = found.resolutions.map((r) => applyDecision(r, decisions[reviewKey(r.ref.source, r.ref.sourceAgentId ?? r.ref.name ?? 'unknown')]));
@@ -50,7 +54,8 @@ async function reconcileSlice(args: ReturnType<typeof cliArgs>) {
 
 main(async () => {
   const args = cliArgs();
-  if (args.slice) return reconcileSlice(args);
+  const dataset = datasetFor(args);
+  if (dataset) return reconcileDataset(args, dataset);
 
   const artist = await artistFor(args);
   const all: RecordReconciliation[] = [];

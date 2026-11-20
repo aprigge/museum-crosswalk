@@ -1,0 +1,48 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/met-354632",
+  "type": "VisualItem",
+  "_label": "Subjects of St. Jerome beside a Pollard Willow",
+  "about": [
+    {
+      "id": "http://vocab.getty.edu/aat/300249525",
+      "type": "Type",
+      "_label": "Animals",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q729",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300132410",
+      "type": "Type",
+      "_label": "Trees",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q10884",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ulan/500060933",
+      "type": "Type",
+      "_label": "Saint Jerome",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q44248",
+          "type": "Type"
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "met",
+    "sourceUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/354632",
+    "fetchedAt": "2026-11-20T17:35:24.051Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "Open Access (isPublicDomain: true)"
+  }
+}

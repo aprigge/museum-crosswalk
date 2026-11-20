@@ -1,0 +1,48 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/met-11740",
+  "type": "VisualItem",
+  "_label": "Subjects of George Washington",
+  "about": [
+    {
+      "id": "http://vocab.getty.edu/page/ulan/500126198",
+      "type": "Type",
+      "_label": "George Washington",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q23",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300025928",
+      "type": "Type",
+      "_label": "Men",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q8441",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300015637",
+      "type": "Type",
+      "_label": "Portraits",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q134307",
+          "type": "Type"
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "met",
+    "sourceUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/11740",
+    "fetchedAt": "2026-11-20T17:50:24.317Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "Open Access (isPublicDomain: true)"
+  }
+}

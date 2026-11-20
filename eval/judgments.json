@@ -95,6 +95,12 @@
       "confidence": 0.85,
       "reason": "Outdoor view of the Aigues-Mortes town gate and fields by Frédéric Bazille, whose catalogue styles include Impressionism; it is a landscape.",
       "model": "claude-sonnet-5-5"
+    },
+    "aic-53058": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "Forêt de Compiègne (1885) by Berthe Morisot is catalogued as Impressionism, and the image shows an outdoor forest landscape with loose brushwork and tree trunks.",
+      "model": "claude-sonnet-5-5"
     }
   },
   "q02": {
@@ -246,6 +252,12 @@
       "relevant": true,
       "confidence": 0.95,
       "reason": "The painting shows an olive grove with trees, ground and sky as a broad countryside view; the landscape is clearly the main subject.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-29401": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "The painting shows a wooded landscape with autumn trees, undergrowth and a distant hillside view; nature is the main subject, and the title is 'Wooded Landscape'.",
       "model": "claude-sonnet-5-5"
     }
   },
@@ -454,6 +466,12 @@
       "relevant": true,
       "confidence": 0.97,
       "reason": "The painting is a seated portrait of a named sitter, Madame Frederic Breyer, painted by Courbet, so a specific person is clearly the main subject.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-12888": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "The painting is a seated portrait of a specific person, the artist's sister, as its main subject, shown in a dark dress against a pointillist background.",
       "model": "claude-sonnet-5-5"
     }
   },
@@ -936,6 +954,12 @@
       "relevant": false,
       "confidence": 0.85,
       "reason": "The painting shows dancers in yellow-green tutus in the wings; only tiny flower accents in hair or at the bodice, with the backdrop abstract, so flowers are not prominent.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-111626": {
+      "relevant": true,
+      "confidence": 0.6,
+      "reason": "The woman wears a prominent lily corsage pinned at her bodice, a clearly visible flower, though the main subject is the portrait itself.",
       "model": "claude-sonnet-5-5"
     }
   },
@@ -2026,6 +2050,54 @@
       "relevant": true,
       "confidence": 0.98,
       "reason": "A seated half-length portrait of a woman in a black dress, titled Madame Frederic Breyer; the sole sitter is a woman.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-42949": {
+      "relevant": true,
+      "confidence": 0.85,
+      "reason": "Portrait of Jeanne Wenz, a woman shown in profile with short red hair and a dark jacket, seated on a chair; she is the sole sitter.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-79586": {
+      "relevant": false,
+      "confidence": 0.6,
+      "reason": "This is a double portrait of two women (Mme Lisle and Mme Loubens) with no single main sitter, so it only partly fits 'portrait of a woman'.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-80604": {
+      "relevant": true,
+      "confidence": 0.96,
+      "reason": "Titled a portrait of Madame Dietz-Monnin; the image shows a woman in a pink hat, white dress and feather boa as the main sitter.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-111626": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "The painting is a portrait of Mrs. Charles L. Hutchinson, a woman in a dark dress with a lily corsage and long gloves, and she is the sole sitter.",
+      "model": "claude-sonnet-5-5"
+    },
+    "aic-12888": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "Pointillist portrait of a seated woman in a dark dress, titled 'Portrait of the Artist's Sister'; she is clearly the main sitter.",
+      "model": "claude-sonnet-5-5"
+    },
+    "rijksmuseum-200108378": {
+      "relevant": false,
+      "confidence": 0.7,
+      "reason": "This is a group portrait of three women (the Veth sisters) with no single main sitter, so it does not match a portrait whose main sitter is a woman.",
+      "model": "claude-sonnet-5-5"
+    },
+    "rijksmuseum-20088786": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "The painting is a portrait of a young woman seated at a piano, and the title names Jonkvrouwe Maria Dommer van Poldersveldt as the sitter.",
+      "model": "claude-sonnet-5-5"
+    },
+    "met-435876": {
+      "relevant": true,
+      "confidence": 0.97,
+      "reason": "The painting is a seated portrait of Madame Cézanne (Hortense Fiquet) in a red dress, so a woman is clearly the main sitter.",
       "model": "claude-sonnet-5-5"
     }
   },

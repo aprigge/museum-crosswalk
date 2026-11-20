@@ -31,9 +31,12 @@ export function loadIndex(json: string) {
   return MiniSearch.loadJSON<SearchDoc>(json, MINISEARCH_OPTIONS as never);
 }
 
+/** The search eval covers the paintings slice; other datasets' works are filtered out. */
+export const EVAL_DATASET = 'paintings-1850-1900';
+
 export function runQuery(index: ReturnType<typeof loadIndex>, q: EvalQuery, variant: Variant): Hit[] {
-  const options = variant.fields ? { ...SEARCH_OPTIONS, fields: variant.fields } : SEARCH_OPTIONS;
-  return index.search(q.query, options) as unknown as Hit[];
+  const options = { ...SEARCH_OPTIONS, ...(variant.fields ? { fields: variant.fields } : {}), filter: (r: { datasets?: string[] }) => !r.datasets || r.datasets.includes(EVAL_DATASET) };
+  return index.search(q.query, options as never) as unknown as Hit[];
 }
 
 /**

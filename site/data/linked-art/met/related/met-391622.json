@@ -1,0 +1,59 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/met-391622",
+  "type": "VisualItem",
+  "_label": "Subjects of The Pancake Woman",
+  "about": [
+    {
+      "id": "http://vocab.getty.edu/aat/300247598",
+      "type": "Type",
+      "_label": "Boys",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q3010",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300025928",
+      "type": "Type",
+      "_label": "Men",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q8441",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300025943",
+      "type": "Type",
+      "_label": "Women",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q467",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300412186",
+      "type": "Type",
+      "_label": "Working",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q6958747",
+          "type": "Type"
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "met",
+    "sourceUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/391622",
+    "fetchedAt": "2026-11-20T17:43:06.179Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "Open Access (isPublicDomain: true)"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "source": "smk",
+  "id": "kmssp404",
+  "url": "https://api.smk.dk/api/v1/art/search/?keys=*&filters=%5Bcreator%3ARembrandt%20van%20Rijn%5D&offset=500&rows=100&lang=en",
+  "fetchedAt": "2026-11-20T17:40:54.526Z",
+  "body": {
+    "id": "1170088911_object",
+    "created": "2020-03-22T01:22:45Z",
+    "modified": "2025-07-11T18:08:17Z",
+    "collection": [
+      ""
+    ],
+    "acquisition_date": "1761-01-01T00:00:00Z",
+    "acquisition_date_precision": "1761-12-31",
+    "dimensions": [
+      {
+        "notes": "679 x 575 mm",
+        "part": "Netto",
+        "type": "height",
+        "unit": "cm",
+        "value": "67.9"
+      },
+      {
+        "notes": "679 x 575 mm",
+        "part": "Netto",
+        "type": "width",
+        "unit": "cm",
+        "value": "57.5"
+      }
+    ],
+    "documentation": [
+      {
+        "title": "Beschreibendes und kritisches Verzeichnis der Werke der hervorragendsten Holländischen Maler des XVII Jahrhunderts",
+        "author": "Cornelis Hofstede de Groot",
+        "notes": "nr. 596",
+        "shelfmark": "2119",
+        "year_of_publication": "1907-28"
+      },
+      {
+        "title": "Fortrolig Fortegnelse over en Række Forfalskninger",
+        "author": "Emil Hannover",
+        "notes": "kat.nr. 19",
+        "shelfmark": "34903",
+        "year_of_publication": "1915"
+      }
+    ],
+    "inscriptions": [
+      {
+        "content": "Rembrandt f.",
+        "type": "signature"
+      }
+    ],
+    "materials": [
+      "canvas"
+    ],
+    "object_names": [
+      {
+        "name": "Painting"
+      }
+    ],
+    "production": [
+      {
+        "creator": "Rembrandts skole",
+        "creator_surname": "Rembrandts skole",
+        "creator_gender": "UNKNOWN",
+        "creator_lref": "21970_person"
+      },
+      {
+        "creator": "Rembrandt van Rijn",
+        "creator_surname": "Rembrandt van Rijn",
+        "creator_date_of_birth": "1606-01-01T00:00:00.000Z",
+        "creator_date_of_death": "1669-01-01T00:00:00.000Z",
+        "creator_nationality": "Dutch",
+        "creator_gender": "MALE",
+        "creator_qualifier": "copy after",
+        "creator_role": "copy after",
+        "creator_lref": "1871_person"
+      }
+    ],
+    "production_date": [
+      {
+        "start": "1655-01-01T00:00:00.000Z",
+        "end": "1655-12-31T00:00:00.000Z",
+        "period": "1655"
+      }
+    ],
+    "techniques": [
+      "Oil on canvas"
+    ],
+    "titles": [
+      {
+        "title": "Portrait of Rembrandt",
+        "language": "engelsk"
+      }
+    ],
+    "number_of_parts": 1,
+    "object_number": "kmssp404",
+    "object_url": "https://api.smk.dk/api/v1/art?object_number=kmssp404",
+    "frontend_url": "https://open.smk.dk/artwork/image/kmssp404",
+    "iiif_manifest": "https://api.smk.dk/api/v1/iiif/manifest?id=kmssp404",
+    "enrichment_url": "https://enrichment.api.smk.dk/api/enrichment/kmssp404",
+    "similar_images_url": "https://similar.api.smk.dk/similar/?object_number=kmssp404",
+    "production_dates_notes": [
+      "Værkdatering: Efter 1655"
+    ],
+    "public_domain": true,
+    "rights": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "on_display": false,
+    "image_mime_type": "image/tiff",
+    "image_iiif_id": "https://iip.smk.dk/iiif/jp2/1v53k2400_kmssp404.tif.jp2",
+    "image_iiif_info": "https://iip.smk.dk/iiif/jp2/1v53k2400_kmssp404.tif.jp2/info.json",
+    "image_width": 4606,
+    "image_height": 5581,
+    "image_size": 16380628,
+    "image_thumbnail": "https://iip-thumb.smk.dk/iiif/jp2/1v53k2400_kmssp404.tif.jp2/full/!1024,/0/default.jpg",
+    "image_native": "https://api.smk.dk/api/v1/download/W3siaW1nX3VybCI6Imh0dHBzOi8vaWlwLnNtay5kay9paWlmL2pwMi8xdjUzazI0MDBfa21zc3A0MDQudGlmLmpwMi9mdWxsL2Z1bGwvMC9uYXRpdmUuanBnIiwicHVibGljX2RvbWFpbiI6dHJ1ZSwib2JqZWN0X251bWJlciI6Imttc3NwNDA0IiwibnVtIjoiIn1d/kmssp404.jpg",
+    "image_orientation": "portrait",
+    "image_hq": true,
+    "has_3d_file": false,
+    "has_image": true,
+    "artist": [
+      "Rembrandts skole"
+    ]
+  }
+}

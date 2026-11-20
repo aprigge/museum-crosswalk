@@ -1,19 +1,17 @@
 import { readdir } from 'node:fs/promises';
 import { join } from 'node:path';
-import { dataDir, readJson, writeJson } from '../core/cache.js';
-import { SLICES } from '../core/types.js';
+import { dataDir, readJson, writeJson, cacheKey } from '../core/cache.js';
 import { resolveConcepts } from '../authority/concepts.js';
 import { newWikidataClient } from '../authority/wikidata.js';
 import { selectSources } from '../sources/index.js';
 import { conceptUris } from '../graph/extract.js';
-import { cliArgs, main } from './common.js';
+import { cliArgs, datasetFor, main } from './common.js';
 
 type Node = Record<string, any>;
 
 main(async () => {
   const args = cliArgs();
-  const slice = SLICES[args.slice ?? 'paintings-1850-1900'];
-  if (!slice) throw new Error(`Unknown slice "${args.slice}"`);
+  const slice = datasetFor(args, 'paintings-1850-1900')!;
   const works = await readJson<Record<string, string[]>>(join(dataDir(), 'reconcile', slice.id, 'works.json'));
 
   const bySource: Record<string, number> = {};
@@ -23,7 +21,7 @@ main(async () => {
     const relatedFiles = new Set(await readdir(join(dir, 'related')).catch(() => [] as string[]));
     let n = 0;
     for (const id of works[adapter.name] ?? []) {
-      const record = await readJson<Node>(join(dir, `${id}.json`));
+      const record = await readJson<Node>(join(dir, `${cacheKey(id)}.json`));
       const related: Node[] = [];
       for (const v of record.shows ?? []) {
         const f = `${String(v.id).split('/').at(-1)}.json`;

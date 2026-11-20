@@ -1,0 +1,48 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/met-369804",
+  "type": "VisualItem",
+  "_label": "Subjects of View of Amsterdam from the Northwest",
+  "about": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Buildings",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q41176",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300006273",
+      "type": "Type",
+      "_label": "Windmills",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q38720",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/page/tgn/7006952",
+      "type": "Type",
+      "_label": "Amsterdam",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q727",
+          "type": "Type"
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "met",
+    "sourceUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/369804",
+    "fetchedAt": "2026-11-20T17:37:12.051Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "Open Access (isPublicDomain: true)"
+  }
+}

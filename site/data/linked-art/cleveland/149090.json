@@ -1,0 +1,148 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://openaccess-api.clevelandart.org/api/artworks/149090",
+  "type": "HumanMadeObject",
+  "_label": "Lot and His Daughters",
+  "identified_by": [
+    {
+      "type": "Name",
+      "content": "Lot and His Daughters",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ]
+    },
+    {
+      "type": "Identifier",
+      "content": "1977.24",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300312355",
+          "type": "Type",
+          "_label": "Accession Number"
+        }
+      ]
+    }
+  ],
+  "produced_by": {
+    "type": "Production",
+    "timespan": {
+      "type": "TimeSpan",
+      "identified_by": [
+        {
+          "type": "Name",
+          "content": "1631"
+        }
+      ],
+      "begin_of_the_begin": "1626-01-01T00:00:00Z",
+      "end_of_the_end": "1636-12-31T23:59:59Z"
+    },
+    "carried_out_by": [
+      {
+        "id": "https://openaccess-api.clevelandart.org/api/creators/22604",
+        "type": "Person",
+        "_label": "Jan Georg van Vliet"
+      },
+      {
+        "id": "https://openaccess-api.clevelandart.org/api/creators/2520",
+        "type": "Person",
+        "_label": "Rembrandt van Rijn"
+      }
+    ]
+  },
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "content": "etching and engraving",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435429",
+          "type": "Type",
+          "_label": "Materials Statement",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Platemark: 27 x 22.3 cm (10 5/8 x 8 3/4 in.); Sheet: 27.9 x 22.8 cm (11 x 9 in.)",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435430",
+          "type": "Type",
+          "_label": "Dimensions Statement",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "representation": [
+    {
+      "type": "VisualItem",
+      "digitally_shown_by": [
+        {
+          "type": "DigitalObject",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300215302",
+              "type": "Type",
+              "_label": "Digital Image"
+            }
+          ],
+          "access_point": [
+            {
+              "id": "https://openaccess-cdn.clevelandart.org/1977.24/1977.24_web.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "subject_of": [
+    {
+      "type": "LinguisticObject",
+      "digitally_carried_by": [
+        {
+          "type": "DigitalObject",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300264578",
+              "type": "Type",
+              "_label": "Web Page"
+            }
+          ],
+          "format": "text/html",
+          "access_point": [
+            {
+              "id": "https://clevelandart.org/art/1977.24",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "cleveland",
+    "sourceUrl": "https://openaccess-api.clevelandart.org/api/artworks/?artists=Rembrandt&limit=100&skip=0",
+    "fetchedAt": "2026-11-20T17:40:49.070Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "Cleveland Open Access data is CC0; images only where share_license_status is CC0"
+  }
+}

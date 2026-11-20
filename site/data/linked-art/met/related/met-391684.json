@@ -1,0 +1,26 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/met-391684",
+  "type": "VisualItem",
+  "_label": "Subjects of The Virgin and Child in the Clouds",
+  "about": [
+    {
+      "id": "http://vocab.getty.edu/page/ia/901000052",
+      "type": "Type",
+      "_label": "Madonna and Child",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q9309699",
+          "type": "Type"
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "met",
+    "sourceUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/391684",
+    "fetchedAt": "2026-11-20T17:44:21.225Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "Open Access (isPublicDomain: true)"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/met-359972",
+  "type": "VisualItem",
+  "_label": "Subjects of Landscape with Three Gabled Cottages Beside a Road",
+  "about": [
+    {
+      "id": "http://vocab.getty.edu/aat/300005433",
+      "type": "Type",
+      "_label": "Houses",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q3947",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300008217",
+      "type": "Type",
+      "_label": "Roads",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q34442",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300132410",
+      "type": "Type",
+      "_label": "Trees",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q10884",
+          "type": "Type"
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "met",
+    "sourceUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/359972",
+    "fetchedAt": "2026-11-20T17:36:21.060Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "Open Access (isPublicDomain: true)"
+  }
+}

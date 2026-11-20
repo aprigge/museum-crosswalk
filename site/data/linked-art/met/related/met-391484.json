@@ -1,0 +1,26 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/met-391484",
+  "type": "VisualItem",
+  "_label": "Subjects of A Woman Making Water",
+  "about": [
+    {
+      "id": "http://vocab.getty.edu/aat/300189568",
+      "type": "Type",
+      "_label": "Female Nudes",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q40446",
+          "type": "Type"
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "met",
+    "sourceUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/391484",
+    "fetchedAt": "2026-11-20T17:41:18.167Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "Open Access (isPublicDomain: true)"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/met-356476",
+  "type": "VisualItem",
+  "_label": "Subjects of Christ Presented to the People",
+  "about": [
+    {
+      "id": "http://vocab.getty.edu/aat/300025928",
+      "type": "Type",
+      "_label": "Men",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q8441",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ia/901000087",
+      "type": "Type",
+      "_label": "Christ",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q642420",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://www.wikidata.org/entity/Q13430821",
+      "type": "Type",
+      "_label": "Crowd"
+    }
+  ],
+  "_provenance": {
+    "source": "met",
+    "sourceUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/356476",
+    "fetchedAt": "2026-11-20T17:35:45.009Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "Open Access (isPublicDomain: true)"
+  }
+}

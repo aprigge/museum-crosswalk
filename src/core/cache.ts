@@ -44,6 +44,9 @@ export async function listCached(source: string, kind: string): Promise<CachedRa
   return out;
 }
 
+/** The combined graph the site serves (every reconciled dataset), with its search docs. */
+export const siteGraphDir = () => join(dataDir(), 'graph', 'site');
+
 /**
  * The ids a harvest run recorded: the artist run (`_harvest.json`) or a slice run
  * (`_harvest-{slice}.json`). The raw cache is shared, so steps after harvest use this

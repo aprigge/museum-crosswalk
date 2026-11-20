@@ -1,0 +1,130 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://api.smk.dk/api/v1/art/?object_number=KMSsp419&lang=en",
+  "type": "HumanMadeObject",
+  "_label": "Esther reading Haman's Decree of the Extermination of the Jews",
+  "identified_by": [
+    {
+      "type": "Name",
+      "content": "Esther reading Haman's Decree of the Extermination of the Jews",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ]
+    },
+    {
+      "type": "Identifier",
+      "content": "KMSsp419",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300312355",
+          "type": "Type",
+          "_label": "Accession Number"
+        }
+      ]
+    }
+  ],
+  "produced_by": {
+    "type": "Production",
+    "timespan": {
+      "type": "TimeSpan",
+      "identified_by": [
+        {
+          "type": "Name",
+          "content": "1630-1639"
+        }
+      ],
+      "begin_of_the_begin": "1630-01-01T00:00:00Z",
+      "end_of_the_end": "1639-12-31T23:59:59Z"
+    },
+    "carried_out_by": [
+      {
+        "id": "https://api.smk.dk/api/v1/person/812_person",
+        "type": "Person",
+        "_label": "Koninck, Salomon"
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/1871_person",
+        "type": "Person",
+        "_label": "Rembrandt van Rijn"
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/849_person",
+        "type": "Person",
+        "_label": "Lievens, Jan"
+      }
+    ]
+  },
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "content": "Oil on panel",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435429",
+          "type": "Type",
+          "_label": "Materials Statement",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "747 x 573 mm",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435430",
+          "type": "Type",
+          "_label": "Dimensions Statement",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "subject_of": [
+    {
+      "type": "LinguisticObject",
+      "digitally_carried_by": [
+        {
+          "type": "DigitalObject",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300264578",
+              "type": "Type",
+              "_label": "Web Page"
+            }
+          ],
+          "format": "text/html",
+          "access_point": [
+            {
+              "id": "https://open.smk.dk/artwork/image/KMSsp419",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "smk",
+    "sourceUrl": "https://api.smk.dk/api/v1/art/search/?keys=*&filters=%5Bcreator%3ARembrandt%20van%20Rijn%5D&offset=500&rows=100&lang=en",
+    "fetchedAt": "2026-11-20T17:40:54.526Z",
+    "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "licenseNote": "As the SMK record states it (`rights`); public-domain works carry the Public Domain Mark"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/met-391690",
+  "type": "VisualItem",
+  "_label": "Subjects of The Raising of Lazarus: The Smaller Plate (reverse copy)",
+  "about": [
+    {
+      "id": "http://vocab.getty.edu/aat/300025928",
+      "type": "Type",
+      "_label": "Men",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q8441",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ia/901000087",
+      "type": "Type",
+      "_label": "Jesus",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q302",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300263485",
+      "type": "Type",
+      "_label": "Burials",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q331055",
+          "type": "Type"
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "met",
+    "sourceUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/391690",
+    "fetchedAt": "2026-11-20T17:44:36.305Z",
+    "license": "not-open-access",
+    "licenseNote": "isPublicDomain: false; the Met grants CC0 only for Open Access objects"
+  }
+}

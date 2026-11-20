@@ -1,0 +1,48 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/met-334647",
+  "type": "VisualItem",
+  "_label": "Subjects of Virgin and Child with the Cat: and Joseph at the Window",
+  "about": [
+    {
+      "id": "http://vocab.getty.edu/aat/300265960",
+      "type": "Type",
+      "_label": "Cats",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q146",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ia/901000052",
+      "type": "Type",
+      "_label": "Madonna and Child",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q9309699",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ia/901000953",
+      "type": "Type",
+      "_label": "Saint Joseph",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q128267",
+          "type": "Type"
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "met",
+    "sourceUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/334647",
+    "fetchedAt": "2026-11-20T17:33:47.993Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "Open Access (isPublicDomain: true)"
+  }
+}

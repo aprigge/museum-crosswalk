@@ -1,0 +1,178 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://api.smk.dk/api/v1/art/?object_number=KKSgb7373&lang=en",
+  "type": "HumanMadeObject",
+  "_label": "The triumph of Mordecai",
+  "identified_by": [
+    {
+      "type": "Name",
+      "content": "The triumph of Mordecai",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ]
+    },
+    {
+      "type": "Identifier",
+      "content": "KKSgb7373",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300312355",
+          "type": "Type",
+          "_label": "Accession Number"
+        }
+      ]
+    }
+  ],
+  "produced_by": {
+    "type": "Production",
+    "timespan": {
+      "type": "TimeSpan",
+      "identified_by": [
+        {
+          "type": "Name",
+          "content": "1641"
+        }
+      ],
+      "begin_of_the_begin": "1641-01-01T00:00:00Z",
+      "end_of_the_end": "1641-12-31T23:59:59Z"
+    },
+    "carried_out_by": [
+      {
+        "id": "https://api.smk.dk/api/v1/person/1871_person",
+        "type": "Person",
+        "_label": "Rembrandt van Rijn"
+      }
+    ]
+  },
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "content": "Etching",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435429",
+          "type": "Type",
+          "_label": "Materials Statement",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "174 x 215 mm",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435430",
+          "type": "Type",
+          "_label": "Dimensions Statement",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Inscription: f.n.t.h. med blyant: \"B 40 // Bl 12\"",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435414",
+          "type": "Type",
+          "_label": "Inscription Statement",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "representation": [
+    {
+      "type": "VisualItem",
+      "digitally_shown_by": [
+        {
+          "type": "DigitalObject",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300215302",
+              "type": "Type",
+              "_label": "Digital Image"
+            }
+          ],
+          "access_point": [
+            {
+              "id": "https://iip-thumb.smk.dk/iiif/jp2/736667656_pc4_-_12-09-05_-_fb_-_009.tif.reconstructed.tif.jp2/full/!1024,/0/default.jpg",
+              "type": "DigitalObject"
+            }
+          ],
+          "digitally_available_via": [
+            {
+              "type": "DigitalService",
+              "access_point": [
+                {
+                  "id": "https://iip.smk.dk/iiif/jp2/736667656_pc4_-_12-09-05_-_fb_-_009.tif.reconstructed.tif.jp2",
+                  "type": "DigitalObject"
+                }
+              ],
+              "conforms_to": [
+                {
+                  "id": "http://iiif.io/api/image",
+                  "type": "InformationObject"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "subject_of": [
+    {
+      "type": "LinguisticObject",
+      "digitally_carried_by": [
+        {
+          "type": "DigitalObject",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300264578",
+              "type": "Type",
+              "_label": "Web Page"
+            }
+          ],
+          "format": "text/html",
+          "access_point": [
+            {
+              "id": "https://open.smk.dk/artwork/image/KKSgb7373",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "smk",
+    "sourceUrl": "https://api.smk.dk/api/v1/art/search/?keys=*&filters=%5Bcreator%3ARembrandt%20van%20Rijn%5D&offset=0&rows=100&lang=en",
+    "fetchedAt": "2026-11-20T17:40:49.448Z",
+    "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "licenseNote": "As the SMK record states it (`rights`); public-domain works carry the Public Domain Mark"
+  }
+}

@@ -28,7 +28,8 @@
     "ask-eval": "tsx --env-file-if-exists=.env src/cli/ask-eval.ts",
     "worker:prompt": "tsx scripts/worker-prompt.ts",
     "worker:dev": "npm run worker:prompt && wrangler dev --config worker/wrangler.jsonc --port 8787",
-    "worker:deploy": "npm run worker:prompt && wrangler deploy --config worker/wrangler.jsonc"
+    "worker:deploy": "npm run worker:prompt && wrangler deploy --config worker/wrangler.jsonc",
+    "rembrandt-report": "tsx --env-file-if-exists=.env src/cli/rembrandt-report.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^1.11.0",

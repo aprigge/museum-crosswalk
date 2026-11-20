@@ -1,0 +1,48 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/met-391945",
+  "type": "VisualItem",
+  "_label": "Subjects of Landscape with a Square Tower",
+  "about": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004847",
+      "type": "Type",
+      "_label": "Towers",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q12518",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300132294",
+      "type": "Type",
+      "_label": "Landscapes",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q191163",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300132410",
+      "type": "Type",
+      "_label": "Trees",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q10884",
+          "type": "Type"
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "met",
+    "sourceUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/391945",
+    "fetchedAt": "2026-11-20T17:45:54.229Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "Open Access (isPublicDomain: true)"
+  }
+}

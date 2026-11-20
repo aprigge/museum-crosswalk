@@ -1,5 +1,6 @@
 import MiniSearch from 'minisearch';
 import type oxigraph from 'oxigraph';
+import { cacheKey } from '../core/cache.js';
 import { MUSEUM_NAMES, processTerm, SEARCH_FIELDS, STORE_FIELDS, tokenize } from '../../site/js/terms.js';
 
 type Store = InstanceType<typeof oxigraph.Store>;
@@ -20,6 +21,12 @@ export interface SearchDoc {
   subjects: string[];
   /** Subjects a model suggested from the image (graph/ai), with their labels' aliases. */
   aiSubjects: string[];
+  /** Datasets the work was harvested for (paintings-1850-1900, rembrandt). */
+  datasets: string[];
+  /** print / drawing / painting / other, as the museum states it. */
+  objectType?: string;
+  /** For an impression of a print: the print's key (e.g. Q5598-B74) and title. */
+  print?: { key: string; title?: string };
   /** One entry per suggestion, for display: what it saw and how sure it was. */
   aiDetail: { label: string; confidence: number; evidence: string }[];
   thumb?: string;
@@ -39,8 +46,10 @@ PREFIX schema: <https://schema.org/>
 /** The SPARQL that builds search documents: the index is derived from the graph, not from source files. */
 export const QUERIES = {
   works: `${PREFIXES}
-SELECT ?work ?museum ?title ?begin ?end ?thumb ?url ?license ?licenseNote WHERE {
+SELECT ?work ?museum ?title ?begin ?end ?thumb ?url ?license ?licenseNote ?objectType ?print ?printTitle WHERE {
   ?work a mc:Work ; mc:museum ?museum .
+  OPTIONAL { ?work mc:objectType ?objectType }
+  OPTIONAL { ?work mc:impressionOf ?print . OPTIONAL { ?print dcterms:title ?printTitle } }
   OPTIONAL { ?work dcterms:title ?title }
   OPTIONAL { ?work mc:beginYear ?begin }
   OPTIONAL { ?work mc:endYear ?end }
@@ -49,6 +58,8 @@ SELECT ?work ?museum ?title ?begin ?end ?thumb ?url ?license ?licenseNote WHERE 
   OPTIONAL { ?work dcterms:license ?license }
   OPTIONAL { ?work mc:licenseNote ?licenseNote }
 }`,
+  datasets: `${PREFIXES}
+SELECT ?work ?dataset WHERE { ?work a mc:Work ; mc:dataset ?dataset }`,
   artists: `${PREFIXES}
 SELECT ?work ?person ?name ?qualified WHERE {
   { ?work mc:artist ?person . BIND(false AS ?qualified) }
@@ -102,14 +113,22 @@ export function buildDocs(store: Store): SearchDoc[] {
       inferredStyles: [],
       subjects: [],
       aiSubjects: [],
+      datasets: [],
+      objectType: r.get('objectType')?.value,
+      print: r.get('print') ? { key: key(r.get('print')!.value), title: r.get('printTitle')?.value } : undefined,
       aiDetail: [],
       thumb: r.get('thumb')?.value,
       url: r.get('url')?.value,
       license: r.get('license')?.value ?? r.get('licenseNote')?.value,
-      record: `data/linked-art/${source}/${local}.json`,
+      // The file name transform wrote: the museum's own ID, made safe for a path.
+      record: `data/linked-art/${source}/${cacheKey(decodeURIComponent(local))}.json`,
     });
   }
   const push = (list: string[], v: string) => !list.includes(v) && list.push(v);
+  for (const r of q(QUERIES.datasets)) {
+    const d = docs.get(key(r.get('work')!.value));
+    if (d) push(d.datasets, r.get('dataset')!.value);
+  }
   for (const r of q(QUERIES.artists)) {
     const d = docs.get(key(r.get('work')!.value));
     if (!d) continue;

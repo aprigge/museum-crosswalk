@@ -1,0 +1,161 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://openaccess-api.clevelandart.org/api/artworks/141488",
+  "type": "HumanMadeObject",
+  "_label": "Abraham Francen, Apothecary",
+  "identified_by": [
+    {
+      "type": "Name",
+      "content": "Abraham Francen, Apothecary",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ]
+    },
+    {
+      "type": "Identifier",
+      "content": "1964.97",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300312355",
+          "type": "Type",
+          "_label": "Accession Number"
+        }
+      ]
+    }
+  ],
+  "produced_by": {
+    "type": "Production",
+    "timespan": {
+      "type": "TimeSpan",
+      "identified_by": [
+        {
+          "type": "Name",
+          "content": "c. 1657"
+        }
+      ],
+      "begin_of_the_begin": "1652-01-01T00:00:00Z",
+      "end_of_the_end": "1672-12-31T23:59:59Z"
+    },
+    "carried_out_by": [
+      {
+        "id": "https://openaccess-api.clevelandart.org/api/creators/2520",
+        "type": "Person",
+        "_label": "Rembrandt van Rijn"
+      }
+    ]
+  },
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "content": "etching, engraving and drypoint",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435429",
+          "type": "Type",
+          "_label": "Materials Statement",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Sheet: 16.5 x 21 cm (6 1/2 x 8 1/4 in.); Matted: 36.2 x 48.9 cm (14 1/4 x 19 1/4 in.)",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435430",
+          "type": "Type",
+          "_label": "Dimensions Statement",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "VERSO, upper left, in pen and brown ink: _____P. Mariette 1670 ; upper right, in graphite: M 72-[I?] ; center, in graphite: 732[sideways] ; lower left, in pen and brown ink: British Museum / [UHC?] ; lower left, in graphite: 153   153 ; lower left, in light gray ink: [hc?] ; lower left, in graphite: a63435 ; lower left, in graphite: A11644 ; lower center, in graphite: 4 ; lower center, in graphite: J / I / U ; lower right, in graphite: EWO",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435414",
+          "type": "Type",
+          "_label": "Inscription Statement",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "representation": [
+    {
+      "type": "VisualItem",
+      "digitally_shown_by": [
+        {
+          "type": "DigitalObject",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300215302",
+              "type": "Type",
+              "_label": "Digital Image"
+            }
+          ],
+          "access_point": [
+            {
+              "id": "https://openaccess-cdn.clevelandart.org/1964.97/1964.97_web.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "subject_of": [
+    {
+      "type": "LinguisticObject",
+      "digitally_carried_by": [
+        {
+          "type": "DigitalObject",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300264578",
+              "type": "Type",
+              "_label": "Web Page"
+            }
+          ],
+          "format": "text/html",
+          "access_point": [
+            {
+              "id": "https://clevelandart.org/art/1964.97",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "cleveland",
+    "sourceUrl": "https://openaccess-api.clevelandart.org/api/artworks/?artists=Rembrandt&limit=100&skip=0",
+    "fetchedAt": "2026-11-20T17:40:49.070Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "Cleveland Open Access data is CC0; images only where share_license_status is CC0"
+  }
+}

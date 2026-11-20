@@ -4,13 +4,19 @@ const el = document.getElementById('artist');
 const key = param('id');
 
 /** SPARQL string literal or IRI built from a key we control the shape of. */
-const personIri = (k) => `<${ID_BASE}person/${encodeURIComponent(k).replace(/%2F/g, '/')}>`;
+// Keys arrive in the graph's encoded form ("smk-Jan%20van%20Vliet"); normalise so they're encoded once.
+const personIri = (k) => `<${ID_BASE}person/${encodeURIComponent(decodeURIComponent(k)).replace(/%2F/g, '/')}>`;
+
+/** Artists with a "full picture" page of their own. */
+const FULL_PICTURE = { 'http://www.wikidata.org/entity/Q5598': 'rembrandt.html' };
+/** Cards shown before "Show all": an artist with thousands of works stays quick to open. */
+const CARDS = 60;
 
 const METHOD = {
   'exact-id': 'The museum links this Wikidata person directly',
   'wikidata-crosswalk': 'Wikidata lists the museum’s own ID for this person',
   'name-dates': 'Name and life years',
-  'human-approved': 'Wikidata lists the museum’s own ID; an AI reviewed the evidence and a person approved the match',
+  'human-approved': 'A person approved the match (the evidence says whether an AI proposed it)',
   none: 'No match',
 };
 const DECISION = { merged: 'Merged', review: 'In review', unmatched: 'Not matched', 'kept-separate': 'Kept separate (a person decided)' };
@@ -61,14 +67,18 @@ SELECT ?work ?title ?museum ?begin ?thumb ?how WHERE {
         <p class="meta">${esc(w.begin ?? '')}${w.begin ? ' · ' : ''}${esc(MUSEUM_NAMES[w.museum] ?? w.museum)}</p></div>
       </li>`;
     };
+    const cardList = (list, name) =>
+      `<ul class="cards">${list.slice(0, CARDS).map(workCard).join('')}</ul>` +
+      (list.length > CARDS ? `<button type="button" class="secondary" data-show-all="${name}">Show all ${list.length}</button>` : '');
     const by = works.filter((w) => w.how === 'by');
     const related = works.filter((w) => w.how === 'related');
 
     el.innerHTML = `
       <h1>${esc(person.name)}</h1>
-      <p class="lede">${life ? `${esc(life)}. ` : ''}${by.length} painting${by.length === 1 ? '' : 's'} from 1850–1900 in
+      <p class="lede">${life ? `${esc(life)}. ` : ''}${by.length} work${by.length === 1 ? '' : 's'} in
         ${museums.length} museum${museums.length === 1 ? '' : 's'}${museums.length ? `: ${museums.map((m) => esc(MUSEUM_NAMES[m] ?? m)).join(', ')}` : ''}.
         ${wdHref ? `<a href="${esc(wdHref)}">Wikidata ${esc(person.wd.split('/').at(-1))}</a>` : '<strong>Not matched to Wikidata</strong>: shown as the museum’s own record.'}</p>
+      ${FULL_PICTURE[person.wd] ? `<p class="notice"><a href="${FULL_PICTURE[person.wd]}">See the full picture</a>: holdings by museum, prints and their impressions across museums, and a timeline.</p>` : ''}
       ${movements.length ? `<p>Movement on Wikidata: ${movements.map((m) => `<span class="chip">${esc(m.label)}</span>`).join(' ')}</p>` : ''}
 
       <h2>How each museum’s record was matched</h2>
@@ -88,9 +98,16 @@ SELECT ?work ?title ?museum ?begin ?thumb ?how WHERE {
           .join('')}</tbody>
       </table></div>
 
-      <h2>Paintings</h2>
-      <ul class="cards">${by.map(workCard).join('')}</ul>
-      ${related.length ? `<h2>Related attributions</h2><p class="muted">After, attributed to, or imitating this artist: not counted as theirs.</p><ul class="cards">${related.map(workCard).join('')}</ul>` : ''}`;
+      <h2>Works</h2>
+      ${cardList(by, 'by')}
+      ${related.length ? `<h2>Related attributions</h2><p class="muted">After, attributed to, or imitating this artist: not counted as theirs.</p>${cardList(related, 'related')}` : ''}`;
+    el.addEventListener('click', (e) => {
+      const b = e.target.closest('[data-show-all]');
+      if (!b) return;
+      const list = b.dataset.showAll === 'by' ? by : related;
+      b.previousElementSibling.innerHTML = list.map(workCard).join('');
+      b.remove();
+    });
   } catch (err) {
     el.innerHTML = `<p>The graph could not be loaded (${esc(err.message)}).</p>`;
   }

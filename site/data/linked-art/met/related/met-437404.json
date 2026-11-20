@@ -1,0 +1,26 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/met-437404",
+  "type": "VisualItem",
+  "_label": "Subjects of Head of Christ",
+  "about": [
+    {
+      "id": "http://vocab.getty.edu/page/ia/901000087",
+      "type": "Type",
+      "_label": "Christ",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q642420",
+          "type": "Type"
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "met",
+    "sourceUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/437404",
+    "fetchedAt": "2026-11-20T17:32:48.780Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "Open Access (isPublicDomain: true)"
+  }
+}

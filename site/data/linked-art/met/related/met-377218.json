@@ -1,0 +1,48 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/met-377218",
+  "type": "VisualItem",
+  "_label": "Subjects of Portrait of Lieven Willemsz van Coppenol, Writing Master (the larger plate)",
+  "about": [
+    {
+      "id": "http://vocab.getty.edu/aat/300025928",
+      "type": "Type",
+      "_label": "Men",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q8441",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300015637",
+      "type": "Type",
+      "_label": "Portraits",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q134307",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300054698",
+      "type": "Type",
+      "_label": "Writing",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q37260",
+          "type": "Type"
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "met",
+    "sourceUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/377218",
+    "fetchedAt": "2026-11-20T17:40:24.146Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "Open Access (isPublicDomain: true)"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/met-391549",
+  "type": "VisualItem",
+  "_label": "Subjects of The Angel Appearing to the Shepherds",
+  "about": [
+    {
+      "id": "http://vocab.getty.edu/aat/300250120",
+      "type": "Type",
+      "_label": "Cows",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q830",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300250284",
+      "type": "Type",
+      "_label": "Sheep",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q7368",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300379004",
+      "type": "Type",
+      "_label": "Angels",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q235113",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300025617",
+      "type": "Type",
+      "_label": "Shepherds",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q81710",
+          "type": "Type"
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "met",
+    "sourceUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/391549",
+    "fetchedAt": "2026-11-20T17:42:15.326Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "Open Access (isPublicDomain: true)"
+  }
+}

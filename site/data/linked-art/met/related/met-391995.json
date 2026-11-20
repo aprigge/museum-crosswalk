@@ -1,0 +1,48 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/met-391995",
+  "type": "VisualItem",
+  "_label": "Subjects of Christ Returning from the Temple with His Parents",
+  "about": [
+    {
+      "id": "http://vocab.getty.edu/page/ia/901000087",
+      "type": "Type",
+      "_label": "Christ",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q642420",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ia/901000953",
+      "type": "Type",
+      "_label": "Saint Joseph",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q128267",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ia/901000032",
+      "type": "Type",
+      "_label": "Virgin Mary",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q345",
+          "type": "Type"
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "met",
+    "sourceUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/391995",
+    "fetchedAt": "2026-11-20T17:46:48.263Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "Open Access (isPublicDomain: true)"
+  }
+}

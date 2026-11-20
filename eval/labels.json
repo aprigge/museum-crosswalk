@@ -15,7 +15,8 @@
     "aic-72801": true,
     "rijksmuseum-200108883": true,
     "rijksmuseum-20028459": false,
-    "met-435626": true
+    "met-435626": true,
+    "aic-53058": true
   },
   "q02": {
     "aic-94239": true,
@@ -42,7 +43,8 @@
     "met-437980": true,
     "met-435874": true,
     "aic-44017": true,
-    "met-437998": true
+    "met-437998": true,
+    "aic-29401": true
   },
   "q03": {
     "aic-81557": true,
@@ -80,7 +82,8 @@
     "met-435849": true,
     "aic-111626": true,
     "aic-14594": true,
-    "met-436000": true
+    "met-436000": true,
+    "aic-12888": true
   },
   "q05": {
     "met-435856": true,
@@ -167,7 +170,8 @@
     "rijksmuseum-20058995": true,
     "aic-80450": false,
     "rijksmuseum-20026804": true,
-    "aic-18951": false
+    "aic-18951": false,
+    "aic-111626": true
   },
   "q09": {
     "aic-45838": true,
@@ -367,7 +371,15 @@
     "rijksmuseum-20026483": true,
     "rijksmuseum-20028124": true,
     "met-435711": true,
-    "met-436000": true
+    "met-436000": true,
+    "aic-42949": true,
+    "aic-79586": false,
+    "aic-80604": true,
+    "aic-111626": true,
+    "aic-12888": true,
+    "rijksmuseum-200108378": false,
+    "rijksmuseum-20088786": true,
+    "met-435876": true
   },
   "q20": {
     "aic-27163": true,

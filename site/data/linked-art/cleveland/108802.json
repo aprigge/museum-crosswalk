@@ -1,0 +1,161 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://openaccess-api.clevelandart.org/api/artworks/108802",
+  "type": "HumanMadeObject",
+  "_label": "Woman Sitting Half Dressed Beside a Stove",
+  "identified_by": [
+    {
+      "type": "Name",
+      "content": "Woman Sitting Half Dressed Beside a Stove",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ]
+    },
+    {
+      "type": "Identifier",
+      "content": "1926.481",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300312355",
+          "type": "Type",
+          "_label": "Accession Number"
+        }
+      ]
+    }
+  ],
+  "produced_by": {
+    "type": "Production",
+    "timespan": {
+      "type": "TimeSpan",
+      "identified_by": [
+        {
+          "type": "Name",
+          "content": "1658"
+        }
+      ],
+      "begin_of_the_begin": "1658-01-01T00:00:00Z",
+      "end_of_the_end": "1658-12-31T23:59:59Z"
+    },
+    "carried_out_by": [
+      {
+        "id": "https://openaccess-api.clevelandart.org/api/creators/2520",
+        "type": "Person",
+        "_label": "Rembrandt van Rijn"
+      }
+    ]
+  },
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "content": "etching and drypoint with surface tone",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435429",
+          "type": "Type",
+          "_label": "Materials Statement",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Platemark: 22.3 x 18.8 cm (8 3/4 x 7 3/8 in.); Sheet: 23 x 19.5 cm (9 1/16 x 7 11/16 in.); Support: 41 x 30.5 cm (16 1/8 x 12 in.); Matted: 48.9 x 36.4 cm (19 1/4 x 14 5/16 in.)",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435430",
+          "type": "Type",
+          "_label": "Dimensions Statement",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "upper right, in plate: Rembrandt f. 1658 ; lower right, in pen and brown ink: [check mark] ; VERSO, upper left, in pen and brown ink: Aa ; upper right, in graphite: a [l?] ; upper center, in graphite: [L?] ; lower left, in graphite: [illegible inscription] ; lower left, in graphite: A 9[v?]583 ; lower left, in graphite: [f?] 1815 ; lower center, in graphite: 1520/15[upside down] ; lower left, in graphite: FPOx ; lower left, in graphite: 7",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435414",
+          "type": "Type",
+          "_label": "Inscription Statement",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "representation": [
+    {
+      "type": "VisualItem",
+      "digitally_shown_by": [
+        {
+          "type": "DigitalObject",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300215302",
+              "type": "Type",
+              "_label": "Digital Image"
+            }
+          ],
+          "access_point": [
+            {
+              "id": "https://openaccess-cdn.clevelandart.org/1926.481/1926.481_web.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "subject_of": [
+    {
+      "type": "LinguisticObject",
+      "digitally_carried_by": [
+        {
+          "type": "DigitalObject",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300264578",
+              "type": "Type",
+              "_label": "Web Page"
+            }
+          ],
+          "format": "text/html",
+          "access_point": [
+            {
+              "id": "https://clevelandart.org/art/1926.481",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "cleveland",
+    "sourceUrl": "https://openaccess-api.clevelandart.org/api/artworks/?artists=Rembrandt&limit=100&skip=0",
+    "fetchedAt": "2026-11-20T17:40:49.070Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "Cleveland Open Access data is CC0; images only where share_license_status is CC0"
+  }
+}

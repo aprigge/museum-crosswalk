@@ -2,7 +2,7 @@ import { createHash } from 'node:crypto';
 import type { SourceClient } from '../core/http.js';
 import type { ArtistMatch, ArtistQuery, SourceArtistRef } from '../core/types.js';
 import { qidFromUri, sparqlUrl } from '../authority/wikidata.js';
-import { isQualifiedMatch, matchRef } from './match.js';
+import { isQualifiedMatch, isQualifiedRole, matchRef, normaliseName } from './match.js';
 
 /** Wikidata properties used to find people by a museum's or authority's own ID. */
 export const ID_PROPERTIES = {
@@ -119,7 +119,13 @@ export function decide(ref: SourceArtistRef, candidates: ArtistMatch[]): AgentRe
   // Merge on an exact link, two agreeing IDs (0.9), or one ID plus agreeing life years (0.85).
   const strong = best.method === 'exact-id' || (best.method === 'wikidata-crosswalk' && best.confidence >= 0.85);
   if (!strong) {
-    return { ref, best, decision: 'review', personKey: localKey, reason: `${best.method} on one ID, life years missing or different` };
+    const weak =
+      best.method === 'name-dates'
+        ? `No ID Wikidata knows; ${best.evidence.charAt(0).toLowerCase()}${best.evidence.slice(1)}`
+        : `${best.method} on one ID, life years missing or different`;
+    // Say both: a person's decision on the museum agent must not merge its "after" records.
+    const reason = isQualifiedMatch(best) ? `Qualified role: ${best.ref.role ?? best.ref.name}; ${weak}` : weak;
+    return { ref, best, decision: 'review', personKey: localKey, reason };
   }
   if (isQualifiedMatch(best)) return { ref, best, decision: 'review', personKey: localKey, reason: `Qualified role: ${ref.role ?? ref.name}` };
   return { ref, best, decision: 'merged', personKey: best.qid! };
@@ -142,7 +148,10 @@ export interface PersonDecision {
  * are touched: a decision never overrides an exact ID or a qualified role.
  */
 export function applyDecision(res: AgentResolution, d: PersonDecision | undefined): AgentResolution {
-  if (!d || res.decision !== 'review' || /Qualified role/.test(res.reason ?? '')) return res;
+  // A decision says who the museum's agent is. It applies to all of that agent's records: a
+  // qualified role ("copy after Rembrandt") still becomes mc:qualifiedArtist in the graph. It never
+  // applies to an agent that is itself qualified by name ("School of Rembrandt van Rijn").
+  if (!d || res.decision !== 'review' || isQualifiedRole(res.ref.name)) return res;
   const via = d.ai ? `AI proposed "${d.ai.decision}" (${d.ai.confidence}); a person approved` : 'decided by a person';
   if (d.decision === 'keep-separate') return { ...res, decision: 'kept-separate', reason: `Kept separate: ${via}` };
   return {
@@ -154,9 +163,30 @@ export function applyDecision(res: AgentResolution, d: PersonDecision | undefine
   };
 }
 
+/** English label and aliases of one Wikidata item: the names museums may use for the artist. */
+export const namesQuery = (qid: string) => `SELECT ?name WHERE {
+  { wd:${qid} rdfs:label ?name } UNION { wd:${qid} skos:altLabel ?name } FILTER(LANG(?name) = "en")
+}`;
+
+export async function artistNames(client: SourceClient, qid: string): Promise<string[]> {
+  const res = await cachedSparql(client, 'agent-names', namesQuery(qid));
+  return [...new Set(res.results.bindings.flatMap((b) => (b.name ? [b.name.value] : [])))];
+}
+
+/**
+ * For an artist dataset: records whose people carry no ID Wikidata knows (SMK, Cleveland) can
+ * still be compared with the dataset's artist by name and life years. That never merges on its
+ * own (policy: name + dates goes to review); a person's decision per museum agent does.
+ */
+export interface DatasetArtist {
+  qid: string;
+  names: string[];
+}
+
 export async function resolveAgents(
   client: SourceClient,
   refs: SourceArtistRef[],
+  datasetArtist?: DatasetArtist,
 ): Promise<{ resolutions: AgentResolution[]; people: Map<string, PersonFacts> }> {
   const byPid = new Map<Pid, Set<string>>();
   for (const ref of refs) for (const [pid, v] of refIds(ref)) (byPid.get(pid) ?? byPid.set(pid, new Set()).get(pid)!).add(v);
@@ -174,7 +204,7 @@ export async function resolveAgents(
     }
   }
 
-  const qids = new Set<string>();
+  const qids = new Set<string>(datasetArtist ? [datasetArtist.qid] : []);
   for (const ref of refs) if (ref.wikidata) qids.add(ref.wikidata);
   for (const set of found.values()) for (const q of set) qids.add(q);
   const people = new Map<string, PersonFacts>();
@@ -183,9 +213,16 @@ export async function resolveAgents(
     for (const [q, f] of parseFacts(await cachedSparql(client, 'agent-facts', factsQuery(allQids.slice(i, i + BATCH))))) people.set(q, f);
   }
 
+  if (datasetArtist) {
+    const p = people.get(datasetArtist.qid);
+    if (p) people.set(datasetArtist.qid, { ...p, aliases: datasetArtist.names.filter((n) => n !== p.name) });
+  }
+  const names = new Set((datasetArtist?.names ?? []).map(normaliseName));
+
   const resolutions = refs.map((ref) => {
     const candidateQids = new Set<string>(ref.wikidata ? [ref.wikidata] : []);
     for (const [pid, v] of refIds(ref)) for (const q of found.get(`${pid}:${v}`) ?? []) candidateQids.add(q);
+    if (!candidateQids.size && datasetArtist && ref.name && names.has(normaliseName(ref.name))) candidateQids.add(datasetArtist.qid);
     const matches = [...candidateQids].flatMap((q) => {
       const facts = people.get(q);
       return facts ? [matchRef(ref, facts)] : [];

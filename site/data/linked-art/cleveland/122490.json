@@ -1,0 +1,161 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://openaccess-api.clevelandart.org/api/artworks/122490",
+  "type": "HumanMadeObject",
+  "_label": "Jan Cornelis Sylvius, Preacher",
+  "identified_by": [
+    {
+      "type": "Name",
+      "content": "Jan Cornelis Sylvius, Preacher",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ]
+    },
+    {
+      "type": "Identifier",
+      "content": "1942.756",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300312355",
+          "type": "Type",
+          "_label": "Accession Number"
+        }
+      ]
+    }
+  ],
+  "produced_by": {
+    "type": "Production",
+    "timespan": {
+      "type": "TimeSpan",
+      "identified_by": [
+        {
+          "type": "Name",
+          "content": "1646"
+        }
+      ],
+      "begin_of_the_begin": "1646-01-01T00:00:00Z",
+      "end_of_the_end": "1646-12-31T23:59:59Z"
+    },
+    "carried_out_by": [
+      {
+        "id": "https://openaccess-api.clevelandart.org/api/creators/2520",
+        "type": "Person",
+        "_label": "Rembrandt van Rijn"
+      }
+    ]
+  },
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "content": "etching and drypoint with sulphur tint and touches of gray wash",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435429",
+          "type": "Type",
+          "_label": "Materials Statement",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Sheet: 27.8 x 18.8 cm (10 15/16 x 7 3/8 in.)",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435430",
+          "type": "Type",
+          "_label": "Dimensions Statement",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "around oval, in plate: Spes mea Christus. Iohannes Cornelÿ Sylvius. Amstelodamo-bat: functus S S.Minist:aõs 45.et 6.menses. In Frisiâ. in Tyemarum et Phirdgum aõs 4. In Balco et Harich unicum. In Minnerts gae aõs 4.Slotis aõs 2. In Hollandiâ, Slotis aõs. Amstelodami aõs 28. et 6.menses, ibidemque obÿt ã o 1638.19. Novembr. natus aõs 74. ; upper center, in plate: Rembrandt f. 1646 ; in bottom quarter, in plate: Cuius adorandum docuit Facundia Christum, / Et populis veram pandit ad astra viam. / Talis erat Sylvî facies. audivimus illum / Amstelÿs is[?]o civibus ora loqui. / Hoc Frisÿs praecepta dedit; pietasque. fevero / Relligioque. diu vindica tuta s[?]it. / Praeluscit, veneranda fuis virtutibus, atas. / Erudytque. ipsos fossa senecta viros. / Simplicitatis amans fucum contomsit honesti, / Nec sola voluit fronto placero bonis. / Sic statuit: Fesum vita melioro doceri / Rectius, et vocum fulmina posso minus. / Amstola, sis memor extincti. qui condidit urbem / Moribus, hanc urso fulsÿt illo Deo. / C. Barlaeus. / Haud amplius depraedico illiûs dotis. / Auas aemulor, frustraque persequor verso. / P. S. ; VERSO, upper left, in graphite: S. x. n. ; lower center, in graphite: B. 280. ; lower right, in graphite: MK",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435414",
+          "type": "Type",
+          "_label": "Inscription Statement",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "representation": [
+    {
+      "type": "VisualItem",
+      "digitally_shown_by": [
+        {
+          "type": "DigitalObject",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300215302",
+              "type": "Type",
+              "_label": "Digital Image"
+            }
+          ],
+          "access_point": [
+            {
+              "id": "https://openaccess-cdn.clevelandart.org/1942.756/1942.756_web.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "subject_of": [
+    {
+      "type": "LinguisticObject",
+      "digitally_carried_by": [
+        {
+          "type": "DigitalObject",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300264578",
+              "type": "Type",
+              "_label": "Web Page"
+            }
+          ],
+          "format": "text/html",
+          "access_point": [
+            {
+              "id": "https://clevelandart.org/art/1942.756",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "cleveland",
+    "sourceUrl": "https://openaccess-api.clevelandart.org/api/artworks/?artists=Rembrandt&limit=100&skip=0",
+    "fetchedAt": "2026-11-20T17:40:49.070Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "Cleveland Open Access data is CC0; images only where share_license_status is CC0"
+  }
+}

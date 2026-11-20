@@ -1,0 +1,143 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://api.smk.dk/api/v1/art/?object_number=KKSgb10162&lang=en",
+  "type": "HumanMadeObject",
+  "_label": "Christ disputing with the doctors: a sketch",
+  "identified_by": [
+    {
+      "type": "Name",
+      "content": "Christ disputing with the doctors: a sketch",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ]
+    },
+    {
+      "type": "Identifier",
+      "content": "KKSgb10162",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300312355",
+          "type": "Type",
+          "_label": "Accession Number"
+        }
+      ]
+    }
+  ],
+  "produced_by": {
+    "type": "Production",
+    "timespan": {
+      "type": "TimeSpan",
+      "identified_by": [
+        {
+          "type": "Name",
+          "content": "1719-1768"
+        }
+      ],
+      "begin_of_the_begin": "1719-01-01T00:00:00Z",
+      "end_of_the_end": "1768-12-31T23:59:59Z"
+    },
+    "carried_out_by": [
+      {
+        "id": "https://api.smk.dk/api/v1/person/1871_person",
+        "type": "Person",
+        "_label": "Rembrandt van Rijn"
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/35190_person",
+        "type": "Person",
+        "_label": "Hertel (II), Johann Georg"
+      }
+    ]
+  },
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "content": "Etching",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435429",
+          "type": "Type",
+          "_label": "Materials Statement",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "146 x 229 mm",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435430",
+          "type": "Type",
+          "_label": "Dimensions Statement",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Inscription: Signatur i faksimile f.n.t.v.: \"Rembrandt fecet\"; herunder: \"Rembrandt. del.\"; f.n. midtfor: \"No. 282.\"; og udgivers adresse f.n. t.h.: \"I.G. Hertel, exc: A:V:\". Alt i pladen.; collector's mark: Lorenz Spengler (1720-1807), Lugt 1763",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435414",
+          "type": "Type",
+          "_label": "Inscription Statement",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "subject_of": [
+    {
+      "type": "LinguisticObject",
+      "digitally_carried_by": [
+        {
+          "type": "DigitalObject",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300264578",
+              "type": "Type",
+              "_label": "Web Page"
+            }
+          ],
+          "format": "text/html",
+          "access_point": [
+            {
+              "id": "https://open.smk.dk/artwork/image/KKSgb10162",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "smk",
+    "sourceUrl": "https://api.smk.dk/api/v1/art/search/?keys=*&filters=%5Bcreator%3ARembrandt%20van%20Rijn%5D&offset=0&rows=100&lang=en",
+    "fetchedAt": "2026-11-20T17:40:49.448Z",
+    "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "licenseNote": "As the SMK record states it (`rights`); public-domain works carry the Public Domain Mark"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/met-391772",
+  "type": "VisualItem",
+  "_label": "Subjects of Nude Man Seated and Another Standing, with a Woman and a Baby Lightly Etched in Background",
+  "about": [
+    {
+      "id": "http://vocab.getty.edu/aat/300025945",
+      "type": "Type",
+      "_label": "Children",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q7569",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300189568",
+      "type": "Type",
+      "_label": "Male Nudes",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q40446",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300025943",
+      "type": "Type",
+      "_label": "Women",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q467",
+          "type": "Type"
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "met",
+    "sourceUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/391772",
+    "fetchedAt": "2026-11-20T17:45:06.295Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "Open Access (isPublicDomain: true)"
+  }
+}

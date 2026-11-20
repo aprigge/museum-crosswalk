@@ -34,6 +34,17 @@ export function loadIndex() {
   return indexPromise;
 }
 
+/** Every stored document that passes `filter` (MiniSearch's wildcard search: no ranking). */
+export function allDocs(index, filter) {
+  return index.search(MiniSearch.wildcard, { filter });
+}
+
+/** "Q5598-B74" -> "Bartsch 74"; "Q5598-NH212" -> "New Hollstein 212". */
+export function catalogueLabel(printKey) {
+  const m = String(printKey).match(/-(B|NH)(\d+)$/);
+  return m ? `${m[1] === 'B' ? 'Bartsch' : 'New Hollstein'} ${m[2]}` : printKey;
+}
+
 let graphPromise;
 let graphReady = false;
 /** True once the graph is in memory: later queries answer in milliseconds. */

@@ -1,0 +1,48 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/met-347896",
+  "type": "VisualItem",
+  "_label": "Subjects of St. Peter and St John Healing the Paralytic",
+  "about": [
+    {
+      "id": "http://vocab.getty.edu/aat/300025928",
+      "type": "Type",
+      "_label": "Men",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q8441",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ia/901000056",
+      "type": "Type",
+      "_label": "Saint Peter",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q33923",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300150555",
+      "type": "Type",
+      "_label": "Saints",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q43115",
+          "type": "Type"
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "met",
+    "sourceUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/347896",
+    "fetchedAt": "2026-11-20T17:34:39.410Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "Open Access (isPublicDomain: true)"
+  }
+}

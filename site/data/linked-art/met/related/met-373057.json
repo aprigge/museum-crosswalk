@@ -1,0 +1,92 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/met-373057",
+  "type": "VisualItem",
+  "_label": "Subjects of Landscape with a shepherd and a dog",
+  "about": [
+    {
+      "id": "http://vocab.getty.edu/aat/300250047",
+      "type": "Type",
+      "_label": "Ducks",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q3736439",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Buildings",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q41176",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300265714",
+      "type": "Type",
+      "_label": "Dogs",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q144",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300008777",
+      "type": "Type",
+      "_label": "Hills",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q54050",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300132294",
+      "type": "Type",
+      "_label": "Landscapes",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q191163",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300132410",
+      "type": "Type",
+      "_label": "Trees",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q10884",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300025617",
+      "type": "Type",
+      "_label": "Shepherds",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q81710",
+          "type": "Type"
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "met",
+    "sourceUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/373057",
+    "fetchedAt": "2026-11-20T17:38:57.084Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "Open Access (isPublicDomain: true)"
+  }
+}

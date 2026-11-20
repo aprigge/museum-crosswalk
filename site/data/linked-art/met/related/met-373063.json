@@ -1,0 +1,81 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/met-373063",
+  "type": "VisualItem",
+  "_label": "Subjects of The Good Samaritan",
+  "about": [
+    {
+      "id": "http://vocab.getty.edu/aat/300004789",
+      "type": "Type",
+      "_label": "Buildings",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q41176",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300003228",
+      "type": "Type",
+      "_label": "Stairs",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q12511",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300025928",
+      "type": "Type",
+      "_label": "Men",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q8441",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300265714",
+      "type": "Type",
+      "_label": "Dogs",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q144",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300250148",
+      "type": "Type",
+      "_label": "Horses",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q726",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300055866",
+      "type": "Type",
+      "_label": "Allegory",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q18535",
+          "type": "Type"
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "met",
+    "sourceUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/373063",
+    "fetchedAt": "2026-11-20T17:39:12.095Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "Open Access (isPublicDomain: true)"
+  }
+}

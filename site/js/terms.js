@@ -10,7 +10,11 @@ export const BOOST = { title: 2, artists: 2, styles: 1.5, inferredStyles: 1.2, s
 export const STORE_FIELDS = [
   'title', 'museum', 'museumName', 'artists', 'artistKeys', 'qualified', 'begin', 'end',
   'styles', 'inferredStyles', 'subjects', 'aiSubjects', 'aiDetail', 'thumb', 'url', 'license', 'record',
+  'datasets', 'objectType', 'print',
 ];
+
+/** Display names of the datasets (the project's collections). */
+export const DATASET_NAMES = { 'paintings-1850-1900': 'Paintings 1850–1900', rembrandt: 'Rembrandt' };
 
 /** Plain words for how a field matched, for the "why this matched" chips. */
 export const FIELD_EXPLANATION = {
@@ -75,4 +79,10 @@ export function processTerm(term) {
   return stem(t);
 }
 
-export const MUSEUM_NAMES = { rijksmuseum: 'Rijksmuseum', met: 'The Met', aic: 'Art Institute of Chicago' };
+export const MUSEUM_NAMES = {
+  rijksmuseum: 'Rijksmuseum',
+  met: 'The Met',
+  aic: 'Art Institute of Chicago',
+  smk: 'SMK, National Gallery of Denmark',
+  cleveland: 'Cleveland Museum of Art',
+};

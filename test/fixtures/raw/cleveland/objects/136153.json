@@ -1,0 +1,164 @@
+{
+  "source": "cleveland",
+  "id": "136153",
+  "url": "https://openaccess-api.clevelandart.org/api/artworks/?artists=Rembrandt&limit=100&skip=0",
+  "fetchedAt": "2026-11-20T17:40:49.070Z",
+  "body": {
+    "id": 136153,
+    "accession_number": "1959.81",
+    "share_license_status": "CC0",
+    "tombstone": "Rembrandt and His Wife Saskia, 1636. Rembrandt van Rijn (Dutch, 1606–1669). Etching; sheet: 10.5 x 9.2 cm (4 1/8 x 3 5/8 in.); matted: 49.1 x 36.2 cm (19 5/16 x 14 1/4 in.). The Cleveland Museum of Art, Gift of The Print Club of Cleveland, 1959.81",
+    "current_location": null,
+    "title": "Rembrandt and His Wife Saskia",
+    "creation_date": "1636",
+    "creation_date_earliest": 1636,
+    "creation_date_latest": 1636,
+    "artists_tags": [
+      "male"
+    ],
+    "culture": [
+      "Netherlands"
+    ],
+    "technique": "etching",
+    "support_materials": [],
+    "department": "Prints",
+    "collection": "PR - Etching",
+    "type": "Print",
+    "measurements": "Sheet: 10.5 x 9.2 cm (4 1/8 x 3 5/8 in.); Matted: 49.1 x 36.2 cm (19 5/16 x 14 1/4 in.)",
+    "dimensions": {
+      "sheet": {
+        "height": 0.105,
+        "height_inch": 4,
+        "height_inch_fraction": 0.125,
+        "width": 0.092,
+        "width_inch": 3,
+        "width_inch_fraction": 0.625
+      },
+      "matted": {
+        "height": 0.491,
+        "height_inch": 19,
+        "height_inch_fraction": 0.3125,
+        "width": 0.362,
+        "width_inch": 14,
+        "width_inch_fraction": 0.25
+      }
+    },
+    "state_of_the_work": "i/iii",
+    "edition_of_the_work": null,
+    "copyright": null,
+    "inscriptions": [],
+    "exhibitions": {
+      "current": [
+        {
+          "id": 309856,
+          "title": "Prints by Rembrandt and His Circle",
+          "description": "<i>Prints by Rembrandt and His Circle</i>. The Cleveland Museum of Art, Cleveland, OH (organizer) (January 24-May 25, 1984).",
+          "opening_date": "1984-01-24T05:00:00"
+        },
+        {
+          "id": 311461,
+          "title": "Generous Donors: A Tribute to The Print Club of Cleveland",
+          "description": "<i>Generous Donors: A Tribute to The Print Club of Cleveland</i>. The Cleveland Museum of Art, Cleveland, OH (organizer) (April 2-August 4, 1991).",
+          "opening_date": "1991-04-02T05:00:00"
+        },
+        {
+          "id": 318307,
+          "title": "A Lasting Impression: Gifts of the Print Club of Cleveland",
+          "description": "<i>A Lasting Impression: Gifts of the Print Club of Cleveland</i>. The Cleveland Museum of Art, Cleveland, OH (organizer) (May 5-September 22, 2019).",
+          "opening_date": "2019-05-05T04:00:00"
+        }
+      ],
+      "legacy": []
+    },
+    "provenance": [],
+    "find_spot": null,
+    "related_works": [],
+    "former_accession_numbers": [],
+    "did_you_know": null,
+    "early_education_description": null,
+    "artlens_description": null,
+    "description": "This self-portrait is the only one in which Rembrandt showed himself with his young wife, Saskia. Both figures appear in formal attire and directly meet the viewer’s gaze. To represent himself, Rembrandt deeply etched the copper plate to create dark and decisive lines, as seen below his collar and on his left wrist. He etched Saskia’s image more lightly, with faint lines that situate her in the composition’s background. Rembrandt may have drawn the image at least in part while sitting in front of a mirror.",
+    "external_resources": {
+      "wikidata": [
+        "https://www.wikidata.org/wiki/Q80029617"
+      ],
+      "internet_archive": [
+        "https://archive.org/details/clevelandart-1959.81-rembrandt-and-his-wi"
+      ]
+    },
+    "citations": [
+      {
+        "citation": "“Gifts of the Print Club of Cleveland.” <em>The Bulletin of the Cleveland Museum of Art</em> 47, no. 2 (February 1960): 28–35.",
+        "page_number": "Reproduced: p. 28",
+        "url": "http://www.jstor.org/stable/25142379"
+      }
+    ],
+    "catalogue_raisonne": "Hollstein 19 (XVIII.8); White-Boon 19-i; NH(Rembrandt).II.7.158",
+    "url": "https://clevelandart.org/art/1959.81",
+    "images": {
+      "annotation": null,
+      "web": {
+        "url": "https://openaccess-cdn.clevelandart.org/1959.81/1959.81_web.jpg",
+        "width": "806",
+        "height": "893",
+        "filesize": "662010",
+        "filename": "1959.81_web.jpg"
+      },
+      "print": {
+        "url": "https://openaccess-cdn.clevelandart.org/1959.81/1959.81_print.jpg",
+        "width": "3037",
+        "height": "3366",
+        "filesize": "7759183",
+        "filename": "1959.81_print.jpg"
+      },
+      "full": {
+        "url": "https://openaccess-cdn.clevelandart.org/1959.81/1959.81_full.tif",
+        "width": "3037",
+        "height": "3366",
+        "filesize": "30701880",
+        "filename": "1959.81_full.tif"
+      }
+    },
+    "alternate_images": [],
+    "creditline": "Gift of The Print Club of Cleveland",
+    "image_credit": null,
+    "sketchfab_id": null,
+    "sketchfab_url": null,
+    "models": null,
+    "gallery_donor_text": null,
+    "athena_id": 136153,
+    "creators": [
+      {
+        "id": 2520,
+        "description": "Rembrandt van Rijn (Dutch, 1606–1669)",
+        "extent": null,
+        "qualifier": null,
+        "role": "artist",
+        "biography": null,
+        "name_in_original_language": null,
+        "birth_year": "1606",
+        "death_year": "1669",
+        "use_in_caption": true,
+        "include_extent": false,
+        "weight": 1
+      }
+    ],
+    "legal_status": "accessioned",
+    "accession_date": "1959-04-25T00:00:00",
+    "sortable_date": 1636,
+    "date_added_to_oa": null,
+    "date_text": "1636",
+    "collapse_artists": false,
+    "on_loan": false,
+    "recently_acquired": false,
+    "record_type": "object",
+    "conservation_statement": null,
+    "has_conservation_images": false,
+    "cover_accession_number": null,
+    "is_nazi_era_provenance": false,
+    "impression": null,
+    "alternate_titles": [],
+    "is_highlight": false,
+    "updated_at": "2026-09-16 11:22:31.499000"
+  }
+}

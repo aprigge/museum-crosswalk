@@ -4,6 +4,8 @@ export interface ArtistQuery {
   qid: string;
   birth?: string; // ISO date, as Wikidata gives it
   death?: string;
+  /** Other names Wikidata gives (English aliases), e.g. "Rembrandt van Rijn" for "Rembrandt". */
+  aliases?: string[];
   /** External IDs Wikidata lists for the artist, keyed by property ID (e.g. P650). */
   externalIds: Record<string, { label: string; values: string[] }>;
 }
@@ -18,6 +20,22 @@ export interface SliceQuery {
 
 export const SLICES: Record<string, SliceQuery> = {
   'paintings-1850-1900': { id: 'paintings-1850-1900', type: 'painting', from: 1850, to: 1900 },
+};
+
+/** Everything museums hold by one artist (phase 4): every object type, any date. */
+export interface ArtistDataset {
+  id: string;
+  name: string; // the Wikidata label the artist is resolved by
+  qid: string; // confirmed against that label on Wikidata, not trusted blindly
+}
+
+/** A dataset is a slice of a collection or one artist's works. Each has its own harvest and reconcile run. */
+export type Dataset = SliceQuery | ArtistDataset;
+export const isArtistDataset = (d: Dataset): d is ArtistDataset => 'qid' in d;
+
+export const DATASETS: Record<string, Dataset> = {
+  ...SLICES,
+  rembrandt: { id: 'rembrandt', name: 'Rembrandt', qid: 'Q5598' },
 };
 
 /** A raw response as cached on disk, with the metadata needed for provenance. */

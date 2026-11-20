@@ -1,0 +1,120 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://api.smk.dk/api/v1/art/?object_number=KKS6651&lang=en",
+  "type": "HumanMadeObject",
+  "_label": "Mandlig model",
+  "identified_by": [
+    {
+      "type": "Name",
+      "content": "Mandlig model",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ]
+    },
+    {
+      "type": "Identifier",
+      "content": "KKS6651",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300312355",
+          "type": "Type",
+          "_label": "Accession Number"
+        }
+      ]
+    }
+  ],
+  "produced_by": {
+    "type": "Production",
+    "timespan": {
+      "type": "TimeSpan",
+      "identified_by": [
+        {
+          "type": "Name",
+          "content": "1600-1700"
+        }
+      ],
+      "begin_of_the_begin": "1600-01-01T00:00:00Z",
+      "end_of_the_end": "1700-12-31T23:59:59Z"
+    },
+    "carried_out_by": [
+      {
+        "id": "https://api.smk.dk/api/v1/person/1871_person",
+        "type": "Person",
+        "_label": "Rembrandt van Rijn"
+      }
+    ]
+  },
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "content": "Brush and brown ink",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435429",
+          "type": "Type",
+          "_label": "Materials Statement",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Inscription: med brunt blæk i f.o.t.v.: \"Rembrandt\". Med sort blæk f.n.m.f.: \"Rembrandt\". Med blyant f.n.t.v.: \"92 / Lpt\", f.o.t.v.: \"106\"; collector's mark: Sophus Larpent",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435414",
+          "type": "Type",
+          "_label": "Inscription Statement",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "subject_of": [
+    {
+      "type": "LinguisticObject",
+      "digitally_carried_by": [
+        {
+          "type": "DigitalObject",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300264578",
+              "type": "Type",
+              "_label": "Web Page"
+            }
+          ],
+          "format": "text/html",
+          "access_point": [
+            {
+              "id": "https://open.smk.dk/artwork/image/KKS6651",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "smk",
+    "sourceUrl": "https://api.smk.dk/api/v1/art/search/?keys=*&filters=%5Bcreator%3ARembrandt%20van%20Rijn%5D&offset=0&rows=100&lang=en",
+    "fetchedAt": "2026-11-20T17:40:49.448Z",
+    "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "licenseNote": "As the SMK record states it (`rights`); public-domain works carry the Public Domain Mark"
+  }
+}

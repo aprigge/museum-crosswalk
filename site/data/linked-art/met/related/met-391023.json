@@ -1,0 +1,37 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/met-391023",
+  "type": "VisualItem",
+  "_label": "Subjects of Christ Appearing to the Apostles",
+  "about": [
+    {
+      "id": "http://vocab.getty.edu/aat/300343837",
+      "type": "Type",
+      "_label": "Apostles",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q43412",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ia/901000087",
+      "type": "Type",
+      "_label": "Christ",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q642420",
+          "type": "Type"
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "met",
+    "sourceUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/391023",
+    "fetchedAt": "2026-11-20T17:40:39.153Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "Open Access (isPublicDomain: true)"
+  }
+}

@@ -2,7 +2,7 @@ import { createHash } from 'node:crypto';
 import { readFile, writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import type Anthropic from '@anthropic-ai/sdk';
-import { dataDir } from '../core/cache.js';
+import { dataDir, siteGraphDir } from '../core/cache.js';
 import { newWikidataClient, qidFromUri, sparqlUrl } from '../authority/wikidata.js';
 import { anthropic, costUsd, loadPrompt, MODELS, readRecord, toRecord, writeRecord } from '../ai/client.js';
 import { reviewKey, reviewRequest, ReviewSchema, type ReviewCase, type ReviewProposal } from '../ai/review.js';
@@ -46,7 +46,7 @@ export async function buildCases(): Promise<ReviewCase[]> {
   const dir = join(dataDir(), 'reconcile', SLICE);
   const review = JSON.parse(await readFile(join(dir, 'review.json'), 'utf8')) as AgentResolution[];
   const people = JSON.parse(await readFile(join(dir, 'people.json'), 'utf8')) as Record<string, PersonFacts>;
-  const docs = new Map((JSON.parse(await readFile(join(dataDir(), 'graph', SLICE, 'search-docs.json'), 'utf8')) as SearchDoc[]).map((d) => [d.id, d]));
+  const docs = new Map((JSON.parse(await readFile(join(siteGraphDir(), 'search-docs.json'), 'utf8')) as SearchDoc[]).map((d) => [d.id, d]));
 
   const byAgent = new Map<string, AgentResolution[]>();
   for (const r of review) {

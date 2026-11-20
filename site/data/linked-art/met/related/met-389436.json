@@ -1,0 +1,59 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/met-389436",
+  "type": "VisualItem",
+  "_label": "Subjects of Landscape with a Farmhouse Along a Road Beside a Canal",
+  "about": [
+    {
+      "id": "http://vocab.getty.edu/aat/300008217",
+      "type": "Type",
+      "_label": "Roads",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q34442",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300006075",
+      "type": "Type",
+      "_label": "Canals",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q12284",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300132294",
+      "type": "Type",
+      "_label": "Landscapes",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q191163",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300132410",
+      "type": "Type",
+      "_label": "Trees",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q10884",
+          "type": "Type"
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "met",
+    "sourceUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/389436",
+    "fetchedAt": "2026-11-20T17:40:36.139Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "Open Access (isPublicDomain: true)"
+  }
+}

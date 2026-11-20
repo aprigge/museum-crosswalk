@@ -1,0 +1,107 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://api.smk.dk/api/v1/art/?object_number=KKSgb51663&lang=en",
+  "type": "HumanMadeObject",
+  "_label": "Lazarus' opvækkelse",
+  "identified_by": [
+    {
+      "type": "Name",
+      "content": "Lazarus' opvækkelse",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ]
+    },
+    {
+      "type": "Identifier",
+      "content": "KKSgb51663",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300312355",
+          "type": "Type",
+          "_label": "Accession Number"
+        }
+      ]
+    }
+  ],
+  "produced_by": {
+    "type": "Production",
+    "timespan": {
+      "type": "TimeSpan",
+      "identified_by": [
+        {
+          "type": "Name",
+          "content": "1742-1800"
+        }
+      ],
+      "begin_of_the_begin": "1742-01-01T00:00:00Z",
+      "end_of_the_end": "1800-12-31T23:59:59Z"
+    },
+    "carried_out_by": [
+      {
+        "id": "https://api.smk.dk/api/v1/person/45664_person",
+        "type": "Person",
+        "_label": "Traunfellner, Jakob"
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/1871_person",
+        "type": "Person",
+        "_label": "Rembrandt van Rijn"
+      }
+    ]
+  },
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "content": "Mezzotint",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435429",
+          "type": "Type",
+          "_label": "Materials Statement",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "subject_of": [
+    {
+      "type": "LinguisticObject",
+      "digitally_carried_by": [
+        {
+          "type": "DigitalObject",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300264578",
+              "type": "Type",
+              "_label": "Web Page"
+            }
+          ],
+          "format": "text/html",
+          "access_point": [
+            {
+              "id": "https://open.smk.dk/artwork/image/KKSgb51663",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "smk",
+    "sourceUrl": "https://api.smk.dk/api/v1/art/search/?keys=*&filters=%5Bcreator%3ARembrandt%20van%20Rijn%5D&offset=600&rows=100&lang=en",
+    "fetchedAt": "2026-11-20T17:40:55.492Z",
+    "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "licenseNote": "As the SMK record states it (`rights`); public-domain works carry the Public Domain Mark"
+  }
+}

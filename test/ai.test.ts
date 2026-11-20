@@ -136,9 +136,9 @@ describe('person decisions on review proposals', () => {
     expect(applyDecision(inReview, { decision: 'keep-separate', qid: 'Q4233718', ai: null })).toMatchObject({ decision: 'kept-separate', personKey: 'aic-63743' });
   });
 
-  it('never overrides a qualified role or an exact match', async () => {
+  it('never overrides an agent qualified by name, or an exact match', async () => {
     const { applyDecision } = await import('../src/reconcile/agents.js');
-    const qualified = { ...inReview, reason: 'Qualified role: Imitator of Vincent van Gogh' };
+    const qualified = { ...inReview, ref: { ...ref, name: 'Imitator of Vincent van Gogh' }, reason: 'Qualified role: Imitator of Vincent van Gogh' };
     expect(applyDecision(qualified, { decision: 'merge', qid: 'Q5582', ai: null })).toBe(qualified);
     const merged = { ...inReview, decision: 'merged' as const, personKey: 'Q5372282' };
     expect(applyDecision(merged, { decision: 'keep-separate', qid: 'Q5372282', ai: null })).toBe(merged);

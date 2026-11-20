@@ -1,0 +1,26 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/met-391686",
+  "type": "VisualItem",
+  "_label": "Subjects of Portrait of a Boy, in Profile",
+  "about": [
+    {
+      "id": "http://vocab.getty.edu/aat/300247598",
+      "type": "Type",
+      "_label": "Boys",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q3010",
+          "type": "Type"
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "met",
+    "sourceUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/391686",
+    "fetchedAt": "2026-11-20T17:44:27.214Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "Open Access (isPublicDomain: true)"
+  }
+}

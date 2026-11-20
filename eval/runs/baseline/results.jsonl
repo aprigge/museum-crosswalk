@@ -1,5 +1,5 @@
-{"id":"q01","query":"Impressionist landscapes","tags":["headline","combined"],"results":92,"precisionAt10":0.8,"recall":0.8461538461538461,"museumsWithHit":2,"splitArtists":[],"aiOnlyResults":0,"unlabelledInTop10":0}
-{"id":"q02","query":"landscape","tags":["genre"],"results":260,"precisionAt10":1,"recall":1,"museumsWithHit":3,"splitArtists":[],"aiOnlyResults":0,"unlabelledInTop10":0}
+{"id":"q01","query":"Impressionist landscapes","tags":["headline","combined"],"results":92,"precisionAt10":0.9,"recall":0.8571428571428571,"museumsWithHit":2,"splitArtists":[],"aiOnlyResults":0,"unlabelledInTop10":0}
+{"id":"q02","query":"landscape","tags":["genre"],"results":260,"precisionAt10":0.9,"recall":1,"museumsWithHit":3,"splitArtists":[],"aiOnlyResults":0,"unlabelledInTop10":0}
 {"id":"q03","query":"seascape","tags":["genre"],"results":6,"precisionAt10":1,"recall":1,"museumsWithHit":2,"splitArtists":[],"aiOnlyResults":0,"unlabelledInTop10":0}
 {"id":"q04","query":"portrait","tags":["genre"],"results":149,"precisionAt10":1,"recall":1,"museumsWithHit":3,"splitArtists":[],"aiOnlyResults":0,"unlabelledInTop10":0}
 {"id":"q05","query":"self-portrait","tags":["genre"],"results":15,"precisionAt10":1,"recall":0.875,"museumsWithHit":3,"splitArtists":[],"aiOnlyResults":0,"unlabelledInTop10":0}
@@ -16,5 +16,5 @@
 {"id":"q16","query":"Paris","tags":["place"],"results":20,"precisionAt10":0.9,"recall":1,"museumsWithHit":3,"splitArtists":[],"aiOnlyResults":0,"unlabelledInTop10":0}
 {"id":"q17","query":"Barbizon","tags":["movement"],"results":65,"precisionAt10":1,"recall":1,"museumsWithHit":3,"splitArtists":[],"aiOnlyResults":0,"unlabelledInTop10":0}
 {"id":"q18","query":"Claude Monet","tags":["artist"],"results":26,"precisionAt10":1,"recall":1,"museumsWithHit":2,"splitArtists":[],"aiOnlyResults":0,"unlabelledInTop10":0}
-{"id":"q19","query":"portrait of a woman","tags":["combined"],"results":55,"precisionAt10":1,"recall":0.8095238095238095,"museumsWithHit":3,"splitArtists":[],"aiOnlyResults":0,"unlabelledInTop10":0}
+{"id":"q19","query":"portrait of a woman","tags":["combined"],"results":55,"precisionAt10":0.9,"recall":0.8148148148148148,"museumsWithHit":3,"splitArtists":[],"aiOnlyResults":0,"unlabelledInTop10":0}
 {"id":"q20","query":"winter landscape","tags":["combined"],"results":8,"precisionAt10":1,"recall":0.5714285714285714,"museumsWithHit":1,"splitArtists":[],"aiOnlyResults":0,"unlabelledInTop10":0}

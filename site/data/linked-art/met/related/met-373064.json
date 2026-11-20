@@ -1,0 +1,70 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/met-373064",
+  "type": "VisualItem",
+  "_label": "Subjects of The Flute Player",
+  "about": [
+    {
+      "id": "http://vocab.getty.edu/aat/300025928",
+      "type": "Type",
+      "_label": "Men",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q8441",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300025943",
+      "type": "Type",
+      "_label": "Women",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q467",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300042513",
+      "type": "Type",
+      "_label": "Flutes",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q11405",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300310290",
+      "type": "Type",
+      "_label": "Owls",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q8021345",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300250284",
+      "type": "Type",
+      "_label": "Sheep",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q7368",
+          "type": "Type"
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "met",
+    "sourceUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/373064",
+    "fetchedAt": "2026-11-20T17:39:15.125Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "Open Access (isPublicDomain: true)"
+  }
+}

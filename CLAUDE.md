@@ -41,8 +41,8 @@ Findings go in `reports/impressionist-landscapes.md`.
 ## Phase 3: AI in the demo
 
 AI fills gaps the data showed (uneven subjects, a manual review queue, an expert-only
-interface), and an eval measures whether it helps. Plan: enrichment (done), review assist,
-"Ask the graph".
+interface), and an eval measures whether it helps. Done: enrichment, review assist, "Ask the
+graph" (with a checked answer sentence and artist facts from Wikidata).
 
 - **AI claims live in `graph/ai`**, each an `mc:AiSuggestion` with confidence, evidence and
   the run that made it (model, prompt version). Only confidence ≥ 0.6 reaches search, boosted
@@ -65,6 +65,31 @@ interface), and an eval measures whether it helps. Plan: enrichment (done), revi
   `npm run ask-eval` before deploy. Keep eval questions out of the schema card's examples.
 - The Worker never runs queries, stores no questions, allows only the site's origins, and
   keeps a per-visitor rate limit and a daily cap. Its key is a Wrangler secret, never in git.
+
+## Phase 4: Rembrandt, the full picture
+
+Everything five open museums hold by **Rembrandt** (Q5598): the Rijksmuseum, The Met, AIC,
+**SMK** (`api.smk.dk/api/v1`, no key) and the **Cleveland Museum of Art**
+(`openaccess-api.clevelandart.org`, no key). All object types; mostly prints. Plan:
+`/Users/aprigge/.claude/plans/drifting-soaring-creek.md`; research behind the choice:
+`/Users/aprigge/reports/artist-candidates.md`. NGA may follow; Harvard is excluded (its
+terms forbid caching beyond two weeks).
+
+- **Datasets.** `DATASETS` in `src/core/types.ts` holds slices and artists; steps take
+  `--dataset` (`--slice` still works). Each dataset has its own harvest file
+  (`_harvest-{id}.json`) and `data/reconcile/{id}/`; `graph` combines every reconciled
+  dataset into one graph (`data/graph/site/`), with `mc:dataset` on each work.
+- **No ID, no automatic merge.** SMK and Cleveland give only their own artist IDs, which
+  Wikidata doesn't list. Their artists match the dataset's artist on a Wikidata name or alias
+  plus life years, and go to review; a person decides once per museum agent. A decision says
+  who the agent is: it never applies to an agent qualified by name ("School of…"), and a
+  record with a qualified role ("copy after") stays `mc:qualifiedArtist`, never `mc:artist`.
+- **Prints.** Impressions plainly by the artist that cite the same Bartsch / Hollstein or
+  New Hollstein number become one `mc:Print` (`src/graph/prints.ts`); never group by title.
+  Conflicting numbers are flagged, not resolved silently. The Met's API gives no catalogue
+  numbers, so its impressions stay ungrouped.
+- Images only where the record says so: SMK `public_domain` (Public Domain Mark), Cleveland
+  `share_license_status: CC0`.
 
 **Out of scope for now: all Getty data** (the Getty Museum collection and the Getty
 Vocabularies, including ULAN). Don't fetch from data.getty.edu or vocab.getty.edu.

@@ -1,0 +1,48 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/met-459323",
+  "type": "VisualItem",
+  "_label": "Subjects of The Martyrdom of Saint Peter",
+  "about": [
+    {
+      "id": "http://vocab.getty.edu/aat/300055184",
+      "type": "Type",
+      "_label": "Suffering",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q5780945",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ia/901000056",
+      "type": "Type",
+      "_label": "Saint Peter",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q33923",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300235443",
+      "type": "Type",
+      "_label": "Cross",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q40843",
+          "type": "Type"
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "met",
+    "sourceUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/459323",
+    "fetchedAt": "2026-11-20T17:51:12.362Z",
+    "license": "not-open-access",
+    "licenseNote": "isPublicDomain: false; the Met grants CC0 only for Open Access objects"
+  }
+}

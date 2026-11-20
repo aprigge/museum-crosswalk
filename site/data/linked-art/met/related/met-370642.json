@@ -1,0 +1,37 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/met-370642",
+  "type": "VisualItem",
+  "_label": "Subjects of The Death of the Virgin",
+  "about": [
+    {
+      "id": "http://vocab.getty.edu/page/ia/901000032",
+      "type": "Type",
+      "_label": "Virgin Mary",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q345",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300151836",
+      "type": "Type",
+      "_label": "Death",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q4",
+          "type": "Type"
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "met",
+    "sourceUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/370642",
+    "fetchedAt": "2026-11-20T17:37:36.055Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "Open Access (isPublicDomain: true)"
+  }
+}

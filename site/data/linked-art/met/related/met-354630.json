@@ -1,0 +1,59 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/met-354630",
+  "type": "VisualItem",
+  "_label": "Subjects of The Flight into Egypt: Crossing a Brook",
+  "about": [
+    {
+      "id": "http://vocab.getty.edu/aat/300265959",
+      "type": "Type",
+      "_label": "Donkeys",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q3537778",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ia/901001175",
+      "type": "Type",
+      "_label": "Holy Family",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q618057",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ia/901000087",
+      "type": "Type",
+      "_label": "Jesus",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q302",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ia/901000391",
+      "type": "Type",
+      "_label": "Flight Into Egypt",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q837143",
+          "type": "Type"
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "met",
+    "sourceUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/354630",
+    "fetchedAt": "2026-11-20T17:35:18.004Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "Open Access (isPublicDomain: true)"
+  }
+}

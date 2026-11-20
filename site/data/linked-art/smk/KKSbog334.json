@@ -1,0 +1,162 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://api.smk.dk/api/v1/art/?object_number=KKSbog334&lang=en",
+  "type": "HumanMadeObject",
+  "_label": "\"Receuil d'estampes d'aprés les desseins originaux...\", cahier I-VI, Wien 1782-1786",
+  "identified_by": [
+    {
+      "type": "Name",
+      "content": "\"Receuil d'estampes d'aprés les desseins originaux...\", cahier I-VI, Wien 1782-1786",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ]
+    },
+    {
+      "type": "Identifier",
+      "content": "KKSbog334",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300312355",
+          "type": "Type",
+          "_label": "Accession Number"
+        }
+      ]
+    }
+  ],
+  "produced_by": {
+    "type": "Production",
+    "timespan": {
+      "type": "TimeSpan",
+      "identified_by": [
+        {
+          "type": "Name",
+          "content": "1782-1786"
+        }
+      ],
+      "begin_of_the_begin": "1782-01-01T00:00:00Z",
+      "end_of_the_end": "1786-12-31T23:59:59Z"
+    },
+    "carried_out_by": [
+      {
+        "id": "https://api.smk.dk/api/v1/person/31532_person",
+        "type": "Person",
+        "_label": "Bartsch, Adam von"
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/51850_person",
+        "type": "Person",
+        "_label": "Helwig, Joseph"
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/1871_person",
+        "type": "Person",
+        "_label": "Rembrandt van Rijn"
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/2635_person",
+        "type": "Person",
+        "_label": "Guercino"
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/15978_person",
+        "type": "Person",
+        "_label": "Lafage, Raymond"
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/1709_person",
+        "type": "Person",
+        "_label": "Parmigianino"
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/1650_person",
+        "type": "Person",
+        "_label": "Dürer, Albrecht"
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/1368_person",
+        "type": "Person",
+        "_label": "Barocci, Federico"
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/6141_person",
+        "type": "Person",
+        "_label": "Zuccaro, Federico"
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/1532_person",
+        "type": "Person",
+        "_label": "Carracci, Lodovico"
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/1872_person",
+        "type": "Person",
+        "_label": "Reni, Guido"
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/1523_person",
+        "type": "Person",
+        "_label": "Cagnacci, Guido"
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/2590_person",
+        "type": "Person",
+        "_label": "Giordano, Luca"
+      }
+    ]
+  },
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "content": "Etching and dry point",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435429",
+          "type": "Type",
+          "_label": "Materials Statement",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "subject_of": [
+    {
+      "type": "LinguisticObject",
+      "digitally_carried_by": [
+        {
+          "type": "DigitalObject",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300264578",
+              "type": "Type",
+              "_label": "Web Page"
+            }
+          ],
+          "format": "text/html",
+          "access_point": [
+            {
+              "id": "https://open.smk.dk/artwork/image/KKSbog334",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "smk",
+    "sourceUrl": "https://api.smk.dk/api/v1/art/search/?keys=*&filters=%5Bcreator%3ARembrandt%20van%20Rijn%5D&offset=700&rows=100&lang=en",
+    "fetchedAt": "2026-11-20T17:40:56.494Z",
+    "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "licenseNote": "As the SMK record states it (`rights`); public-domain works carry the Public Domain Mark"
+  }
+}

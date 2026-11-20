@@ -1,0 +1,59 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/met-391633",
+  "type": "VisualItem",
+  "_label": "Subjects of Death Appearing to a Wedded Couple from an Open Grave",
+  "about": [
+    {
+      "id": "http://vocab.getty.edu/aat/300191778",
+      "type": "Type",
+      "_label": "Skeletons",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q7881",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300379217",
+      "type": "Type",
+      "_label": "Couples",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q219160",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300025928",
+      "type": "Type",
+      "_label": "Men",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q8441",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300025943",
+      "type": "Type",
+      "_label": "Women",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q467",
+          "type": "Type"
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "met",
+    "sourceUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/391633",
+    "fetchedAt": "2026-11-20T17:43:33.186Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "Open Access (isPublicDomain: true)"
+  }
+}

@@ -1,9 +1,10 @@
 import { join } from 'node:path';
 import { dataDir, writeJson } from '../core/cache.js';
 import { BlockedError, CacheMissError } from '../core/http.js';
-import { SLICES, type SourceAdapter } from '../core/types.js';
+import { isArtistDataset, type Dataset, type SourceAdapter } from '../core/types.js';
+import { newWikidataClient, resolveArtist } from '../authority/wikidata.js';
 import { selectSources } from '../sources/index.js';
-import { artistFor, cliArgs, main } from './common.js';
+import { artistFor, cliArgs, datasetFor, main } from './common.js';
 
 /**
  * Fetch every searched id and what it points to, logging progress on long runs.
@@ -40,14 +41,19 @@ main(async () => {
   const args = cliArgs();
   const adapters = selectSources(args.source, { refresh: args.refresh, offline: args.offline });
 
-  if (args.slice) {
-    const slice = SLICES[args.slice];
-    if (!slice) throw new Error(`Unknown slice "${args.slice}". Known: ${Object.keys(SLICES).join(', ')}`);
+  const dataset: Dataset | undefined = datasetFor(args);
+  if (dataset) {
+    // An artist dataset searches by the artist (every object type); a slice by type and date.
+    const artist = isArtistDataset(dataset) ? await resolveArtist(newWikidataClient(args.refresh), dataset.name, dataset.qid) : null;
+    if (artist) console.log(`Artist: ${artist.name} = ${artist.qid} (${artist.birth ?? '?'} – ${artist.death ?? '?'})`);
     for (const adapter of adapters) {
-      if (!adapter.searchSlice) throw new Error(`${adapter.name} has no slice search`);
-      const { ids, errors, blocked } = await harvestIds(adapter, adapter.searchSlice(slice), args.limit);
-      await writeJson(join(dataDir(), 'raw', adapter.name, `_harvest-${slice.id}.json`), {
-        slice,
+      let search: AsyncIterable<string>;
+      if (artist) search = adapter.search(artist);
+      else if (adapter.searchSlice && !isArtistDataset(dataset)) search = adapter.searchSlice(dataset);
+      else throw new Error(`${adapter.name} has no slice search`);
+      const { ids, errors, blocked } = await harvestIds(adapter, search, args.limit);
+      await writeJson(join(dataDir(), 'raw', adapter.name, `_harvest-${dataset.id}.json`), {
+        ...(artist ? { dataset, artist: { name: artist.name, qid: artist.qid } } : { slice: dataset }),
         finishedAt: new Date().toISOString(),
         complete: !blocked,
         ...(blocked ? { blocked } : {}),

@@ -1,0 +1,70 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/met-391964",
+  "type": "VisualItem",
+  "_label": "Subjects of Peasant Family on the Tramp",
+  "about": [
+    {
+      "id": "http://vocab.getty.edu/aat/300247598",
+      "type": "Type",
+      "_label": "Boys",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q3010",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300025928",
+      "type": "Type",
+      "_label": "Men",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q8441",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300025943",
+      "type": "Type",
+      "_label": "Women",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q467",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300248181",
+      "type": "Type",
+      "_label": "Walking",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q6537379",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300435378",
+      "type": "Type",
+      "_label": "Family",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q8436",
+          "type": "Type"
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "met",
+    "sourceUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/391964",
+    "fetchedAt": "2026-11-20T17:46:18.250Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "Open Access (isPublicDomain: true)"
+  }
+}

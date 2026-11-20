@@ -1,0 +1,26 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/met-391693",
+  "type": "VisualItem",
+  "_label": "Subjects of St. Jerome in a Dark Chamber",
+  "about": [
+    {
+      "id": "http://vocab.getty.edu/page/ulan/500060933",
+      "type": "Type",
+      "_label": "Saint Jerome",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q44248",
+          "type": "Type"
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "met",
+    "sourceUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/391693",
+    "fetchedAt": "2026-11-20T17:44:39.229Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "Open Access (isPublicDomain: true)"
+  }
+}

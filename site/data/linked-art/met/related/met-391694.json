@@ -1,0 +1,59 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/met-391694",
+  "type": "VisualItem",
+  "_label": "Subjects of Student at a Table by Candlelight",
+  "about": [
+    {
+      "id": "http://vocab.getty.edu/aat/300025928",
+      "type": "Type",
+      "_label": "Men",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q8441",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300248178",
+      "type": "Type",
+      "_label": "Reading",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q199657",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300025909",
+      "type": "Type",
+      "_label": "Students",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q48282",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300037654",
+      "type": "Type",
+      "_label": "Candles",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q12888135",
+          "type": "Type"
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "met",
+    "sourceUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/391694",
+    "fetchedAt": "2026-11-20T17:44:42.215Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "Open Access (isPublicDomain: true)"
+  }
+}

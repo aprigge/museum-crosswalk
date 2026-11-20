@@ -205,7 +205,8 @@
         "thumb": "https://www.artic.edu/iiif/2/3ae75415-0551-ae17-c478-3b8687a6f246/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/72801",
         "seenIn": {
-          "with-ai": "impression: styles, inferredStyles; landscape: subjects, aiSubjects"
+          "with-ai": "impression: styles, inferredStyles; landscape: subjects, aiSubjects",
+          "baseline": "impression: styles, inferredStyles; landscape: subjects"
         }
       },
       {
@@ -251,6 +252,21 @@
         "url": "https://www.metmuseum.org/art/collection/search/435626",
         "seenIn": {
           "with-ai": "impression: inferredStyles; landscape: aiSubjects"
+        }
+      },
+      {
+        "id": "aic-53058",
+        "title": "Forêt de Compiègne",
+        "artists": [
+          "Berthe Morisot"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1885,
+        "thumb": "https://www.artic.edu/iiif/2/bfc9b17a-cc18-7bd3-4d78-e925bb1a8b27/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/53058",
+        "seenIn": {
+          "with-ai": "impression: styles, inferredStyles; landscape: subjects, aiSubjects"
         }
       }
     ]
@@ -628,7 +644,8 @@
         "thumb": "https://www.artic.edu/iiif/2/c4648834-49dd-3589-6ac3-66d41fd574ef/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/44017",
         "seenIn": {
-          "with-ai": "landscape: title, subjects, aiSubjects"
+          "with-ai": "landscape: title, subjects, aiSubjects",
+          "baseline": "landscape: title, subjects"
         }
       },
       {
@@ -644,6 +661,21 @@
         "url": "https://www.metmuseum.org/art/collection/search/437998",
         "seenIn": {
           "with-ai": "landscape: subjects, aiSubjects"
+        }
+      },
+      {
+        "id": "aic-29401",
+        "title": "Wooded Landscape",
+        "artists": [
+          "Gustave Courbet"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1860,
+        "thumb": "https://www.artic.edu/iiif/2/97fe1136-e38d-70b2-336b-ba81cd6b044c/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/29401",
+        "seenIn": {
+          "with-ai": "landscape: title, subjects, aiSubjects"
         }
       }
     ]
@@ -1189,6 +1221,21 @@
         "url": "https://www.metmuseum.org/art/collection/search/436000",
         "seenIn": {
           "with-ai": "portrait: subjects, aiSubjects; portraiture: subjects, aiSubjects"
+        }
+      },
+      {
+        "id": "aic-12888",
+        "title": "Portrait of the Artist's Sister",
+        "artists": [
+          "Georges Lemmen"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1891,
+        "thumb": "https://www.artic.edu/iiif/2/f652ab04-9d66-c3c3-6b5e-c2891fc3a891/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/12888",
+        "seenIn": {
+          "with-ai": "portrait: title, subjects, aiSubjects; portraiture: subjects, aiSubjects"
         }
       }
     ]
@@ -2432,6 +2479,21 @@
         "seenIn": {
           "with-ai": "flower: subjects, aiSubjects; lower: aiSubjects"
         }
+      },
+      {
+        "id": "aic-111626",
+        "title": "Portrait of Mrs. Charles L. Hutchinson",
+        "artists": [
+          "Jules-Élie Delaunay"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1890,
+        "thumb": "https://www.artic.edu/iiif/2/c8566357-e7cc-3040-4d1d-2c67669f3456/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/111626",
+        "seenIn": {
+          "with-ai": "flower: subjects, aiSubjects"
+        }
       }
     ]
   },
@@ -3521,7 +3583,7 @@
         "url": "https://www.artic.edu/artworks/64745",
         "seenIn": {
           "baseline": "night: title",
-          "with-ai": "night: title, aiSubjects"
+          "with-ai": "night: title, aiSubjects; night-time: aiSubjects; nighttime: aiSubjects"
         }
       },
       {
@@ -3553,7 +3615,7 @@
         "url": "https://www.artic.edu/artworks/154235",
         "seenIn": {
           "baseline": "night: subjects",
-          "with-ai": "night: subjects, aiSubjects"
+          "with-ai": "night: subjects, aiSubjects; night-time: aiSubjects; nighttime: aiSubjects"
         }
       },
       {
@@ -3646,7 +3708,7 @@
         "url": "https://www.artic.edu/artworks/110867",
         "seenIn": {
           "baseline": "night: subjects",
-          "with-ai": "night: subjects, aiSubjects"
+          "with-ai": "night: subjects, aiSubjects; night-time: aiSubjects; nighttime: aiSubjects"
         }
       },
       {
@@ -3662,7 +3724,7 @@
         "url": "https://www.artic.edu/artworks/234877",
         "seenIn": {
           "baseline": "night: subjects",
-          "with-ai": "night: subjects, aiSubjects"
+          "with-ai": "night: subjects, aiSubjects; night-time: aiSubjects; nighttime: aiSubjects"
         }
       },
       {
@@ -3677,7 +3739,7 @@
         "thumb": "https://www.artic.edu/iiif/2/50034c7f-ce51-00f1-430e-a6f7efc233fc/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/56905",
         "seenIn": {
-          "with-ai": "night: subjects, aiSubjects"
+          "with-ai": "night: subjects, aiSubjects; night-time: aiSubjects; nighttime: aiSubjects"
         }
       },
       {
@@ -3692,7 +3754,7 @@
         "thumb": "https://iiif.micr.io/yArJe/full/400,/0/default.jpg",
         "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-2465--c95062abb3e8565335c4f670c8359486",
         "seenIn": {
-          "with-ai": "night: aiSubjects"
+          "with-ai": "night: aiSubjects; night-time: aiSubjects; nighttime: aiSubjects"
         }
       },
       {
@@ -3707,7 +3769,7 @@
         "thumb": "https://iiif.micr.io/MlFyW/full/400,/0/default.jpg",
         "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-5063--887e3d82e22b3c61490f0408f49abd1f",
         "seenIn": {
-          "with-ai": "night: aiSubjects"
+          "with-ai": "night: aiSubjects; night-time: aiSubjects; nighttime: aiSubjects"
         }
       },
       {
@@ -3722,7 +3784,7 @@
         "thumb": "https://iiif.micr.io/mvLEb/full/400,/0/default.jpg",
         "url": "https://www.rijksmuseum.nl/nl/collectie/object/AK-RAK-1991-1-I--6aa6d955631a02e18ffebee3e42766fb",
         "seenIn": {
-          "with-ai": "night: aiSubjects"
+          "with-ai": "night: aiSubjects; night-time: aiSubjects; nighttime: aiSubjects"
         }
       },
       {
@@ -3752,7 +3814,7 @@
         "thumb": "https://iiif.micr.io/tDbwF/full/400,/0/default.jpg",
         "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-4738--37439214d89b6f7d9e56d50ba30269de",
         "seenIn": {
-          "with-ai": "night: aiSubjects"
+          "with-ai": "night: aiSubjects; night-time: aiSubjects; nighttime: aiSubjects"
         }
       },
       {
@@ -3782,7 +3844,7 @@
         "thumb": "https://iiif.micr.io/XRCyZ/full/400,/0/default.jpg",
         "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-1827--f20a4913dbb122bad9efa767afb90d7f",
         "seenIn": {
-          "with-ai": "night: aiSubjects"
+          "with-ai": "night: aiSubjects; night-time: aiSubjects; nighttime: aiSubjects"
         }
       }
     ]
@@ -5279,6 +5341,129 @@
         "seenIn": {
           "with-ai": "portrait: subjects, aiSubjects; portraiture: subjects, aiSubjects; woman: subjects, aiSubjects"
         }
+      },
+      {
+        "id": "aic-42949",
+        "title": "Portrait of Jeanne Wenz",
+        "artists": [
+          "Henri de Toulouse-Lautrec"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1886,
+        "thumb": "https://www.artic.edu/iiif/2/c2a4b60c-bf43-6a37-e001-a91cba741168/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/42949",
+        "seenIn": {
+          "baseline": "portrait: title, subjects; portraiture: subjects; woman: subjects",
+          "with-ai": "portrait: title, subjects, aiSubjects; portraiture: subjects, aiSubjects; woman: subjects, aiSubjects"
+        }
+      },
+      {
+        "id": "aic-79586",
+        "title": "Portrait of Mme Lisle and Mme Loubens",
+        "artists": [
+          "Edgar Degas"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1862,
+        "thumb": "https://www.artic.edu/iiif/2/8bcc9188-1d3d-14be-6ae7-ed211e089c0f/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/79586",
+        "seenIn": {
+          "baseline": "portrait: title, subjects; portraiture: subjects; woman: subjects"
+        }
+      },
+      {
+        "id": "aic-80604",
+        "title": "Portrait after a Costume Ball (Portrait of Madame Dietz-Monnin)",
+        "artists": [
+          "Edgar Degas"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1879,
+        "thumb": "https://www.artic.edu/iiif/2/a56877d3-f08c-e469-2b4c-81823ea30e40/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/80604",
+        "seenIn": {
+          "baseline": "portrait: title, subjects; portraiture: subjects; woman: subjects"
+        }
+      },
+      {
+        "id": "aic-111626",
+        "title": "Portrait of Mrs. Charles L. Hutchinson",
+        "artists": [
+          "Jules-Élie Delaunay"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1890,
+        "thumb": "https://www.artic.edu/iiif/2/c8566357-e7cc-3040-4d1d-2c67669f3456/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/111626",
+        "seenIn": {
+          "baseline": "portrait: title, subjects; portraiture: subjects; woman: subjects",
+          "with-ai": "portrait: title, subjects, aiSubjects; portraiture: subjects, aiSubjects; woman: subjects, aiSubjects"
+        }
+      },
+      {
+        "id": "aic-12888",
+        "title": "Portrait of the Artist's Sister",
+        "artists": [
+          "Georges Lemmen"
+        ],
+        "museum": "aic",
+        "museumName": "Art Institute of Chicago",
+        "begin": 1891,
+        "thumb": "https://www.artic.edu/iiif/2/f652ab04-9d66-c3c3-6b5e-c2891fc3a891/full/400,/0/default.jpg",
+        "url": "https://www.artic.edu/artworks/12888",
+        "seenIn": {
+          "baseline": "portrait: title, subjects; portraiture: subjects; woman: subjects",
+          "with-ai": "portrait: title, subjects, aiSubjects; portraiture: subjects, aiSubjects; woman: subjects, aiSubjects"
+        }
+      },
+      {
+        "id": "rijksmuseum-200108378",
+        "title": "Portrait of Cornelia, Clara and Johanna Veth",
+        "artists": [
+          "Jan Veth"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1885,
+        "thumb": "https://iiif.micr.io/cPppu/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-4862--f2f9a5f1b3ce96a950c95512e9cbf4c2",
+        "seenIn": {
+          "with-ai": "portrait: title, aiSubjects; portraiture: aiSubjects; woman: aiSubjects"
+        }
+      },
+      {
+        "id": "rijksmuseum-20088786",
+        "title": "Portrait of Jonkvrouwe Maria Francisca Louisa Dommer van Poldersveldt",
+        "artists": [
+          "Fernand Khnopff"
+        ],
+        "museum": "rijksmuseum",
+        "museumName": "Rijksmuseum",
+        "begin": 1888,
+        "thumb": "https://iiif.micr.io/Sepnw/full/400,/0/default.jpg",
+        "url": "https://www.rijksmuseum.nl/nl/collectie/object/SK-A-5043--a5d1c9c91c0fa4190eccc457de9fea15",
+        "seenIn": {
+          "with-ai": "portrait: title, aiSubjects; portraiture: aiSubjects; woman: aiSubjects"
+        }
+      },
+      {
+        "id": "met-435876",
+        "title": "Madame Cézanne (Hortense Fiquet, 1850–1922) in a Red Dress",
+        "artists": [
+          "Paul Cézanne"
+        ],
+        "museum": "met",
+        "museumName": "The Met",
+        "begin": 1888,
+        "thumb": "https://images.metmuseum.org/CRDImages/ep/web-large/DP320128.jpg",
+        "url": "https://www.metmuseum.org/art/collection/search/435876",
+        "seenIn": {
+          "with-ai": "portrait: subjects, aiSubjects; portraiture: subjects, aiSubjects; woman: subjects, aiSubjects"
+        }
       }
     ]
   },
@@ -5410,7 +5595,8 @@
         "thumb": "https://www.artic.edu/iiif/2/3ae75415-0551-ae17-c478-3b8687a6f246/full/400,/0/default.jpg",
         "url": "https://www.artic.edu/artworks/72801",
         "seenIn": {
-          "baseline": "winter: subjects; landscape: subjects"
+          "baseline": "winter: subjects; landscape: subjects",
+          "with-ai": "winter: subjects, aiSubjects; landscape: subjects, aiSubjects"
         }
       },
       {

@@ -1,5 +1,5 @@
 import { esc, licenseLabel, loadIndex, MUSEUM_NAMES, years } from './common.js';
-import { FIELD_EXPLANATION, processTerm, SEARCH_FIELDS, SEARCH_OPTIONS, tokenize } from './terms.js';
+import { DATASET_NAMES, FIELD_EXPLANATION, processTerm, SEARCH_FIELDS, SEARCH_OPTIONS, tokenize } from './terms.js';
 
 const form = document.getElementById('search-form');
 const input = document.getElementById('q');
@@ -11,6 +11,8 @@ const useAi = document.getElementById('use-ai');
 
 const GROUPS_PER_PAGE = 20;
 const FACETS = [
+  { key: 'collection', legend: 'Collection', values: (d) => (d.datasets ?? []).map((id) => DATASET_NAMES[id] ?? id) },
+  { key: 'type', legend: 'Object type', values: (d) => (d.objectType && d.objectType !== 'other' ? [d.objectType] : []) },
   { key: 'museum', legend: 'Museum', values: (d) => [d.museumName] },
   { key: 'style', legend: 'Style, movement or period', values: (d) => [...new Set([...d.styles, ...d.inferredStyles])] },
   { key: 'subject', legend: 'Subject', values: (d) => d.subjects, top: 12 },
@@ -51,6 +53,26 @@ function whyText(hit) {
     .join('; ');
 }
 
+/** One card per print: further impressions of the same plate fold into the first (best-ranked) one. */
+function collapsePrints(hits) {
+  const byPrint = new Map();
+  const out = [];
+  for (const h of hits) {
+    const k = h.print?.key;
+    if (k && byPrint.has(k)) {
+      byPrint.get(k).moreImpressions.push(h);
+      continue;
+    }
+    const c = k ? { ...h, moreImpressions: [] } : h;
+    if (k) byPrint.set(k, c);
+    out.push(c);
+  }
+  return out;
+}
+
+/** Cards shown per artist before linking to the artist's page (Rembrandt alone can match hundreds). */
+const CARDS_PER_GROUP = 24;
+
 function card(hit) {
   const by = hit.artists.length ? hit.artists.join(', ') : 'Unknown artist';
   const img = hit.thumb
@@ -68,6 +90,8 @@ function card(hit) {
     <div class="body">
       <h3><a href="artwork.html?id=${encodeURIComponent(hit.id)}">${esc(hit.title)}</a></h3>
       <p class="meta">${esc(years(hit.begin, hit.end))}${hit.begin != null ? ' · ' : ''}${esc(hit.museumName)}</p>
+      ${hit.moreImpressions?.length ? `<p class="meta"><a href="rembrandt.html#${esc(hit.print.key)}">+ ${hit.moreImpressions.length} more impression${hit.moreImpressions.length === 1 ? '' : 's'} of this print</a>
+        (${esc([...new Set(hit.moreImpressions.map((h) => h.museumName))].join(', '))})</p>` : ''}
       ${hit.qualified.length ? `<p class="meta">Related attribution: ${esc(hit.qualified.join(', '))}</p>` : ''}
       ${styleChips ? `<ul class="chips" aria-label="Style or movement">${styleChips}</ul>` : ''}
       <p class="why">${aiOnly ? '<span class="chip ai" title="Found only through subjects an AI model suggested from the image">AI</span> ' : ''}Matched ${whyText(hit)}</p>
@@ -107,7 +131,7 @@ function render() {
     resultsEl.innerHTML = '';
     facetsEl.innerHTML = '';
     relatedEl.innerHTML = '';
-    statusEl.textContent = `${index.documentCount.toLocaleString()} paintings indexed. Try a search.`;
+    statusEl.textContent = `${index.documentCount.toLocaleString()} works indexed. Try a search.`;
     return;
   }
   // Without AI suggestions, search every field except the AI-suggested subjects.
@@ -130,9 +154,9 @@ function render() {
   const cross = ordered.filter((g) => g.museums.size > 1).length;
   const museums = new Set(hits.map((h) => h.museumName));
   statusEl.textContent = hits.length
-    ? `${hits.length} painting${hits.length === 1 ? '' : 's'} from ${museums.size} museum${museums.size === 1 ? '' : 's'}, grouped by ${ordered.length} artist${ordered.length === 1 ? '' : 's'}` +
+    ? `${hits.length} work${hits.length === 1 ? '' : 's'} from ${museums.size} museum${museums.size === 1 ? '' : 's'}, grouped by ${ordered.length} artist${ordered.length === 1 ? '' : 's'}` +
       (cross ? `; ${cross} with works in more than one museum.` : '.')
-    : `No paintings match “${state.q}”.`;
+    : `No works match “${state.q}”.`;
 
   resultsEl.innerHTML =
     ordered
@@ -140,9 +164,12 @@ function render() {
       .map((g) => {
         const isPerson = !g.key.startsWith('none:');
         const name = isPerson ? `<a href="artist.html?id=${encodeURIComponent(g.key)}">${esc(g.name)}</a>` : esc(g.name);
+        const cards = collapsePrints(g.hits);
+        const more = cards.length - CARDS_PER_GROUP;
         return `<section class="group" aria-label="${esc(g.name)}">
           <header><h2>${name}</h2><span class="museums">${[...g.museums].map(esc).join(' · ')}</span></header>
-          <ul class="cards">${g.hits.map(card).join('')}</ul>
+          <ul class="cards">${cards.slice(0, CARDS_PER_GROUP).map(card).join('')}</ul>
+          ${more > 0 ? `<p class="meta">${more} more result${more === 1 ? '' : 's'} for this artist${isPerson ? ` on <a href="artist.html?id=${encodeURIComponent(g.key)}">the artist's page</a>` : ''}; narrow the search with the filters.</p>` : ''}
         </section>`;
       })
       .join('') +
@@ -203,10 +230,11 @@ facetsEl.addEventListener('change', (e) => {
     ]);
     index = ix;
     related = rel;
-    const partial = Object.entries(meta?.harvests ?? {}).filter(([, h]) => !h.complete);
+    // harvests: dataset -> museum -> { complete, works }
+    const partial = Object.values(meta?.harvests ?? {}).flatMap((bySource) => Object.entries(bySource)).filter(([, h]) => !h.complete);
     if (partial.length) {
       document.getElementById('partial-notice').innerHTML = `<p class="notice">Partial data: ${partial
-        .map(([s, h]) => `${esc(MUSEUM_NAMES[s] ?? s)} (${h.works} paintings so far)`)
+        .map(([s, h]) => `${esc(MUSEUM_NAMES[s] ?? s)} (${h.works} works so far)`)
         .join(', ')}. Its firewall blocked the harvest; it resumes at a slower pace. <a href="about.html#data">More</a></p>`;
     }
     readUrl();

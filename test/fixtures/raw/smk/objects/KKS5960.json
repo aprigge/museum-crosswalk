@@ -1,0 +1,173 @@
+{
+  "source": "smk",
+  "id": "KKS5960",
+  "url": "https://api.smk.dk/api/v1/art/search/?keys=*&filters=%5Bcreator%3ARembrandt%20van%20Rijn%5D&offset=300&rows=100&lang=en",
+  "fetchedAt": "2026-11-20T17:40:52.497Z",
+  "body": {
+    "id": "1170056849_object",
+    "created": "2020-03-21T19:31:50Z",
+    "modified": "2025-07-11T17:51:56Z",
+    "acquisition_date": "1909-01-01T00:00:00Z",
+    "acquisition_date_precision": "1909-12-31",
+    "dimensions": [
+      {
+        "notes": "149 x 116 mm",
+        "part": "plademaal",
+        "type": "height",
+        "unit": "mm",
+        "value": "149"
+      },
+      {
+        "notes": "149 x 116 mm",
+        "part": "plademaal",
+        "type": "width",
+        "unit": "mm",
+        "value": "116"
+      }
+    ],
+    "documentation": [
+      {
+        "title": "The New Hollstein Dutch and Flemish etchings, engravings and woodcuts 1450-1700, Rembrandt (7 vols: text, plates, copies)",
+        "author": "Erik Hinterding",
+        "notes": "204",
+        "shelfmark": "C 55013:1-7",
+        "year_of_publication": "2013"
+      },
+      {
+        "title": "The Illustrated Bartsch 50, Supplement, Rembrandt Harmensz. van Rijn",
+        "author": "Stephanie S. Dickey",
+        "notes": "82",
+        "shelfmark": "C 36238",
+        "year_of_publication": "1993"
+      },
+      {
+        "title": "Rembrandt's etchings: an essay and a catalogue with some notes on the drawings",
+        "author": "Arthur M. Hind",
+        "notes": "nr.199",
+        "shelfmark": "6545",
+        "year_of_publication": "1912"
+      },
+      {
+        "title": "L'oeuvre gravé de Rembrandt: avec un catalogue raisonné",
+        "author": "Dmitri Rovinski",
+        "notes": "82",
+        "shelfmark": "6728",
+        "year_of_publication": "1890"
+      },
+      {
+        "title": "Hollstein's Dutch and Flemish etchings, engravings and woodcuts 1450-1700 (vol. XVIII - XIX), Rembrandt van Rijn",
+        "author": "Christopher White",
+        "notes": "82",
+        "shelfmark": "C 38945",
+        "year_of_publication": "1969"
+      }
+    ],
+    "inscriptions": [
+      {
+        "content": "langs kant t.v.: \"10,5\"; under midten, over et samlermærke: \"7868\"; herunder t.v.: \"D. 82\"; herfor t.v.:\"23575/vz\"; herfor t.h.: \"Boerner Leipzig / 1883\"; og f.n. midtfor: \"B. 82\". Alt med blyant. Hertil påskrift med pen og lysbrun blæk f.n.t.h., delvist dækket af falsk margin: \"V[..?]\".",
+        "type": "Inscription"
+      },
+      {
+        "content": "signeret og dateret f.n.t.h.: \"Rembrandt f. 1642\".",
+        "type": "signature"
+      },
+      {
+        "content": "A. Freiherr von Lanna (Prag 1836-1909), Lugt 2773",
+        "type": "collector's mark"
+      }
+    ],
+    "object_names": [
+      {
+        "name": "Engraving"
+      },
+      {
+        "name": "Print"
+      }
+    ],
+    "production": [
+      {
+        "creator": "Rembrandt van Rijn",
+        "creator_surname": "Rembrandt van Rijn",
+        "creator_date_of_birth": "1606-01-01T00:00:00.000Z",
+        "creator_date_of_death": "1669-01-01T00:00:00.000Z",
+        "creator_nationality": "Dutch",
+        "creator_gender": "MALE",
+        "creator_lref": "1871_person"
+      }
+    ],
+    "production_date": [
+      {
+        "start": "1642-01-01T00:00:00.000Z",
+        "end": "1642-01-01T00:00:00.000Z",
+        "period": "1642"
+      }
+    ],
+    "techniques": [
+      "Etching"
+    ],
+    "titles": [
+      {
+        "title": "The descent from the cross: a sketch",
+        "notes": "jf. Hind 1912",
+        "type": "oeuvre catalog",
+        "language": "engelsk"
+      }
+    ],
+    "number_of_parts": 1,
+    "object_number": "KKS5960",
+    "object_url": "https://api.smk.dk/api/v1/art?object_number=KKS5960",
+    "frontend_url": "https://open.smk.dk/artwork/image/KKS5960",
+    "iiif_manifest": "https://api.smk.dk/api/v1/iiif/manifest?id=KKS5960",
+    "enrichment_url": "https://enrichment.api.smk.dk/api/enrichment/KKS5960",
+    "similar_images_url": "https://similar.api.smk.dk/similar/?object_number=KKS5960",
+    "production_dates_notes": [
+      "Værkdatering: 1642"
+    ],
+    "public_domain": true,
+    "rights": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "on_display": false,
+    "alternative_images": [
+      {
+        "mime_type": "image/tiff",
+        "iiif_id": "https://iip.smk.dk/iiif/jp2/3n204107f_kks5960.TIF.jp2",
+        "iiif_info": "https://iip.smk.dk/iiif/jp2/3n204107f_kks5960.TIF.jp2/info.json",
+        "width": 3445,
+        "height": 4267,
+        "size": 15215991.034482758,
+        "thumbnail": "https://iip-thumb.smk.dk/iiif/jp2/3n204107f_kks5960.TIF.jp2/full/!1024,/0/default.jpg",
+        "native": "https://iip.smk.dk/iiif/jp2/3n204107f_kks5960.TIF.jp2/full/full/0/native.jpg",
+        "orientation": "portrait"
+      }
+    ],
+    "image_mime_type": "image/tiff",
+    "image_iiif_id": "https://iip.smk.dk/iiif/jp2/k0698b21n_kks5960.TIF.reconstructed.tif.jp2",
+    "image_iiif_info": "https://iip.smk.dk/iiif/jp2/k0698b21n_kks5960.TIF.reconstructed.tif.jp2/info.json",
+    "image_width": 3444,
+    "image_height": 4266,
+    "image_size": 9111120,
+    "image_thumbnail": "https://iip-thumb.smk.dk/iiif/jp2/k0698b21n_kks5960.TIF.reconstructed.tif.jp2/full/!1024,/0/default.jpg",
+    "image_native": "https://api.smk.dk/api/v1/download/W3siaW1nX3VybCI6Imh0dHBzOi8vaWlwLnNtay5kay9paWlmL2pwMi9rMDY5OGIyMW5fa2tzNTk2MC5USUYucmVjb25zdHJ1Y3RlZC50aWYuanAyL2Z1bGwvZnVsbC8wL25hdGl2ZS5qcGciLCJwdWJsaWNfZG9tYWluIjp0cnVlLCJvYmplY3RfbnVtYmVyIjoiS0tTNTk2MCIsIm51bSI6IiJ9XQ==/KKS5960.jpg",
+    "image_cropped": true,
+    "image_orientation": "portrait",
+    "image_hq": true,
+    "has_3d_file": false,
+    "has_image": true,
+    "colors": [
+      "#fdcec7",
+      "#ffe7c9",
+      "#777777"
+    ],
+    "suggested_bg_color": [
+      "#777777"
+    ],
+    "entropy": 9.791686,
+    "contrast": 2.2871766,
+    "saturation": 1.4446353,
+    "colortemp": 3.4969485,
+    "brightness": 8.306263,
+    "has_text": true,
+    "artist": [
+      "Rembrandt van Rijn"
+    ]
+  }
+}

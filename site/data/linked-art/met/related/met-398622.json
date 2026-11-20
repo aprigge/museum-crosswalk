@@ -1,0 +1,42 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/met-398622",
+  "type": "VisualItem",
+  "_label": "Subjects of The Ringball Player (Het Klosbaantje)",
+  "about": [
+    {
+      "id": "http://vocab.getty.edu/aat/300025928",
+      "type": "Type",
+      "_label": "Men",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q8441",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://www.wikidata.org/entity/Q1150958",
+      "type": "Type",
+      "_label": "Playing"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300236025",
+      "type": "Type",
+      "_label": "Athletes",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q2066131",
+          "type": "Type"
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "met",
+    "sourceUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/398622",
+    "fetchedAt": "2026-11-20T17:48:33.364Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "Open Access (isPublicDomain: true)"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/met-392062",
+  "type": "VisualItem",
+  "_label": "Subjects of The Agony in the Garden",
+  "about": [
+    {
+      "id": "http://vocab.getty.edu/aat/300379004",
+      "type": "Type",
+      "_label": "Angels",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q235113",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ia/901000087",
+      "type": "Type",
+      "_label": "Jesus",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q302",
+          "type": "Type"
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "met",
+    "sourceUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/392062",
+    "fetchedAt": "2026-11-20T17:47:24.287Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "Open Access (isPublicDomain: true)"
+  }
+}

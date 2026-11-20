@@ -1,0 +1,59 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/met-889734",
+  "type": "VisualItem",
+  "_label": "Subjects of Washington",
+  "about": [
+    {
+      "id": "http://vocab.getty.edu/page/ulan/500126198",
+      "type": "Type",
+      "_label": "George Washington",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q23",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300025928",
+      "type": "Type",
+      "_label": "Men",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q8441",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300015637",
+      "type": "Type",
+      "_label": "Portraits",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q134307",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300025470",
+      "type": "Type",
+      "_label": "Presidents",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q30461",
+          "type": "Type"
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "met",
+    "sourceUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/889734",
+    "fetchedAt": "2026-11-20T17:50:54.338Z",
+    "license": "not-open-access",
+    "licenseNote": "isPublicDomain: false; the Met grants CC0 only for Open Access objects"
+  }
+}

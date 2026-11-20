@@ -1,0 +1,26 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/met-459318",
+  "type": "VisualItem",
+  "_label": "Subjects of Two Cottages",
+  "about": [
+    {
+      "id": "http://vocab.getty.edu/aat/300005433",
+      "type": "Type",
+      "_label": "Houses",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q3947",
+          "type": "Type"
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "met",
+    "sourceUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/459318",
+    "fetchedAt": "2026-11-20T17:50:06.384Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "Open Access (isPublicDomain: true)"
+  }
+}

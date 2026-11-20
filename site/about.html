@@ -11,10 +11,11 @@
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
     <div class="inner">
-      <a class="brand" href="./">Museum Crosswalk <small>paintings 1850–1900</small></a>
+      <a class="brand" href="./">Museum Crosswalk <small>paintings 1850–1900 · Rembrandt</small></a>
       <nav class="site-nav" aria-label="Main">
         <ul>
           <li><a href="./">Search</a></li>
+          <li><a href="rembrandt.html">Rembrandt</a></li>
           <li><a href="ask.html">Ask</a></li>
           <li><a href="explore.html">Explore the graph</a></li>
           <li><a href="about.html" aria-current="page">How it works</a></li>
@@ -25,29 +26,55 @@
 
   <main id="main">
     <h1>How it works</h1>
-    <p class="lede">A prototype that asks one question: can three museums' open data be joined well enough to search as one collection?
-      It takes paintings made 1850–1900 from each museum, joins them in a knowledge graph through Wikidata, and builds a search on top.</p>
+    <p class="lede">A prototype that asks one question: can museums' open data be joined well enough to search as one collection?
+      It takes paintings made 1850–1900 from three museums, and everything five museums hold by Rembrandt, joins them in a knowledge
+      graph through Wikidata, and builds a search and an AI question box on top.</p>
 
     <h2>The pipeline</h2>
     <ol>
-      <li><strong>Harvest from three APIs.</strong> The <a href="https://data.rijksmuseum.nl/docs/">Rijksmuseum's linked data service</a>,
-        <a href="https://metmuseum.github.io/">The Met Collection API</a> and the <a href="https://api.artic.edu/docs/">Art Institute of Chicago API</a>.
+      <li><strong>Harvest from open APIs.</strong> The <a href="https://data.rijksmuseum.nl/docs/">Rijksmuseum's linked data service</a>,
+        <a href="https://metmuseum.github.io/">The Met Collection API</a> and the <a href="https://api.artic.edu/docs/">Art Institute of Chicago API</a>,
+        and for Rembrandt also <a href="https://www.smk.dk/en/article/smk-api/">SMK</a> (the National Gallery of Denmark) and the
+        <a href="https://openaccess-api.clevelandart.org/">Cleveland Museum of Art</a>.
         Requests are sequential and spaced out, every response is cached, and the project never writes to any museum.</li>
       <li><strong>Convert to Linked Art.</strong> Each record becomes <a href="https://linked.art/">Linked Art</a> JSON-LD with its provenance:
         source, URL, fetch date and licence, and a separate licence on any field that differs.</li>
       <li><strong>Match every artist to Wikidata.</strong> A museum's direct Wikidata link counts. Otherwise, two independent IDs must agree
         (for example AIC's artist ID and ULAN), or one ID plus the same birth and death years. Everything else goes to a review list rather than being merged.
-        Each artist page shows how its records were matched.</li>
+        Each artist page shows how its records were matched. SMK and Cleveland give only their own artist IDs, which Wikidata doesn't list,
+        so their artists match on name and life years and wait for a person to confirm each museum's artist once.</li>
       <li><strong>Resolve concepts.</strong> Styles and subjects (AAT terms from the Met and AIC, Iconclass codes from the Rijksmuseum) are
         resolved to Wikidata items. A few links the project asserts itself, such as landscape (AAT) ≈ landscape (Iconclass), sit in a separate graph.</li>
       <li><strong>Build the knowledge graph.</strong> Everything is loaded into <a href="https://github.com/oxigraph/oxigraph">Oxigraph</a>
         as RDF, with a named graph per source, one for project alignments and one for inferences. An artist's movement on Wikidata becomes an
-        <em>inferred</em> style, never the museum's claim.</li>
-      <li><strong>Build the search from the graph.</strong> SPARQL queries over the graph produce one document per painting, indexed with
+        <em>inferred</em> style, never the museum's claim. A print held by several museums is one composition printed many times:
+        impressions citing the same catalogue number (Bartsch or New Hollstein) are grouped under one print, never by title alone.</li>
+      <li><strong>Build the search from the graph.</strong> SPARQL queries over the graph produce one document per work, indexed with
         <a href="https://lucaong.github.io/minisearch/">MiniSearch</a>. The search runs entirely in your browser.</li>
       <li><strong>Publish as a static site.</strong> No server: the search index, the graph (run in the browser as WebAssembly) and each
-        painting's Linked Art file are static files.</li>
+        work's Linked Art file are static files. Only “Ask the graph” uses a small proxy, to call the AI model without exposing a key.</li>
     </ol>
+
+    <h2 id="search-or-ask">Search or Ask?</h2>
+    <p>The two boxes look alike but do different jobs, and each shows off a different way of working with a knowledge graph.</p>
+    <div class="table-wrap"><table>
+      <thead><tr><th scope="col"></th><th scope="col"><a href="./">Search</a></th><th scope="col"><a href="ask.html">Ask the graph</a></th></tr></thead>
+      <tbody>
+        <tr><th scope="row">You type</th><td>Words: “snow”, “Impressionist landscapes”, “Monet”</td><td>A question: “Which artists have paintings in all three museums?”</td></tr>
+        <tr><th scope="row">You get</th><td>Works to look at, ranked and grouped by artist, with images</td><td>An answer: a table, and one sentence checked against it</td></tr>
+        <tr><th scope="row">How</th><td>A search index built from the graph, in your browser</td><td>Claude writes one SPARQL query; the graph runs it in your browser</td></tr>
+        <tr><th scope="row">AI</th><td>Only the AI-suggested subjects, which you can switch off</td><td>Writes the query and the sentence, never the numbers</td></tr>
+        <tr><th scope="row">Good at</th><td>Finding and browsing; typos, synonyms and related concepts</td><td>Counting, comparing and joining facts across museums</td></tr>
+      </tbody>
+    </table></div>
+    <p><strong>Use Search to find things.</strong> It is instant, free and forgiving, and says why each result matched. It shows the classic
+      knowledge-graph-to-search workflow: records from different museums reconciled to shared Wikidata artists and concepts, then flattened into one
+      search document per work, so one query reaches every museum and each artist's works stay together.</p>
+    <p><strong>Use Ask for an answer no single record holds:</strong> “how many”, “in all three museums”, “born in”, “the AI tagged but the museum
+      didn't”. Those need joins across the graph that keyword search can't do. It shows a grounded AI workflow: plain English turned into a query
+      you can read and edit, a guard that allows only read-only queries, an answer sentence whose every number must appear in the results,
+      and an evaluation (19 of 20 test questions exactly right) re-run whenever the instructions change.</p>
+    <p><strong>Use <a href="explore.html">Explore</a></strong> to write SPARQL yourself, or to adjust a query Ask wrote.</p>
 
     <h2 id="findings">What it found</h2>
     <p>The test question was whether “Impressionist landscapes” returns works from all three museums, grouped correctly by artist.
@@ -74,6 +101,9 @@
       <li><strong>Measured.</strong> Twenty test searches are scored with and without AI suggestions. A second model, Claude Sonnet 5.5,
         judges whether each result is relevant from the image and catalogue data, so the model is not grading its own work. The
         <a href="https://github.com/aprigge/museum-crosswalk/blob/main/reports/eval.md">evaluation report</a> has the numbers.</li>
+      <li><strong>Review assist.</strong> For each artist match too weak to merge automatically, Claude proposes a decision and cites the evidence;
+        a person accepts or rejects it. Artist pages show “AI proposed, a person approved”.</li>
+      <li><strong>Ask the graph.</strong> Claude turns a question into SPARQL; the graph answers it. See <a href="#search-or-ask">Search or Ask?</a></li>
     </ul>
 
     <h2 id="data">Data status</h2>
@@ -85,16 +115,18 @@
       <li><strong>The Met</strong>: Open Access objects CC0 1.0. Other objects are shown without images.</li>
       <li><strong>Art Institute of Chicago</strong>: CC0 1.0, except descriptions, which are © Art Institute of Chicago under
         <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> and credited wherever they appear.</li>
+      <li><strong>SMK, National Gallery of Denmark</strong>: each record states its rights; public-domain works carry the Public Domain Mark.</li>
+      <li><strong>Cleveland Museum of Art</strong>: data CC0 1.0; images shown only where the museum marks them CC0.</li>
       <li><strong>Wikidata</strong>: CC0 1.0.</li>
     </ul>
-    <p>Every painting's own licence is on its page and in its Linked Art record. This is an independent prototype, not affiliated with or endorsed by any of these institutions.
+    <p>Every work's own licence is on its page and in its Linked Art record. This is an independent prototype, not affiliated with or endorsed by any of these institutions.
       Getty data (the Getty Museum and the Getty Vocabularies) is out of scope; AAT and ULAN identifiers appear only where the museums supply them.</p>
     <p>Source code: <a href="https://github.com/aprigge/museum-crosswalk">github.com/aprigge/museum-crosswalk</a>.</p>
   </main>
 
   <footer class="site-footer">
     <div class="inner">
-      Data: Rijksmuseum (CC0), The Met Open Access (CC0), Art Institute of Chicago (CC0; descriptions CC BY 4.0), Wikidata (CC0).
+      Data: Rijksmuseum (CC0), The Met Open Access (CC0), Art Institute of Chicago (CC0; descriptions CC BY 4.0), SMK (public domain), Cleveland Museum of Art (CC0), Wikidata (CC0).
       A prototype; not affiliated with any of these institutions.
     </div>
   </footer>
@@ -103,10 +135,14 @@
     const el = document.getElementById('data-status');
     try {
       const meta = await fetch('data/meta.json').then((r) => r.json());
+      // harvests: dataset -> museum -> { works, complete, finishedAt }
+      const label = (id) => ({ 'paintings-1850-1900': 'Paintings 1850–1900', rembrandt: 'Rembrandt' })[id] ?? id;
+      const rows = Object.entries(meta.harvests).flatMap(([d, bySource]) => Object.entries(bySource).map(([s, h]) => `<tr><td>${esc(label(d))}</td>
+          <td>${esc(MUSEUM_NAMES[s] ?? s)}</td><td>${h.works}</td>
+          <td>${h.complete ? `Complete, ${esc(h.finishedAt.slice(0, 10))}` : 'Partial: the museum’s firewall blocked the harvest, which resumes at a slower pace'}</td></tr>`));
       el.innerHTML = `<div class="table-wrap"><table>
-        <thead><tr><th scope="col">Museum</th><th scope="col">Paintings</th><th scope="col">Harvest</th></tr></thead>
-        <tbody>${Object.entries(meta.harvests).map(([s, h]) => `<tr><td>${esc(MUSEUM_NAMES[s] ?? s)}</td><td>${h.works}</td>
-          <td>${h.complete ? `Complete, ${esc(h.finishedAt.slice(0, 10))}` : 'Partial: the museum’s firewall blocked the harvest, which resumes at a slower pace'}</td></tr>`).join('')}</tbody>
+        <thead><tr><th scope="col">Dataset</th><th scope="col">Museum</th><th scope="col">Works</th><th scope="col">Harvest</th></tr></thead>
+        <tbody>${rows.join('')}</tbody>
       </table></div><p class="muted">Site built ${esc(meta.builtAt.slice(0, 10))}.</p>`;
     } catch (err) {
       el.textContent = `Data status unavailable (${err.message}).`;

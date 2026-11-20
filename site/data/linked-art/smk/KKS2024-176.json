@@ -1,0 +1,222 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://api.smk.dk/api/v1/art/?object_number=KKS2024-176&lang=en",
+  "type": "HumanMadeObject",
+  "_label": "Pierre François Basan, \"Dictionnaire Des Graveurs Anciens Et Modernes Depuis L'Origine De La Gravure\", vol. 2, Paris 1789",
+  "identified_by": [
+    {
+      "type": "Name",
+      "content": "Pierre François Basan, \"Dictionnaire Des Graveurs Anciens Et Modernes Depuis L'Origine De La Gravure\", vol. 2, Paris 1789",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ]
+    },
+    {
+      "type": "Identifier",
+      "content": "KKS2024-176",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300312355",
+          "type": "Type",
+          "_label": "Accession Number"
+        }
+      ]
+    }
+  ],
+  "produced_by": {
+    "type": "Production",
+    "timespan": {
+      "type": "TimeSpan",
+      "identified_by": [
+        {
+          "type": "Name",
+          "content": "1789"
+        }
+      ],
+      "begin_of_the_begin": "1789-01-01T00:00:00Z",
+      "end_of_the_end": "1789-12-31T23:59:59Z"
+    },
+    "carried_out_by": [
+      {
+        "id": "https://api.smk.dk/api/v1/person/45369_person",
+        "type": "Person",
+        "_label": "Choffard, Pierre Philippe"
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/48457_person",
+        "type": "Person",
+        "_label": "Corneille, Jean-Baptiste"
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/46014_person",
+        "type": "Person",
+        "_label": "Mariette, Jean"
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/45455_person",
+        "type": "Person",
+        "_label": "Marillier, Clément Pierre"
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/12446_person",
+        "type": "Person",
+        "_label": "Massard, Jean"
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/31968_person",
+        "type": "Person",
+        "_label": "Eisen, Charles"
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/32021_person",
+        "type": "Person",
+        "_label": "Moreau, Jean Michel"
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/16236_person",
+        "type": "Person",
+        "_label": "Unknown KKS"
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/12471_person",
+        "type": "Person",
+        "_label": "Perelle, Gabriel"
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/17659_person",
+        "type": "Person",
+        "_label": "Picart, Bernard"
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/34112_person",
+        "type": "Person",
+        "_label": "Pierre, Jean Baptiste Marie"
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/43304_person",
+        "type": "Person",
+        "_label": "Poilly, Nicolas de"
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/1626_person",
+        "type": "Person",
+        "_label": "Dyck, Anthony van"
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/35212_person",
+        "type": "Person",
+        "_label": "Prevost, Benoit-Louis"
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/54082_person",
+        "type": "Person",
+        "_label": "Cochin, C.N."
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/1871_person",
+        "type": "Person",
+        "_label": "Rembrandt van Rijn"
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/47668_person",
+        "type": "Person",
+        "_label": "Rousseau, Jean François"
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/23703_person",
+        "type": "Person",
+        "_label": "Saint-Aubin, Augustin de"
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/45931_person",
+        "type": "Person",
+        "_label": "Soubeyran, Pierre"
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/39079_person",
+        "type": "Person",
+        "_label": "Surugue, Pierre Louis"
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/30629_person",
+        "type": "Person",
+        "_label": "Vliet, Jan Gillisz. van"
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/43875_person",
+        "type": "Person",
+        "_label": "Watelet, Claude Henri"
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/30122_person",
+        "type": "Person",
+        "_label": "Waterloo, Anthonie"
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/12530_person",
+        "type": "Person",
+        "_label": "Weirotter, Franz Edmund"
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/54787_person",
+        "type": "Person",
+        "_label": "Prault"
+      }
+    ]
+  },
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "content": "Lithograph",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435429",
+          "type": "Type",
+          "_label": "Materials Statement",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "subject_of": [
+    {
+      "type": "LinguisticObject",
+      "digitally_carried_by": [
+        {
+          "type": "DigitalObject",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300264578",
+              "type": "Type",
+              "_label": "Web Page"
+            }
+          ],
+          "format": "text/html",
+          "access_point": [
+            {
+              "id": "https://open.smk.dk/artwork/image/KKS2024-176",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "smk",
+    "sourceUrl": "https://api.smk.dk/api/v1/art/search/?keys=*&filters=%5Bcreator%3ARembrandt%20van%20Rijn%5D&offset=800&rows=100&lang=en",
+    "fetchedAt": "2026-11-20T17:40:57.460Z",
+    "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "licenseNote": "As the SMK record states it (`rights`); public-domain works carry the Public Domain Mark"
+  }
+}

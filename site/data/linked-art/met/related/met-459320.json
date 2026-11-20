@@ -1,0 +1,48 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/met-459320",
+  "type": "VisualItem",
+  "_label": "Subjects of Abraham and Isaac before the Sacrifice",
+  "about": [
+    {
+      "id": "http://vocab.getty.edu/aat/300025928",
+      "type": "Type",
+      "_label": "Men",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q8441",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ia/901000475",
+      "type": "Type",
+      "_label": "Abraham",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q9181",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ia/901000952",
+      "type": "Type",
+      "_label": "Isaac",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q671872",
+          "type": "Type"
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "met",
+    "sourceUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/459320",
+    "fetchedAt": "2026-11-20T17:51:06.356Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "Open Access (isPublicDomain: true)"
+  }
+}

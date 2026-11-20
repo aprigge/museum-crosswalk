@@ -1,0 +1,48 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/met-391944",
+  "type": "VisualItem",
+  "_label": "Subjects of View of the Diemerdijk with a Milkman and Cottages ('Het Melkboertje')",
+  "about": [
+    {
+      "id": "http://vocab.getty.edu/aat/300005433",
+      "type": "Type",
+      "_label": "Houses",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q3947",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300132294",
+      "type": "Type",
+      "_label": "Landscapes",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q191163",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300178749",
+      "type": "Type",
+      "_label": "Boats",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q35872",
+          "type": "Type"
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "met",
+    "sourceUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/391944",
+    "fetchedAt": "2026-11-20T17:45:51.259Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "Open Access (isPublicDomain: true)"
+  }
+}

@@ -1,4 +1,4 @@
-import { esc, ID_BASE, licenseLabel, loadIndex, param, PREFIXES, safeHref, select, years } from './common.js';
+import { allDocs, catalogueLabel, esc, ID_BASE, licenseLabel, loadIndex, MUSEUM_NAMES, param, PREFIXES, safeHref, select, years } from './common.js';
 import { setupTabs } from './tabs.js';
 
 const workEl = document.getElementById('work');
@@ -93,6 +93,10 @@ SELECT ?g ?p ?o WHERE { GRAPH ?g { <${workUri}> ?p ?o } } ORDER BY ?g ?p`);
       return;
     }
     document.title = `${doc.title} · Museum Crosswalk`;
+    // Other impressions of the same print, museum by museum.
+    const impressions = doc.print
+      ? allDocs(index, (r) => r.print?.key === doc.print.key && r.id !== id).sort((a, b) => a.museum.localeCompare(b.museum))
+      : [];
     const record = await fetch(doc.record).then((r) => r.json());
     const prov = record._provenance ?? {};
     const museumPage = safeHref(doc.url);
@@ -119,6 +123,9 @@ SELECT ?g ?p ?o WHERE { GRAPH ?g { <${workUri}> ?p ?o } } ORDER BY ?g ?p`);
           ${doc.qualified.length ? `<dt>Related attribution</dt><dd>${esc(doc.qualified.join(', '))}</dd>` : ''}
           ${doc.begin != null ? `<dt>Date</dt><dd>${esc(years(doc.begin, doc.end))}</dd>` : ''}
           <dt>Museum</dt><dd>${museumPage ? `<a href="${esc(museumPage)}">${esc(doc.museumName)}</a>` : esc(doc.museumName)}</dd>
+          ${doc.objectType && doc.objectType !== 'other' ? `<dt>Object type</dt><dd>${esc(doc.objectType)}</dd>` : ''}
+          ${doc.print ? `<dt>Print</dt><dd>An impression of <a href="rembrandt.html#${esc(doc.print.key)}">${esc(doc.print.title ?? 'this print')}</a>
+            (${esc(catalogueLabel(doc.print.key))}); ${impressions.length ? `${impressions.length} other impression${impressions.length === 1 ? '' : 's'} below` : 'no other impression found'}</dd>` : ''}
           ${doc.styles.length ? `<dt>Style (museum)</dt><dd>${esc(doc.styles.join(', '))}</dd>` : ''}
           ${doc.inferredStyles.length ? `<dt>Movement (Wikidata)</dt><dd>${esc(doc.inferredStyles.join(', '))} <span class="muted">— from the artist, not stated by the museum</span></dd>` : ''}
           ${doc.subjects.length ? `<dt>Subjects</dt><dd>${esc(doc.subjects.slice(0, 20).join(', '))}</dd>` : ''}
@@ -132,6 +139,16 @@ SELECT ?g ?p ?o WHERE { GRAPH ?g { <${workUri}> ?p ?o } } ORDER BY ?g ?p`);
                  <code>graph/ai</code>; <a href="about.html#ai">how this works</a>.</p>
                <ul class="ai-list">${doc.aiDetail
                  .map((a) => `<li><span class="chip ai">AI</span> <strong>${esc(a.label)}</strong> <span class="muted">${Math.round(a.confidence * 100)}%</span> — ${esc(a.evidence)}</li>`)
+                 .join('')}</ul>`
+            : ''
+        }
+        ${
+          impressions.length
+            ? `<h2>Other impressions of this print</h2>
+               <p class="muted">The same plate, printed and held separately. Grouped by the catalogue number the museums cite, never by title.</p>
+               <ul class="impressions">${impressions
+                 .map((d) => `<li><a href="artwork.html?id=${encodeURIComponent(d.id)}">${d.thumb ? `<img referrerpolicy="no-referrer" src="${esc(d.thumb)}" alt="" loading="lazy">` : ''}
+                   <span>${esc(MUSEUM_NAMES[d.museum] ?? d.museum)}</span></a></li>`)
                  .join('')}</ul>`
             : ''
         }

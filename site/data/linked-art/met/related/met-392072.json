@@ -1,0 +1,26 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/met-392072",
+  "type": "VisualItem",
+  "_label": "Subjects of Cupid Resting (copy)",
+  "about": [
+    {
+      "id": "http://vocab.getty.edu/aat/300380105",
+      "type": "Type",
+      "_label": "Cupid",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q5011",
+          "type": "Type"
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "met",
+    "sourceUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/392072",
+    "fetchedAt": "2026-11-20T17:47:54.448Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "Open Access (isPublicDomain: true)"
+  }
+}

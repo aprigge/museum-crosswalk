@@ -1,0 +1,26 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/met-359896",
+  "type": "VisualItem",
+  "_label": "Subjects of Adoration of the Shepherds:  A Night Piece",
+  "about": [
+    {
+      "id": "http://vocab.getty.edu/page/ia/901000229",
+      "type": "Type",
+      "_label": "Adoration of the Shepherds",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q1029715",
+          "type": "Type"
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "met",
+    "sourceUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/359896",
+    "fetchedAt": "2026-11-20T17:36:06.018Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "Open Access (isPublicDomain: true)"
+  }
+}

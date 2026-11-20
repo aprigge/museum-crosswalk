@@ -1,0 +1,59 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/met-391632",
+  "type": "VisualItem",
+  "_label": "Subjects of Jan Uytenbogaert (The Gold Weigher)",
+  "about": [
+    {
+      "id": "http://vocab.getty.edu/aat/300028051",
+      "type": "Type",
+      "_label": "Books",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q571",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300025928",
+      "type": "Type",
+      "_label": "Men",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q8441",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300196293",
+      "type": "Type",
+      "_label": "Scales",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q134566",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300039548",
+      "type": "Type",
+      "_label": "Tables",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q14748",
+          "type": "Type"
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "met",
+    "sourceUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/391632",
+    "fetchedAt": "2026-11-20T17:43:30.229Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "Open Access (isPublicDomain: true)"
+  }
+}

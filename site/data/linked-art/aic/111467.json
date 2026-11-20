@@ -1,0 +1,216 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://api.artic.edu/api/v1/artworks/111467",
+  "type": "HumanMadeObject",
+  "_label": "The Raising of Lazarus",
+  "identified_by": [
+    {
+      "type": "Name",
+      "content": "The Raising of Lazarus",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ]
+    },
+    {
+      "type": "Identifier",
+      "content": "1970.1010",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300312355",
+          "type": "Type",
+          "_label": "Accession Number"
+        }
+      ]
+    }
+  ],
+  "produced_by": {
+    "type": "Production",
+    "timespan": {
+      "type": "TimeSpan",
+      "identified_by": [
+        {
+          "type": "Name",
+          "content": "c. 1630"
+        }
+      ],
+      "begin_of_the_begin": "1625-01-01T00:00:00Z",
+      "end_of_the_end": "1635-12-31T23:59:59Z"
+    },
+    "carried_out_by": [
+      {
+        "id": "https://api.artic.edu/api/v1/agents/46418",
+        "type": "Person",
+        "_label": "Follower of Rembrandt van Rijn"
+      }
+    ]
+  },
+  "classified_as": [
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-13770",
+      "type": "Type",
+      "_label": "17th Century",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300015646",
+          "type": "Type",
+          "_label": "Style"
+        }
+      ]
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "content": "Oil on panel",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435429",
+          "type": "Type",
+          "_label": "Materials Statement",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "43.5 × 36.8 cm (17 1/8 × 14 1/2 in.); Framed: 50.2 × 43.5 × 5.8 cm (19 3/4 × 17 1/8 × 2 1/4 in.)",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435430",
+          "type": "Type",
+          "_label": "Dimensions Statement",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Gift of Mrs. Dellora A. Norris",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300026687",
+          "type": "Type",
+          "_label": "Credit Line",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Possibly Rembrandt van Rijn, Amsterdam [according to Rembrandt’s inventory, Gemeentearchief, Amsterdam, GAA, DBK 364, ff.29r-38v, July 25–26, 1656, which includes a “Raising of Lazarus” as no. 31, accessed through the Getty Provenance Index database and referenced in Hofstede de Groot 1916 as no. 38. The Los Angeles County Museum of Art also holds a larger version of Rembrandt’s “Raising of Lazarus” (M.72.67.2), now considered to be the original, in its collection; it is unclear which of these paintings is listed in the 1656 inventory]. Possibly David Grenier, Middleburg, the Netherlands; sold, Middleburg, the Netherlands, Aug. 18, 1712, lot 96 [this and the following according to Hoet 1752; copy in curatorial object file]. Possibly sold, Amsterdam, June 4, 1727, lot 2. Possibly LeBrun collection, Paris, 1811 [this and the following according to Bode 1897]. Galerie Sedelmeyer, Paris, probably  1891. Charles T. Yerkes (1837–1905), New York and Chicago, by 1897; by descent to his estate, 1905; sold, his estate sale, American Art Association, New York, Apr. 5, 1910, lot 117, to Edward Brandus (1857–1937), New York. John Warne Gates (1855–1911), New York and Chicago, after 1910 [Holman 1910 and Hofstede de Groot 1916; copies in curatorial object file]; by descent to his widow, Dellora Baker Gates (1855–1918), St. Charles, IL [this and the following according to letter, Feb. 8, 1924, from A.B. Hussander to the Art Institute of Chicago; copy in curatorial file]; by descent to her niece, Dellora Angell Norris [the painting was on long-term loan to the Art Institute of Chicago from 1923 until 1970, in the name of Norris’s father, Robert Francis Angell, Registrar records and Bulletin of the Art Institute 17, 6 (1923); copies in curatorial object file]; given to the Art Institute of Chicago, 1970.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435438",
+          "type": "Type",
+          "_label": "Provenance Statement",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "representation": [
+    {
+      "type": "VisualItem",
+      "digitally_shown_by": [
+        {
+          "type": "DigitalObject",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300215302",
+              "type": "Type",
+              "_label": "Digital Image"
+            }
+          ],
+          "access_point": [
+            {
+              "id": "https://www.artic.edu/iiif/2/4aae65a7-e5db-54be-82d5-43cc6b347dbd/full/843,/0/default.jpg",
+              "type": "DigitalObject"
+            }
+          ],
+          "digitally_available_via": [
+            {
+              "type": "DigitalService",
+              "access_point": [
+                {
+                  "id": "https://www.artic.edu/iiif/2/4aae65a7-e5db-54be-82d5-43cc6b347dbd",
+                  "type": "DigitalObject"
+                }
+              ],
+              "conforms_to": [
+                {
+                  "id": "http://iiif.io/api/image",
+                  "type": "InformationObject"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "shows": [
+    {
+      "id": "https://aprigge.github.io/museum-crosswalk/id/visual/aic-111467",
+      "type": "VisualItem"
+    }
+  ],
+  "subject_of": [
+    {
+      "type": "LinguisticObject",
+      "digitally_carried_by": [
+        {
+          "type": "DigitalObject",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300264578",
+              "type": "Type",
+              "_label": "Web Page"
+            }
+          ],
+          "format": "text/html",
+          "access_point": [
+            {
+              "id": "https://www.artic.edu/artworks/111467",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "aic",
+    "sourceUrl": "https://api.artic.edu/api/v1/artworks/111467?fields=id,api_link,title,alt_titles,main_reference_number,date_start,date_end,date_display,date_qualifier_title,artist_id,artist_ids,artist_title,artist_titles,artist_display,alt_artist_ids,place_of_origin,medium_display,dimensions,dimensions_detail,credit_line,inscriptions,provenance_text,publication_history,exhibition_history,copyright_notice,is_public_domain,image_id,alt_image_ids,description,short_description,classification_title,artwork_type_title,department_title,material_titles,technique_titles,style_titles,subject_titles,edition,catalogue_display,source_updated_at,style_ids,subject_ids",
+    "fetchedAt": "2026-11-20T17:37:24.865Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By) and the Terms and Conditions of artic.edu. All other data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu."
+  }
+}

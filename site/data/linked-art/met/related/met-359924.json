@@ -1,0 +1,48 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/met-359924",
+  "type": "VisualItem",
+  "_label": "Subjects of Faust",
+  "about": [
+    {
+      "id": "http://vocab.getty.edu/aat/300002944",
+      "type": "Type",
+      "_label": "Windows",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q35473",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300191856",
+      "type": "Type",
+      "_label": "Skulls",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q13147",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300025928",
+      "type": "Type",
+      "_label": "Men",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q8441",
+          "type": "Type"
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "met",
+    "sourceUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/359924",
+    "fetchedAt": "2026-11-20T17:36:09.036Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "Open Access (isPublicDomain: true)"
+  }
+}

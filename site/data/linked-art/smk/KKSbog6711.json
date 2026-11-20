@@ -1,0 +1,282 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://api.smk.dk/api/v1/art/?object_number=KKSbog6711&lang=en",
+  "type": "HumanMadeObject",
+  "_label": "\"Handzeichnungen berühmter meister aus der Weigelschen Kunstsammlung\", Leipzig 1854-61",
+  "identified_by": [
+    {
+      "type": "Name",
+      "content": "\"Handzeichnungen berühmter meister aus der Weigelschen Kunstsammlung\", Leipzig 1854-61",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ]
+    },
+    {
+      "type": "Identifier",
+      "content": "KKSbog6711",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300312355",
+          "type": "Type",
+          "_label": "Accession Number"
+        }
+      ]
+    }
+  ],
+  "produced_by": {
+    "type": "Production",
+    "timespan": {
+      "type": "TimeSpan",
+      "identified_by": [
+        {
+          "type": "Name",
+          "content": "1854-1861"
+        }
+      ],
+      "begin_of_the_begin": "1854-01-01T00:00:00Z",
+      "end_of_the_end": "1861-12-31T23:59:59Z"
+    },
+    "carried_out_by": [
+      {
+        "id": "https://api.smk.dk/api/v1/person/51960_person",
+        "type": "Person",
+        "_label": "Loedel, J. C."
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/18452_person",
+        "type": "Person",
+        "_label": "Müller, Georg William"
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/845_person",
+        "type": "Person",
+        "_label": "Vinci, Leonardo da"
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/1964_person",
+        "type": "Person",
+        "_label": "Steen, Jan"
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/884_person",
+        "type": "Person",
+        "_label": "Mantegna, Andrea"
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/3096_person",
+        "type": "Person",
+        "_label": "Holbein (II), Hans"
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/1650_person",
+        "type": "Person",
+        "_label": "Dürer, Albrecht"
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/849_person",
+        "type": "Person",
+        "_label": "Lievens, Jan"
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/1866_person",
+        "type": "Person",
+        "_label": "Raphael"
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/1626_person",
+        "type": "Person",
+        "_label": "Dyck, Anthony van"
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/1718_person",
+        "type": "Person",
+        "_label": "Perugino, Pietro"
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/1682_person",
+        "type": "Person",
+        "_label": "Netscher, Caspar"
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/1516_person",
+        "type": "Person",
+        "_label": "Brouwer, Adriaen"
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/2013_person",
+        "type": "Person",
+        "_label": "Velázquez, Diego"
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/51961_person",
+        "type": "Person",
+        "_label": "Koekkoek, Barend Cornelis"
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/2748_person",
+        "type": "Person",
+        "_label": "Teerlink, Abraham"
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/51962_person",
+        "type": "Person",
+        "_label": "Schotel, Johannes Christiaan"
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/1738_person",
+        "type": "Person",
+        "_label": "Potter, Paulus"
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/1871_person",
+        "type": "Person",
+        "_label": "Rembrandt van Rijn"
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/30611_person",
+        "type": "Person",
+        "_label": "Mind, Gottfried"
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/1916_person",
+        "type": "Person",
+        "_label": "Sarto, Andrea del"
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/1989_person",
+        "type": "Person",
+        "_label": "Tizian"
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/1727_person",
+        "type": "Person",
+        "_label": "Piombo, Sebastiano del"
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/38316_person",
+        "type": "Person",
+        "_label": "Romano, Giulio"
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/2575_person",
+        "type": "Person",
+        "_label": "Michelangelo Buonarroti"
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/1646_person",
+        "type": "Person",
+        "_label": "Dughet, Gaspard"
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/1475_person",
+        "type": "Person",
+        "_label": "Berchem, Nicolaes"
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/51963_person",
+        "type": "Person",
+        "_label": "Kobell, Jan"
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/1699_person",
+        "type": "Person",
+        "_label": "Ostade, Adriaen van"
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/2594_person",
+        "type": "Person",
+        "_label": "Gossaert, Jan"
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/1899_person",
+        "type": "Person",
+        "_label": "Rubens, Peter Paul"
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/1978_person",
+        "type": "Person",
+        "_label": "Teniers (II), David"
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/12399_person",
+        "type": "Person",
+        "_label": "Hollar, Wenceslaus"
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/12517_person",
+        "type": "Person",
+        "_label": "Umbach, Jonas"
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/51964_person",
+        "type": "Person",
+        "_label": "Steinle, Eduard Jacob von"
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/50073_person",
+        "type": "Person",
+        "_label": "Weigel, Rudolph"
+      },
+      {
+        "id": "https://api.smk.dk/api/v1/person/51965_person",
+        "type": "Person",
+        "_label": "Berger, A."
+      }
+    ]
+  },
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "content": "Etching and dry point",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435429",
+          "type": "Type",
+          "_label": "Materials Statement",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "subject_of": [
+    {
+      "type": "LinguisticObject",
+      "digitally_carried_by": [
+        {
+          "type": "DigitalObject",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300264578",
+              "type": "Type",
+              "_label": "Web Page"
+            }
+          ],
+          "format": "text/html",
+          "access_point": [
+            {
+              "id": "https://open.smk.dk/artwork/image/KKSbog6711",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "smk",
+    "sourceUrl": "https://api.smk.dk/api/v1/art/search/?keys=*&filters=%5Bcreator%3ARembrandt%20van%20Rijn%5D&offset=700&rows=100&lang=en",
+    "fetchedAt": "2026-11-20T17:40:56.494Z",
+    "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "licenseNote": "As the SMK record states it (`rights`); public-domain works carry the Public Domain Mark"
+  }
+}

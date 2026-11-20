@@ -1,0 +1,48 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/met-370683",
+  "type": "VisualItem",
+  "_label": "Subjects of Flight into Egypt: Altered from Tobias and the Angel by Hercules Segers",
+  "about": [
+    {
+      "id": "http://vocab.getty.edu/aat/300404114",
+      "type": "Type",
+      "_label": "Human Figures",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q5937779",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300250148",
+      "type": "Type",
+      "_label": "Horses",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q726",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300132410",
+      "type": "Type",
+      "_label": "Trees",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q10884",
+          "type": "Type"
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "met",
+    "sourceUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/370683",
+    "fetchedAt": "2026-11-20T17:37:42.139Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "Open Access (isPublicDomain: true)"
+  }
+}

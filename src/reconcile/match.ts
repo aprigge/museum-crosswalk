@@ -74,7 +74,7 @@ export function matchRef(ref: SourceArtistRef, artist: ArtistQuery): ArtistMatch
       evidence: xw.length === 1 && yearsAgree ? `${ids}; life years agree (${year(ref.birth)}–${year(ref.death)})` : ids,
     };
   }
-  if (ref.name && normaliseName(ref.name) === normaliseName(artist.name)) {
+  if (ref.name && [artist.name, ...(artist.aliases ?? [])].some((n) => normaliseName(n) === normaliseName(ref.name!))) {
     const datesKnown = year(ref.birth) && year(ref.death);
     const datesMatch = datesKnown && year(ref.birth) === year(artist.birth) && year(ref.death) === year(artist.death);
     if (datesMatch) {

@@ -1,0 +1,59 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/met-392071",
+  "type": "VisualItem",
+  "_label": "Subjects of Peter and John Healing the Cripple at the Gate of the Temple",
+  "about": [
+    {
+      "id": "http://vocab.getty.edu/aat/300002916",
+      "type": "Type",
+      "_label": "Gates",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q53060",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300025928",
+      "type": "Type",
+      "_label": "Men",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q8441",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ia/901001056",
+      "type": "Type",
+      "_label": "Saint John the Baptist",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q40662",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ia/901000056",
+      "type": "Type",
+      "_label": "Saint Peter",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q33923",
+          "type": "Type"
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "met",
+    "sourceUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/392071",
+    "fetchedAt": "2026-11-20T17:47:51.316Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "Open Access (isPublicDomain: true)"
+  }
+}

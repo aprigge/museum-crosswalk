@@ -1,0 +1,70 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/met-387484",
+  "type": "VisualItem",
+  "_label": "Subjects of Rest on the Flight into Egypt",
+  "about": [
+    {
+      "id": "http://vocab.getty.edu/aat/300265959",
+      "type": "Type",
+      "_label": "Donkeys",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q3537778",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ia/901000087",
+      "type": "Type",
+      "_label": "Christ",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q642420",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ia/901001175",
+      "type": "Type",
+      "_label": "Holy Family",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q618057",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ia/901000953",
+      "type": "Type",
+      "_label": "Saint Joseph",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q128267",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ia/901000032",
+      "type": "Type",
+      "_label": "Virgin Mary",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q345",
+          "type": "Type"
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "met",
+    "sourceUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/387484",
+    "fetchedAt": "2026-11-20T17:40:30.128Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "Open Access (isPublicDomain: true)"
+  }
+}

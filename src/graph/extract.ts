@@ -64,7 +64,8 @@ export function webPageUrl(record: Node): string | undefined {
 
 /**
  * A small image for search results, only where the image is openly licensed. Built the way
- * each source serves sizes: IIIF size parameters (AIC, Rijksmuseum), the Met's own small file.
+ * each source serves sizes: IIIF size parameters (AIC, SMK, Rijksmuseum), the Met's own small file,
+ * Cleveland's web-size JPEG.
  */
 export function thumbnail(source: string, record: Node, raw: CachedRaw): string | undefined {
   const prov = record._provenance as Provenance | undefined;
@@ -72,9 +73,13 @@ export function thumbnail(source: string, record: Node, raw: CachedRaw): string 
     const o = raw.body as Node;
     return o.isPublicDomain && o.primaryImageSmall ? encodeURI(decodeURI(o.primaryImageSmall)) : undefined;
   }
-  if (source === 'aic') {
+  if (source === 'aic' || source === 'smk') {
     const service = record.representation?.[0]?.digitally_shown_by?.[0]?.digitally_available_via?.[0]?.access_point?.[0]?.id;
     return service ? `${service}/full/400,/0/default.jpg` : undefined;
+  }
+  if (source === 'cleveland') {
+    // Only CC0 images are mapped to a representation; Cleveland's "web" size is ~900 px.
+    return record.representation?.[0]?.digitally_shown_by?.[0]?.access_point?.[0]?.id;
   }
   if (source === 'rijksmuseum') {
     for (const s of record.subject_of ?? []) {

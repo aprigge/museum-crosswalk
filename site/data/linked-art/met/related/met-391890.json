@@ -1,0 +1,31 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/met-391890",
+  "type": "VisualItem",
+  "_label": "Subjects of Medea: or The Marriage of Jason and Creusa",
+  "about": [
+    {
+      "id": "http://vocab.getty.edu/page/ia/901000152",
+      "type": "Type",
+      "_label": "Jason",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q176758",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://www.wikidata.org/entity/Q13430821",
+      "type": "Type",
+      "_label": "Crowd"
+    }
+  ],
+  "_provenance": {
+    "source": "met",
+    "sourceUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/391890",
+    "fetchedAt": "2026-11-20T17:45:33.248Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "Open Access (isPublicDomain: true)"
+  }
+}

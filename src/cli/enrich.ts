@@ -2,7 +2,7 @@ import { createHash } from 'node:crypto';
 import { readFile, writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import type Anthropic from '@anthropic-ai/sdk';
-import { dataDir } from '../core/cache.js';
+import { dataDir, siteGraphDir } from '../core/cache.js';
 import { anthropic, costUsd, loadPrompt, MODELS, readRecord, runBatch, toRecord, writeRecord, type AiRecord, type Prompt } from '../ai/client.js';
 import { checkAgainstVocabulary, enrichRequest, enrichSystem, EnrichmentSchema, type EnrichItem, type Enrichment } from '../ai/enrich.js';
 import { getImage, type CachedImage } from '../ai/images.js';
@@ -39,7 +39,7 @@ main(async () => {
   const sampleArg = process.argv.indexOf('--sample');
   const sample = sampleArg > 0 ? Number(process.argv[sampleArg + 1]) : undefined;
 
-  const docs = (JSON.parse(await readFile(join(dataDir(), 'graph', SLICE, 'search-docs.json'), 'utf8')) as SearchDoc[]).filter((d) => d.thumb);
+  const docs = (JSON.parse(await readFile(join(siteGraphDir(), 'search-docs.json'), 'utf8')) as SearchDoc[]).filter((d) => d.thumb);
   const vocab = await loadEnrichVocabulary(SLICE);
   const vocabById = new Map(vocab.map((v) => [v.qid, v]));
   const base = await loadPrompt('enrich');

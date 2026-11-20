@@ -1,26 +1,62 @@
 {
-  "slice": {
-    "id": "paintings-1850-1900",
-    "type": "painting",
-    "from": 1850,
-    "to": 1900
-  },
-  "builtAt": "2026-11-20T17:12:23.349Z",
+  "datasets": [
+    {
+      "id": "paintings-1850-1900",
+      "type": "painting",
+      "from": 1850,
+      "to": 1900
+    },
+    {
+      "id": "rembrandt",
+      "name": "Rembrandt",
+      "qid": "Q5598"
+    }
+  ],
+  "builtAt": "2026-11-20T20:08:46.585Z",
   "harvests": {
-    "rijksmuseum": {
-      "finishedAt": "2026-11-19T20:48:30.479Z",
-      "complete": true,
-      "works": 395
+    "paintings-1850-1900": {
+      "rijksmuseum": {
+        "finishedAt": "2026-11-19T20:48:30.479Z",
+        "complete": true,
+        "works": 395
+      },
+      "met": {
+        "finishedAt": "2026-11-19T20:47:25.624Z",
+        "complete": false,
+        "works": 95
+      },
+      "aic": {
+        "finishedAt": "2026-11-19T20:58:10.278Z",
+        "complete": true,
+        "works": 611
+      }
     },
-    "met": {
-      "finishedAt": "2026-11-19T20:47:25.624Z",
-      "complete": false,
-      "works": 95
-    },
-    "aic": {
-      "finishedAt": "2026-11-19T20:58:10.278Z",
-      "complete": true,
-      "works": 611
+    "rembrandt": {
+      "rijksmuseum": {
+        "finishedAt": "2026-11-20T17:58:21.809Z",
+        "complete": true,
+        "works": 1469
+      },
+      "met": {
+        "finishedAt": "2026-11-20T17:51:27.341Z",
+        "complete": true,
+        "works": 372
+      },
+      "aic": {
+        "finishedAt": "2026-11-20T17:37:32.827Z",
+        "complete": true,
+        "works": 255
+      },
+      "smk": {
+        "finishedAt": "2026-11-20T17:40:59.469Z",
+        "complete": true,
+        "works": 830
+      },
+      "cleveland": {
+        "finishedAt": "2026-11-20T17:40:50.497Z",
+        "complete": true,
+        "works": 122
+      }
     }
   },
   "queries": [

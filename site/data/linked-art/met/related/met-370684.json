@@ -1,0 +1,26 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/met-370684",
+  "type": "VisualItem",
+  "_label": "Subjects of Descent from the Cross by Torchlight",
+  "about": [
+    {
+      "id": "http://vocab.getty.edu/page/ia/901000462",
+      "type": "Type",
+      "_label": "Descent from the Cross",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q13365963",
+          "type": "Type"
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "met",
+    "sourceUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/370684",
+    "fetchedAt": "2026-11-20T17:37:45.059Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "Open Access (isPublicDomain: true)"
+  }
+}

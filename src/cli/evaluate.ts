@@ -2,7 +2,7 @@ import { readFile, writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import MiniSearch from 'minisearch';
 import oxigraph from 'oxigraph';
-import { dataDir } from '../core/cache.js';
+import { dataDir, siteGraphDir } from '../core/cache.js';
 import { FIELD_EXPLANATION, MUSEUM_NAMES } from '../../site/js/terms.js';
 import { END_MARKER } from '../report/render.js';
 import { MINISEARCH_OPTIONS, SEARCH_OPTIONS, type SearchDoc } from '../search/build.js';
@@ -26,12 +26,13 @@ function why(hit: Hit): string {
 
 main(async () => {
   const index = MiniSearch.loadJSON<SearchDoc>(await readFile('site/data/search-index.json', 'utf8'), MINISEARCH_OPTIONS as never);
-  const docs: SearchDoc[] = JSON.parse(await readFile(join(dataDir(), 'graph', SLICE, 'search-docs.json'), 'utf8'));
-  const hits = index.search(QUERY, SEARCH_OPTIONS) as unknown as Hit[];
+  const docs: SearchDoc[] = JSON.parse(await readFile(join(siteGraphDir(), 'search-docs.json'), 'utf8'));
+  // The question is about the paintings slice; the index also holds other datasets (Rembrandt).
+  const hits = index.search(QUERY, { ...SEARCH_OPTIONS, filter: (r: { datasets?: string[] }) => !r.datasets || r.datasets.includes(SLICE) } as never) as unknown as Hit[];
 
   // The same question asked of the graph by concept, as a cross-check on the text search.
   const store = new oxigraph.Store();
-  store.load(await readFile(join(dataDir(), 'graph', SLICE, 'core.nq'), 'utf8'), { format: 'application/n-quads' });
+  store.load(await readFile(join(siteGraphDir(), 'core.nq'), 'utf8'), { format: 'application/n-quads' });
   const sparql = await readFile('queries/impressionist-landscapes.rq', 'utf8');
   const conceptRows = store.query(sparql, { use_default_graph_as_union: true }) as Map<string, { value: string }>[];
   const conceptByMuseum = Object.fromEntries(MUSEUMS.map((m) => [m, new Set(conceptRows.filter((r) => r.get('museum')!.value === m).map((r) => r.get('title')!.value)).size]));

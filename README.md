@@ -3,14 +3,19 @@
 **Live site: [aprigge.github.io/museum-crosswalk](https://aprigge.github.io/museum-crosswalk/)**
 
 A prototype that tests how well open museum data lines up, and what it takes to
-search three museums as one collection.
+search several museums as one collection.
 
-It harvests records from three open museum APIs (the Rijksmuseum, The Met and the
-Art Institute of Chicago), converts each to [Linked Art](https://linked.art/) JSON-LD,
-matches every artist to Wikidata, loads it all into a knowledge graph, and builds a
-search on top. The site shows each layer: search results grouped by artist, each
-painting's original API request and Linked Art record, how every artist was matched,
-and a SPARQL console running the graph in your browser.
+It harvests records from open museum APIs (the Rijksmuseum, The Met and the Art Institute
+of Chicago, and for Rembrandt also SMK in Copenhagen and the Cleveland Museum of Art),
+converts each to [Linked Art](https://linked.art/) JSON-LD, matches every artist to
+Wikidata, loads it all into a knowledge graph, and builds a search and an AI question box
+on top. The site shows each layer: search results grouped by artist, each work's original
+API request and Linked Art record, how every artist was matched, a Rembrandt overview built
+from SPARQL queries, and a SPARQL console running the graph in your browser.
+
+Two datasets share one graph: **paintings made 1850–1900** in three museums (phase 2), and
+**everything five museums hold by Rembrandt** (phase 4): paintings, drawings and prints,
+with each print's impressions grouped across museums.
 
 Each converted record says which source it came from, its URL, when it was fetched and
 its licence, and a field under a different licence carries its own (AIC's
@@ -31,31 +36,39 @@ step. Commits carry no co-author line; this note is the attribution.
 
 ```
  Rijksmuseum (Linked Art) ─┐
- The Met (JSON)           ─┼─▶ harvest ─▶ transform ─▶ reconcile ─▶ concepts ─▶ graph ─▶ index ─▶ site
- AIC (JSON)               ─┘   cached     Linked Art   artists →    styles and   Oxigraph  MiniSearch  static
+ The Met (JSON)           ─┤
+ AIC (JSON)               ─┼─▶ harvest ─▶ transform ─▶ reconcile ─▶ concepts ─▶ graph ─▶ index ─▶ site
+ SMK (JSON)               ─┤   cached     Linked Art   artists →    styles and   Oxigraph  MiniSearch  static
+ Cleveland (JSON)         ─┘
                                raw        + provenance Wikidata     subjects →   named     built from  pages on
                                responses               (review list) Wikidata    graphs    the graph   GitHub Pages
 ```
 
-1. **Harvest** from the three APIs, politely and with every response cached.
+1. **Harvest** each dataset from the museum APIs, politely and with every response cached:
+   a slice by object type and date, or an artist by name and the museums' own artist IDs.
 2. **Transform** each record to Linked Art with provenance; source fields with no clean
    mapping are listed, not dropped silently.
 3. **Reconcile** every artist with Wikidata. A record merges with a Wikidata person on
    a direct link, two agreeing IDs (for example AIC's artist ID and ULAN), or one ID
    plus the same birth and death years. Anything weaker, or qualified ("after",
-   "imitator of"), stays in review and is shown unmerged.
+   "imitator of"), stays in review and is shown unmerged. SMK and Cleveland records carry
+   no ID Wikidata knows, so their artists match on name and life years and wait for a
+   person's decision, made once per museum agent.
 4. **Concepts:** styles and subjects (AAT terms from the Met and AIC, Iconclass codes
    from the Rijksmuseum) resolve to Wikidata items.
 5. **Graph:** everything as RDF in [Oxigraph](https://github.com/oxigraph/oxigraph),
    with each party's claims kept apart: one named graph per museum, `graph/derived`
    for inferences (a style taken from the artist's movement on Wikidata, never the
    museum's claim), and `graph/alignments` for links the project asserts itself
-   (`alignments/concepts.ttl`, each with a comment saying why).
-6. **Index:** SPARQL over the graph builds one search document per painting, indexed
+   (`alignments/concepts.ttl`, each with a comment saying why). Prints are grouped here
+   too: impressions that cite the same Bartsch number become one `mc:Print`; New Hollstein
+   places only records that give no Bartsch number. Never grouped by title.
+6. **Index:** SPARQL over the graph builds one search document per work, indexed
    with [MiniSearch](https://lucaong.github.io/minisearch/).
 7. **Site:** plain HTML, CSS and ES modules, no bundler. Search runs in the browser,
-   the graph runs in the browser as WebAssembly, and each painting's Linked Art is a
-   static file, so the site needs no server.
+   the graph runs in the browser as WebAssembly, and each work's Linked Art is a
+   static file. The one exception is "Ask the graph", which needs a small proxy to call
+   Claude (see below).
 
 ## Status and findings
 
@@ -101,12 +114,98 @@ Sonnet 5.5:
 
 "Impressionist landscapes" now returns all three museums, starting with Monet's *La
 Corniche near Monaco* at the Rijksmuseum, which the museum had catalogued without a
-landscape subject. Cost: about $7 for the images, under $0.50 for judging. Next: AI-assisted
-review of the remaining artist matches, and "Ask the graph" (plain English to SPARQL).
+landscape subject. Cost: about $7 for the images, under $0.50 for judging.
+
+**Phase 3 also added (done):**
+
+- **Review assist.** Claude proposed a decision for each artist match left for review, citing
+  the evidence; a person accepted or rejected each one (27 accepted). The AIC review queue
+  went from 82 to 7, and each artist page shows "AI proposed, a person approved".
+- **Ask the graph.** Plain-English questions become SPARQL, answered by the graph: 19 of 20
+  test questions exactly right. See [Search or Ask?](#search-or-ask) and
+  [Ask the graph](#ask-the-graph).
+- **Artist facts from Wikidata** (place of birth, citizenship, gender), so Ask can answer
+  questions such as "Which women painters have works in more than one museum?".
+
+**Phase 4, Rembrandt, the full picture: built and live.** Everything five open museums hold by
+Rembrandt: the Rijksmuseum, The Met, AIC, SMK (Copenhagen) and the Cleveland Museum of Art,
+as a second dataset in the same graph. Findings in [reports/rembrandt.md](reports/rembrandt.md)
+(`npm run rembrandt-report`).
+
+- **Harvest: 3,048 records**, no fetch errors (The Met was not blocked this time).
+- **2,434 works plainly by Rembrandt**: 2,288 prints, 96 drawings, 47 paintings. Copies,
+  "after", school and workshop records are counted separately, never as his.
+
+  | | Records harvested | Plainly by Rembrandt |
+  |---|---|---|
+  | Rijksmuseum | 1,469 | 1,397 (1,307 prints, 64 drawings, 24 paintings) |
+  | SMK | 830 | 421 |
+  | The Met | 372 | 284 |
+  | AIC | 255 | 229 |
+  | Cleveland | 122 | 103 |
+
+- **Artist matches.** SMK and Cleveland records carry no artist ID Wikidata knows. Their
+  Rembrandt agents (SMK `1871_person`, Cleveland `2520` and a duplicate `291869`) matched on
+  name and life years and were merged on the author's decision, recorded in
+  `alignments/review-decisions.json`. AIC's second Rembrandt ID on Wikidata (46371) is in
+  fact "School of Rembrandt van Rijn", a Wikidata error like Van Gogh's imitator ID in
+  phase 1; it stays in review.
+- **Prints.** 1,993 impressions grouped into 307 prints by Bartsch number (New Hollstein
+  places only records that give no Bartsch number); never by title. 71 prints are held by
+  4 museums, 108 by 3, 78 by 2 and 50 by 1. Most widely held: *The Hundred Guilder Print*
+  (Bartsch 74, 27 impressions in 4 museums), *The Entombment* (B86) and *Clement de Jonghe*
+  (B272). The Met's API gives no catalogue numbers, so its 243 prints stay ungrouped. A
+  record citing two different Bartsch numbers (a sheet with several prints) is left
+  ungrouped; a record whose New Hollstein number usually belongs to another print is noted
+  on its group, not merged.
+- **On the site.** A [Rembrandt page](https://aprigge.github.io/museum-crosswalk/rembrandt.html):
+  holdings by museum, how widely each print is held, prints with their impressions, a
+  timeline by decade, and what could not be grouped. Every section is a SPARQL query run in
+  the browser, with a link to open it in Explore. An impression's artwork page links to its
+  print and shows the other impressions. Search has "Collection" and "Object type" filters,
+  folds a print's impressions into one card ("+ N more impressions") and shows at most 24
+  cards per artist.
+- **Search eval.** The paintings eval now scores only the paintings collection (the index is
+  shared). After judging 12 newly surfaced paintings it reads 94% precision without AI
+  subjects and 96% with (phase 3: 95% and 96%; within the ±6 interval).
+- **Still to come:** AI subjects for Rembrandt's works (SMK and Cleveland records carry no
+  subjects), and Rembrandt questions in the Ask eval.
 
 **Out of scope:** all Getty data (the Getty Museum collection and the Getty
 Vocabularies). Nothing is fetched from Getty; AAT and ULAN IDs appear only where the
 museums supply them.
+
+## Search or Ask?
+
+The site has two ways in, and they show off different things.
+
+| | Search | Ask the graph |
+|---|---|---|
+| You type | Words: "snow", "Impressionist landscapes", "Monet" | A question: "Which artists have paintings in all three museums?" |
+| You get | Works to look at, ranked and grouped by artist, with images | An answer: a table (and one checked sentence) from the graph |
+| How | A MiniSearch index built from the graph, running in your browser | Claude writes one SPARQL query; the graph runs it in your browser |
+| AI involved | Only if you leave AI-suggested subjects switched on | Yes, to write the query (and the answer sentence), never the numbers |
+| Speed and cost | Instant, free, works offline | A few seconds; about a cent a question, within daily limits |
+| Good at | Finding and browsing, fuzzy words, synonyms and related concepts | Counting, comparing and joining facts: "how many", "which… in all", "more than one", "never tagged" |
+
+**Use Search** when you want to *find things*: works on a theme, by an artist, or in a style,
+across museums, with pictures. It is forgiving (typos, plurals, synonyms from Wikidata) and
+tells you why each result matched. It shows off the classic knowledge-graph-to-search
+workflow: museum records reconciled to shared Wikidata concepts and artists, flattened into
+one search document per work, so one query reaches all the museums and groups each artist's
+works together whatever the museum calls them.
+
+**Use Ask** when you want *an answer* that no single record holds: counts, comparisons,
+"in all three museums", "born in", "the AI tagged but the museum didn't". These need joins
+across the graph, which keyword search can't do. It shows off a grounded LLM workflow:
+plain English to SPARQL from a schema description, a read-only guard, the query shown and
+editable in Explore, an answer sentence whose every number is checked against the rows, and
+an eval (19 of 20 questions exactly right) that is re-run whenever the prompt changes.
+
+**Use Explore** to write SPARQL yourself, or to adjust a query Ask wrote.
+
+**Or start from the Rembrandt page**, a third way in: a curated overview of Rembrandt's works
+across five museums, where every section is a SPARQL query you can open in Explore.
 
 ## Ask the graph
 
@@ -116,9 +215,11 @@ graph, and the query is shown. On 20 reviewed questions with hand-written refere
 19 come back exactly right ([reports/ask-eval.md](reports/ask-eval.md), `npm run ask-eval`).
 
 A static site can't hold an API key, so questions go through a small Cloudflare Worker
-(`worker/`). It accepts only `POST /ask` from the site's origins, rejects anything but a
-read-only query, limits each visitor to 5 questions a minute, caps questions per day (a
-spending ceiling), and stores no questions.
+(`worker/`). It accepts only `POST /ask` (question to SPARQL) and `POST /summarize` (result
+rows to one sentence) from the site's origins, rejects anything but a read-only query,
+limits each visitor to 10 model calls a minute (about 5 questions), caps model calls per day
+at 600 (a spending ceiling), and stores no questions. An answer sentence is shown only if
+every number in it appears in the result rows.
 
 Run it locally (needs `ANTHROPIC_API_KEY` in `.env`):
 
@@ -173,11 +274,23 @@ npm run site             # vendored libraries, Linked Art files and presets into
 
 npm run query -- queries/artists-in-several-museums.rq   # run any SPARQL file on the graph
 
+# Phase 4: one artist's works across five museums (any object type)
+npm run harvest -- --dataset rembrandt
+npm run transform
+npm run reconcile -- --dataset rembrandt
+npm run concepts -- --dataset rembrandt
+npm run graph && npm run index && npm run site   # one graph and index for every reconciled dataset
+npm run rembrandt-report # writes reports/rembrandt.md from the graph
+
 # Phase 3: AI (needs ANTHROPIC_API_KEY in .env; each step prints a cost estimate first)
 npm run vocabulary       # resolve the extra concepts on Wikidata, for review
 npm run enrich -- --dry-run          # then --sample 20, then the full batch
 npm run graph && npm run index       # rebuild with the AI suggestions
 npm run eval -- pool --variant with-ai && npm run eval -- judge && npm run eval -- score --variant with-ai
+npm run review-assist    # Claude proposes decisions for artist matches in review
+npm run review           # accept, reject or skip each proposal (alignments/review-decisions.json)
+npm run ask-eval         # the Ask eval: 20 questions, graded against reference SPARQL
+npm run worker:dev       # the Ask Worker locally (see "Ask the graph"); worker:deploy publishes it
 
 # Phase 1: one artist (defaults to Vincent van Gogh)
 npm run harvest && npm run transform && npm run reconcile && npm run report
@@ -190,8 +303,8 @@ Flags (pass them after `--`):
 
 | Flag | Used by | Meaning |
 |---|---|---|
-| `--source <names>` | most | `rijksmuseum`, `met`, `aic`, a comma-separated list, or `all` (the default). |
-| `--slice <id>` | harvest, reconcile, concepts, graph, index, site | Work on a slice instead of one artist. The only slice is `paintings-1850-1900` (the default for the graph steps). |
+| `--source <names>` | most | `rijksmuseum`, `met`, `aic`, `smk`, `cleveland`, a comma-separated list, or `all` (the default). |
+| `--dataset <id>` | harvest, reconcile, concepts, graph | `paintings-1850-1900` (a slice) or `rembrandt` (an artist). `--slice` still works as before. `graph` combines every reconciled dataset unless given one. |
 | `--artist <name>` | harvest, reconcile | Artist to look up on Wikidata. Defaults to `Vincent van Gogh`. |
 | `--qid <Q…>` | harvest, reconcile | Use this Wikidata QID instead of looking the artist up by name. |
 | `--limit <n>` | harvest | Stop after n search hits per source, for a quick trial run. |
@@ -199,8 +312,8 @@ Flags (pass them after `--`):
 | `--refresh` | harvest, reconcile, concepts | Fetch again even when a cached copy exists. |
 
 `transform` writes validation results to `_validation.json` and unmapped source fields
-to `_unmapped.json` in each `data/linked-art/{source}/` folder. `report` and `evaluate`
-regenerate their report above the `END GENERATED` marker and keep the hand-written
+to `_unmapped.json` in each `data/linked-art/{source}/` folder. `report`, `evaluate`, `eval`,
+`ask-eval` and `rembrandt-report` regenerate their report above the `END GENERATED` marker and keep the hand-written
 findings below it.
 
 ## Tests
@@ -214,19 +327,20 @@ npm run typecheck   # tsc --noEmit
 
 ```
 src/
-  sources/     one adapter per museum (rijksmuseum.ts, met.ts, aic.ts) + index.ts registry
+  sources/     one adapter per museum (rijksmuseum, met, aic, smk, cleveland) + index.ts registry
   core/        polite cached HTTP client, cache paths, minted IDs, provenance, shared types
   linkedart/   Linked Art builders, vocabulary, JSON Schema and JSON-LD validation
   authority/   Wikidata artist lookup and concept lookup by AAT/Iconclass
   reconcile/   artist matching and the slice-wide match policy
-  graph/       the crosswalk layer and graph build (Oxigraph)
+  graph/       the crosswalk layer, graph build (Oxigraph) and print grouping (prints.ts)
   search/      search documents built from the graph, and the index
-  ai/          Claude client, image fetching, vocabulary, enrichment and the eval judge
-  eval/        search eval: queries, pooling and metrics
+  ai/          Claude client, enrichment, review assist, Ask and answer-sentence requests, the judge
+  eval/        search eval (queries, pooling, metrics) and Ask eval (execution match)
   report/      phase 1 report statistics and rendering
   cli/         one entry point per command
 site/          the static site; site/js/terms.js is shared with the index build
                so search behaves the same in Node and the browser
+worker/        the Cloudflare Worker behind Ask (holds the API key; never runs queries)
 queries/       SPARQL presets, also served on the site's Explore page
 alignments/    concept links the project asserts itself, and the AI vocabulary extension
 prompts/       versioned prompts for each AI task
@@ -246,7 +360,8 @@ Every source adapter has the same interface (`search`, `searchSlice`, `fetch`,
 - Every request sends a `User-Agent` naming the project and a contact; AIC also gets
   it in the `AIC-User-Agent` header it asks for.
 - Requests to one source are sequential with a minimum gap: 0.5 s for the
-  Rijksmuseum, 1 s for AIC and Wikidata, 3 s for the Met. Lists are fetched in batches
+  Rijksmuseum, 1 s for AIC, SMK, Cleveland and Wikidata, 3 s for the Met. SMK and
+  Cleveland search pages carry full records, so they need no request per object. Lists are fetched in batches
   where the API allows (AIC `?ids=`, Wikidata `VALUES`).
 - Failures are retried with exponential backoff, honouring `Retry-After`. A 403 from a
   firewall stops that source at once; what was cached is kept and the run is marked
@@ -263,6 +378,8 @@ Every source adapter has the same interface (`search`, `searchSlice`, `fetch`,
 | Rijksmuseum | Metadata CC0 1.0. Images are marked Public Domain Mark 1.0. |
 | The Met | CC0 1.0 for Open Access objects (`isPublicDomain: true`). Other objects are shown without images. |
 | Art Institute of Chicago | CC0 1.0, except the `description` field: © Art Institute of Chicago, CC BY 4.0. |
+| SMK, National Gallery of Denmark | Each record states its rights; public-domain works carry the Public Domain Mark 1.0 and their images are shown. |
+| Cleveland Museum of Art | Data CC0 1.0. Images CC0 only where `share_license_status` is CC0; others are shown without images. |
 | Wikidata | CC0 1.0. |
 
 **AIC attribution:** description text is credited to the Art Institute of Chicago

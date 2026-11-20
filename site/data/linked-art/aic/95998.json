@@ -1,0 +1,292 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://api.artic.edu/api/v1/artworks/95998",
+  "type": "HumanMadeObject",
+  "_label": "Old Man with a Gold Chain",
+  "identified_by": [
+    {
+      "type": "Name",
+      "content": "Old Man with a Gold Chain",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ]
+    },
+    {
+      "type": "Identifier",
+      "content": "1922.4467",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300312355",
+          "type": "Type",
+          "_label": "Accession Number"
+        }
+      ]
+    }
+  ],
+  "produced_by": {
+    "type": "Production",
+    "timespan": {
+      "type": "TimeSpan",
+      "identified_by": [
+        {
+          "type": "Name",
+          "content": "1631"
+        }
+      ],
+      "begin_of_the_begin": "1631-01-01T00:00:00Z",
+      "end_of_the_end": "1631-12-31T23:59:59Z"
+    },
+    "carried_out_by": [
+      {
+        "id": "https://api.artic.edu/api/v1/agents/40769",
+        "type": "Person",
+        "_label": "Rembrandt van Rijn"
+      }
+    ]
+  },
+  "classified_as": [
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-5891",
+      "type": "Type",
+      "_label": "Renaissance",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300015646",
+          "type": "Type",
+          "_label": "Style"
+        }
+      ]
+    },
+    {
+      "id": "https://api.artic.edu/api/v1/category-terms/TM-13770",
+      "type": "Type",
+      "_label": "17th Century",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300015646",
+          "type": "Type",
+          "_label": "Style"
+        }
+      ]
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "content": "Oil on panel",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435429",
+          "type": "Type",
+          "_label": "Materials Statement",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "83.1 × 75.7 cm (32 3/4 × 29 3/4 in.); Framed: 105.1 × 99.5 cm (41 3/8 × 39 3/16 in.)",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435430",
+          "type": "Type",
+          "_label": "Dimensions Statement",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Mr. and Mrs. W. W. Kimball Collection",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300026687",
+          "type": "Type",
+          "_label": "Credit Line",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Monogramed lower left: RHL",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435414",
+          "type": "Type",
+          "_label": "Inscription Statement",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Jacob Alewijn, Amsterdam; by descent to his widow Margaretha Helena Graafland (died 1766); sold Amsterdam, June 10, 1767, no. 14, to Ketelaar, “Rembrandt. Het Hoofd van een Oud Man, zynde een Kniestuk, Levensgroote, met een dokere Mantel om, en een gouden Keten met een Medaille om den hals.  Het hoofd is van vooren en op zyde te zien; gekeerd naar den linker Schouder, en gedekt met een Fluweelen Muts, voorzien met een groote Pluim.  Zynde zeer helder, krachtig en uitvoorig op Paneel geschilderd. Hoog 35, breed 30 duim”(The head of an old man, knee-length and life size, wearing a dark cloak and a golden chain with a medallion around his neck.  The head is seen from the front and to one side, turned toward the left shoulder, and covered with a velvet cap with a large plume. 90 x 77.1 cm) [For the identification of the consignor at this sale, see Rembrandt Research Project 1982, with evidence that the height of the picture was later slightly reduced].  Matthew Piers Watt Boulton, Tew Park, Oxfordshire; his estate sale Christie’s, London, December 9, 1911, no. 14, as the Father of Rembrandt for £220 10s. to Shepherd [annotated sale catalogue at Frick Art Reference Library; for the identity of 1922.4467 and the painting in the Boulton sale, see Bode 1912].   Lippmann, London, with a half share acquired by P. and D. Colnaghi, London, February 12, 1912 [letter from Lavinia Davies, Colnaghi, to Susan Wise, 28 November, 1977 in curatorial file]; Colnaghi sold their share in March, 1912, with Lippmann, Knoedler, and Julius Böhler sharing ownership in the picture [letter of Lavinia Davies cited above]; sold by Böhler to Marczell de Nemes, Budapest, 17 June, 1912; offered for sale Galerie Manzi, Joyant, Paris, 17-18 June, 1913, no. 60, as Portrait du père de Rembrandt, bought in and returned to Julius Böhler in July 1913 [letter from Julius Böhler to Susan Wise, September 20, 1977 in curatorial file]; sold by Julius Böhler to Reinhardt, New York [letter from Böhler cited above; in a letter of June 14, 1977, Julius Böhler noted that Reinhardt was the American representative for their firm]; sold to Mrs. W. W. Kimball, (died 1921), Chicago, by 1914 [Valentiner 1914]; bequeathed, 1922.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435438",
+          "type": "Type",
+          "_label": "Provenance Statement",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "In his character studies, Rembrandt explored the effect of a single figure, made dramatic through the use of rich, subtle lighting and costumes, which the artist collected to transform his models. Here, the gold chain and steel gorget suggest an honored military career, while the plumed beret evokes an earlier time. The unidentified sitter, once thought to be the artist’s father, was a favorite model.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300026032",
+          "type": "Type",
+          "_label": "Summary",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "<p>This compelling figure—fancifully adorned with a steel gorget (armor protecting the throat and upper chest), golden chain, and plumed beret—represents a new commodity on the Northern European art market: a <em>tronie</em>, or character study. While artists had created such studies since the 1500s, Rembrandt and his colleague <a href=\"https://www.artic.edu/artists/41304/jan-lievens\">Jan Lievens</a> made these images into more affordable alternatives to portraits, heightening their appeal by introducing bold visual elements like dramatic lighting, whimsical costumes, and dynamic poses. Rembrandt and his colleagues painted this model frequently; although he has been called “Rembrandt’s father,” recent research suggests that the “Old Man” may have been the keeper of an almshouse in Leiden, the Netherlands.</p>\n<p>Although tronies were less expensive than commissioned portraits, Rembrandt invested just as much skill in them. The attention given to the folds of flesh beneath the eyes, the prickly, tightly trimmed beard, and the highlights in the gorget and gold chain reveal a talented painter engaged in the joys of painting. The prominent gold chain appears in several works from Rembrandt’s Leiden and Amsterdam periods: He must have had one in his studio. But unlike his acclaimed peers <a href=\"https://www.artic.edu/artists/36487/peter-paul-rubens\">Peter Paul Rubens</a> and <a href=\"https://www.artic.edu/artists/40563/anthony-van-dyck\">Anthony van Dyck</a>, Rembrandt never received one as a gift from a royal patron.</p>\n",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Description",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ],
+      "format": "text/html"
+    }
+  ],
+  "representation": [
+    {
+      "type": "VisualItem",
+      "digitally_shown_by": [
+        {
+          "type": "DigitalObject",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300215302",
+              "type": "Type",
+              "_label": "Digital Image"
+            }
+          ],
+          "access_point": [
+            {
+              "id": "https://www.artic.edu/iiif/2/3eaab3a3-2b47-9fdd-121c-050f6b8d9ccb/full/843,/0/default.jpg",
+              "type": "DigitalObject"
+            }
+          ],
+          "digitally_available_via": [
+            {
+              "type": "DigitalService",
+              "access_point": [
+                {
+                  "id": "https://www.artic.edu/iiif/2/3eaab3a3-2b47-9fdd-121c-050f6b8d9ccb",
+                  "type": "DigitalObject"
+                }
+              ],
+              "conforms_to": [
+                {
+                  "id": "http://iiif.io/api/image",
+                  "type": "InformationObject"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "shows": [
+    {
+      "id": "https://aprigge.github.io/museum-crosswalk/id/visual/aic-95998",
+      "type": "VisualItem"
+    }
+  ],
+  "subject_of": [
+    {
+      "type": "LinguisticObject",
+      "digitally_carried_by": [
+        {
+          "type": "DigitalObject",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300264578",
+              "type": "Type",
+              "_label": "Web Page"
+            }
+          ],
+          "format": "text/html",
+          "access_point": [
+            {
+              "id": "https://www.artic.edu/artworks/95998",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "aic",
+    "sourceUrl": "https://api.artic.edu/api/v1/artworks/95998?fields=id,api_link,title,alt_titles,main_reference_number,date_start,date_end,date_display,date_qualifier_title,artist_id,artist_ids,artist_title,artist_titles,artist_display,alt_artist_ids,place_of_origin,medium_display,dimensions,dimensions_detail,credit_line,inscriptions,provenance_text,publication_history,exhibition_history,copyright_notice,is_public_domain,image_id,alt_image_ids,description,short_description,classification_title,artwork_type_title,department_title,material_titles,technique_titles,style_titles,subject_titles,edition,catalogue_display,source_updated_at,style_ids,subject_ids",
+    "fetchedAt": "2026-11-20T17:33:10.056Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By) and the Terms and Conditions of artic.edu. All other data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu."
+  },
+  "_fieldProvenance": {
+    "referred_to_by[Description]": {
+      "source": "aic",
+      "sourceUrl": "https://api.artic.edu/api/v1/artworks/95998?fields=id,api_link,title,alt_titles,main_reference_number,date_start,date_end,date_display,date_qualifier_title,artist_id,artist_ids,artist_title,artist_titles,artist_display,alt_artist_ids,place_of_origin,medium_display,dimensions,dimensions_detail,credit_line,inscriptions,provenance_text,publication_history,exhibition_history,copyright_notice,is_public_domain,image_id,alt_image_ids,description,short_description,classification_title,artwork_type_title,department_title,material_titles,technique_titles,style_titles,subject_titles,edition,catalogue_display,source_updated_at,style_ids,subject_ids",
+      "fetchedAt": "2026-11-20T17:33:10.056Z",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "licenseNote": "AIC licenses `description` under CC BY 4.0; attribution required"
+    }
+  }
+}

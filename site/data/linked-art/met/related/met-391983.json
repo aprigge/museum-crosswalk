@@ -1,0 +1,48 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://aprigge.github.io/museum-crosswalk/id/visual/met-391983",
+  "type": "VisualItem",
+  "_label": "Subjects of The Adoration of the Shepherds: with the Lamp",
+  "about": [
+    {
+      "id": "http://vocab.getty.edu/aat/300249525",
+      "type": "Type",
+      "_label": "Animals",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q729",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ia/901000087",
+      "type": "Type",
+      "_label": "Jesus",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q302",
+          "type": "Type"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/page/ia/901000229",
+      "type": "Type",
+      "_label": "Adoration of the Shepherds",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q1029715",
+          "type": "Type"
+        }
+      ]
+    }
+  ],
+  "_provenance": {
+    "source": "met",
+    "sourceUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/391983",
+    "fetchedAt": "2026-11-20T17:46:36.410Z",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseNote": "Open Access (isPublicDomain: true)"
+  }
+}

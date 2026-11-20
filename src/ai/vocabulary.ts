@@ -1,6 +1,6 @@
 import { readFile } from 'node:fs/promises';
 import { join } from 'node:path';
-import { dataDir } from '../core/cache.js';
+import { dataDir, siteGraphDir } from '../core/cache.js';
 import oxigraph from 'oxigraph';
 import type { SourceClient } from '../core/http.js';
 import type { Concept } from '../authority/concepts.js';
@@ -60,7 +60,7 @@ const STYLE_LIKE = /(ism|ist painting|ist art|\bschool\b|\bmovement\b|\bstyle\b|
 
 /** Wikidata items the current graph uses as a style, an inferred style or an artist's movement. */
 async function styleQids(sliceId: string): Promise<Set<string>> {
-  const nq = await readFile(join(dataDir(), 'graph', sliceId, 'core.nq'), 'utf8').catch(() => '');
+  const nq = await readFile(join(siteGraphDir(), 'core.nq'), 'utf8').catch(() => '');
   if (!nq) return new Set();
   const store = new oxigraph.Store();
   store.load(nq, { format: 'application/n-quads' });

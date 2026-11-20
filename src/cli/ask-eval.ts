@@ -3,7 +3,7 @@ import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import type Anthropic from '@anthropic-ai/sdk';
 import oxigraph from 'oxigraph';
-import { dataDir } from '../core/cache.js';
+import { dataDir, siteGraphDir } from '../core/cache.js';
 import { anthropic, costUsd, MODELS, readRecord, toRecord, writeRecord, type AiRecord, type Prompt } from '../ai/client.js';
 import { askRequest, AskSchema, askSystem, type AskAnswer } from '../ai/ask.js';
 import { compareResults, isReadQuery, runForCompare, type AskCase } from '../eval/ask.js';
@@ -48,7 +48,7 @@ main(async () => {
   if (dryRun) return;
 
   const store = new oxigraph.Store();
-  store.load(await readFile(join(dataDir(), 'graph', 'paintings-1850-1900', 'core.nq'), 'utf8'), { format: 'application/n-quads' });
+  store.load(await readFile(join(siteGraphDir(), 'core.nq'), 'utf8'), { format: 'application/n-quads' });
 
   const results: CaseResult[] = [];
   for (const c of cases) {

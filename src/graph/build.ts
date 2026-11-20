@@ -4,6 +4,7 @@ import type { CachedRaw, Provenance } from '../core/types.js';
 import type { Concept } from '../authority/concepts.js';
 import type { AgentResolution, PersonFacts } from '../reconcile/agents.js';
 import { thumbnail, webPageUrl, workConcepts, workTitle, workYears, type ConceptRef } from './extract.js';
+import type { CatalogueRefs, ObjectType, PrintGroup } from './prints.js';
 
 const { namedNode, literal, quad } = oxigraph;
 type Node = Record<string, any>;
@@ -48,6 +49,11 @@ export interface AiRun {
 export interface WorkInput {
   source: string;
   id: string;
+  /** The datasets this object was harvested for, e.g. paintings-1850-1900, rembrandt. */
+  datasets?: string[];
+  objectType?: ObjectType;
+  /** Catalogue numbers and state the museum cites (prints). */
+  catalogue?: CatalogueRefs;
   record: Node;
   related: Node[];
   raw: CachedRaw;
@@ -168,7 +174,7 @@ export class GraphBuilder {
     }
     // The museum's own record of this person, and how it was matched.
     const agentKey = `${r.ref.source}-${(r.ref.sourceAgentId ?? r.ref.name ?? 'unknown').split('/').at(-1)}`;
-    const agent = namedNode(`${mint.person('')}agent/${agentKey}`);
+    const agent = namedNode(`${mint.person('')}agent/${encodeURIComponent(agentKey)}`);
     this.add(node, n('mc', 'sourceAgent'), agent);
     this.add(agent, n('mc', 'museum'), literal(r.ref.source));
     if (r.ref.name) this.add(agent, n('rdfs', 'label'), literal(r.ref.name));
@@ -178,6 +184,8 @@ export class GraphBuilder {
       this.add(agent, n('mc', 'matchMethod'), literal(r.best.method));
       this.add(agent, n('mc', 'matchConfidence'), dec(r.best.confidence));
       this.add(agent, n('mc', 'matchEvidence'), literal(r.best.evidence));
+      // Who the evidence points to, even when policy keeps the record unmerged (e.g. "after" records).
+      if (r.best.qid) this.add(agent, n('mc', 'matchCandidate'), n('wd', r.best.qid));
     }
     if (r.reason) this.add(agent, n('mc', 'reviewReason'), literal(r.reason));
     return node;
@@ -189,6 +197,10 @@ export class GraphBuilder {
     const prov = w.record._provenance as Provenance;
     this.add(work, n('rdf', 'type'), n('mc', 'Work'));
     this.add(work, n('mc', 'museum'), literal(w.source));
+    for (const d of w.datasets ?? []) this.add(work, n('mc', 'dataset'), literal(d));
+    if (w.objectType) this.add(work, n('mc', 'objectType'), literal(w.objectType));
+    for (const c of w.catalogue?.cited ?? []) this.add(work, n('mc', 'catalogueRef'), literal(c));
+    if (w.catalogue?.state) this.add(work, n('mc', 'state'), literal(w.catalogue.state));
     this.add(work, n('skos', 'exactMatch'), namedNode(String(w.record.id)));
     const title = workTitle(w.record);
     if (title) this.add(work, n('dcterms', 'title'), literal(title));
@@ -271,6 +283,30 @@ export class GraphBuilder {
       this.add(note, n('mc', 'evidence'), literal(sgn.evidence), g);
       this.add(note, n('prov', 'wasGeneratedBy'), runNode, g);
       if (sgn.confidence >= minConfidence) this.add(work, n('mc', 'aiSubject'), concept, g);
+    }
+  }
+
+  /**
+   * Prints by one artist, each grouping the impressions museums hold, by catalogue number
+   * (src/graph/prints.ts). Our own grouping, so it lives in the crosswalk graph.
+   */
+  addPrints(artistQid: string, groups: PrintGroup[], titles: Map<string, string>) {
+    for (const g of groups) {
+      const print = namedNode(mint.print(artistQid, g.key));
+      this.add(print, n('rdf', 'type'), n('mc', 'Print'));
+      this.add(print, n('mc', 'artist'), namedNode(mint.person(artistQid)));
+      if (g.bartsch) this.add(print, n('mc', 'bartsch'), int(g.bartsch));
+      if (g.newHollstein) this.add(print, n('mc', 'newHollstein'), int(g.newHollstein));
+      if (g.conflict) this.add(print, n('mc', 'groupingConflict'), literal(g.conflict));
+      // The title most impressions carry (titles come English-first, so ties go to English).
+      const counts = new Map<string, number>();
+      for (const t of g.members.map((m) => titles.get(m)).filter(Boolean) as string[]) counts.set(t, (counts.get(t) ?? 0) + 1);
+      const title = [...counts].sort((a, b) => b[1] - a[1])[0]?.[0];
+      if (title) this.add(print, n('dcterms', 'title'), literal(title));
+      for (const m of g.members) {
+        const [source, id] = [m.slice(0, m.indexOf(':')), m.slice(m.indexOf(':') + 1)];
+        this.add(namedNode(mint.work(source, id)), n('mc', 'impressionOf'), print);
+      }
     }
   }
 

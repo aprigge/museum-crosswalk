@@ -10,11 +10,11 @@ Results group by 35 artists; 3 of them have hits in more than one museum.
 
 | Museum | Works in slice | Text search hits | Concept query (SPARQL) hits |
 |---|---|---|---|
-| Rijksmuseum | 395 | 2 | 0 |
-| The Met | 95 | 3 | 2 |
-| Art Institute of Chicago | 611 | 91 | 80 |
+| Rijksmuseum | 1864 | 2 | 0 |
+| The Met | 467 | 3 | 2 |
+| Art Institute of Chicago | 866 | 91 | 80 |
 
-The Met's slice is **partial**: 95 of its paintings were harvested before its firewall blocked requests.
+The Met's slice is **partial**: 467 of its paintings were harvested before its firewall blocked requests.
 
 - **Text search** is what the site runs: MiniSearch with all terms required ("Impressionist landscapes" → `impression` AND `landscape`), prefix and light fuzzy matching.
 - **Concept query** is `queries/impressionist-landscapes.rq`: Impressionism (Wikidata Q40415) as the museum's style or the artist's movement, and landscape (Q191163, aligned with Q107425).
@@ -29,23 +29,23 @@ The Met's slice is **partial**: 95 of its paintings were harvested before its fi
 | Frédéric Bazille | Art Institute of Chicago, The Met | 2 | Landscape at Chailly |
 | Alfred Sisley | Art Institute of Chicago | 6 | Landscape along the Seine with the Institut de France and the Pont des Arts |
 | Camille Pissarro | Art Institute of Chicago | 6 | The Banks of the Marne in Winter |
-| James McNeill Whistler | Art Institute of Chicago | 5 | Coast Scene, Bathers |
 | Paul Gauguin | Art Institute of Chicago | 5 | Te raau rahi (The Big Tree) |
+| James McNeill Whistler | Art Institute of Chicago | 5 | Coast Scene, Bathers |
 | Winslow Homer | Art Institute of Chicago | 4 | Mount Washington |
 | Pierre-Auguste Renoir | Art Institute of Chicago | 3 | Studies of Pierre Renoir; His Mother, Aline Charigot; Nudes; and Landscape |
 | William Merritt Chase | Art Institute of Chicago | 2 | Wind-Swept Sands |
 | Childe Hassam | Art Institute of Chicago | 2 | The Little Pond, Appledore |
 | John Henry Twachtman | Art Institute of Chicago | 2 | The White Bridge |
 | Armand Guillaumin | Art Institute of Chicago | 2 | The Arcueil Aqueduct at Sceaux Railroad Crossing |
-| George Inness | Art Institute of Chicago | 2 | The Mill Pond |
 | Édouard Manet | Art Institute of Chicago | 2 | Sea View, Calm Weather (Vue de mer, temps calme) |
+| George Inness | Art Institute of Chicago | 2 | The Mill Pond |
 | Paul Cézanne | Art Institute of Chicago | 2 | Auvers, Panoramic View |
 | George Hitchcock | Art Institute of Chicago | 2 | The Annunciation |
 | Johan Jongkind | Art Institute of Chicago | 2 | The Church of Overschie |
 | Theodore Robinson | Art Institute of Chicago | 1 | The Valley of Arconville |
-| Albert André | Art Institute of Chicago | 1 | Place des Batignolles, Paris |
 | Berthe Morisot | Art Institute of Chicago | 1 | Forêt de Compiègne |
 | Albert Pinkham Ryder | Art Institute of Chicago | 1 | The Essex Canal |
+| Albert André | Art Institute of Chicago | 1 | Place des Batignolles, Paris |
 | Homer Dodge Martin | Art Institute of Chicago | 1 | On the Seine |
 | Robert Vonnoh | Art Institute of Chicago | 1 | Spring in France |
 | Samuel Colman | Art Institute of Chicago | 1 | Old Tower at Avignon |
@@ -61,11 +61,11 @@ The Met's slice is **partial**: 95 of its paintings were harvested before its fi
 | The Little Pond, Appledore (Childe Hassam) | Art Institute of Chicago | impression: museum's style, artist's movement (Wikidata); landscape: subject, AI-suggested subject |
 | The White Bridge (John Henry Twachtman) | Art Institute of Chicago | impression: museum's style, artist's movement (Wikidata); landscape: subject, AI-suggested subject |
 | The Valley of Arconville (Theodore Robinson) | Art Institute of Chicago | impression: museum's style, artist's movement (Wikidata); landscape: subject, AI-suggested subject |
-| A City Park (William Merritt Chase) | Art Institute of Chicago | impression: museum's style, artist's movement (Wikidata); landscape: subject, AI-suggested subject |
 | Icebound (John Henry Twachtman) | Art Institute of Chicago | impression: museum's style, artist's movement (Wikidata); landscape: subject, AI-suggested subject |
-| Place des Batignolles, Paris (Albert André) | Art Institute of Chicago | impression: museum's style, subject; landscape: subject |
+| A City Park (William Merritt Chase) | Art Institute of Chicago | impression: museum's style, artist's movement (Wikidata); landscape: subject, AI-suggested subject |
 | Forêt de Compiègne (Berthe Morisot) | Art Institute of Chicago | impression: museum's style, artist's movement (Wikidata); landscape: subject, AI-suggested subject |
 | Stack of Wheat (Claude Monet) | Art Institute of Chicago | impression: museum's style, artist's movement (Wikidata); landscape: subject, AI-suggested subject |
+| Stacks of Wheat (Sunset, Snow Effect) (Claude Monet) | Art Institute of Chicago | impression: museum's style, artist's movement (Wikidata); landscape: subject, AI-suggested subject |
 
 <!-- END GENERATED: everything below this line is hand-written and kept on regenerate -->
 
