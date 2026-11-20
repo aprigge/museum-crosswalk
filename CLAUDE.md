@@ -62,7 +62,8 @@ graph" (with a checked answer sentence and artist facts from Wikidata).
   is shown. One request shape (`src/ai/ask.ts`) and one set of guards (`site/js/sparql.js`)
   serve the eval, the Worker and the site. The Worker's prompt is compiled from `prompts/ask.md`
   + `prompts/graph-schema.md` (`npm run worker:prompt`); any prompt change re-runs
-  `npm run ask-eval` before deploy. Keep eval questions out of the schema card's examples.
+  both Ask evals before deploy (`npm run ask-eval`, and `-- --dataset rembrandt`); each runs on the graph scoped to its
+  collection. Keep eval questions out of the schema card's examples.
 - The Worker never runs queries, stores no questions, allows only the site's origins, and
   keeps a per-visitor rate limit and a daily cap. Its key is a Wrangler secret, never in git.
 

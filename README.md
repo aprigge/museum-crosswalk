@@ -168,8 +168,11 @@ as a second dataset in the same graph. Findings in [reports/rembrandt.md](report
 - **Search eval.** The paintings eval now scores only the paintings collection (the index is
   shared). After judging 12 newly surfaced paintings it reads 94% precision without AI
   subjects and 96% with (phase 3: 95% and 96%; within the ±6 interval).
+- **Ask knows Rembrandt:** its description of the graph covers both collections, prints and their
+  impressions; a second eval of 7 Rembrandt questions is exactly right on all 7, and the paintings
+  eval is unchanged at 19 of 20 ($0.28 for both runs).
 - **Still to come:** AI subjects for Rembrandt's works (SMK and Cleveland records carry no
-  subjects), and Rembrandt questions in the Ask eval.
+  subjects).
 
 **Out of scope:** all Getty data (the Getty Museum collection and the Getty
 Vocabularies). Nothing is fetched from Getty; AAT and ULAN IDs appear only where the
@@ -200,7 +203,7 @@ works together whatever the museum calls them.
 across the graph, which keyword search can't do. It shows off a grounded LLM workflow:
 plain English to SPARQL from a schema description, a read-only guard, the query shown and
 editable in Explore, an answer sentence whose every number is checked against the rows, and
-an eval (19 of 20 questions exactly right) that is re-run whenever the prompt changes.
+evals (19 of 20 paintings questions and 7 of 7 Rembrandt questions exactly right) re-run whenever the prompt changes.
 
 **Use Explore** to write SPARQL yourself, or to adjust a query Ask wrote.
 
@@ -211,8 +214,11 @@ across five museums, where every section is a SPARQL query you can open in Explo
 
 The **Ask** page turns a plain-English question into SPARQL with Claude Opus 5.5 and runs it
 on the graph in the visitor's browser. The model only translates; every number comes from the
-graph, and the query is shown. On 20 reviewed questions with hand-written reference queries,
-19 come back exactly right ([reports/ask-eval.md](reports/ask-eval.md), `npm run ask-eval`).
+graph, and the query is shown. Each collection has its own reviewed questions with hand-written
+reference queries, run on the graph scoped to that collection: 19 of 20 exactly right for the
+1850–1900 paintings ([reports/ask-eval.md](reports/ask-eval.md), `npm run ask-eval`) and 7 of 7 for
+Rembrandt ([reports/ask-eval-rembrandt.md](reports/ask-eval-rembrandt.md),
+`npm run ask-eval -- --dataset rembrandt`).
 
 A static site can't hold an API key, so questions go through a small Cloudflare Worker
 (`worker/`). It accepts only `POST /ask` (question to SPARQL) and `POST /summarize` (result
@@ -289,7 +295,8 @@ npm run graph && npm run index       # rebuild with the AI suggestions
 npm run eval -- pool --variant with-ai && npm run eval -- judge && npm run eval -- score --variant with-ai
 npm run review-assist    # Claude proposes decisions for artist matches in review
 npm run review           # accept, reject or skip each proposal (alignments/review-decisions.json)
-npm run ask-eval         # the Ask eval: 20 questions, graded against reference SPARQL
+npm run ask-eval         # the Ask eval: 20 paintings questions, graded against reference SPARQL
+npm run ask-eval -- --dataset rembrandt   # 7 Rembrandt questions
 npm run worker:dev       # the Ask Worker locally (see "Ask the graph"); worker:deploy publishes it
 
 # Phase 1: one artist (defaults to Vincent van Gogh)

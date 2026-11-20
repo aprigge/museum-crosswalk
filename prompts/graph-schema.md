@@ -1,6 +1,8 @@
 # The graph
 
-Paintings made 1850–1900 from three museums, joined through Wikidata. Prefixes (all predeclared):
+Two collections in one graph, joined through Wikidata: **paintings made 1850–1900** from the Rijksmuseum, The Met and the Art
+Institute of Chicago (`mc:dataset "paintings-1850-1900"`), and **everything five museums hold by Rembrandt** (paintings,
+drawings and prints; those three plus SMK and the Cleveland Museum of Art; `mc:dataset "rembrandt"`). Prefixes (all predeclared):
 
 ```
 mc:      <https://aprigge.github.io/museum-crosswalk/ns#>   this project's terms
@@ -18,7 +20,9 @@ id:      <https://aprigge.github.io/museum-crosswalk/id/>
 
 | Property | Value |
 |---|---|
-| `mc:museum` | `"rijksmuseum"`, `"met"` or `"aic"` (plain strings) |
+| `mc:museum` | `"rijksmuseum"`, `"met"`, `"aic"`, `"smk"` or `"cleveland"` (plain strings) |
+| `mc:dataset` | `"paintings-1850-1900"` or `"rembrandt"`: the collection the work was harvested for |
+| `mc:objectType` | `"print"`, `"drawing"`, `"painting"` or `"other"`, as the museum states it |
 | `dcterms:title` | title (plain string) |
 | `mc:beginYear`, `mc:endYear` | integers |
 | `mc:artist` | a person: the work is plainly by them |
@@ -29,10 +33,21 @@ id:      <https://aprigge.github.io/museum-crosswalk/id/>
 | `mc:aiSubject` | a concept: a subject an AI model suggested from the image (graph `ai`) |
 | `dcterms:license` | licence URI; absent when the record is not open access |
 | `schema:thumbnailUrl`, `schema:url` | image, museum web page |
+| `mc:impressionOf` | a print (`mc:Print`) this object is an impression of |
+| `mc:catalogueRef`, `mc:state` | catalogue citations as the museum wrote them (`"Bartsch 74"`), and the print's state (`"i/iii"`) |
 
 ## People (URIs like `id:person/Q296`)
 
 `rdfs:label` (plain string, e.g. `"Claude Monet"`), `owl:sameAs` Wikidata, `mc:birthYear`, `mc:deathYear` (integers), `mc:movement` (a concept, e.g. Impressionism, Hague School). From Wikidata, as plain strings: `mc:birthPlace` (e.g. `"Paris"`), `mc:citizenship` (country, often a historical name such as `"Kingdom of the Netherlands"` or `"United Kingdom of Great Britain and Ireland"`, so match it with `CONTAINS`), and `mc:gender` (`"male"`, `"female"`). Some people have more than one citizenship. Each person has `mc:sourceAgent` nodes, one per museum record of them, with `mc:museum`, `mc:matchMethod` (`"exact-id"`, `"wikidata-crosswalk"`, `"name-dates"`, `"human-approved"`), `mc:matchConfidence`, `mc:matchDecision`.
+
+Each `mc:sourceAgent` also has `mc:matchCandidate`, the Wikidata item its evidence points to, even when policy keeps the record
+unmerged (an "After Rembrandt" record stays unmerged but points to `wd:Q5598`).
+
+## Prints (`?p a mc:Print`, URIs like `id:print/Q5598-B74`)
+
+One copper plate printed many times: each museum object is an impression (`?w mc:impressionOf ?p`). `mc:artist` (a person),
+`dcterms:title`, `mc:bartsch` and `mc:newHollstein` (catalogue numbers, integers). Impressions are grouped by catalogue
+number, so The Met's prints (it gives no numbers) have no `mc:impressionOf`. Find Rembrandt with `?r owl:sameAs wd:Q5598`.
 
 ## Concepts (URIs like `id:concept/Q191163`)
 
@@ -53,6 +68,13 @@ Each `mc:AiSuggestion` node has `mc:onWork`, `mc:concept`, `mc:confidence` (0–
   `CONTAINS`, not an exact name.
 - **Counting works:** use `COUNT(DISTINCT ?w)`; UNIONs and several labels per concept multiply rows.
 - **Lists of works:** return `?w` and `?title`; don't add `LIMIT` unless the question asks for a number of results.
+- **Which collection:** a question about "paintings" that names no artist or collection means the 1850–1900 collection: add
+  `?w mc:dataset "paintings-1850-1900"` and say so in the explanation. A question about Rembrandt means his works
+  (`?w mc:artist ?r . ?r owl:sameAs wd:Q5598`); "prints", "drawings" and "paintings" of his mean `mc:objectType`.
+- **Prints vs impressions:** "how many prints" of an artist counts objects (`mc:objectType "print"`); "which prints are held by…"
+  or "how many impressions of…" uses `mc:Print` and `mc:impressionOf`.
+- **URIs in queries:** a prefixed name can't contain `/`, so never write `id:person/Q5598`; find people by `owl:sameAs wd:…` or
+  `rdfs:label`, and write a full URI in `<…>` if you need one.
 - Read-only: SELECT (or ASK/CONSTRUCT) only.
 
 ## Examples
@@ -91,6 +113,22 @@ SELECT ?w ?title ?confidence ?evidence WHERE {
   ?c skos:prefLabel ?l . FILTER(LCASE(STR(?l)) = "river")
   ?w dcterms:title ?title .
 } ORDER BY DESC(?confidence)
+```
+
+Question: Rembrandt prints with impressions at both SMK and the Cleveland Museum of Art
+```sparql
+SELECT ?p ?title WHERE {
+  ?r owl:sameAs wd:Q5598 . ?p a mc:Print ; mc:artist ?r . OPTIONAL { ?p dcterms:title ?title }
+  ?a mc:impressionOf ?p ; mc:museum "smk" . ?b mc:impressionOf ?p ; mc:museum "cleveland" .
+} GROUP BY ?p ?title
+```
+
+Question: What catalogue numbers and state does the Art Institute give for its Rembrandt impressions of The Three Crosses?
+```sparql
+SELECT ?w ?ref ?state WHERE {
+  ?r owl:sameAs wd:Q5598 . ?w mc:artist ?r ; mc:museum "aic" ; dcterms:title ?t ; mc:catalogueRef ?ref .
+  OPTIONAL { ?w mc:state ?state } FILTER(CONTAINS(LCASE(?t), "three crosses"))
+}
 ```
 
 Question: How many paintings were made in each decade?

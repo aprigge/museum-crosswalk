@@ -71,3 +71,22 @@ export function compareResults(expected: Result, actual: Result): { exact: boole
   const union = new Set([...a, ...b]).size;
   return { exact: inter === a.size && inter === b.size, overlap: union ? inter / union : 1 };
 }
+
+/**
+ * Scope a loaded graph to one collection for an eval: drop works outside the dataset, then the
+ * prints and people left with no works. Both the reference and the model's query run on it.
+ */
+export function scopeToDataset(store: oxigraph.Store, dataset: string) {
+  // Named graphs throughout: an update's patterns outside GRAPH only see the (empty) default graph.
+  const P = 'PREFIX mc: <https://aprigge.github.io/museum-crosswalk/ns#> PREFIX schema: <https://schema.org/>';
+  let n = 0;
+  const any = (pattern: string) => `GRAPH ?any${n++} { ${pattern} }`;
+  store.update(`${P} DELETE { GRAPH ?g { ?w ?p ?o } } WHERE {
+    ${any('?w a mc:Work')} FILTER NOT EXISTS { ${any(`?w mc:dataset ${JSON.stringify(dataset)}`)} } GRAPH ?g { ?w ?p ?o } }`);
+  store.update(`${P} DELETE { GRAPH ?g { ?x ?p ?o } } WHERE {
+    ${any('?x a mc:Print')} FILTER NOT EXISTS { ${any('?w mc:impressionOf ?x')} ${any('?w a mc:Work')} } GRAPH ?g { ?x ?p ?o } }`);
+  store.update(`${P} DELETE { GRAPH ?g { ?a ?q ?z } } WHERE {
+    ${any('?p a schema:Person ; mc:sourceAgent ?a')} FILTER NOT EXISTS { ${any('?w mc:artist|mc:qualifiedArtist ?p')} } GRAPH ?g { ?a ?q ?z } }`);
+  store.update(`${P} DELETE { GRAPH ?g { ?p ?q ?z } } WHERE {
+    ${any('?p a schema:Person')} FILTER NOT EXISTS { ${any('?w mc:artist|mc:qualifiedArtist ?p')} } GRAPH ?g { ?p ?q ?z } }`);
+}

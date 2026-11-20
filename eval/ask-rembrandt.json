@@ -1,0 +1,72 @@
+[
+  {
+    "id": "r01",
+    "tags": [
+      "count",
+      "type"
+    ],
+    "compare": "value",
+    "question": "How many prints by Rembrandt are there?",
+    "reference": "SELECT (COUNT(DISTINCT ?w) AS ?n) WHERE { ?w mc:artist <https://aprigge.github.io/museum-crosswalk/id/person/Q5598> ; mc:objectType \"print\" }"
+  },
+  {
+    "id": "r02",
+    "tags": [
+      "prints",
+      "museums"
+    ],
+    "compare": "rows",
+    "question": "Which Rembrandt prints are held by four museums?",
+    "reference": "SELECT ?title WHERE { ?print a mc:Print ; mc:artist <https://aprigge.github.io/museum-crosswalk/id/person/Q5598> ; dcterms:title ?title . ?w mc:impressionOf ?print ; mc:museum ?m } GROUP BY ?print ?title HAVING (COUNT(DISTINCT ?m) = 4)"
+  },
+  {
+    "id": "r03",
+    "tags": [
+      "prints",
+      "count"
+    ],
+    "compare": "rows",
+    "question": "How many impressions of the Hundred Guilder Print does each museum hold?",
+    "reference": "SELECT ?museum (COUNT(DISTINCT ?w) AS ?n) WHERE { ?print a mc:Print ; mc:bartsch 74 . ?w mc:impressionOf ?print ; mc:museum ?museum } GROUP BY ?museum"
+  },
+  {
+    "id": "r04",
+    "tags": [
+      "type",
+      "museum"
+    ],
+    "compare": "rows",
+    "question": "Which museums have paintings by Rembrandt, and how many each?",
+    "reference": "SELECT ?museum (COUNT(DISTINCT ?w) AS ?n) WHERE { ?w mc:artist <https://aprigge.github.io/museum-crosswalk/id/person/Q5598> ; mc:objectType \"painting\" ; mc:museum ?museum } GROUP BY ?museum"
+  },
+  {
+    "id": "r05",
+    "tags": [
+      "type",
+      "museum"
+    ],
+    "compare": "works",
+    "question": "Which Rembrandt drawings does the Met have?",
+    "reference": "SELECT ?w WHERE { ?w mc:artist <https://aprigge.github.io/museum-crosswalk/id/person/Q5598> ; mc:objectType \"drawing\" ; mc:museum \"met\" }"
+  },
+  {
+    "id": "r06",
+    "tags": [
+      "dates",
+      "prints"
+    ],
+    "compare": "value",
+    "question": "In which decade did Rembrandt begin the most prints?",
+    "reference": "SELECT ?decade WHERE { ?w mc:artist <https://aprigge.github.io/museum-crosswalk/id/person/Q5598> ; mc:objectType \"print\" ; mc:beginYear ?y . BIND(FLOOR(?y / 10) * 10 AS ?decade) } GROUP BY ?decade ORDER BY DESC(COUNT(DISTINCT ?w)) LIMIT 1"
+  },
+  {
+    "id": "r07",
+    "tags": [
+      "prints",
+      "museums"
+    ],
+    "compare": "value",
+    "question": "How many Rembrandt prints have impressions in only one museum?",
+    "reference": "SELECT (COUNT(*) AS ?n) WHERE { { SELECT ?print WHERE { ?print a mc:Print ; mc:artist <https://aprigge.github.io/museum-crosswalk/id/person/Q5598> . ?w mc:impressionOf ?print ; mc:museum ?m } GROUP BY ?print HAVING (COUNT(DISTINCT ?m) = 1) } }"
+  }
+]
