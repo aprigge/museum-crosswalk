@@ -9,3 +9,9 @@ node_modules/
 
 # Local settings, including the contact sent to the APIs.
 .env
+
+# Worker: local secrets and generated prompt module.
+worker/.dev.vars
+worker/.wrangler/
+.wrangler/
+worker/src/prompt.generated.ts

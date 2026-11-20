@@ -108,6 +108,37 @@ review of the remaining artist matches, and "Ask the graph" (plain English to SP
 Vocabularies). Nothing is fetched from Getty; AAT and ULAN IDs appear only where the
 museums supply them.
 
+## Ask the graph
+
+The **Ask** page turns a plain-English question into SPARQL with Claude Opus 5.5 and runs it
+on the graph in the visitor's browser. The model only translates; every number comes from the
+graph, and the query is shown. On 20 reviewed questions with hand-written reference queries,
+19 come back exactly right ([reports/ask-eval.md](reports/ask-eval.md), `npm run ask-eval`).
+
+A static site can't hold an API key, so questions go through a small Cloudflare Worker
+(`worker/`). It accepts only `POST /ask` from the site's origins, rejects anything but a
+read-only query, limits each visitor to 5 questions a minute, caps questions per day (a
+spending ceiling), and stores no questions.
+
+Run it locally (needs `ANTHROPIC_API_KEY` in `.env`):
+
+```sh
+grep ^ANTHROPIC_API_KEY= .env > worker/.dev.vars   # local secret for the Worker (gitignored)
+npm run worker:dev                                 # Worker on http://127.0.0.1:8787
+python3 -m http.server 8765 --directory site       # site on http://127.0.0.1:8765/ask.html
+```
+
+Deploy (once). The Worker is live at `https://museum-crosswalk-ask.museum-crosswalk.workers.dev`;
+to set it up again on another account (use Node 26: `nvm use`, as Wrangler needs 22.12+):
+
+1. Make a free Cloudflare account, then `npx wrangler login` and click **Allow**.
+2. `npm run worker:deploy` publishes the Worker and prints its address. The first deploy
+   registers a workers.dev subdomain and creates the daily-counter storage; put that
+   storage's id in `worker/wrangler.jsonc` so later deploys reuse it.
+3. Add the key, read from `.env` without showing it:
+   `grep '^ANTHROPIC_API_KEY=' .env | cut -d= -f2- | tr -d '\n' | npx wrangler secret put ANTHROPIC_API_KEY --config worker/wrangler.jsonc`
+4. Set `DEPLOYED_ASK_URL` in `site/js/config.js` to the address plus `/ask`, and push.
+
 ## Setup
 
 You need [nvm](https://github.com/nvm-sh/nvm). The Node version is pinned in `.nvmrc`

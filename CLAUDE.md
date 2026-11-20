@@ -58,6 +58,13 @@ interface), and an eval measures whether it helps. Plan: enrichment (done), revi
 - Prompts are versioned files in `prompts/`; results are cached under `data/ai/{task}/{version}/`,
   so reruns are free unless the prompt or vocabulary changes. The API key lives in `.env`.
 - Models: `claude-opus-5-5` for enrichment, review assist and Ask; `claude-sonnet-5-5` as judge.
+- **Ask the graph**: the model only writes SPARQL; answers come from the graph and the query
+  is shown. One request shape (`src/ai/ask.ts`) and one set of guards (`site/js/sparql.js`)
+  serve the eval, the Worker and the site. The Worker's prompt is compiled from `prompts/ask.md`
+  + `prompts/graph-schema.md` (`npm run worker:prompt`); any prompt change re-runs
+  `npm run ask-eval` before deploy. Keep eval questions out of the schema card's examples.
+- The Worker never runs queries, stores no questions, allows only the site's origins, and
+  keeps a per-visitor rate limit and a daily cap. Its key is a Wrangler secret, never in git.
 
 **Out of scope for now: all Getty data** (the Getty Museum collection and the Getty
 Vocabularies, including ULAN). Don't fetch from data.getty.edu or vocab.getty.edu.

@@ -5,12 +5,8 @@ import Anthropic from '@anthropic-ai/sdk';
 import type { z } from 'zod';
 import { dataDir } from '../core/cache.js';
 
-export const MODELS = {
-  /** Enrichment, review assist and Ask. */
-  main: 'claude-opus-5-5',
-  /** The eval's relevance judge: a different model from the one whose work it grades. */
-  judge: 'claude-sonnet-5-5',
-} as const;
+export { MODELS, jsonFormat } from './models.js';
+import { MODELS } from './models.js';
 
 let client: Anthropic | null = null;
 /** Credentials resolve the SDK's usual way (ANTHROPIC_API_KEY from .env, or an `ant` profile). */
@@ -61,8 +57,6 @@ export async function writeRecord<T>(record: AiRecord<T>, version: string): Prom
   await writeFile(p, JSON.stringify(record, null, 2));
 }
 
-/** The structured-output format for a hand-written JSON schema (the same shape works in batches). */
-export const jsonFormat = (schema: Record<string, unknown>) => ({ type: 'json_schema' as const, schema });
 
 /**
  * Turn a finished message into a validated result. Checks stop_reason before reading content,
